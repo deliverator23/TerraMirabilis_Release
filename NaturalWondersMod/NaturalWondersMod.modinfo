@@ -2,13 +2,13 @@
 <Mod id="74c5c3d9-5408-4315-9e0a-b0c369f82bcd" version="1">
   <Properties>
     <Name>Terra Mirabilis</Name>
-    <Description>Adds new Natural Wonders to Civilization VI and makes all Natural Wonders more valuable to own. With yield balances, changes to existing effects and the introduction of new ones, each Natural Wonder in the game will now provide special bonuses to your cities, so long as you own at least one of their tiles. Various other changes include Naturalists being purchased with Gold, district adjacency changes, and many other options available to edit in a user settings file for maximum flexibility.</Description>
-    <Teaser>Adds new Natural Wonders to Civilization VI and makes owning Natural Wonder tiles worthwhile</Teaser>
+    <Description>A mod that reworks Natural Wonders in Civilization VI, and adds 13 new ones that include some old fan-favourites.</Description>
+    <Teaser>A mod that reworks Natural Wonders in Civilization VI, and adds 13 new ones that include some old fan-favourites.</Teaser>
     <Authors>Deliverator, ChimpanG</Authors>
   </Properties>
-<ActionCriteria>
+  <ActionCriteria>
     <Criteria id="XP1">
-        <GameCoreInUse>Expansion1</GameCoreInUse>
+		<GameCoreInUse>Expansion1</GameCoreInUse>
     </Criteria>
 </ActionCriteria>
   <InGameActions>
@@ -521,9 +521,11 @@
     <File>Textures/Wulingyuan_Visible.DDS</File>
     <File>Textures/Wulingyuan_Visible.tex</File>
     <File>XLPs/clutter.xlp</File>
+    <File>XLPs/Icons.xlp</File>
     <File>XLPs/StrategicView_Features.xlp</File>
     <File>XLPs/TerrainAssetSet_Base.xlp</File>
     <File>XLPs/TerrainElementSet_Base.xlp</File>
     <File>XLPs/TerrainMaterialSet_Base.xlp</File>
+    <File>XLPs/Water.xlp</File>
   </Files>
 </Mod>

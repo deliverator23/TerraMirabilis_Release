@@ -557,7 +557,9 @@
 		</Element>
 		<Element>
 			<LibraryName text="Water"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="Water.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="Wave"/>
