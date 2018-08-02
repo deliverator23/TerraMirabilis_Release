@@ -36,7 +36,7 @@ VALUES
 	("LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Production] Production and +1 [ICON_Gold] Gold.[NEWLINE][NEWLINE]International [ICON_TradeRoute] Trade Routes from the City that owns this tile yield +4 [ICON_Gold] Gold."	),
 	
 	('LOC_TM_FEATURE_CERRO_DE_POTOSI_QUOTE',	
-	'"I am rich Potosi, treasure of the world, king of all mountains and envy of kings."[NEWLINE]- Potosi Coat of Arms'	),
+	'"I am rich Potosi, treasure of the world, king of all mountains and envy of kings."[NEWLINE]- First Coat of Arms of Potosi'	),
 	
 	("LOC_PEDIA_FEATURES_PAGE_FEATURE_CERRO_DE_POTOSI_CHAPTER_HISTORY_PARA_1",	
 	"Located in southern Bolivia, the mountain of Potosi produced nearly all of the silver mined by the Spanish during their imperial days. Once removed from the mountain, it was taken by llama and mule to the coast where it was then loaded onto treasure ships sailing back to Europe. Nearly 41,000 tons of pure silver were mined over the course of 200 years, 8,200 of which went directly to the Spanish crown. After 1800, the main silver mines were depleted, but the mining of Potosi still continues today - some for silver but now mostly for tin."	),
@@ -55,7 +55,7 @@ VALUES
 -----------------------------------------------
 
 	("LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",			"One tile natural wonder. Appears as a Lake and provides fresh water. Yields +4 [ICON_Faith] Faith and +1 [ICON_Science] Science."	),
-	("LOC_TM_FEATURE_CRATER_LAKE_EFFECT_DESCRIPTION",	"One tile natural wonder. Appears as a Lake and provides fresh water. Provides fresh water. Yields +4 [ICON_Faith] Faith and +1 [ICON_Science] Science.[NEWLINE][NEWLINE]May purchase any Building with [ICON_Faith] Faith in the City that owns this tile."	),
+	("LOC_TM_FEATURE_CRATER_LAKE_EFFECT_DESCRIPTION",	"One tile natural wonder. Appears as a Lake and provides fresh water. Yields +4 [ICON_Faith] Faith and +1 [ICON_Science] Science.[NEWLINE][NEWLINE]May purchase any Building with [ICON_Faith] Faith in the City that owns this tile."	),
 
 -----------------------------------------------
 -- DEAD SEA
@@ -101,7 +101,7 @@ VALUES
 
 	("LOC_RESOURCE_TM_TORTOISE_NAME",	"Tortoise"	),
 	("LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_TORTOISE_CHAPTER_HISTORY_PARA_1",
-	"The Galapogos giant tortoise is the largest living species of tortoise, weighing up to 417kg. Today, giant tortoises exist on only two remote archipelagos, the Galapagos Islands, and Aldabra. Their numbers declined from over 250,000 in the 16th century to around 3,000 in 1970 due to overexploitation of the species for meat and oil. The extinction of most giant tortoise lineages is thought to have been caused by predation by humans as the tortoises themselves have no natural predators on the remote Galapagos archipelago that they are native to."	),
+	"The Galapagos giant tortoise is the largest living species of tortoise, weighing up to 417kg. Today, giant tortoises exist on only two remote archipelagos, the Galapagos Islands, and Aldabra. Their numbers declined from over 250,000 in the 16th century to around 3,000 in 1970 due to overexploitation of the species for meat and oil. The extinction of most giant tortoise lineages is thought to have been caused by predation by humans as the tortoises themselves have no natural predators on the remote Galapagos archipelago that they are native to."	),
 
 -----------------------------------------------
 -- GIANTS CAUSEWAY
@@ -232,7 +232,7 @@ VALUES
 
 	("LOC_FEATURE_OLD_FAITHFUL_NAME",					"Old Faithful"	),
 	("LOC_TM_FEATURE_OLD_FAITHFUL_DESCRIPTION",			"One tile natural wonder. Yields +3 [ICON_Science] Science, +1 [ICON_Faith] Faith, and +1 [ICON_Gold] Gold."	),
-	("LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT_DESCRIPTION",	"One tile natural wonder. Yields +3 [ICON_Science] Science, +1 [ICON_Faith] Faith, and +1 [ICON_Gold] Gold.[NEWLINE][NEWLINE]Campus districts trigger a culture bomb and receive double adjacency bonuses if their City has a National Park."	),
+	("LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT_DESCRIPTION",	"One tile natural wonder. Yields +3 [ICON_Science] Science, +1 [ICON_Faith] Faith, and +1 [ICON_Gold] Gold.[NEWLINE][NEWLINE]Campus districts trigger a culture bomb in any City. Double adjacency bonuses for Campus districts if their City has a National Park."	),
 	
 	('LOC_TM_FEATURE_OLD_FAITHFUL_QUOTE',	
 	'"It spouted at regular intervals nine times during our stay, the columns of boiling water being thrown from ninety to one hundred and twenty-five feet at each discharge, which lasted from fifteen to twenty minutes. We gave it the name of Old Faithful."[NEWLINE]- Nathaniel P. Langford'	),
@@ -333,7 +333,7 @@ VALUES
 -----------------------------------------------
 
 	("LOC_TM_FEATURE_TSINGY_DESCRIPTION",				"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science."	),
-	("LOC_TM_FEATURE_TSINGY_EFFECT_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science.[NEWLINE][NEWLINE]Theater districts trigger a culture bomb and receive double adjacency bonuses if their City has a National Park."	),
+	("LOC_TM_FEATURE_TSINGY_EFFECT_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science.[NEWLINE][NEWLINE]Theater districts trigger a culture bomb in any City. Double adjacency bonuses for Theater districts if their City has a National Park."	),
 
 -----------------------------------------------
 -- UBSUNUR HOLLOW
@@ -381,4 +381,10 @@ VALUES
 -- MISC - Naturlist
 -----------------------------------------------
 
-	("LOC_TM_UNIT_NATURALIST_DESCRIPTION",			"A late-game civilian who can create a single National Park to attract [ICON_Tourism] Tourists. Must be purchased with [ICON_Gold] Gold."	);
+	("LOC_TM_UNIT_NATURALIST_DESCRIPTION",			"A late-game civilian who can create a single National Park to attract [ICON_Tourism] Tourists. Must be purchased with [ICON_Gold] Gold."	),
+
+-----------------------------------------------
+-- MOD SUPPORT
+-----------------------------------------------
+
+	("LOC_TM_FEATURE_FUJI_DESCRIPTION",		"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Faith] Faith. Districts built in adjacent tiles provide an additional +2 [ICON_GreatPerson] Great Person points of their type."	);

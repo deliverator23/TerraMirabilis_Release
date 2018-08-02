@@ -121,6 +121,7 @@
         <LoadOrder>325</LoadOrder>
       </Properties>
       <File>Core/Mod Support/Map Scripts/TM_MS_YNAMP.sql</File>
+      <File>Core/Mod Support/Sukritact/TM_MS_Sukritact.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="TM_Globals_XP1_DB">
       <Properties>
@@ -165,6 +166,7 @@
     <File>Core/Framework/TM_Schema.sql</File>
     <File>Core/Framework/TM_Validation.sql</File>
     <File>Core/Mod Support/Map Scripts/TM_MS_YNAMP.sql</File>
+    <File>Core/Mod Support/Sukritact/TM_MS_Sukritact.sql</File>
     <File>Core/Natural Wonders/Features/Base/TM_BarrierReef.sql</File>
     <File>Core/Natural Wonders/Features/Base/TM_CliffsDover.sql</File>
     <File>Core/Natural Wonders/Features/Base/TM_CraterLake.sql</File>
