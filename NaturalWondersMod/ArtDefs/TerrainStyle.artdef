@@ -1186,16 +1186,14 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-                        <!-- Added post-build -->
-                        <Element class="AssetObjects..BLPEntryValue">
-                            <m_EntryName text="ART_DEF_TERRAIN_ASSET_NWON_HALONGBAY"/>
-                            <m_XLPClass text="TerrainAsset"/>
-                            <m_XLPPath text="TerrainAssetSet_Base.xlp"/>
-                            <m_BLPPackage text="terrain/TerrainAssetSet_Base"/>
-                            <m_LibraryName text="TerrainAsset"/>
-                            <m_ParamName text="TerrainAsset"/>
-                        </Element>
-                        <!-- End -->
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="ART_DEF_TERRAIN_ASSET_NWON_HALONGBAY"/>
+							<m_XLPClass text="TerrainAsset"/>
+							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
+							<m_BLPPackage text="terrain/TerrainAssetSet_Base"/>
+							<m_LibraryName text="TerrainAsset"/>
+							<m_ParamName text="TerrainAsset"/>
+						</Element>
 						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
