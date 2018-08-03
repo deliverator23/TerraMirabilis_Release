@@ -128,8 +128,8 @@ VALUES
 -- HA LONG BAY
 -----------------------------------------------
 
-	("LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",			"Two tile natural wonder. Yields +2 [ICON_Culture] Culture, +2 [ICON_Food] Food and +1 [ICON_Gold] Gold."	),
-	("LOC_TM_FEATURE_HA_LONG_BAY_EFFECT_DESCRIPTION",	"Two tile natural wonder. Yields +2 [ICON_Culture] Culture, +2 [ICON_Food] Food and +1 [ICON_Gold] Gold.[NEWLINE][NEWLINE]Harbors provide +2 [ICON_Housing] Housing for any Civilization that owns at least one of these tiles."	),
+	("LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",			"Two tile natural wonder. Yields +2 [ICON_Culture] Culture, +2 [ICON_Food] Food and +1 [ICON_Production] Production."	),
+	("LOC_TM_FEATURE_HA_LONG_BAY_EFFECT_DESCRIPTION",	"Two tile natural wonder. Yields +2 [ICON_Culture] Culture, +2 [ICON_Food] Food and +1 [ICON_Production] Production.[NEWLINE][NEWLINE]Harbors provide +2 [ICON_Housing] Housing for any Civilization that owns at least one of these tiles."	),
 
 -----------------------------------------------
 -- KAILASH

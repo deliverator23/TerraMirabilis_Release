@@ -10,7 +10,7 @@
 INSERT INTO TM_Master
 		(FeatureType,					Tiles,	Impassable, NoAdjacentFeatures,	Coast,	NoCoast,	MinDistanceLand,	MaxDistanceLand,	Lake,	NotCliff,	RequiresRiver,	NoRiver,	AddsFreshWater,	MovementChange,	SightThroughModifier,	DefenseModifier,	Appeal,	DoubleAdjacentTerrainYield,	CustomPlacement,		DependsOnDLC		)
 VALUES	('FEATURE_BARRINGER_CRATER',	1,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,					NULL				),
-		('FEATURE_GIBRALTAR',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		1,							'PLACEMENT_GIBRALTAR',	NULL				),
+		('FEATURE_GIBRALTAR',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_GIBRALTAR',	NULL				),
 		('FEATURE_GRAND_MESA',			1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_KAILASH',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,					NULL				),
 		('FEATURE_KRAKATOA',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,					NULL				),
