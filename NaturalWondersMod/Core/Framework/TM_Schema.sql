@@ -73,7 +73,7 @@ CREATE TABLE IF NOT EXISTS TM_UserSettings
 CREATE TABLE IF NOT EXISTS ModCheck
 	(
 	ModType					TEXT		NOT NULL,
-	Active					BOOLEAN		NOT NULL,
+	Active					BOOLEAN		DEFAULT 1,
 
 	PRIMARY KEY	(ModType)			
 	);

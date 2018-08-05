@@ -507,3 +507,10 @@ VALUES	-- Base
 		('FEATURE_GRAND_MESA',		'FEATURE',	'FOREST',	'ADJACENT_FEATURES'	),
 		('FEATURE_OLD_FAITHFUL',	'FEATURE',	'FOREST',	'ADJACENT_FEATURES'	),
 		('FEATURE_WULINGYUAN',		'FEATURE',	'JUNGLE',	'ADJACENT_FEATURES'	);
+
+-----------------------------------------------
+-- ModCheck
+-----------------------------------------------
+
+INSERT INTO ModCheck (ModType)
+VALUES	('TERRA_MIRABILIS');

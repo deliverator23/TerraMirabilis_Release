@@ -378,6 +378,16 @@ VALUES
 	("LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT_DESCRIPTION",	"Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Science] Science.[NEWLINE][NEWLINE]Commercial Hubs and Campus districts in a City that owns at least one of these tiles receive +2 [ICON_GreatPerson] Great Person Points of their respective type."	),
 
 -----------------------------------------------
+-- MISC - District Adjacency
+-----------------------------------------------
+
+	("LOC_TM_ADJ_NW_FAITH_DESCRIPTION",			"+{1_num} [ICON_Faith] Faith from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("LOC_TM_ADJ_NW_SCIENCE_DESCRIPTION",		"+{1_num} [ICON_Science] Science from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} [ICON_Culture] Culture from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",	"+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+
+-----------------------------------------------
 -- MISC - Naturlist
 -----------------------------------------------
 
