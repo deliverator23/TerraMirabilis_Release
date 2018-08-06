@@ -355,7 +355,7 @@ VALUES
 	
 	("LOC_FEATURE_WULINGYUAN_NAME",						"Wulingyuan"	),
 	("LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",			"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Culture] Culture"	),
-	("LOC_TM_FEATURE_WULINGYUAN_EFFECT_DESCRIPTION",	"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Culture] Culture.[NEWLINE][NEWLINE]Amphitheaters receive +1 Slot for Great Works of [ICON_GreatWork_Writing] Writing, and all Great Works of [ICON_GreatWork_Writing] Writing yield +1 [ICON_Culture] Culture for any Civilization that owns at least one of these tiles."	),
+	("LOC_TM_FEATURE_WULINGYUAN_EFFECT_DESCRIPTION",	"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Culture] Culture.[NEWLINE][NEWLINE]Great Works of [ICON_GreatWork_Writing] Writing yield +2 [ICON_Culture] Culture and +50% [ICON_Tourism] Tourism for any Civilization that owns at least one of these tiles."	),
 	
 	('LOC_TM_FEATURE_WULINGYUAN_QUOTE',	
 	'"From ten thousand valleys the trees touch heaven, on a thousand peaks cuckoos are calling, and, after a night of mountain rain, from each summit come hundreds of silken cascades."[NEWLINE]- Wang Wei'	),
