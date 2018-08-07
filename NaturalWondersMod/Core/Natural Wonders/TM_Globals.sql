@@ -8,7 +8,8 @@
 -----------------------------------------------
 
 	UPDATE Features
-	SET MinDistanceNW = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDER_DISTANCE');
+	SET MinDistanceNW = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDER_DISTANCE')
+	WHERE NaturalWonder = 1;
 
 -----------------------------------------------
 -- Natural Wonders In Game

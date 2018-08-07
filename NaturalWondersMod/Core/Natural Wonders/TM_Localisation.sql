@@ -90,7 +90,7 @@ VALUES
 -----------------------------------------------
 
 	("LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",			"Two tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Food] Food."	),
-	("LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_DESCRIPTION",	"Two tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Food] Food.[NEWLINE][NEWLINE]Specialty Districts constructed on Tundr or Snow terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
+	("LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_DESCRIPTION",	"Two tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Food] Food.[NEWLINE][NEWLINE]Specialty Districts constructed on Tundra or Snow terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
 
 -----------------------------------------------
 -- GALAPAGOS
@@ -247,6 +247,12 @@ VALUES
 	("LOC_TM_FEATURE_PANTANAL_DESCRIPTION",				"Four tile natural wonder. Appears as Marsh. Provides +3 [ICON_Food] Food and +2 [ICON_Culture] Culture."	),
 	("LOC_TM_FEATURE_PANTANAL_EFFECT_DESCRIPTION",		"Four tile natural wonder. Appears as Marsh. Provides +3 [ICON_Food] Food and +2 [ICON_Culture] Culture.[NEWLINE][NEWLINE]Marsh tiles provide standard adjacency bonuses for Specialty Districts for any Civilization that owns at least one of these tiles."	),
 
+	("LOC_ADJ_PANTANAL_FAITH_DESCRIPTION",				"+{1_num} [ICON_Faith] Faith from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
+	("LOC_ADJ_PANTANAL_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_Science] Science from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
+	("LOC_ADJ_PANTANAL_CULTURE_DESCRIPTION",			"+{1_num} [ICON_Culture] Culture from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
+	("LOC_ADJ_PANTANAL_GOLD_DESCRIPTION",				"+{1_num} [ICON_Gold] Gold from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
+	("LOC_ADJ_PANTANAL_PRODUCTION_DESCRIPTION",			"+{1_num} [ICON_Production] Production from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
+	
 -----------------------------------------------
 -- PIOPIOTAHI
 -----------------------------------------------
