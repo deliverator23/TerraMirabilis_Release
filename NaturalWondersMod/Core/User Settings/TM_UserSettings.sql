@@ -21,7 +21,7 @@ VALUES
 -- SECTION B
 
 -- Amount of Natural Wonders In Game (by map size)
--- Game Defaults below
+-- Game Defaults below. We've tripled them on every map size.
 
 -- NOTE: This does not guarantee you will see X number of wonders in the game. This will be due to map script placement. Consider this more of a maximum value.
 -----------------------------------------------
@@ -32,6 +32,9 @@ VALUES
 	('WONDERS_STANDARD',	'NW_MAP_SIZE',	15), -- Game Default 5
 	('WONDERS_LARGE',		'NW_MAP_SIZE',	18), -- Game Default 6
 	('WONDERS_HUGE',		'NW_MAP_SIZE',	21), -- Game Default 7
+	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	24), -- YNAMP ONLY. Default 8
+	('WONDERS_GIANT',		'NW_MAP_SIZE',	36), -- YNAMP ONLY. Default 12
+	('WONDERS_LUDICROUS',	'NW_MAP_SIZE',	48), -- YNAMP ONLY. Default 16
 
 -----------------------------------------------
 -- SECTION C

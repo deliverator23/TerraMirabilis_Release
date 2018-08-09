@@ -3,6 +3,10 @@
 	Credits: ChimpanG, Deliverator
 */
 
+-----------------------------------------------
+-- NaturalWonderPosition
+-----------------------------------------------
+
 CREATE TABLE IF NOT EXISTS NaturalWonderPosition
 	(
 		MapName TEXT NOT NULL,
@@ -99,6 +103,40 @@ VALUES	('FEATURE_BARRINGER_CRATER',	'GiantEarth',		'TERRAIN_PLAINS',			135,	61	)
 		('FEATURE_WULINGYUAN',			'GreatestEarthMap',	'TERRAIN_GRASS',			83,		46	),
 		('FEATURE_WULINGYUAN',			'CordiformEarth',	'TERRAIN_GRASS',			60,		29	),
 		('FEATURE_WULINGYUAN',			'CordiformEarth',	'TERRAIN_GRASS',			60,		30	);
+
+-----------------------------------------------
+-- Number of Natural Wonders on Map Sizes
+-- Configured by TM_UserSettings
+-----------------------------------------------
+
+	UPDATE	Maps
+	SET		NumNaturalWonders = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDERS_SMALL')
+	WHERE	MapSizeType = 'MAPSIZE_SMALL21';
+
+	UPDATE	Maps
+	SET		NumNaturalWonders = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDERS_STANDARD')
+	WHERE	MapSizeType = 'MAPSIZE_STANDARD21';
+
+	UPDATE	Maps
+	SET		NumNaturalWonders = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDERS_LARGE')
+	WHERE	MapSizeType = 'MAPSIZE_LARGE21';
+
+	UPDATE	Maps
+	SET		NumNaturalWonders = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDERS_HUGE')
+	WHERE	MapSizeType = 'MAPSIZE_HUGE21';
+	
+	UPDATE	Maps
+	SET		NumNaturalWonders = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDERS_ENORMOUS')
+	WHERE	MapSizeType = 'MAPSIZE_ENORMOUS'
+	OR		MapSizeType = 'MAPSIZE_ENORMOUS21';
+
+	UPDATE	Maps
+	SET		NumNaturalWonders = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDERS_GIANT')
+	WHERE	MapSizeType = 'MAPSIZE_GIANT';
+
+	UPDATE	Maps
+	SET		NumNaturalWonders = (SELECT Value FROM TM_UserSettings WHERE Setting = 'WONDERS_LUDICROUS')
+	WHERE	MapSizeType = 'MAPSIZE_LUDICROUS';
 		
 
 

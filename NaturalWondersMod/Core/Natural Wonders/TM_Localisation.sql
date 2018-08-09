@@ -192,8 +192,8 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
 
-	("LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",			"Two tile natural wonder. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production."	),
-	("LOC_TM_FEATURE_LYSEFJORDEN_EFFECT_DESCRIPTION",	"Two tile natural wonder. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production.[NEWLINE][NEWLINE]Naval units trained in a City that owns at least one of these tiles start with a free [ICON_Promotion] Promotion."	),
+	("LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",			"Two tile natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science"	),
+	("LOC_TM_FEATURE_LYSEFJORDEN_EFFECT_DESCRIPTION",	"Two tile natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science.[NEWLINE][NEWLINE]Naval units trained in a City that owns at least one of these tiles start with a free [ICON_Promotion] Promotion."	),
 
 -----------------------------------------------
 -- MATTERHORN
@@ -246,13 +246,13 @@ VALUES
 
 	("LOC_TM_FEATURE_PANTANAL_DESCRIPTION",				"Four tile natural wonder. Appears as Marsh. Provides +3 [ICON_Food] Food and +2 [ICON_Culture] Culture."	),
 	("LOC_TM_FEATURE_PANTANAL_EFFECT_DESCRIPTION",		"Four tile natural wonder. Appears as Marsh. Provides +3 [ICON_Food] Food and +2 [ICON_Culture] Culture.[NEWLINE][NEWLINE]Marsh tiles provide standard adjacency bonuses for Specialty Districts for any Civilization that owns at least one of these tiles."	),
-
+	
 	("LOC_ADJ_PANTANAL_FAITH_DESCRIPTION",				"+{1_num} [ICON_Faith] Faith from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
 	("LOC_ADJ_PANTANAL_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_Science] Science from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
 	("LOC_ADJ_PANTANAL_CULTURE_DESCRIPTION",			"+{1_num} [ICON_Culture] Culture from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
 	("LOC_ADJ_PANTANAL_GOLD_DESCRIPTION",				"+{1_num} [ICON_Gold] Gold from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
 	("LOC_ADJ_PANTANAL_PRODUCTION_DESCRIPTION",			"+{1_num} [ICON_Production] Production from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-	
+
 -----------------------------------------------
 -- PIOPIOTAHI
 -----------------------------------------------
