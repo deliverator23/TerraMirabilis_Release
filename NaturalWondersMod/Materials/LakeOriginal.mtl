@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..MaterialInstance>
+	<m_CookParams>
+		<m_Values>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Water_Bumps_Small"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Bumps"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.250000</m_fValue>
+				<m_ParamName text="BumpScale"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_WaterGalapagos_Scatter"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="ScatteringMap"/>
+			</Element>
+			<Element class="AssetObjects..BoolValue">
+				<m_bValue>false</m_bValue>
+				<m_ParamName text="WhiteCaps"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>2.500000</m_fValue>
+				<m_ParamName text="ScatteringMultiplier"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.750000</m_fValue>
+				<m_ParamName text="BumpTileRate"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>55.000000</m_fValue>
+				<m_ParamName text="Scroll0"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>135.000000</m_fValue>
+				<m_ParamName text="Scroll1"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.400000</m_fValue>
+				<m_ParamName text="Scroll1Speed"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>3.000000</m_fValue>
+				<m_ParamName text="DensityDepthRange"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.850000</m_fValue>
+				<m_ParamName text="Scroll0Speed"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_WaterLake_Density"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="DensityMap"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="MipSupportScale"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>0.000000</m_fValue>
+				<m_ParamName text="SobelBlurSupportScale"/>
+			</Element>
+			<Element class="AssetObjects..ObjectValue">
+				<m_ObjectName text="TER_Water_Bumps_Small2"/>
+				<m_eObjectType>TEXTURE</m_eObjectType>
+				<m_ParamName text="Bumps2"/>
+			</Element>
+			<Element class="AssetObjects..FloatValue">
+				<m_fValue>1.000000</m_fValue>
+				<m_ParamName text="DensityMultiplier"/>
+			</Element>
+		</m_Values>
+	</m_CookParams>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>194</build>
+		<revision>717</revision>
+	</m_Version>
+	<m_ClassName text="Water"/>
+	<m_DataFiles/>
+	<m_Name text="LakeOriginal"/>
+	<m_Description text="Lake water material"/>
+	<m_Tags>
+		<Element text="Water"/>
+	</m_Tags>
+	<m_Groups/>
+</AssetObjects..MaterialInstance>
+
