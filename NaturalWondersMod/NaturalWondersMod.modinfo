@@ -10,7 +10,7 @@
     <Criteria id="XP1">
 		<GameCoreInUse>Expansion1</GameCoreInUse>
     </Criteria>
-</ActionCriteria>
+  </ActionCriteria>
   <InGameActions>
     <UpdateArt id="ArtDep">
       <File>NaturalWondersMod.dep</File>
@@ -268,12 +268,5 @@
     <File>Platforms/Windows/BLPs/terrain/TerrainMaterialSet_Base.blp</File>
     <File>Platforms/Windows/BLPs/UI/Icons.blp</File>
     <File>Platforms/Windows/BLPs/Water.blp</File>
-    <File>XLPs/clutter.xlp</File>
-    <File>XLPs/Icons.xlp</File>
-    <File>XLPs/StrategicView_Features.xlp</File>
-    <File>XLPs/TerrainAssetSet_Base.xlp</File>
-    <File>XLPs/TerrainElementSet_Base.xlp</File>
-    <File>XLPs/TerrainMaterialSet_Base.xlp</File>
-    <File>XLPs/Water.xlp</File>
   </Files>
 </Mod>
