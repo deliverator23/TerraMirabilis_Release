@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<AssetObjects:ArtDefSet>
+<AssetObjects..ArtDefSet>
 	<m_Version>
 		<major>4</major>
 		<minor>0</minor>
@@ -14,7 +14,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="TerrainElement_Gibraltar"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
@@ -22,7 +22,7 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
@@ -30,39 +30,39 @@
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex2"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex3"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex4"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex5"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="DisableRotations"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Flat"/>
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text=""/>
@@ -70,35 +70,35 @@
 							<m_LibraryName text="Water"/>
 							<m_ParamName text="WaterType"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType1"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType2"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType3"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType4"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType5"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="RemoveCliffs"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="ModelHeightFromLocalHex"/>
 						</Element>
@@ -111,7 +111,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="TerrainElement_Sinai"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
@@ -119,7 +119,7 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="NWON_Sinai"/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
@@ -127,39 +127,39 @@
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex2"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex3"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex4"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex5"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="DisableRotations"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Flat"/>
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text=""/>
@@ -167,35 +167,35 @@
 							<m_LibraryName text="Water"/>
 							<m_ParamName text="WaterType"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType1"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType2"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType3"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType4"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType5"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="RemoveCliffs"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="ModelHeightFromLocalHex"/>
 						</Element>
@@ -208,7 +208,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="TerrainElement_Barringer_Crater"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
@@ -216,7 +216,7 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="NWON_Crater"/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
@@ -224,39 +224,39 @@
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex2"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex3"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex4"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex5"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="DisableRotations"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Flat"/>
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text=""/>
@@ -264,35 +264,35 @@
 							<m_LibraryName text="Water"/>
 							<m_ParamName text="WaterType"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType1"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType2"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType3"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType4"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType5"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="RemoveCliffs"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="ModelHeightFromLocalHex"/>
 						</Element>
@@ -305,7 +305,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="TerrainElement_Kailash"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
@@ -313,7 +313,7 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="NWON_Kailash"/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
@@ -321,39 +321,39 @@
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex2"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex3"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex4"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex5"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="DisableRotations"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Flat"/>
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text=""/>
@@ -361,35 +361,35 @@
 							<m_LibraryName text="Water"/>
 							<m_ParamName text="WaterType"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType1"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType2"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType3"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType4"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType5"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="RemoveCliffs"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="ModelHeightFromLocalHex"/>
 						</Element>
@@ -402,7 +402,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="TerrainElement_Krakatoa"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
@@ -410,7 +410,7 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="NWON_Krakatoa"/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
@@ -418,39 +418,39 @@
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex2"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex3"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex4"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex5"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="DisableRotations"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Flat"/>
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text=""/>
@@ -458,35 +458,35 @@
 							<m_LibraryName text="Water"/>
 							<m_ParamName text="WaterType"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType1"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType2"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType3"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType4"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType5"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="RemoveCliffs"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="ModelHeightFromLocalHex"/>
 						</Element>
@@ -499,7 +499,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="TerrainElement_Sri_Pada"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
@@ -507,7 +507,7 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="NWON_Sri_Pada_Decal"/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
@@ -515,39 +515,39 @@
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex2"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex3"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex4"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex5"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="DisableRotations"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Flat"/>
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text=""/>
@@ -555,35 +555,35 @@
 							<m_LibraryName text="Water"/>
 							<m_ParamName text="WaterType"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType1"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType2"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType3"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType4"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType5"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="RemoveCliffs"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="ModelHeightFromLocalHex"/>
 						</Element>
@@ -596,7 +596,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="TerrainElement_Old_Faithful"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
@@ -604,7 +604,7 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="NWON_Old_Faithful"/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
@@ -612,39 +612,39 @@
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex2"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex3"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex4"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex5"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="DisableRotations"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Flat"/>
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text=""/>
@@ -652,35 +652,35 @@
 							<m_LibraryName text="Water"/>
 							<m_ParamName text="WaterType"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType1"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType2"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType3"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType4"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType5"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="RemoveCliffs"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="ModelHeightFromLocalHex"/>
 						</Element>
@@ -693,7 +693,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="TerrainElement_Grand_Mesa"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
@@ -701,7 +701,7 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
@@ -709,39 +709,39 @@
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex2"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex3"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex4"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex5"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="DisableRotations"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Flat"/>
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text=""/>
@@ -749,35 +749,35 @@
 							<m_LibraryName text="Water"/>
 							<m_ParamName text="WaterType"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType1"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType2"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType3"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType4"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType5"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="RemoveCliffs"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="ModelHeightFromLocalHex"/>
 						</Element>
@@ -790,7 +790,7 @@
 			<Element>
 				<m_Fields>
 					<m_Values>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="TerrainElement_Cerro_de_Potosi"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
@@ -798,7 +798,7 @@
 							<m_LibraryName text="TerrainElement"/>
 							<m_ParamName text="TerrainElement"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
@@ -806,39 +806,39 @@
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex2"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex3"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex4"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex5"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="DisableRotations"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Flat"/>
 							<m_ParamName text="ForceTerrainType"/>
 						</Element>
-						<Element class="AssetObjects:BLPEntryValue">
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text=""/>
 							<m_XLPClass text="Water"/>
 							<m_XLPPath text=""/>
@@ -846,35 +846,35 @@
 							<m_LibraryName text="Water"/>
 							<m_ParamName text="WaterType"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType1"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType2"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType3"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType4"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType5"/>
 						</Element>
-						<Element class="AssetObjects:StringValue">
+						<Element class="AssetObjects..StringValue">
 							<m_Value text="Any"/>
 							<m_ParamName text="TerrainType6"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="RemoveCliffs"/>
 						</Element>
-						<Element class="AssetObjects:BoolValue">
+						<Element class="AssetObjects..BoolValue">
 							<m_bValue>true</m_bValue>
 							<m_ParamName text="ModelHeightFromLocalHex"/>
 						</Element>
@@ -1311,7 +1311,7 @@
 		</Element>
 		<Element>
 			<m_CollectionName text="MaterialSet"/>
-			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>	
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
 			<Element>
 				<m_Fields>
 					<m_Values>
@@ -1398,6 +1398,10 @@
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>
+		<Element>
+			<m_CollectionName text="DesertMountain"/>
+			<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+		</Element>
 	</m_RootCollections>
-</AssetObjects:ArtDefSet>
+</AssetObjects..ArtDefSet>
 

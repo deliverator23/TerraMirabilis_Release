@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>249</build>
+		<revision>237</revision>
+	</m_Version>
+	<m_ClassName text="StrategicView_Sprite"/>
+	<m_PackageName text="strategicview/strategicview_features"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Krakatoa_Visible"/>
+			<m_ObjectName text="Krakatoa_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Krakatoa_Revealed"/>
+			<m_ObjectName text="Krakatoa_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Motlatse_Visible"/>
+			<m_ObjectName text="Motlatse_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Motlatse_Revealed"/>
+			<m_ObjectName text="Motlatse_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Salar_Visible"/>
+			<m_ObjectName text="Salar_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Salar_Revealed"/>
+			<m_ObjectName text="Salar_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lake_Victoria_Visible"/>
+			<m_ObjectName text="Lake_Victoria_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Lake_Victoria_Revealed"/>
+			<m_ObjectName text="Lake_Victoria_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sri_Pada_Visible"/>
+			<m_ObjectName text="Sri_Pada_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sri_Pada_Revealed"/>
+			<m_ObjectName text="Sri_Pada_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barringer_Crater_Visible"/>
+			<m_ObjectName text="Barringer_Crater_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Barringer_Crater_Revealed"/>
+			<m_ObjectName text="Barringer_Crater_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kailash_Visible"/>
+			<m_ObjectName text="Kailash_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kailash_Revealed"/>
+			<m_ObjectName text="Kailash_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cerro_de_Potosi_Visible"/>
+			<m_ObjectName text="Cerro_de_Potosi_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Cerro_de_Potosi_Revealed"/>
+			<m_ObjectName text="Cerro_de_Potosi_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Old_Faithful_Visible"/>
+			<m_ObjectName text="Old_Faithful_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Old_Faithful_Revealed"/>
+			<m_ObjectName text="Old_Faithful_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Gibraltar_Visible"/>
+			<m_ObjectName text="Gibraltar_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Gibraltar_Revealed"/>
+			<m_ObjectName text="Gibraltar_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Grand_Mesa_Visible"/>
+			<m_ObjectName text="Grand_Mesa_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Grand_Mesa_Revealed"/>
+			<m_ObjectName text="Grand_Mesa_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wulingyuan_Visible"/>
+			<m_ObjectName text="Wulingyuan_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Wulingyuan_Revealed"/>
+			<m_ObjectName text="Wulingyuan_Revealed"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sinai_Visible"/>
+			<m_ObjectName text="Sinai_Visible"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Sinai_Revealed"/>
+			<m_ObjectName text="Sinai_Revealed"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
+

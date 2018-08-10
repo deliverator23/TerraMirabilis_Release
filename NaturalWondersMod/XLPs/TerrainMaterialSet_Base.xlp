@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects..XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>279</build>
+		<revision>569</revision>
+	</m_Version>
+	<m_ClassName text="TerrainMaterial"/>
+	<m_PackageName text="terrain/TerrainMaterialSet_Base"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="TER_Salt_Flat"/>
+			<m_ObjectName text="TER_Salt_Flat"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TER_Volcano"/>
+			<m_ObjectName text="TER_Volcano"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TER_Mesa"/>
+			<m_ObjectName text="TER_Mesa"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TER_White_Cliff_Mountain"/>
+			<m_ObjectName text="TER_White_Cliff_Mountain"/>
+		</Element>
+		<Element>
+			<m_EntryID text="TER_Grassland_ShortBlend"/>
+			<m_ObjectName text="TER_Grassland_ShortBlend"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects..XLP>
