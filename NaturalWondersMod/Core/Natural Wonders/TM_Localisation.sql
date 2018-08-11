@@ -10,8 +10,8 @@ VALUES
 -- BARRIER REEF
 -----------------------------------------------
 
-	("LOC_TM_FEATURE_BARRIER_REEF_DESCRIPTION",			"Two tile natural wonder. Yields +3 [ICON_Food] Food, +1 [ICON_Gold] Gold, and +2 [ICON_Science] Science."	),
-	("LOC_TM_FEATURE_BARRIER_REEF_EFFECT_DESCRIPTION",	"Two tile natural wonder. Yields +3 [ICON_Food] Food, +1 [ICON_Gold] Gold, and +2 [ICON_Science] Science.[NEWLINE][NEWLINE]Improved sea resources yield +1 [ICON_Gold] Gold for any Civilization that owns at least one of these tiles."	),
+	("LOC_TM_FEATURE_BARRIER_REEF_DESCRIPTION",			"Two tile natural wonder. Yields +2 [ICON_Food] Food, +1 [ICON_Gold] Gold, and +2 [ICON_Science] Science."	),
+	("LOC_TM_FEATURE_BARRIER_REEF_EFFECT_DESCRIPTION",	"Two tile natural wonder. Yields +2 [ICON_Food] Food, +1 [ICON_Gold] Gold, and +2 [ICON_Science] Science.[NEWLINE][NEWLINE]Improved sea resources yield +1 [ICON_Gold] Gold for any Civilization that owns at least one of these tiles."	),
 	
 -----------------------------------------------
 -- BARRINGER CRATER
@@ -31,7 +31,7 @@ VALUES
 -- CERRO DE POTOSI
 -----------------------------------------------
 
-	("LOC_FEATURE_CERRO_DE_POTOSI_NAME",				"Cerro de Potosi"	),
+	("LOC_FEATURE_CERRO_DE_POTOSI_NAME",					"Cerro de Potosi"	),
 	("LOC_TM_FEATURE_CERRO_DE_POTOSI_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Production] Production and +1 [ICON_Gold] Gold."	),
 	("LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Production] Production and +1 [ICON_Gold] Gold.[NEWLINE][NEWLINE]International [ICON_TradeRoute] Trade Routes from the City that owns this tile yield +4 [ICON_Gold] Gold."	),
 	
@@ -179,8 +179,8 @@ VALUES
 -----------------------------------------------
 
 	("LOC_FEATURE_LAKE_VICTORIA_NAME",						"Lake Victoria"	),
-	("LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION",			"Four tile natural wonder. Appears as a Lake and provides Fresh Water. Yields +3 [ICON_Food] Food and +1 [ICON_Culture] Culture."	),
-	("LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT_DESCRIPTION",		"Four tile natural wonder. Appears as a Lake and provides Fresh Water. Yields +3 [ICON_Food] Food and +1 [ICON_Culture] Culture.[NEWLINE][NEWLINE]Any Civilization that owns at least one of these tiles receives +15% [ICON_FoodSurplus] Growth in Cities not on their original [ICON_Capital] Capital's continent."	),
+	("LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION",			"Four tile natural wonder. Appears as a Lake and provides Fresh Water. Yields +3 [ICON_Food] Food, +1 [ICON_Culture] Culture, and +1 [ICON_Gold] Gold."	),
+	("LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT_DESCRIPTION",		"Four tile natural wonder. Appears as a Lake and provides Fresh Water. Yields +3 [ICON_Food] Food, +1 [ICON_Culture] Culture, and +1 [ICON_Gold] Gold.[NEWLINE][NEWLINE]Any Civilization that owns at least one of these tiles receives +15% [ICON_FoodSurplus] Growth in Cities not on their original [ICON_Capital] Capital's continent."	),
 	
 	('LOC_TM_FEATURE_LAKE_VICTORIA_QUOTE',	
 	'"I saw that old father Nile without any doubt rises in the Victoria Nyanza, and as I had foretold, that lake is the great source of the holy river which cradled the first expounder of our religious belief."[NEWLINE]- John Hanning Speke'	),
@@ -285,9 +285,9 @@ VALUES
 -- SALAR DE UYUNI
 -----------------------------------------------
 
-	("LOC_FEATURE_SALAR_DE_UYUNI_NAME",					"Salar de Uyuni"	),
-	("LOC_TM_FEATURE_SALAR_DE_UYUNI_DESCRIPTION",			"Four tile natural wonder. Yields +2 [ICON_Science] Science, +1 [ICON_Production] Production, and +1 [ICON_Gold] Gold."	),
-	("LOC_TM_FEATURE_SALAR_DE_UYUNI_EFFECT_DESCRIPTION",	"Four tile natural wonder. Yields +2 [ICON_Science] Science, +1 [ICON_Production] Production, and +1 [ICON_Gold] Gold.[NEWLINE][NEWLINE]Grants a free copy of the [ICON_RESOURCE_TM_LITHIUM] Lithium luxury resource (not tradeable), which provides +6 [ICON_Amenities] Amenities, to any player that owns at least one of these tiles."	),
+	("LOC_FEATURE_SALAR_DE_UYUNI_NAME",						"Salar de Uyuni"	),
+	("LOC_TM_FEATURE_SALAR_DE_UYUNI_DESCRIPTION",			"Four tile natural wonder. Yields +2 [ICON_Science] Science, +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold."	),
+	("LOC_TM_FEATURE_SALAR_DE_UYUNI_EFFECT_DESCRIPTION",	"Four tile natural wonder. Yields +2 [ICON_Science] Science, +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold.[NEWLINE][NEWLINE]Grants a free copy of the [ICON_RESOURCE_TM_LITHIUM] Lithium luxury resource (not tradeable), which provides +6 [ICON_Amenities] Amenities, to any player that owns at least one of these tiles."	),
 
 	('LOC_TM_FEATURE_SALAR_DE_UYUNI_QUOTE',	
 	'"I shivered in those solitudes when I heard the voice of the salt in the desert."[NEWLINE]- Pablo Neruda'	),
