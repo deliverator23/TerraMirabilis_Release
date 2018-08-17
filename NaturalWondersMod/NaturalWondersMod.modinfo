@@ -10,7 +10,7 @@
     <Criteria id="XP1">
 		<GameCoreInUse>Expansion1</GameCoreInUse>
     </Criteria>
-  </ActionCriteria>
+</ActionCriteria>
   <InGameActions>
     <UpdateArt id="ArtDep">
       <File>NaturalWondersMod.dep</File>
@@ -108,7 +108,7 @@
       <Properties>
         <LoadOrder>300</LoadOrder>
       </Properties>
-      <File>Core/Natural Wonders/TM_Localisation.sql</File>
+      <File>Core/Localisation/TM_Localisation.sql</File>
     </UpdateText>
     <UpdateIcons id="TM_Wonders_Icons">
       <Properties>
@@ -122,6 +122,7 @@
       </Properties>
       <File>Core/Mod Support/Map Scripts/TM_MS_YNAMP.sql</File>
       <File>Core/Mod Support/Sukritact/TM_MS_Sukritact.sql</File>
+      <File>Core/Mod Support/Map Scripts/TM_MS_LargerMapSizes.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="TM_Globals_XP1_DB">
       <Properties>
@@ -146,6 +147,22 @@
       <File>Core/Natural Wonders/Features/DLC/TM_HaLongBay.sql</File>
       <File>Core/Natural Wonders/Features/DLC/TM_Uluru.sql</File>
     </UpdateDatabase>
+    <UpdateText id="TM_Translations_Text">
+      <Properties>
+        <LoadOrder>290</LoadOrder>
+      </Properties>
+      <File>Core/Localisation/TM_Localisation_de_DE.sql</File>
+      <File>Core/Localisation/TM_Localisation_es_ES.sql</File>
+      <File>Core/Localisation/TM_Localisation_fr_FR.sql</File>
+      <File>Core/Localisation/TM_Localisation_it_IT.sql</File>
+      <File>Core/Localisation/TM_Localisation_ja_JP.sql</File>
+      <File>Core/Localisation/TM_Localisation_ko_KR.sql</File>
+      <File>Core/Localisation/TM_Localisation_pl_PL.sql</File>
+      <File>Core/Localisation/TM_Localisation_pt_BR.sql</File>
+      <File>Core/Localisation/TM_Localisation_ru_RU.sql</File>
+      <File>Core/Localisation/TM_Localisation_zh_Hans_CN.sql</File>
+      <File>Core/Localisation/TM_Localisation_zh_Hant_HK.sql</File>
+    </UpdateText>
   </InGameActions>
   <Files>
     <File>ArtDefs/Clutter.artdef</File>
@@ -155,6 +172,19 @@
     <File>Core/Framework/TM_Master.sql</File>
     <File>Core/Framework/TM_Schema.sql</File>
     <File>Core/Framework/TM_Validation.sql</File>
+    <File>Core/Localisation/TM_Localisation.sql</File>
+    <File>Core/Localisation/TM_Localisation_de_DE.sql</File>
+    <File>Core/Localisation/TM_Localisation_es_ES.sql</File>
+    <File>Core/Localisation/TM_Localisation_fr_FR.sql</File>
+    <File>Core/Localisation/TM_Localisation_it_IT.sql</File>
+    <File>Core/Localisation/TM_Localisation_ja_JP.sql</File>
+    <File>Core/Localisation/TM_Localisation_ko_KR.sql</File>
+    <File>Core/Localisation/TM_Localisation_pl_PL.sql</File>
+    <File>Core/Localisation/TM_Localisation_pt_BR.sql</File>
+    <File>Core/Localisation/TM_Localisation_ru_RU.sql</File>
+    <File>Core/Localisation/TM_Localisation_zh_Hans_CN.sql</File>
+    <File>Core/Localisation/TM_Localisation_zh_Hant_HK.sql</File>
+    <File>Core/Mod Support/Map Scripts/TM_MS_LargerMapSizes.sql</File>
     <File>Core/Mod Support/Map Scripts/TM_MS_YNAMP.sql</File>
     <File>Core/Mod Support/Sukritact/TM_MS_Sukritact.sql</File>
     <File>Core/Natural Wonders/Features/Base/TM_BarrierReef.sql</File>
@@ -198,7 +228,6 @@
     <File>Core/Natural Wonders/TM_Features.sql</File>
     <File>Core/Natural Wonders/TM_Globals.sql</File>
     <File>Core/Natural Wonders/TM_Icons.sql</File>
-    <File>Core/Natural Wonders/TM_Localisation.sql</File>
     <File>Core/Natural Wonders/TM_Preliminaries.sql</File>
     <File>Core/Natural Wonders/XP1/TM_Features_XP1.sql</File>
     <File>Core/Natural Wonders/XP1/TM_Globals_XP1.sql</File>

@@ -32,9 +32,16 @@ VALUES
 	('WONDERS_STANDARD',	'NW_MAP_SIZE',	15), -- Game Default 5
 	('WONDERS_LARGE',		'NW_MAP_SIZE',	18), -- Game Default 6
 	('WONDERS_HUGE',		'NW_MAP_SIZE',	21), -- Game Default 7
-	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	24), -- YNAMP ONLY. Default 8
-	('WONDERS_GIANT',		'NW_MAP_SIZE',	36), -- YNAMP ONLY. Default 12
-	('WONDERS_LUDICROUS',	'NW_MAP_SIZE',	48), -- YNAMP ONLY. Default 16
+
+	-- Gedemon's YNAMP
+	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	24), -- Default 8
+	('WONDERS_GIANT',		'NW_MAP_SIZE',	36), -- Default 12
+	('WONDERS_LUDICROUS',	'NW_MAP_SIZE',	48), -- Default 16
+
+	-- pOkiehl's Larger Map Sizes
+	('WONDERS_MASSIVE',		'NW_MAP_SIZE',	24), -- Default 8
+	('WONDERS_GIGANTIC',	'NW_MAP_SIZE',	36), -- Default 12
+	('WONDERS_COLOSSAL',	'NW_MAP_SIZE',	48), -- Default 16
 
 -----------------------------------------------
 -- SECTION C
@@ -61,7 +68,8 @@ VALUES
 -----------------------------------------------
 -- SECTION E
 
--- All wonders have effects?
+-- All wonders have ownership effects?
+
 -- 1 = Yes, 0 = No
 -- Our Default: 1
 -----------------------------------------------
@@ -120,7 +128,19 @@ VALUES
 	('NW_REVEAL_XP',	NULL,	15), -- Game Default 10
 
 -----------------------------------------------
--- SECTION K
+-- SECTION K (Rise & Fall Only)
+
+-- Adjust EraScore earned for finding or settling Natural Wonders.
+
+-- NOTE: The more wonders you have on the map, the more likely you'll see a Golden Age due to Era Score
+-----------------------------------------------
+
+	('ERASCORE_SETTLE',				NULL,	2), -- Game Default 3
+	('ERASCORE_DISCOVERED',			NULL,	1), -- Game Default 1
+	('ERASCORE_DISCOVERED_FIRST',	NULL,	2), -- Game Default 3
+
+-----------------------------------------------
+-- SECTION L
 
 -- Enable Natural Wonders
 -- Change the word Enabled to Disabled below
