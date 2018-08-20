@@ -75,7 +75,7 @@ VALUES
 -- DELICATE ARCH
 -----------------------------------------------
 
-	("es_ES",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FAITH] Faith, +1 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
+	("es_ES",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
 	("es_ES",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT",			"Plots are 20% cheaper to purchase for any Civilization that owns this tile."	),
 
 -----------------------------------------------
@@ -206,7 +206,7 @@ VALUES
 -- MATTERHORN
 -----------------------------------------------
 
-	("es_ES",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_CULTURE] Culture to adjacent tiles."	),
+	("es_ES",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_CULTURE] Culture to adjacent tiles."	),
 	("es_ES",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",			"Land Units trained in a City that owns this tile ignore [ICON_MOVEMENT] Movement penalties on Hills, and receive +3 [ICON_STRENGTH] Combat Strength when fighting on them."	),
 
 	("es_ES",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",	"+{1_Amount} Combat Bonus on Hills (Matterhorn)"	),
@@ -359,7 +359,7 @@ VALUES
 -- ULURU
 -----------------------------------------------
 
-	("es_ES",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +2 [ICON_CULTURE] Culture and +2 [ICON_FAITH] Faith."	),
+	("es_ES",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith."	),
 	("es_ES",	"LOC_TM_FEATURE_ULURU_EFFECT",			"Specialty Districts constructed on desert terrain yield +1 [ICON_FOOD] Food for any Civilization that owns this tile."	),
 
 -----------------------------------------------

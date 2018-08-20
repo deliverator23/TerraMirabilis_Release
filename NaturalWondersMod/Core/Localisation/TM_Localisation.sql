@@ -82,7 +82,7 @@ VALUES
 -- DELICATE ARCH
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Faith] Faith, +1 [ICON_Science] Science, and +1 [ICON_Culture] Culture."	),
+	("en_US",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold."	),
 	("en_US",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT",				"Plots are 20% cheaper to purchase for any Civilization that owns this tile."	),
 	("en_US",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_DELICATE_ARCH_EFFECT}"	),
 
@@ -228,7 +228,7 @@ VALUES
 -- MATTERHORN
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_CULTURE] Culture to adjacent tiles."	),
+	("en_US",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_CULTURE] Culture to adjacent tiles."	),
 	("en_US",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",				"Land Units trained in a City that owns this tile ignore [ICON_Movement] Movement penalties on Hills, and receive +3 [ICON_Strength] Combat Strength when fighting on them."	),
 	("en_US",	"LOC_TM_FEATURE_MATTERHORN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_MATTERHORN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MATTERHORN_EFFECT}"	),
 
@@ -394,7 +394,7 @@ VALUES
 -- ULURU
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +2 [ICON_CULTURE] Culture and +2 [ICON_FAITH] Faith."	),
+	("en_US",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith."	),
 	("en_US",	"LOC_TM_FEATURE_ULURU_EFFECT",				"Specialty Districts constructed on desert terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
 	("en_US",	"LOC_TM_FEATURE_ULURU_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_ULURU_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_ULURU_EFFECT}"	),
 
