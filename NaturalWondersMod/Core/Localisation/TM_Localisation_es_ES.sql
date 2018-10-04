@@ -28,6 +28,11 @@ VALUES
 	("es_ES",	"LOC_FEATURE_SRI_PADA_NAME",						"Sri Pada|Sri Pada",						"feminine:sinartfem",	"1|2"	),
 	("es_ES",	"LOC_FEATURE_WULINGYUAN_NAME",						"Wulingyuan|Wulingyuan",					"masculine:sinartmasc",	"1|2"	),
 
+	("es_ES",	"LOC_FEATURE_MOSI_OA_TUNYA_NAME",					"Mosi-oa-Tunya|Mosi-oa-Tunya",				"masculine:sinartmasc",	"1|2"	),
+	("es_ES",	"LOC_FEATURE_NAMIB_NAME",							"Mar de Arena de Namib|Mares de Arena de Namib",	"masculine|masculine",	"1|2"	),
+	("es_ES",	"LOC_FEATURE_OUNIANGA_NAME",						"Lagos de Unianga|Lagos de Unianga",		"masculine|masculine",	"2|2"	),
+	("es_ES",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"Domo de Vredefort|Domos de Vredefort",		"masculine|masculine",	"1|2"	),
+
 	("es_ES",	"LOC_RESOURCE_TM_TORTOISE_NAME",					"Tortugas Gigantes",						"feminine",				"2"		),
 	("es_ES",	"LOC_RESOURCE_TM_LITHIUM_NAME",						"Litio",									"masculine",			"1"		);
 
@@ -160,7 +165,6 @@ VALUES
 -- KAILASH
 -----------------------------------------------
 
-
 	("es_ES",	"LOC_TM_FEATURE_KAILASH_DESCRIPTION",	"Maravilla de la naturaleza de una collina. Aparece como Montaña y proporciona +1 a Fe [ICON_FAITH] y +1 a Cultura [ICON_CULTURE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_KAILASH_EFFECT",		"Recibe +1 a Cultura [ICON_CULTURE] por cada ciudad extranjera que siga la religión [ICON_RELIGION] de la Civilización que tiene esta casilla."	),
 		
@@ -228,6 +232,20 @@ VALUES
 	("es_ES",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",	"+{1_Amount} a la Fuerza de combate [ICON_Strength] en casillas de Colinas (Cervino)"	),
 
 -----------------------------------------------
+-- MOSI_OA_TUNYA
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",			"Maravilla de naturaleza infranqueable de una casilla. Proporciona +2 a Alimentos [ICON_FOOD] a las casillas adyacentes y Agua dulce también."	),
+	("es_ES",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",				"En cualquier Civilización que tiene esta casilla, casillas con recursos adicionales mejorados que están adyacentes a un río aporciona +1 a Alimentos [ICON_FOOD]."	),
+	("es_ES",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT}"	),
+	
+	("es_ES",	'LOC_TM_FEATURE_MOSI_OA_TUNYA_QUOTE',	
+	'"Arrastrándome con asombre por el borde, miré hacia abajo en un gran abismo y vi que una corriente de mil yardas de ancho saltó cien pies, y luego se comprimió repentinamente en un espacio de quince or veinte yardas - la vista más maravillosa que he visto en África."[NEWLINE]- David Livingstone'	),
+	
+	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOSI_OA_TUNYA_CHAPTER_HISTORY_PARA_1",	
+	"La Mosi-oa-Tunya, también conocido como las Cataratas Victoria, se encuentra entre las cascadas más espectaculares del mundo. El río Zambezi, que tiene más de dos kilómetros de ancho a las cataratas, se sumerge ruidosamente en una serie de gargantas de basalto y crea una neblina iridiscente que se puede ver a más de 50 kilómetros de distancia. Su nombre, que se traduce como 'El Humo que Truena,' proviene del lenguaje Kololo o Lozi y está utilizado en todo de Zambia y en partes de Zimbabwe, pero Mosi-oa-Tunya es más conocido en el resto del mundo como las Cataratas Victoria debido al misionero y explorador escocés, David Livingstone, que dio un nombre a una cascada que ya tenía una."	),
+
+-----------------------------------------------
 -- MOTLATSE CANYON
 -----------------------------------------------
 
@@ -249,6 +267,20 @@ VALUES
 	"Si bien es difícil comparar cañones en todo el mundo, el Cañón del Río Blyde es uno de los cañones más grandes del mundo, y es posible que está el cañón verde más grande debido a su frondoso follaje subtropical. Es hogar de una gran diversidad de flora y fauna, incluidos numerosos especies de peces y antílopes, así como hipopótamos, cocodrilos y todas las especies de primates que se pueden ver en el sur de África, por lo que es una región muy popular para el turismo."	),
 
 -----------------------------------------------
+-- NAMIB
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Maravilla de naturaleza de tres casillas. Proporciona +3 a Cultura [ICON_CULTURE] y +2 de Oro [ICON_GOLD]."	),
+	("es_ES",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"En cualquier Civilización que tiene al menos una de estas casillas, rutas comerciales de otras civilizaciones [ICON_TRADEROUTE] que pasa por sus ciudades proporciona +1 a Cultura [ICON_CULTURE]."	),
+	("es_ES",	"LOC_TM_FEATURE_NAMIB_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_NAMIB_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_NAMIB_EFFECT}"	),
+	
+	("es_ES",	'LOC_TM_FEATURE_NAMIB_QUOTE',	
+	'"Me encanta escuchar el sonido de las dunas de arena,[NEWLINE]Soy uno de los que perciben el ritmo de un paisaje tal como se registra en muchas pinturas,[NEWLINE]Soy uno de los miles que saben que finalmente estoy en casa."[NEWLINE]- Mvula Ya Nangolo'	),
+	
+	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_NAMIB_CHAPTER_HISTORY_PARA_1",	
+	"El Namib es un desierto costero en el sur de África. Su nombre es de origen Nama y significa 'lugar vasto.' El Namib se extiende por más de 2.000 kilómetros a lo largo de la costa Atlántica en Angola, Namibia, y Sudáfrica. El Namib ha experimentado condiciones áridas, o semiáridas, por aproximadamente 55 - 80 millones de años y puede ser el desierto más antiguo del mundo con algunas de las regiones más secas del mundo. Debido a su aridez, el Namib está casi totalmente deshabitado a excepción de un pequeño número de asentamientos dispersos, que históricamente han servido como puestos comerciales para las rutas de los comerciantes y misioneros lo suficientemente valientes como para intentar cruzar el desierto."	),
+
+-----------------------------------------------
 -- OLD FAITHFUL
 -----------------------------------------------
 
@@ -260,6 +292,27 @@ VALUES
 	
 	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OLD_FAITHFUL_CHAPTER_HISTORY_PARA_1",	
 	"Old Faithful es un géiser encontrado en el Parque Nacional Yellowstone, en Wyoming en los Estados Unidos. Visto por primera vez por los europeos en 1870 (y por los nativos unos 10.000 años antes), el Viejo Fiel fue nombrado debido a la regularidad de su erupción. El géiser dispara una columna de agua hirviendo a una altura de unos 30-50 metros cada 60-90 minutos (el intervalo es determinado por la ferocidad de la erupción anterior). Los géiseres ocurren cuando el agua subterránea golpea al magma (roca fundida). El agua se convierte instantáneamente en vapor, que se precipita a la apertura más cercana a una presión tremendamente alta. El Viejo Fiel y los otros 250 géiseres en Yellowstone son disfrutados por unos tres millones de visitantes cada año."	),
+
+
+-----------------------------------------------
+-- OUNIANGA
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Maravilla de naturaleza de dos casillas. Proporciona +3 a Alimentos [ICON_FOOD], +1 a Cultura [ICON_CULTURE], and +1 de Oro [ICON_GOLD] y Agua dulce también."	),
+	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"En cualquier Civilización que tiene al menos una de estas casillas, Distritos especializados reciben una Bonificación mayor por casillas de Oasis."	),
+	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_OUNIANGA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_OUNIANGA_EFFECT}"	),
+
+	("es_ES",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} a Fe [ICON_FAITH] por {1_Num : plural 1?el Oasis adyacente; other?los Oasis adyacentes;} (Unianga)."	),
+	("es_ES",	"LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",			"+{1_num} a Ciencia [ICON_SCIENCE] por {1_Num : plural 1?el Oasis adyacente; other?los Oasis adyacentes;} (Unianga)."	),
+	("es_ES",	"LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",			"+{1_num} a Cultura [ICON_CULTURE] por {1_Num : plural 1?el Oasis adyacente; other?los Oasis adyacentes;} (Unianga)."	),
+	("es_ES",	"LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",			"+{1_num} de Oro [ICON_GOLD] por {1_Num : plural 1?el Oasis adyacente; other?los Oasis adyacentes;} (Unianga)."	),
+	("es_ES",	"LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",		"+{1_num} a la Producción [ICON_PRODUCTION] por {1_Num : plural 1?el Oasis adyacente; other?los Oasis adyacentes;} (Unianga)."	),
+	
+	("es_ES",	'LOC_TM_FEATURE_OUNIANGA_QUOTE',	
+	'"Al principio, el lenguaje del desierto era la hierba que florecía contra la pared del viento, las altas palmeras que se balanceaban en la estación de siembra y las cenizas que fueron transportadas por el aire hacia la bienvenida azul de la arena cálida. Ella fue nuestra primera fuente, nuestra madre, quien nos sostuvo, luego nos entregó a la era de las ciudades esperadas."[NEWLINE]- Al-Munsif al-Wahaybi'	),
+	
+	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1",	
+	"Los Lagos de Unianga son una serie de dieceocho lagos interconnectados en la región híper árida de Ennedi, en el desierto del Sahara. Los Lagos ocupan una cuenca en las montañas de Tibesti Occidental y Ennedi Oriental. Los Lagos constituye un paisaje natural excepcional de gran belleza, con colores y formas notables. Los lagos salinos, híper salinos, y de agua dulce son abastecidos por agua subterránea y se encuentran en dos grupos a 40 kilómetros de distancia. Unianga Kébir se compone de cuatro lagos; el lago más grande del Unianga, Yoan, cubre un área de 350 hectáres y tiene 27 metros de profundidad. Sus aguas salinas solo sostienen algas y algunos microorganismos. El segundo grupo, Unianga Ségir, se compone de catorce lagos separados por dunas de arena. Cañas flotantes cubren casi la mitad de la superficie de estes lagos, los que reduce la evaporación. El Lago Teli tiene la mayor superficie, pero tiene menos de 10 metros de profundidad. Con la agua dulce, algunos de estos lagos albergan fauna acuática, especialmente peces."	),
 
 -----------------------------------------------
 -- PANTANAL
@@ -370,6 +423,20 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"Maravilla de naturaleza infranqueable de una casilla. Proporciona +1 a Cultura [ICON_CULTURE] y +1 a Fe [ICON_FAITH] a casill adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_ULURU_EFFECT",			"Distritos especializados en casillas de Desierto proporciona +1 a Alimentos [ICON_FOOD] por cualquier Civilización que tiene al menos una de estas casillas."	),
+
+-----------------------------------------------
+-- VREDEFORT DOME
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",		"Maravilla de naturaleza de dos casillas. Proporciona +2 a Alimentos [ICON_FOOD], +2 a Ciencia [ICON_SCIENCE], y +1 a Cultura [ICON_CULTURE]."	),
+	("es_ES",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",				"Las mejoras de Granja proporcionan +1 a Alimentos [ICON_FOOD] si están ayacentes a otra mejora de Granja por cualquier Civilización que tiene al menos una de estas casillas."	),
+	("es_ES",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT}"	),
+	
+	("es_ES",	'LOC_TM_FEATURE_VREDEFORT_DOME_QUOTE',	
+	'"Cuando los geólogos caminaron por primera vez hacia el espectacular anillo de colinas que se extendía a lo largo del río Vaal al norte de Vredefort, hace casí 150 años, immediatamente reconocieron que las rocas inusualmente destrozadas y levantadas eran testigos de un evento excepcionalmente violento en el pasado distancte."[NEWLINE]- Wolf Uwe Reimold'	),
+	
+	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_VREDEFORT_DOME_CHAPTER_HISTORY_PARA_1",	
+	"El Cráter de Vredefort es el cráter de impacto más grande verificado del mundo. Era más de 300 kilómetros de ancho cuando se formó. Lo que queda del Cráter se encuentra en la provincia del Estado Libre en Sudáfrica, donde la agricultura cultivada domina el paisaje. Se estima que el cráter tiene más de dos mil millones de años de antigüedad, y que el impacto ocurrió en la Era Paleoproterozoica, por lo que es el segundo cráter más antiguo conocido del mundo."	),
 
 -----------------------------------------------
 -- WULINGYUAN

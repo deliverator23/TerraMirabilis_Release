@@ -206,10 +206,24 @@ VALUES
 -- MATTERHORN
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_CULTURE] Culture to adjacent tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_CULTURE] Culture."	),
 	("ru_RU",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",			"Land Units trained in a City that owns this tile ignore [ICON_MOVEMENT] Movement penalties on Hills, and receive +3 [ICON_STRENGTH] Combat Strength when fighting on them."	),
 
 	("ru_RU",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",	"+{1_Amount} Combat Bonus on Hills (Matterhorn)"	),
+
+-----------------------------------------------
+-- MOSI_OA_TUNYA
+-----------------------------------------------
+
+	("ru_RU",	"LOC_FEATURE_MOSI_OA_TUNYA_NAME",					"Mosi-oa-Tunya"	),
+	("ru_RU",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",			"Two tile impassable natural wonder. Provides fresh water. Adjacent plots yield +2 [ICON_FOOD] Food."	),
+	("ru_RU",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",				"Improved bonus resources adjacent to a river provide +1 [ICON_FOOD] Food for the Civilization that owns this tile."	),
+	
+	("ru_RU",	'LOC_TM_FEATURE_MOSI_OA_TUNYA_QUOTE',	
+	'"Creeping with awe to the verge, I peered down into a large rent and saw that a stream of a thousand yards broad leaped down a hundred feet, and then became suddenly compressed into a space of fifteen or twenty yards, the most wonderful sight I had witnessed in Africa."[NEWLINE]- David Livingstone'	),
+	
+	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOSI_OA_TUNYA_CHAPTER_HISTORY_PARA_1",	
+	"The Mosi-oa-Tunya, otherwise known as Victoria Falls, is among the most spectacular waterfalls in the world. The Zambezi River, which is more than 2 kilometers wide at this point, plunges noisily down a series of basalt gorges and raises an iridescent mist that can be seen more than 50 km away. Its name, which translates to 'The Smoke Which Thunders', comes from the Kololo or Lozi language used throughout Zambia and in parts of Zimbabwe, though it is more commonly known worldwide as Victoria Falls due to Scottish missionary and explorer, David Livingstone, who is perhaps most famous for giving a name to a waterfall that already had one."	),
 
 -----------------------------------------------
 -- MOTLATSE CANYON
@@ -234,6 +248,20 @@ VALUES
 	"While it is difficult to compare canyons world-wide, Blyde River Canyon is one of the largest canyons on Earth, and it may be the largest green canyon due to its lush subtropical foliage. It supports a large diversity of flora and fauna, including numerous fish and antelope species as well as hippos, crocodiles and every primate species that may be seen in south Africa, making it a very popular region for tourism."	),
 
 -----------------------------------------------
+-- NAMIB
+-----------------------------------------------
+
+	("ru_RU",	"LOC_FEATURE_NAMIB_NAME",					"Namib"	),
+	("ru_RU",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Two tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
+	("ru_RU",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"Foreign [ICON_TRADEROUTE] Trade Routes that pass through your cities provide +1 [ICON_CULTURE] Culture for any Civilization that owns at least one of these tiles."	),
+	
+	("ru_RU",	'LOC_TM_FEATURE_NAMIB_QUOTE',	
+	'"I love to hear the sound made by sand dunes, I am one of those who perceive the rhythm of a landscape as recorded in many paintings, I am one of thousands who know I am finally home."[NEWLINE]- Mvula Ya Nangolo'	),
+	
+	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_NAMIB_CHAPTER_HISTORY_PARA_1",	
+	"The Namib is a coastal desert in southern Africa, whose name is of Nama origin and means 'vast place'. The Namib stretches for more than 2,000km along the Atlantic coasts of Angola, Namibia, and South Africa. Having endured arid, or semi-arid conditions for roughly 55-80 million years, the Namib may be the oldest desert in the world, containing some of the world's driest regions. Owing to its aridity, the Namib is almost totally uninhabited except for a small number of scattered settlements, which have historically served as trading posts for the routes of traders and missionaries that cross the desert."	),
+
+-----------------------------------------------
 -- OLD FAITHFUL
 -----------------------------------------------
 
@@ -246,6 +274,26 @@ VALUES
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OLD_FAITHFUL_CHAPTER_HISTORY_PARA_1",	
 	"Old Faithful is a geyser found in Yellowstone National Park, in Wyoming, US. First seen by Europeans in 1870 (and by natives some 10,000 years before that), Old Faithful was thus named because of the regularity of its eruption. The geyser shoots a column of boiling water to a height of some 30-50 meters (100-175 feet) every 60-90 minutes (the interval determined by the ferocity of the previous eruption). Geysers occur when subterranean water hits magma (molten rock). The water is instantly turned to steam, which rushes out the nearest available opening at tremendously high pressure. Old Faithful and the other 250 geysers in Yellowstone are enjoyed by some three million visitors each year."	),
+ 
+-----------------------------------------------
+-- OUNIANGA
+-----------------------------------------------
+
+	("ru_RU",	"LOC_FEATURE_OUNIANGA_NAME",					"Ounianga"	),
+	("ru_RU",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("ru_RU",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
+
+	("ru_RU",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ru_RU",	"LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_SCIENCE] Science from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ru_RU",	"LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",			"+{1_num} [ICON_CULTURE] Culture from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ru_RU",	"LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Gold from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ru_RU",	"LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Production from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	
+	("ru_RU",	'LOC_TM_FEATURE_OUNIANGA_QUOTE',	
+	'"At the beginning, the language of the desert was grass blooming against the wall of wind, tall palms swaying in the season of seeding and cinders carried by air to the blue welcome of warm sand. She was our first fountain, our mother, who held us, then gave us away to the age of waiting cities."[NEWLINE]- Al-Munsif al-Wahaybi'	),
+	
+	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1",	
+	"Lakes of Ounianga are a series of eighteen interconnected lakes in the hyper arid Ennedi region of the Sahara desert, occupying a basin in the mountains of West Tibesti and Ennedi East. It constitutes an exceptional natural landscape of great beauty with striking colours and shapes. The saline, hyper saline and freshwater lakes are supplied by groundwater and are found in two groups 40 km apart. Ounianga Kebir comprises four lakes, the largest of which, Yoan, covers an area of 358 ha and is 27 m deep. Its highly saline waters only sustain algae and some microorganisms. The second group, Ounianga Serir, comprises fourteen lakes separated by sand dunes. Floating reeds cover almost half the surface of these lakes reducing evaporation. Lake Teli has the largest surface area but is less than 10 m deep. With their high quality freshwater, some of these lakes are home to aquatic fauna, particularly fish."	),
 
 -----------------------------------------------
 -- PANTANAL
@@ -361,6 +409,20 @@ VALUES
 
 	("ru_RU",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith."	),
 	("ru_RU",	"LOC_TM_FEATURE_ULURU_EFFECT",			"Specialty Districts constructed on desert terrain yield +1 [ICON_FOOD] Food for any Civilization that owns this tile."	),
+
+-----------------------------------------------
+-- VREDEFORT DOME
+-----------------------------------------------
+
+	("ru_RU",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"Vredefort Dome"	),
+	("ru_RU",	"LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",		"Two tile natural wonder. Yields +2 [ICON_FOOD] Food, +2 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
+	("ru_RU",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",				"Farms provide +1 [ICON_FOOD] Food when adjacent to another Farm for any Civilization that owns at least one of these tiles."	),
+	
+	("ru_RU",	'LOC_TM_FEATURE_VREDEFORT_DOME_QUOTE',	
+	'"When geologists first wandered the spectacular ring of hills straddling the Vaal River north of Vredefort nearly 150 years ago, they immediately recognised that the unusually shattered and uptilted rocks bore witness to an exceptionally violent event in the distant past."[NEWLINE]- Wolf Uwe Reimold'	),
+	
+	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_VREDEFORT_DOME_CHAPTER_HISTORY_PARA_1",	
+	"The Vredefort Dome is the largest verified impact crater on Earth, more than 300km across when it was formed. What remains of it is located in the present-day Free State province of South Africa where cultivated agriculture dominates the landscape. The crater is estimated to be over 2 billion years old, with impact taking place in the Paleoproterozoic Era, making it the second-oldest known crater on Earth."	),
 
 -----------------------------------------------
 -- WULINGYUAN

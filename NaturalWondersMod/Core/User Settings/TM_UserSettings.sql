@@ -114,6 +114,10 @@ VALUES
 -- SECTION I
 
 -- Minimum Start Distances between Major/Minor Civilization and Natural Wonder
+
+-- NOTE:
+-- Apparently there is some override in the background that makes the start distance superfluous :/
+-- I believe it only happens when there are many NWs and many CSs on the map and it becomes impossible to adhere to these rules.
 -----------------------------------------------
 
 	('START_DISTANCE_MAJOR',	NULL,	3), -- Game Default 3 (tiles)
@@ -186,16 +190,20 @@ VALUES
 	-- Terra Mirabilis
 	('FEATURE_BARRINGER_CRATER',	'ENABLED',		NULL),
 	('FEATURE_CERRO_DE_POTOSI',		'ENABLED',		NULL),
+	('FEATURE_GIBRALTAR',			'ENABLED',		NULL),
 	('FEATURE_GRAND_MESA',			'ENABLED',		NULL),
 	('FEATURE_KAILASH',				'ENABLED',		NULL),
 	('FEATURE_KRAKATOA',			'ENABLED',		NULL),
 	('FEATURE_LAKE_VICTORIA',		'ENABLED',		NULL),
+	('FEATURE_MOSI_OA_TUNYA',		'ENABLED',		NULL),
 	('FEATURE_MOTLATSE_CANYON',		'ENABLED',		NULL),
+	('FEATURE_NAMIB',				'ENABLED',		NULL),
 	('FEATURE_OLD_FAITHFUL',		'ENABLED',		NULL),
-	('FEATURE_GIBRALTAR',			'ENABLED',		NULL),
+	('FEATURE_OUNIANGA',			'ENABLED',		NULL),
 	('FEATURE_SALAR_DE_UYUNI',		'ENABLED',		NULL),
 	('FEATURE_SINAI',				'ENABLED',		NULL),
 	('FEATURE_SRI_PADA',			'ENABLED',		NULL),
+	('FEATURE_VREDEFORT_DOME',		'ENABLED',		NULL),
 	('FEATURE_WULINGYUAN',			'ENABLED',		NULL),
 
 -----------------------------------------------

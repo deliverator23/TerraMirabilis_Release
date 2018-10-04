@@ -286,6 +286,24 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
             return true;
 		end
 
+	elseif (customPlacement == "PLACEMENT_MOSI_OA_TUNYA") then
+
+        if (pPlot:IsWater() or pPlot:IsHills()) then
+            return false;
+        end
+
+		if (pPlot:IsWOfRiver() or pPlot:IsNWOfRiver() or pPlot:IsNEOfRiver()) then
+			return false;
+		end
+
+		local pNWPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_NORTHWEST);
+		local pNEPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_NORTHEAST);
+		local pWPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_WEST);
+
+		if (pNWPlot:IsNWOfRiver() and pNEPlot:IsNEOfRiver() and not pWPlot:IsWOfRiver()) then
+			return true;
+		end
+
 	-- 2 tiles, one on coastal land and one in water, try to face camera if possible
 	elseif (customPlacement == "PLACEMENT_GIANTS_CAUSEWAY") then
 

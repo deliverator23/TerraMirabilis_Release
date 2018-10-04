@@ -41,12 +41,16 @@ VALUES	('FEATURE_BARRIER_REEF',		'BASE'				),
 		('FEATURE_KRAKATOA',			'TM'				),
 		('FEATURE_LAKE_VICTORIA',		'TM'				),
 		('FEATURE_MOTLATSE_CANYON',		'TM'				),
+		('FEATURE_MOSI_OA_TUNYA',		'TM'				),
+		('FEATURE_NAMIB',				'TM'				),
 		('FEATURE_OLD_FAITHFUL',		'TM'				),
+		('FEATURE_OUNIANGA',			'TM'				),
 		('FEATURE_SALAR_DE_UYUNI',		'TM'				),
 		('FEATURE_SINAI',				'TM'				),
 		('FEATURE_SRI_PADA',			'TM'				),
+		('FEATURE_VREDEFORT_DOME',		'TM'				),
 		('FEATURE_WULINGYUAN',			'INDONESIA_KHMER'	), -- Added by Terra Mirabilis, but depends on DLC
-		('FEATURE_SUK_FUJI',			'SUKRITACT'			);
+		('FEATURE_SUK_FUJI',			'SUKRITACT'			); -- Here because we have mod support for this
 
 UPDATE	TM_Validation
 SET		Active = 1

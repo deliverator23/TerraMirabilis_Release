@@ -211,6 +211,20 @@ VALUES
  
     ("ja_JP",   "LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",    "丘陵で+{1_Amount} (マッターホルン)"  ),
  
+ -----------------------------------------------
+-- MOSI_OA_TUNYA
+-----------------------------------------------
+
+	("ja_JP",	"LOC_FEATURE_MOSI_OA_TUNYA_NAME",					"Mosi-oa-Tunya"	),
+	("ja_JP",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",			"Two tile impassable natural wonder. Provides fresh water. Adjacent plots yield +2 [ICON_FOOD] Food."	),
+	("ja_JP",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",				"Improved bonus resources adjacent to a river provide +1 [ICON_FOOD] Food for the Civilization that owns this tile."	),
+	
+	("ja_JP",	'LOC_TM_FEATURE_MOSI_OA_TUNYA_QUOTE',	
+	'"Creeping with awe to the verge, I peered down into a large rent and saw that a stream of a thousand yards broad leaped down a hundred feet, and then became suddenly compressed into a space of fifteen or twenty yards, the most wonderful sight I had witnessed in Africa."[NEWLINE]- David Livingstone'	),
+	
+	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOSI_OA_TUNYA_CHAPTER_HISTORY_PARA_1",	
+	"The Mosi-oa-Tunya, otherwise known as Victoria Falls, is among the most spectacular waterfalls in the world. The Zambezi River, which is more than 2 kilometers wide at this point, plunges noisily down a series of basalt gorges and raises an iridescent mist that can be seen more than 50 km away. Its name, which translates to 'The Smoke Which Thunders', comes from the Kololo or Lozi language used throughout Zambia and in parts of Zimbabwe, though it is more commonly known worldwide as Victoria Falls due to Scottish missionary and explorer, David Livingstone, who is perhaps most famous for giving a name to a waterfall that already had one."	),
+
 -----------------------------------------------
 -- MOTLATSE CANYON
 -----------------------------------------------
@@ -247,6 +261,40 @@ VALUES
     ("ja_JP",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_OLD_FAITHFUL_CHAPTER_HISTORY_PARA_1",  
     "オールド・フェイスフルは、アメリカ合衆国のワイオミング州イエローストーン国立公園にある間欠泉である。1870年にヨーロッパ人によって初めて発見された(先住民族の間では、すでにその約1万年前からよく知られていたという)。規則正しく熱湯を噴き出す姿から、フェイスフル(＝忠実な)と名付けられた。この間欠泉は60分から90分(間隔は直前の噴出の大きさによって決まる)ごとに、30メートルから50メートルの高さまで熱湯を噴出する。噴出は地下水がマグマ(溶岩)に触れることで発生する。水は一瞬にして水蒸気となり、とてつもない圧力によって押し出され、一番近い穴から外へと噴出する。イエローストーンにあるオールド・フェイスフルと他の250の間欠泉は、毎年300万人の旅行者を楽しませている。"    ),
  
+ -----------------------------------------------
+-- NAMIB
+-----------------------------------------------
+
+	("ja_JP",	"LOC_FEATURE_NAMIB_NAME",					"Namib"	),
+	("ja_JP",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Two tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
+	("ja_JP",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"Foreign [ICON_TRADEROUTE] Trade Routes that pass through your cities provide +1 [ICON_CULTURE] Culture for any Civilization that owns at least one of these tiles."	),
+	
+	("ja_JP",	'LOC_TM_FEATURE_NAMIB_QUOTE',	
+	'"I love to hear the sound made by sand dunes, I am one of those who perceive the rhythm of a landscape as recorded in many paintings, I am one of thousands who know I am finally home."[NEWLINE]- Mvula Ya Nangolo'	),
+	
+	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_NAMIB_CHAPTER_HISTORY_PARA_1",	
+	"The Namib is a coastal desert in southern Africa, whose name is of Nama origin and means 'vast place'. The Namib stretches for more than 2,000km along the Atlantic coasts of Angola, Namibia, and South Africa. Having endured arid, or semi-arid conditions for roughly 55-80 million years, the Namib may be the oldest desert in the world, containing some of the world's driest regions. Owing to its aridity, the Namib is almost totally uninhabited except for a small number of scattered settlements, which have historically served as trading posts for the routes of traders and missionaries that cross the desert."	),
+
+-----------------------------------------------
+-- OUNIANGA
+-----------------------------------------------
+
+	("ja_JP",	"LOC_FEATURE_OUNIANGA_NAME",					"Ounianga"	),
+	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
+
+	("ja_JP",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ja_JP",	"LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_SCIENCE] Science from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ja_JP",	"LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",			"+{1_num} [ICON_CULTURE] Culture from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ja_JP",	"LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Gold from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ja_JP",	"LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Production from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	
+	("ja_JP",	'LOC_TM_FEATURE_OUNIANGA_QUOTE',	
+	'"At the beginning, the language of the desert was grass blooming against the wall of wind, tall palms swaying in the season of seeding and cinders carried by air to the blue welcome of warm sand. She was our first fountain, our mother, who held us, then gave us away to the age of waiting cities."[NEWLINE]- Al-Munsif al-Wahaybi'	),
+	
+	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1",	
+	"Lakes of Ounianga are a series of eighteen interconnected lakes in the hyper arid Ennedi region of the Sahara desert, occupying a basin in the mountains of West Tibesti and Ennedi East. It constitutes an exceptional natural landscape of great beauty with striking colours and shapes. The saline, hyper saline and freshwater lakes are supplied by groundwater and are found in two groups 40 km apart. Ounianga Kebir comprises four lakes, the largest of which, Yoan, covers an area of 358 ha and is 27 m deep. Its highly saline waters only sustain algae and some microorganisms. The second group, Ounianga Serir, comprises fourteen lakes separated by sand dunes. Floating reeds cover almost half the surface of these lakes reducing evaporation. Lake Teli has the largest surface area but is less than 10 m deep. With their high quality freshwater, some of these lakes are home to aquatic fauna, particularly fish."	),
+
 -----------------------------------------------
 -- PANTANAL
 -----------------------------------------------
@@ -361,6 +409,20 @@ VALUES
  
     ("ja_JP",   "LOC_TM_FEATURE_ULURU_DESCRIPTION",     "1タイルの自然遺産。通行不可。隣接するタイルに [ICON_Culture] 文化力+1、 [ICON_Faith] 信仰力+1。" ),
     ("ja_JP",   "LOC_TM_FEATURE_ULURU_EFFECT",          "このタイルを領有する文明は、砂漠上に建設する専門区域から [ICON_Food] 食料+1を得る。" ),
+
+-----------------------------------------------
+-- VREDEFORT DOME
+-----------------------------------------------
+
+	("ja_JP",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"Vredefort Dome"	),
+	("ja_JP",	"LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",		"Two tile natural wonder. Yields +2 [ICON_FOOD] Food, +2 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
+	("ja_JP",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",				"Farms provide +1 [ICON_FOOD] Food when adjacent to another Farm for any Civilization that owns at least one of these tiles."	),
+	
+	("ja_JP",	'LOC_TM_FEATURE_VREDEFORT_DOME_QUOTE',	
+	'"When geologists first wandered the spectacular ring of hills straddling the Vaal River north of Vredefort nearly 150 years ago, they immediately recognised that the unusually shattered and uptilted rocks bore witness to an exceptionally violent event in the distant past."[NEWLINE]- Wolf Uwe Reimold'	),
+	
+	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_VREDEFORT_DOME_CHAPTER_HISTORY_PARA_1",	
+	"The Vredefort Dome is the largest verified impact crater on Earth, more than 300km across when it was formed. What remains of it is located in the present-day Free State province of South Africa where cultivated agriculture dominates the landscape. The crater is estimated to be over 2 billion years old, with impact taking place in the Paleoproterozoic Era, making it the second-oldest known crater on Earth."	),
  
 -----------------------------------------------
 -- WULINGYUAN

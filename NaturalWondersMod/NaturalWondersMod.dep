@@ -232,7 +232,10 @@
 		</Element>
 		<Element>
 			<ConsumerName text="Terrains"/>
-			<ArtDefDependencyPaths/>
+			<ArtDefDependencyPaths>
+				<Element text="Terrains.artdef"/>
+				<Element text="StrategicView.artdef"/>
+			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
 			<LoadsLibraries>false</LoadsLibraries>
 		</Element>
@@ -273,6 +276,7 @@
 			<ConsumerName text="WorldView_Translate"/>
 			<ArtDefDependencyPaths>
 				<Element text="Features.artdef"/>
+				<Element text="Terrains.artdef"/>
 				<Element text="StrategicView.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
@@ -282,6 +286,7 @@
 			<ConsumerName text="StrategicView_Translate"/>
 			<ArtDefDependencyPaths>
 				<Element text="Features.artdef"/>
+				<Element text="Terrains.artdef"/>
 				<Element text="StrategicView.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
@@ -291,6 +296,7 @@
 			<ConsumerName text="Audio"/>
 			<ArtDefDependencyPaths>
 				<Element text="Features.artdef"/>
+				<Element text="Terrains.artdef"/>
 				<Element text="StrategicView.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
@@ -333,6 +339,7 @@
 			<ConsumerName text="IndirectGrid"/>
 			<ArtDefDependencyPaths>
 				<Element text="Features.artdef"/>
+				<Element text="Terrains.artdef"/>
 				<Element text="StrategicView.artdef"/>
 			</ArtDefDependencyPaths>
 			<LibraryDependencies/>
@@ -418,6 +425,12 @@
 		<Element>
 			<ArtDefPath text="TerrainStyle.artdef"/>
 			<ArtDefDependencyPaths/>
+		</Element>
+		<Element>
+			<ArtDefPath text="Terrains.artdef"/>
+			<ArtDefDependencyPaths>
+				<Element text="StrategicView.artdef"/>
+			</ArtDefDependencyPaths>
 		</Element>
 		<Element>
 			<ArtDefPath text="Features.artdef"/>
@@ -553,7 +566,9 @@
 		</Element>
 		<Element>
 			<LibraryName text="VFX"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="NW_VFX.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="Water"/>

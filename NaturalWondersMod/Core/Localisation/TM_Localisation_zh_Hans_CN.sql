@@ -212,6 +212,21 @@ VALUES
 	("zh_Hans_CN",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",	"+{1_Amount} 攻击力当位于丘陵 (马特洪峰)"	),
 
 -----------------------------------------------
+-- MOSI_OA_TUNYA
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_FEATURE_MOSI_OA_TUNYA_NAME",					"Mosi-oa-Tunya"	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",			"Two tile impassable natural wonder. Provides fresh water. Adjacent plots yield +2 [ICON_FOOD] Food."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",				"Improved bonus resources adjacent to a river provide +1 [ICON_FOOD] Food for the Civilization that owns this tile."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT}"	),
+	
+	("zh_Hans_CN",	'LOC_TM_FEATURE_MOSI_OA_TUNYA_QUOTE',	
+	'"Creeping with awe to the verge, I peered down into a large rent and saw that a stream of a thousand yards broad leaped down a hundred feet, and then became suddenly compressed into a space of fifteen or twenty yards, the most wonderful sight I had witnessed in Africa."[NEWLINE]- David Livingstone'	),
+	
+	("zh_Hans_CN",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOSI_OA_TUNYA_CHAPTER_HISTORY_PARA_1",	
+	"The Mosi-oa-Tunya, otherwise known as Victoria Falls, is among the most spectacular waterfalls in the world. The Zambezi River, which is more than 2 kilometers wide at this point, plunges noisily down a series of basalt gorges and raises an iridescent mist that can be seen more than 50 km away. Its name, which translates to 'The Smoke Which Thunders', comes from the Kololo or Lozi language used throughout Zambia and in parts of Zimbabwe, though it is more commonly known worldwide as Victoria Falls due to Scottish missionary and explorer, David Livingstone, who is perhaps most famous for giving a name to a waterfall that already had one."	),
+
+-----------------------------------------------
 -- MOTLATSE CANYON
 -----------------------------------------------
 
@@ -234,6 +249,20 @@ VALUES
 	"布莱德河峡谷(BlydeRivercanyon)是由于河流冲刷龙山山脉，切穿陡坡而自然天成，而峡谷最清楚的目标，是三座圆锥巨岩排列组成的状似圆形茅草屋(ThreeRondavels)，由对岸遥看，俨然像三姐妹矗立，很壮观!布莱德河在山区刻画出一道深遂的峡谷，河谷上方有许多观景台，这里是自然保护区，免收门票，但有时间管制，峡谷绵延八百多米，其间瀑布、奇石景观特殊，千年滴水穿石的奇特景观，不得不赞叹大自然的鬼斧神刀."	),
 
 -----------------------------------------------
+-- NAMIB
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_FEATURE_NAMIB_NAME",					"Namib"	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Two tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"Foreign [ICON_TRADEROUTE] Trade Routes that pass through your cities provide +1 [ICON_CULTURE] Culture for any Civilization that owns at least one of these tiles."	),
+	
+	("zh_Hans_CN",	'LOC_TM_FEATURE_NAMIB_QUOTE',	
+	'"I love to hear the sound made by sand dunes, I am one of those who perceive the rhythm of a landscape as recorded in many paintings, I am one of thousands who know I am finally home."[NEWLINE]- Mvula Ya Nangolo'	),
+	
+	("zh_Hans_CN",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_NAMIB_CHAPTER_HISTORY_PARA_1",	
+	"The Namib is a coastal desert in southern Africa, whose name is of Nama origin and means 'vast place'. The Namib stretches for more than 2,000km along the Atlantic coasts of Angola, Namibia, and South Africa. Having endured arid, or semi-arid conditions for roughly 55-80 million years, the Namib may be the oldest desert in the world, containing some of the world's driest regions. Owing to its aridity, the Namib is almost totally uninhabited except for a small number of scattered settlements, which have historically served as trading posts for the routes of traders and missionaries that cross the desert."	),
+
+-----------------------------------------------
 -- OLD FAITHFUL
 -----------------------------------------------
 
@@ -246,6 +275,26 @@ VALUES
 	
 	("zh_Hans_CN",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OLD_FAITHFUL_CHAPTER_HISTORY_PARA_1",	
 	"老忠实泉是美国怀俄明州黄石国家公园的一处间歇泉。欧洲人第一次发现老忠实泉是在1870年（早在一万多年美国土著就已发现了）。之所以命名为老忠实泉是因为它喷发特别有规律。每隔60至90分钟，老忠实泉就会喷发出一条大约100到175英尺高的热水柱（间歇取决于上一次喷发的激烈度）。当地下水遇到岩浆（熔化了的岩石），遇热变成蒸汽，在极高压下从最近的地表开口出喷涌而出，便形成了间歇泉。每一年老忠实泉与黄石国家公园里的其他250处间歇泉都吸引了近三百万游客前来观赏这一壮丽景观."	),
+ 
+-----------------------------------------------
+-- OUNIANGA
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_FEATURE_OUNIANGA_NAME",					"Ounianga"	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
+
+	("zh_Hans_CN",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("zh_Hans_CN",	"LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_SCIENCE] Science from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("zh_Hans_CN",	"LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",			"+{1_num} [ICON_CULTURE] Culture from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("zh_Hans_CN",	"LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Gold from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("zh_Hans_CN",	"LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Production from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	
+	("zh_Hans_CN",	'LOC_TM_FEATURE_OUNIANGA_QUOTE',	
+	'"At the beginning, the language of the desert was grass blooming against the wall of wind, tall palms swaying in the season of seeding and cinders carried by air to the blue welcome of warm sand. She was our first fountain, our mother, who held us, then gave us away to the age of waiting cities."[NEWLINE]- Al-Munsif al-Wahaybi'	),
+	
+	("zh_Hans_CN",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1",	
+	"Lakes of Ounianga are a series of eighteen interconnected lakes in the hyper arid Ennedi region of the Sahara desert, occupying a basin in the mountains of West Tibesti and Ennedi East. It constitutes an exceptional natural landscape of great beauty with striking colours and shapes. The saline, hyper saline and freshwater lakes are supplied by groundwater and are found in two groups 40 km apart. Ounianga Kebir comprises four lakes, the largest of which, Yoan, covers an area of 358 ha and is 27 m deep. Its highly saline waters only sustain algae and some microorganisms. The second group, Ounianga Serir, comprises fourteen lakes separated by sand dunes. Floating reeds cover almost half the surface of these lakes reducing evaporation. Lake Teli has the largest surface area but is less than 10 m deep. With their high quality freshwater, some of these lakes are home to aquatic fauna, particularly fish."	),
 
 -----------------------------------------------
 -- PANTANAL
@@ -362,6 +411,20 @@ VALUES
 
 	("zh_Hans_CN",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"一格无法逾越的自然奇观. 相邻单元格 +1 [ICON_CULTURE] 文化 and +1 [ICON_FAITH] 信仰."	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_ULURU_EFFECT",			"拥有此奇观的城市位于沙漠上的区域 +1 [ICON_FOOD] 食物."	),
+
+-----------------------------------------------
+-- VREDEFORT DOME
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"Vredefort Dome"	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",		"Two tile natural wonder. Yields +2 [ICON_FOOD] Food, +2 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",				"Farms provide +1 [ICON_FOOD] Food when adjacent to another Farm for any Civilization that owns at least one of these tiles."	),
+	
+	("zh_Hans_CN",	'LOC_TM_FEATURE_VREDEFORT_DOME_QUOTE',	
+	'"When geologists first wandered the spectacular ring of hills straddling the Vaal River north of Vredefort nearly 150 years ago, they immediately recognised that the unusually shattered and uptilted rocks bore witness to an exceptionally violent event in the distant past."[NEWLINE]- Wolf Uwe Reimold'	),
+	
+	("zh_Hans_CN",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_VREDEFORT_DOME_CHAPTER_HISTORY_PARA_1",	
+	"The Vredefort Dome is the largest verified impact crater on Earth, more than 300km across when it was formed. What remains of it is located in the present-day Free State province of South Africa where cultivated agriculture dominates the landscape. The crater is estimated to be over 2 billion years old, with impact taking place in the Paleoproterozoic Era, making it the second-oldest known crater on Earth."	),
 
 -----------------------------------------------
 -- WULINGYUAN

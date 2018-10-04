@@ -5,11 +5,11 @@
     <Description>A mod that reworks Natural Wonders in Civilization VI, and adds 13 new ones that include some old fan-favourites.</Description>
     <Teaser>A mod that reworks Natural Wonders in Civilization VI, and adds 13 new ones that include some old fan-favourites.</Teaser>
     <Authors>Deliverator, ChimpanG</Authors>
-	<SpecialThanks>Sub6</SpecialThanks>
+    <SpecialThanks>Sub6</SpecialThanks>
   </Properties>
-  <ActionCriteria>
+<ActionCriteria>
     <Criteria id="XP1">
-		<GameCoreInUse>Expansion1</GameCoreInUse>
+        <GameCoreInUse>Expansion1</GameCoreInUse>
     </Criteria>
 </ActionCriteria>
   <InGameActions>
@@ -70,6 +70,10 @@
       <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Sinai.sql</File>
       <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_SriPada.sql</File>
       <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Wulingyuan.sql</File>
+      <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_MosiOaTunya.sql</File>
+      <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Namib.sql</File>
+      <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Ounianga.sql</File>
+      <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_VredefortDome.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="TM_Wonders_XP1_DB">
       <Properties>
@@ -169,6 +173,7 @@
     <File>ArtDefs/Clutter.artdef</File>
     <File>ArtDefs/Features.artdef</File>
     <File>ArtDefs/StrategicView.artdef</File>
+    <File>ArtDefs/Terrains.artdef</File>
     <File>ArtDefs/TerrainStyle.artdef</File>
     <File>Core/Framework/TM_Master.sql</File>
     <File>Core/Framework/TM_Schema.sql</File>
@@ -212,11 +217,15 @@
     <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Kailash.sql</File>
     <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Krakatoa.sql</File>
     <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_LakeVictoria.sql</File>
+    <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_MosiOaTunya.sql</File>
     <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_MotlatseCanyon.sql</File>
+    <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Namib.sql</File>
     <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_OldFaithful.sql</File>
+    <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Ounianga.sql</File>
     <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_SalarDeUyuni.sql</File>
     <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Sinai.sql</File>
     <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_SriPada.sql</File>
+    <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_VredefortDome.sql</File>
     <File>Core/Natural Wonders/Features/Terra Mirabilis/TM_Wulingyuan.sql</File>
     <File>Core/Natural Wonders/Features/XP1/TM_DelicateArch.sql</File>
     <File>Core/Natural Wonders/Features/XP1/TM_EyeOfTheSahara.sql</File>
@@ -237,11 +246,33 @@
     <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
     <File>NaturalWondersMod.dep</File>
     <File>Platforms/MacOS/BLPs/environment/clutter.blp</File>
+    <File>Platforms/MacOS/BLPs/NW_VFX.blp</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_2TileDecalGuide3</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_3TileDecalGuide5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_2TileDecalGuide3_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_3TileDecalGuide5_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_Flowered_White_B_null</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Crater_Decal4_B_null</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Kailash_Decal3_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Mosi_Decal_B5_null</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_SriPadaS7_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Okavango_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_2_B4_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_B_null</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Vredefort_Decal_B2_null</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N0</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_AQD_Water_a_still</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_01</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_02</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_B</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_FOW</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal_H</File>
@@ -249,10 +280,18 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_B</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_FOW</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_S</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_B5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_G4</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_H4</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_B</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_FOW</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_H</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Tsingy_Decal_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_G</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_H</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_2_O4</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Aluminum_Decal_FOW</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_B</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_G</File>
@@ -261,6 +300,11 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_M</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N0</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_B2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_G2</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_H4</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_White32</File>
     <File>Platforms/MacOS/BLPs/strategicview/strategicview_features.blp</File>
     <File>Platforms/MacOS/BLPs/terrain/TerrainAssetSet_Base.blp</File>
     <File>Platforms/MacOS/BLPs/terrain/TerrainElementSet_Base.blp</File>
@@ -268,11 +312,33 @@
     <File>Platforms/MacOS/BLPs/UI/Icons.blp</File>
     <File>Platforms/MacOS/BLPs/Water.blp</File>
     <File>Platforms/Windows/BLPs/environment/clutter.blp</File>
+    <File>Platforms/Windows/BLPs/NW_VFX.blp</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_2TileDecalGuide3</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_3TileDecalGuide5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_2TileDecalGuide3_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_3TileDecalGuide5_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Foliage_Bld_Flowered_White_B_null</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Crater_Decal4_B_null</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Kailash_Decal3_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_Mosi_Decal_B5_null</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_NWON_SriPadaS7_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Okavango_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_2_B4_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Pillaged_Foliage_B_null</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_B_null</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_RES_Silver_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Tree_PIL_Decal_B_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_DiffuseTint_Vredefort_Decal_B2_null</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_Flowered_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N0</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Foliage_Bld_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FOW_Tree_PIL_Decal</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_AQD_Water_a_still</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_01</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_02</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_B</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_FOW</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal_H</File>
@@ -280,10 +346,18 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_B</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_FOW</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Kailash_Decal3_S</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_B5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_G4</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Mosi_Decal_H4</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_B</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_FOW</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_SriPadaS7_Decal_H</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Tsingy_Decal_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_G</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_H</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_2_O4</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Aluminum_Decal_FOW</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_B</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_G</File>
@@ -292,6 +366,11 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_M</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N0</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_B2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_G2</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_H4</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_White32</File>
     <File>Platforms/Windows/BLPs/strategicview/strategicview_features.blp</File>
     <File>Platforms/Windows/BLPs/terrain/TerrainAssetSet_Base.blp</File>
     <File>Platforms/Windows/BLPs/terrain/TerrainElementSet_Base.blp</File>
