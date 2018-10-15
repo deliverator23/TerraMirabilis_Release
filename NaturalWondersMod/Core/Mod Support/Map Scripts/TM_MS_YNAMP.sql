@@ -62,7 +62,7 @@ VALUES	('FEATURE_BARRINGER_CRATER',	'GiantEarth',		'TERRAIN_PLAINS',			135,	61	)
 		('FEATURE_MOTLATSE_CANYON',		'GiantEarth',		'TERRAIN_GRASS',			29,		14	),
 		('FEATURE_MOTLATSE_CANYON',		'GiantEarth',		'TERRAIN_GRASS',			29,		15	),
 		('FEATURE_MOTLATSE_CANYON',		'GreatestEarthMap',	'TERRAIN_GRASS',			57,		9	),
-		('FEATURE_MOTLATSE_CANYON',		'GreatestEarthMap',	'TERRAIN_GRASS',			57,		8	),
+		('FEATURE_MOTLATSE_CANYON',		'GreatestEarthMap',	'TERRAIN_GRASS',			59,		8	),
 		('FEATURE_MOTLATSE_CANYON',		'GreatestEarthMap',	'TERRAIN_GRASS',			58,		9	),
 		('FEATURE_MOTLATSE_CANYON',		'GreatestEarthMap',	'TERRAIN_GRASS',			59,		9	),
 		('FEATURE_MOTLATSE_CANYON',		'CordiformEarth',	'TERRAIN_GRASS',			39,		5	),
