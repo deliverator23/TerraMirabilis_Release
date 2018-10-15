@@ -61,7 +61,7 @@ VALUES
 -- CRATER LAKE
 -----------------------------------------------
  
-    ("ja_JP",   "LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",   "1タイルの自然遺産。湖。淡水をもたらす。 [ICON_Faith] 信仰力+4、 [ICON_Science] 科学力+1。"    ),
+    ("ja_JP",   "LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",   "1タイルの自然遺産。湖。真水をもたらす。 [ICON_Faith] 信仰力+4、 [ICON_Science] 科学力+1。"    ),
     ("ja_JP",   "LOC_TM_FEATURE_CRATER_LAKE_EFFECT",        "このタイルを領有する都市では、 [ICON_Faith] 信仰力を用いて建造物を購入できる。"    ),
  
 -----------------------------------------------
@@ -186,7 +186,7 @@ VALUES
 -----------------------------------------------
  
     ("ja_JP",   "LOC_FEATURE_LAKE_VICTORIA_NAME",               "ヴィクトリア湖"   ),
-    ("ja_JP",   "LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION",     "4タイルの自然遺産。湖。淡水をもたらす。 [ICON_Food] 食料+3、 [ICON_Culture] 文化力+1、 [ICON_Gold] ゴールド+1。"  ),
+    ("ja_JP",   "LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION",     "4タイルの自然遺産。湖。真水をもたらす。 [ICON_Food] 食料+3、 [ICON_Culture] 文化力+1、 [ICON_Gold] ゴールド+1。"  ),
     ("ja_JP",   "LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT",          "このタイルを1つ以上領有する文明は、 [ICON_Capital] 首都と異なる大陸にある都市で [ICON_FoodSurplus] 成長速度+15%を得る。"  ),
      
     ("ja_JP",   'LOC_TM_FEATURE_LAKE_VICTORIA_QUOTE',   
@@ -211,19 +211,19 @@ VALUES
  
     ("ja_JP",   "LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",    "丘陵で+{1_Amount} (マッターホルン)"  ),
  
- -----------------------------------------------
+-----------------------------------------------
 -- MOSI_OA_TUNYA
 -----------------------------------------------
 
-	("ja_JP",	"LOC_FEATURE_MOSI_OA_TUNYA_NAME",					"Mosi-oa-Tunya"	),
-	("ja_JP",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",			"Two tile impassable natural wonder. Provides fresh water. Adjacent plots yield +2 [ICON_FOOD] Food."	),
-	("ja_JP",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",				"Improved bonus resources adjacent to a river provide +1 [ICON_FOOD] Food for the Civilization that owns this tile."	),
+	("ja_JP",	"LOC_FEATURE_MOSI_OA_TUNYA_NAME",					"モシ・オ・トゥニャ"	),
+	("ja_JP",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",			"2タイルの自然遺産。通行不可。真水をもたらす。隣接するタイルに [ICON_Food] 食料+2。"	),
+	("ja_JP",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",				"このタイルを1つ以上領有する文明は、川に隣接した改善済みボーナス資源に [ICON_FOOD] 食料+1がもたらされる。"	),
 	
 	("ja_JP",	'LOC_TM_FEATURE_MOSI_OA_TUNYA_QUOTE',	
-	'"Creeping with awe to the verge, I peered down into a large rent and saw that a stream of a thousand yards broad leaped down a hundred feet, and then became suddenly compressed into a space of fifteen or twenty yards, the most wonderful sight I had witnessed in Africa."[NEWLINE]- David Livingstone'	),
+	'「恐れおののきながら絶壁を覗き込むと、幅1000ヤードの水が高さ100フィートから流れ落ち、突如として15～20フィートの幅に収縮していた。あれこそ、私がアフリカで目にした最も素晴らしい光景だ。」[NEWLINE]– デイヴィッド・リヴィングストン'	),
 	
 	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOSI_OA_TUNYA_CHAPTER_HISTORY_PARA_1",	
-	"The Mosi-oa-Tunya, otherwise known as Victoria Falls, is among the most spectacular waterfalls in the world. The Zambezi River, which is more than 2 kilometers wide at this point, plunges noisily down a series of basalt gorges and raises an iridescent mist that can be seen more than 50 km away. Its name, which translates to 'The Smoke Which Thunders', comes from the Kololo or Lozi language used throughout Zambia and in parts of Zimbabwe, though it is more commonly known worldwide as Victoria Falls due to Scottish missionary and explorer, David Livingstone, who is perhaps most famous for giving a name to a waterfall that already had one."	),
+	"モシ・オ・トゥニャ、別名「ヴィクトリアの滝」は、世界で最も壮観な滝である。この場所では、幅2キロメートル以上になるザンベジ川が凄まじい音を立てて玄武岩の峡谷に流れ込む。このとき立ち上がる虹色の霧は50キロメートル先からも見ることができる。「モシ・オ・トゥニャ」という名前は、ザンビアの全土やジンバブエの一部で用いられるコロロ語やロジ語で「雷鳴轟く水煙」という意味を持つ。もっとも、世界的には「ヴィクトリアの滝」という名前で知られている。これを命名したのは、スコットランドの伝道師で探検家でもあったデイヴィッド・リヴィングストンである。"	),
 
 -----------------------------------------------
 -- MOTLATSE CANYON
@@ -265,35 +265,35 @@ VALUES
 -- NAMIB
 -----------------------------------------------
 
-	("ja_JP",	"LOC_FEATURE_NAMIB_NAME",					"Namib"	),
-	("ja_JP",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Two tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
-	("ja_JP",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"Foreign [ICON_TRADEROUTE] Trade Routes that pass through your cities provide +1 [ICON_CULTURE] Culture for any Civilization that owns at least one of these tiles."	),
+	("ja_JP",	"LOC_FEATURE_NAMIB_NAME",					"ナミブ砂漠"	),
+	("ja_JP",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"2タイルの自然遺産。隣接するタイルに  [ICON_CULTURE] 文化力+1および [ICON_GOLD] ゴールド+1。"	),
+	("ja_JP",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"このタイルを1つ以上領有する文明は、国内都市を通過する他国の [ICON_TRADEROUTE] 交易路から [ICON_CULTURE] 文化力+1を得る。"	),
 	
 	("ja_JP",	'LOC_TM_FEATURE_NAMIB_QUOTE',	
-	'"I love to hear the sound made by sand dunes, I am one of those who perceive the rhythm of a landscape as recorded in many paintings, I am one of thousands who know I am finally home."[NEWLINE]- Mvula Ya Nangolo'	),
+	'「私は砂丘の奏でる音が好きだ。多くの絵画に描かれた風景のリズムを受け止め、ついに故郷へ戻ってきたことを知る。」[NEWLINE]– ムヴラ・ヤ・ナンゴロ'	),
 	
 	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_NAMIB_CHAPTER_HISTORY_PARA_1",	
-	"The Namib is a coastal desert in southern Africa, whose name is of Nama origin and means 'vast place'. The Namib stretches for more than 2,000km along the Atlantic coasts of Angola, Namibia, and South Africa. Having endured arid, or semi-arid conditions for roughly 55-80 million years, the Namib may be the oldest desert in the world, containing some of the world's driest regions. Owing to its aridity, the Namib is almost totally uninhabited except for a small number of scattered settlements, which have historically served as trading posts for the routes of traders and missionaries that cross the desert."	),
+	"ナミブは、アフリカ南部の沿岸にある砂漠である。その名はナマ語に由来し、「広漠とした場所」という意味を持っている。砂漠は2000キロメートル以上にわたり、アンゴラ、ナミビア、南アフリカにまで及んでいる。この乾燥・準乾燥状態は5500万年から8000万年ほど続いており、世界で最も古い砂漠といえるかもしれない。世界有数の乾燥地帯であるため、ここで生活する者はほとんどいない。もっとも、少数の入植地が点在しており、これらの場所は歴史的に交易や伝道の中継地として機能してきた。"	),
 
 -----------------------------------------------
 -- OUNIANGA
 -----------------------------------------------
 
-	("ja_JP",	"LOC_FEATURE_OUNIANGA_NAME",					"Ounianga"	),
-	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
-	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
+	("ja_JP",	"LOC_FEATURE_OUNIANGA_NAME",					"ウニアンガ湖群"	),
+	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"2タイルの自然遺産。真水をもたらす。 [ICON_FOOD] 食料+3、 [ICON_CULTURE] 文化力+1、 [ICON_GOLD] ゴールド+1。"	),
+	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"このタイルを1つ以上領有する文明は、専門区域がオアシスから大量の隣接ボーナスを得る。"	),
 
-	("ja_JP",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("ja_JP",	"LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_SCIENCE] Science from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("ja_JP",	"LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",			"+{1_num} [ICON_CULTURE] Culture from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("ja_JP",	"LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Gold from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("ja_JP",	"LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Production from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ja_JP",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"隣接するオアシスにより [ICON_FAITH] 信仰力+{1_num} (ウニアンガ湖群)。"	),
+	("ja_JP",	"LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",			"隣接するオアシスにより [ICON_SCIENCE] 科学力+{1_num} (ウニアンガ湖群)。"	),
+	("ja_JP",	"LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",			"隣接するオアシスにより [ICON_CULTURE] 文化力+{1_num} (ウニアンガ湖群)。"	),
+	("ja_JP",	"LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",			"隣接するオアシスにより [ICON_GOLD] ゴールド+{1_num} (ウニアンガ湖群)。"	),
+	("ja_JP",	"LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",		"隣接するオアシスにより [ICON_PRODUCTION] 生産力+{1_num} (ウニアンガ湖群)。"	),
 	
 	("ja_JP",	'LOC_TM_FEATURE_OUNIANGA_QUOTE',	
-	'"At the beginning, the language of the desert was grass blooming against the wall of wind, tall palms swaying in the season of seeding and cinders carried by air to the blue welcome of warm sand. She was our first fountain, our mother, who held us, then gave us away to the age of waiting cities."[NEWLINE]- Al-Munsif al-Wahaybi'	),
+	'「当初、砂漠の言葉は、風の壁、揺れるヤシの木、気流に乗って砂へと運ばれる噴石に抗って茂る草であった。彼女は我々にとって最初の噴水であり、母であり、後に到来する都市の時代へと人々を誘ってくれた。」[NEWLINE]– アル＝ムンシフ・アル＝ワハイビ'	),
 	
 	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1",	
-	"Lakes of Ounianga are a series of eighteen interconnected lakes in the hyper arid Ennedi region of the Sahara desert, occupying a basin in the mountains of West Tibesti and Ennedi East. It constitutes an exceptional natural landscape of great beauty with striking colours and shapes. The saline, hyper saline and freshwater lakes are supplied by groundwater and are found in two groups 40 km apart. Ounianga Kebir comprises four lakes, the largest of which, Yoan, covers an area of 358 ha and is 27 m deep. Its highly saline waters only sustain algae and some microorganisms. The second group, Ounianga Serir, comprises fourteen lakes separated by sand dunes. Floating reeds cover almost half the surface of these lakes reducing evaporation. Lake Teli has the largest surface area but is less than 10 m deep. With their high quality freshwater, some of these lakes are home to aquatic fauna, particularly fish."	),
+	"ウニアンガ湖群は、サハラ砂漠のエネディ地域にある18の湖である。ティベスティ山地西部からエネディ地域東部に位置しており、際立つ色と形をした美しい景観をたたえている。この塩湖、過塩湖、淡水湖は地下水から供給されたもので、40キロメートル離れた2つのグループとして構成されている。1つ目のグループ、ウニアンガ・ケビル群は4つの湖からなる。その中で最も大きいヨアン湖は358ヘクタールの広さと27メートルの深さを備えている。ここは塩分濃度が高いため、藻類と少数の微生物しか生息していない。2つ目のグループ、ウニアンガ・セリル群は14の湖からなり、砂丘で隔てられている。これらの湖面の約半分は浮き葦で覆われていて、水の蒸発が防がれている。テリ湖は湖面が最も広いが、深さは10メートルにも満たない。これらの湖は純度の高い淡水湖であるため、魚などの水生生物が生息している。"	),
 
 -----------------------------------------------
 -- PANTANAL
@@ -414,15 +414,15 @@ VALUES
 -- VREDEFORT DOME
 -----------------------------------------------
 
-	("ja_JP",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"Vredefort Dome"	),
-	("ja_JP",	"LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",		"Two tile natural wonder. Yields +2 [ICON_FOOD] Food, +2 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
-	("ja_JP",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",				"Farms provide +1 [ICON_FOOD] Food when adjacent to another Farm for any Civilization that owns at least one of these tiles."	),
+	("ja_JP",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"フレデフォート・ドーム"	),
+	("ja_JP",	"LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",		"2タイルの自然遺産。 [ICON_FOOD] 食料+2、 [ICON_SCIENCE] 科学力+2、 [ICON_CULTURE] 文化力+1。"	),
+	("ja_JP",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",				"このタイルを1つ以上領有する都市は、別の農場に隣接する農場に対して [ICON_FOOD] 食料+1がもたらされる。"	),
 	
 	("ja_JP",	'LOC_TM_FEATURE_VREDEFORT_DOME_QUOTE',	
-	'"When geologists first wandered the spectacular ring of hills straddling the Vaal River north of Vredefort nearly 150 years ago, they immediately recognised that the unusually shattered and uptilted rocks bore witness to an exceptionally violent event in the distant past."[NEWLINE]- Wolf Uwe Reimold'	),
+	'「約150年前、フレデフォート北部のバール川に広がる壮観な丘陵地帯を散策した地質学者たちがいた。彼らは、不自然なほど粉々に砕けて上を向いた岩を目にし、遙か昔に起きた激変的現象を即座に見抜いたのである。」[NEWLINE]– ヴォルフ・ウーヴェ・ライモルド'	),
 	
 	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_VREDEFORT_DOME_CHAPTER_HISTORY_PARA_1",	
-	"The Vredefort Dome is the largest verified impact crater on Earth, more than 300km across when it was formed. What remains of it is located in the present-day Free State province of South Africa where cultivated agriculture dominates the landscape. The crater is estimated to be over 2 billion years old, with impact taking place in the Paleoproterozoic Era, making it the second-oldest known crater on Earth."	),
+	"フレデフォート・ドームは、地球上で確認された中で最大のクレーターである。形成時点では300キロメートルを超える規模であったとされる。現在残っている隕石跡は、南アフリカのフリーステイト州に位置しており、現地では農業が営まれている。クレーターは20億年以上前の古原生代に形成されたと考えられていて、地球上で知られている中では2番目に古いクレーターとされている。"	),
  
 -----------------------------------------------
 -- WULINGYUAN
@@ -472,4 +472,4 @@ VALUES
 -- MOD SUPPORT
 -----------------------------------------------
  
-    ("ja_JP",   "LOC_TM_FEATURE_FUJI_DESCRIPTION",      "1タイルの自然遺産。通行不可。山岳。隣接するタイルに [ICON_Culture] 文化力+1、 [ICON_Faith] 信仰力+1。隣接するタイルに建設する区域に対し、対応する [ICON_GreatPerson] 偉人ポイント+2。"   );
+    ("ja_JP",   "LOC_TM_FEATURE_FUJI_DESCRIPTION",      "1タイルの自然遺産。通行不可。山岳。隣接するタイルに [ICON_Culture] 文化力+1、 [ICON_Faith] 信仰力+1。[NEWLINE][NEWLINE]隣接するタイルに建設する区域に対し、対応する [ICON_GreatPerson] 偉人ポイント+2。"   );
