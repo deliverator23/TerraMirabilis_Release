@@ -548,7 +548,9 @@
 		</Element>
 		<Element>
 			<LibraryName text="TileBase"/>
-			<PackageDependencies/>
+			<PackageDependencies>
+				<Element text="landmarks/tilebases.blp"/>
+			</PackageDependencies>
 		</Element>
 		<Element>
 			<LibraryName text="UILensAsset"/>

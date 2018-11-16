@@ -104,12 +104,12 @@ VALUES	('FEATURE_BARRINGER_CRATER',	'GiantEarth',		'TERRAIN_PLAINS',			135,	61	)
 		('FEATURE_WULINGYUAN',			'CordiformEarth',	'TERRAIN_GRASS',			60,		29	),
 		('FEATURE_WULINGYUAN',			'CordiformEarth',	'TERRAIN_GRASS',			60,		30	),
 
-		('FEATURE_VREDEFORT_DOME',			'GiantEarth',		'TERRAIN_GRASS',			27,		12	),
-		('FEATURE_VREDEFORT_DOME',			'GiantEarth',		'TERRAIN_GRASS',			27,		13	),
-		('FEATURE_VREDEFORT_DOME',			'GreatestEarthMap',	'TERRAIN_GRASS',			58,		9	),
-		('FEATURE_VREDEFORT_DOME',			'GreatestEarthMap',	'TERRAIN_GRASS',			59,		9	),
-		('FEATURE_VREDEFORT_DOME',			'CordiformEarth',	'TERRAIN_GRASS',			40,		4	),
-		('FEATURE_VREDEFORT_DOME',			'CordiformEarth',	'TERRAIN_GRASS',			40,		4	),
+		('FEATURE_VREDEFORT_DOME',		'GiantEarth',		'TERRAIN_GRASS',			27,		12	),
+		('FEATURE_VREDEFORT_DOME',		'GiantEarth',		'TERRAIN_GRASS',			27,		13	),
+		('FEATURE_VREDEFORT_DOME',		'GreatestEarthMap',	'TERRAIN_GRASS',			58,		9	),
+		('FEATURE_VREDEFORT_DOME',		'GreatestEarthMap',	'TERRAIN_GRASS',			59,		9	),
+		('FEATURE_VREDEFORT_DOME',		'CordiformEarth',	'TERRAIN_GRASS',			40,		4	),
+		('FEATURE_VREDEFORT_DOME',		'CordiformEarth',	'TERRAIN_GRASS',			40,		4	),
 
 		('FEATURE_OUNIANGA',			'GiantEarth',		'TERRAIN_DESERT',			26,		42	),
 		('FEATURE_OUNIANGA',			'GiantEarth',		'TERRAIN_DESERT',			26,		41	),
@@ -118,19 +118,27 @@ VALUES	('FEATURE_BARRINGER_CRATER',	'GiantEarth',		'TERRAIN_PLAINS',			135,	61	)
 		('FEATURE_OUNIANGA',			'CordiformEarth',	'TERRAIN_DESERT',			40,		15	),
 		('FEATURE_OUNIANGA',			'CordiformEarth',	'TERRAIN_DESERT',			40,		16	),
 
-		('FEATURE_MOSI_OA_TUNYA',			'GiantEarth',		'TERRAIN_PLAINS',	27,		23	),
-		('FEATURE_MOSI_OA_TUNYA',			'GreatestEarthMap',	'TERRAIN_PLAINS',	59,		12),
-		('FEATURE_MOSI_OA_TUNYA',			'CordiformEarth',	'TERRAIN_PLAINS',	41,		8	),
+		('FEATURE_MOSI_OA_TUNYA',		'GiantEarth',		'TERRAIN_PLAINS',			27,		23	),
+		('FEATURE_MOSI_OA_TUNYA',		'GreatestEarthMap',	'TERRAIN_PLAINS',			59,		12	),
+		('FEATURE_MOSI_OA_TUNYA',		'CordiformEarth',	'TERRAIN_PLAINS',			41,		8	),
 
-		('FEATURE_NAMIB',			'GiantEarth',		'TERRAIN_DESERT',			21,		20	),
-		('FEATURE_NAMIB',			'GiantEarth',		'TERRAIN_DESERT',			20,		19	),
-		('FEATURE_NAMIB',			'GiantEarth',		'TERRAIN_DESERT',			20,		18	),
-		('FEATURE_NAMIB',			'GreatestEarthMap',	'TERRAIN_DESERT',			52,		11	),
-		('FEATURE_NAMIB',			'GreatestEarthMap',	'TERRAIN_DESERT',			53,		10	),
-		('FEATURE_NAMIB',			'GreatestEarthMap',	'TERRAIN_DESERT',			53,		9	),
-		('FEATURE_NAMIB',			'CordiformEarth',	'TERRAIN_DESERT',			36,		7	),
-		('FEATURE_NAMIB',			'CordiformEarth',	'TERRAIN_DESERT',			37,		6	),
-		('FEATURE_NAMIB',			'CordiformEarth',	'TERRAIN_DESERT',			37,		5	);
+		('FEATURE_NAMIB',				'GiantEarth',		'TERRAIN_DESERT',			21,		20	),
+		('FEATURE_NAMIB',				'GiantEarth',		'TERRAIN_DESERT',			20,		19	),
+		('FEATURE_NAMIB',				'GiantEarth',		'TERRAIN_DESERT',			20,		18	),
+		('FEATURE_NAMIB',				'GreatestEarthMap',	'TERRAIN_DESERT',			52,		11	),
+		('FEATURE_NAMIB',				'GreatestEarthMap',	'TERRAIN_DESERT',			53,		10	),
+		('FEATURE_NAMIB',				'GreatestEarthMap',	'TERRAIN_DESERT',			53,		9	),
+		('FEATURE_NAMIB',				'CordiformEarth',	'TERRAIN_DESERT',			36,		7	),
+		('FEATURE_NAMIB',				'CordiformEarth',	'TERRAIN_DESERT',			37,		6	),
+		('FEATURE_NAMIB',				'CordiformEarth',	'TERRAIN_DESERT',			37,		5	),
+
+		('FEATURE_BIOLUMINESCENT_BAY',	'GiantEarth',		'TERRAIN_COAST',			158,	46	),
+		('FEATURE_BIOLUMINESCENT_BAY',	'GreatestEarthMap',	'TERRAIN_COAST',			29,		31	),
+		('FEATURE_BIOLUMINESCENT_BAY',	'CordiformEarth',	'TERRAIN_COAST',			13,		24	),
+
+		('FEATURE_DALLOL',				'GiantEarth',		'TERRAIN_DESERT',			35,		38	),
+		('FEATURE_DALLOL',				'GreatestEarthMap',	'TERRAIN_DESERT',			64,		28	),
+		('FEATURE_DALLOL',				'CordiformEarth',	'TERRAIN_DESERT',			47,		14	);
 
 -----------------------------------------------
 -- Number of Natural Wonders on Map Sizes

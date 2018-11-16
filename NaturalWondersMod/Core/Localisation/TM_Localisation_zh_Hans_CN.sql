@@ -35,6 +35,22 @@ VALUES
 	"巴林杰陨石坑是2~5万年前重约7万吨的陨石撞入地球，形成的陨石坑。陨石坑宽1264米，深174米，坑的内壁笔直陡峭。位于亚利桑那州弗拉格斯塔夫东部约40英里的地方。."	),
 
 -----------------------------------------------
+-- BIOLUMINESCENT BAY
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_FEATURE_BIOLUMINESCENT_BAY_NAME",					"Bioluminescent Bay"	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION",		"One tile natural wonder. Yields +2 [ICON_SCIENCE] Science, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT",				"Fishing Boats provide +1 [ICON_GOLD] Gold on outgoing international [ICON_TRADEROUTE] Trade Routes from their cities for any Civilization that owns this tile."	),
+	
+	("zh_Hans_CN",	'LOC_TM_FEATURE_BIOLUMINESCENT_BAY_QUOTE',
+	'"The emission of light from fire, lightning bolts, stars or living beings attracts the attention of any human being. In the case of bioluminescence the light has a strange glow, something magic and mysterious."[NEWLINE]- Cassius Stevani'	),
+	
+	("zh_Hans_CN",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_1",	
+	"The Bioluminescent Bay (also known as Puerto Mosquito, or Mosquito Bay), is considered the best example of a bioluminescent bay in the United States and is listed as a national natural landmark, one of five in Puerto Rico. The luminescence in the bay is caused by a micro-organism, the dinoflagellate Pyrodinium bahamense, which glows whenever the water is disturbed, leaving a trail of neon blue."	),
+	("zh_Hans_CN",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_2",	
+	"A combination of factors creates the necessary conditions for bioluminescence: red mangrove trees surround the water, a complete lack of modern development around the bay, the water is cool enough and deep enough, and a small channel to the ocean keeps the dinoflagellates in the bay. This small channel was created artificially, being the result of attempts by the occupants of Spanish ships to choke off the bay from the ocean. The Spanish believed that the bioluminescence they encountered there while first exploring the area, was the work of the devil and tried to block ocean water from entering the bay by dropping huge boulders in the channel. The Spanish only succeeded in preserving and increasing the luminescence in the now isolated bay."	),
+
+-----------------------------------------------
 -- CERRO DE POTOSI
 -----------------------------------------------
 
@@ -63,6 +79,28 @@ VALUES
 
 	("zh_Hans_CN",	"LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",	"一格自然奇观. 以湖泊形式出现并且提供淡水. 单元格 +4 [ICON_FAITH] 信仰 and +1 [ICON_SCIENCE] 科研."	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_CRATER_LAKE_EFFECT",		"拥有此奇观的城市可以用 [ICON_FAITH] 信仰购买建筑."	),
+
+-----------------------------------------------
+-- DALLOL
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_FEATURE_DALLOL_NAME",					"Dallol"	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_DALLOL_DESCRIPTION",		"One tile natural wonder. Provides +2 [ICON_SCIENCE] Science, +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_DALLOL_EFFECT",				"Grants a free copy of the [ICON_RESOURCE_TM_SYLVITE] Sylvite luxury resource (not tradeable), which provides +6 [ICON_Amenities] Amenities, to any Civilization that owns this tile."	),
+	
+	("zh_Hans_CN",	'LOC_TM_FEATURE_DALLOL_QUOTE',	
+	'"There is hell, there is darkness, there is the sulfurous pit— burning, scalding, stench, consumption!"[NEWLINE]- William Shakespeare, King Lear'	),
+	
+	("zh_Hans_CN",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_1",	
+	"Dallol is a cinder cone volcano in the Danakil Depression, northeast of the Erta Ale Range in Ethiopia. It has been formed by the intrusion of basaltic magma into Miocene salt deposits and subsequent hydrothermal activity. Phreatic eruptions took place in 1926, forming Dallol Volcano while numerous other eruption craters dot the salt flats nearby. These craters are the lowest known subaerial volcanic vents in the world, at 45 m (150 ft) or more below sea level."	),
+	("zh_Hans_CN",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_2",	
+	"Numerous hot springs are discharging brine and acidic liquid here. Small, widespread, temporary geysers produce cones of salt. The Dallol deposits include significant bodies of potash found directly at the surface. The term Dallol was coined by the Afar people and means dissolution or disintegration, describing a landscape of green acid ponds (pH-values less than 1) and iron oxide, sulfur and salt desert plains."	),
+
+	("zh_Hans_CN",	"LOC_RESOURCE_TM_SYLVITE_NAME",	"Sylvite"	),
+	("zh_Hans_CN",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_1",
+	"In Dallol, Ethiopia, Potash production is said to have reached 51,000 metric tons after 1917, and between the years 1925-29, an Italian company mined 25,000 tons of Sylvite. By 1965, about 10,000 holes had been drilled at 65 locations across Dallol."	),
+	("zh_Hans_CN",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_2",
+	"Named for the Dutch chemist, Francois Sylvius de le Boe, Sylvite was first described at Mt. Vesuvius near Napoli in Italy. Found in many evaporite deposits around the world, Sylvite is one of the last evaporite minerals to precipitate out of solution and as such, is only found in very dry saline areas. It is used for spectroscopic prisms and lenses, but its principal use is as a potassium fertilizer."	),
 
 -----------------------------------------------
 -- DEAD SEA
@@ -199,7 +237,7 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
 
-	("zh_Hans_CN",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"两格自然奇观. 相邻单元格 +1 [ICON_CULTURE] 文化 and +1 [ICON_SCIENCE] 科研"	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"三格自然奇观. 相邻单元格 +1 [ICON_CULTURE] 文化 and +1 [ICON_SCIENCE] 科研"	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",		"至少拥有一格此奇观的城市训练的海军单位+1次 [ICON_PROMOTION] 晋升."	),
 
 -----------------------------------------------
@@ -281,7 +319,7 @@ VALUES
 -----------------------------------------------
 
 	("zh_Hans_CN",	"LOC_FEATURE_OUNIANGA_NAME",					"Ounianga"	),
-	("zh_Hans_CN",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +2 [ICON_FOOD] Food, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
 
 	("zh_Hans_CN",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),

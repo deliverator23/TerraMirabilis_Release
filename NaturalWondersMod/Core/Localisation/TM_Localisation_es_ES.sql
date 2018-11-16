@@ -34,8 +34,16 @@ VALUES
 	("es_ES",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"Domo de Vredefort|Domos de Vredefort",		"masculine|masculine",	"1|2"	),
 
 	("es_ES",	"LOC_RESOURCE_TM_TORTOISE_NAME",					"Tortugas Gigantes",						"feminine",				"2"		),
-	("es_ES",	"LOC_RESOURCE_TM_LITHIUM_NAME",						"Litio",									"masculine",			"1"		);
+	("es_ES",	"LOC_RESOURCE_TM_LITHIUM_NAME",						"Litio",									"masculine",			"1"		),
 
+	("es_ES",	"LOC_FEATURE_BIOLUMINESCENT_BAY_NAME",				"Bahía Bioluminescente|Bahías Bioluminescentes",	"feminine|feminine",	"1|2"	),
+	("es_ES",	"LOC_FEATURE_DALLOL_NAME",							"Dallol|Dallol",							"masculine:sinartmasc",	"1|2"	),
+
+	("es_ES",	"LOC_RESOURCE_TM_TORTOISE_NAME",					"Tortugas Gigantes",						"feminine",				"2"		),
+	("es_ES",	"LOC_RESOURCE_TM_LITHIUM_NAME",						"Litio",									"masculine",			"1"		),
+
+	("es_ES",	"LOC_RESOURCE_TM_SYLVITE_NAME",						"Silvina",									"feminine",				"1"		);
+	
 INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
 VALUES
 
@@ -60,9 +68,23 @@ VALUES
 	"El cráter Barringer es un cráter enorme de meteorito ubicado en Arizona, en los Estados Unidos de América. El cráter tiene un diámetro de aproximadamente 1.200 metros, y los científicos creen que fue creado hace unos 50.000 años cuando el sitio fue golpeado por un gran meteorito de hierro y niquél que pesaba 160.000 toneladas en el momento del impacto y se estaba moviendo a unos 44.000 kilómetros por hora."	),
 
 -----------------------------------------------
--- CERRO DE POTOSI
+-- BIOLUMINESCENT BAY
 -----------------------------------------------
 
+	("es_ES",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION",		"Maravilla de la naturaleza de una casilla. Proporciona +2 a Ciencia [ICON_SCIENCE], +2 a Cultura [ICON_CULTURE], y +1 de Oro [ICON_GOLD]."	),
+	("es_ES",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT",				"Las mejoras de Barco pesquero proporciona +1 de Oro [ICON_GOLD] por rutas comerciales internationales [ICON_TRADEROUTE] que comienzan en la Civilización que tiene esta casilla."	),
+	
+	("es_ES",	'LOC_TM_FEATURE_BIOLUMINESCENT_BAY_QUOTE',
+	'"La emisión de luz del fuego, de rayos, de estrellos o de seres vivos atrae la atención de cualquier ser humano. En el caso de la bioluminiscencia, la luz tiene un brillo extraño, algo mágico y misterioso."[NEWLINE]- Cassius Stevani'	),
+	
+	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_1",	
+	"La Bahía Bioluminescente (también conocido como 'Puerto Mosquito' o 'Bahía Mosquito'), se considera el mejor ejemplo de una bahía bioluminescente en los Estados Unidos y está catalogada como uno hito natural nacional, uno de los cinco en Puerto Rico. La luminiscencia en la bahía es causada por un microorganismo particular - el dinoflagelado Pyrodinium bahamense - que brilla cada vez el agua se perturba, dejando un rastro de azul neón."	),
+	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_2",	
+	"Una combinación de factores crea las condiciones necesarias para la bioluminiscencia en esta bahía: los manglares rojos rodean el agua, la falta completa de desarrollo modern alrededor de la bahía, la suficiente frialdad y profundidad del agua, y el pequeño canal al océano que mantiene a los dinoflagelados en el bahía. Este pequeño canal fue creado artificalmente como resultado de los intentos de los ocupantes de los barcos españoles de ahogar la bahía desde el océano. Los españoles creyeron que la bioluminiscencia era obra del diablo e intentaron impedir que el agua del océano entrara en la bahía, arrojando rocas enormes en el canal. Sin embargo, los españoles solo lograron preservar y aumentar la luminiscencia en la bahía."	),
+
+-----------------------------------------------
+-- CERRO DE POTOSI
+-----------------------------------------------
 
 	("es_ES",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_DESCRIPTION",	"Maravilla de la naturaleza infranqueable de una casilla. Aparece como Montaña y proporciona +1 a la Producción [ICON_PRODUCTION] +1 de Oro [ICON_GOLD] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT",		"Rutas comerciales internacionales [ICON_TRADEROUTE] que comienzan en la ciudad que tiene esta casilla proporciona +4 de Oro [ICON_GOLD]."	),
@@ -88,6 +110,26 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",	"Maravilla de la naturaleza de una casilla. Aparece como un Lago y proporciona +4 a Fe [ICON_FAITH], +1 a Ciencia [ICON_SCIENCE], y Agua dulce."	),
 	("es_ES",	"LOC_TM_FEATURE_CRATER_LAKE_EFFECT",		"En la ciudad que tiene esta casilla, todos los edificios se pueden comprar con Fe [ICON_FAITH]."	),
+
+-----------------------------------------------
+-- DALLOL
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_DALLOL_DESCRIPTION",		"Maravilla de la naturaleza de una casilla. Proporciona +2 a Ciencia [ICON_SCIENCE], +2 a la Producción [ICON_PRODUCTION], y +1 de Oro [ICON_GOLD]."	),
+	("es_ES",	"LOC_TM_FEATURE_DALLOL_EFFECT",				"Cualquier Civilización que tiene al menos una de estas casillas recibe 1 de Silvina [ICON_RESOURCE_TM_SYLVITE], un recurso de lujo exclusivo que proporciona +6 a Servicios [ICON_Amenities]."	),
+	
+	("es_ES",	'LOC_TM_FEATURE_DALLOL_QUOTE',	
+	'"Ahí está el infierno, las tinieblas, el pozo sulfúreo, ardiendo, quemando; peste, podredumbre!"[NEWLINE]- William Shakespeare, El Rey Lear'	),
+	
+	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_1",	
+	"Dallol es un volcán de cono de ceniza en la depresión de Danakil, al noreste de la cordillera Erta Ale en Etiopía. Se formó por la intrusión de magma basáltico en los depósitos de sal del Mioceno y la subsiguiente actividad hidrotermal. Erupciones freáticas ocurrieron en 1926, formando el volcán Dallol. Muchos otros cráteres de erupción también salpican las salinas cercanas. Estos cráteres son los respiraderos volcánicos subaéreos más bajos del mundo, a 45 m (150 pies) o más por debajo del nivel del mar."	),
+	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_2",	
+	"Numerosas aguas termales descargan dsmlurts y líquido ácido aquí. Los géiseres pequeños, extensos, y temporales producen conos de sal y los depósitos de Dallol incluyen cantidades significativas de potasa que se encuentran directamente en la superficie. El término 'Dallol' fue acuñado por la gente de Afar y significa 'disolución' o 'desintegración,' que describe un pasiaje de estanques de ácidos verdes (valores de pH inferiores a 1) y planicies de óxido de hierro, azufre, y sal.' "	),
+
+	("es_ES",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_2",
+	"En Dallol, Etiopía, se dice que la producción de potasa alcanzó las 51000 toneladas métricas después de 1917, y entre los años 1925 - 1929, una compañía italiana extrajo 25000 toneladas de Silvina. Para 1965, se habían perforado unos 10000 agujeros en 65 ubicaciones en Dallol."	),
+	("es_ES",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_1",
+	"Silvina lleva el nombre del químico holandés Francois Sylvius de le Boe y se describió por la primera vez en Mt. Vesubio en Italia. Econtrado en muchos depósitos de evaporita en todo el mundo, Silvina us uno de los últimos minerales de evaporita que precipita de la solución y, como tal, solo se encuentra en áreas salinas muy secas. Se utiliza para prismas y lentes espectroscópicos, pero el uso principal de Silvina es como fertilizante de potasio."	),
 
 -----------------------------------------------
 -- DEAD SEA
@@ -219,7 +261,7 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
 
-	("es_ES",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"Maravilla de naturaleza de dos casillas. Proporciona +1 a Cultura [ICON_CULTURE] y +1 a Ciencia [ICON_SCIENCE] a las casillas adyacentes."	),
+	("es_ES",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"Maravilla de naturaleza de tres casillas. Proporciona +1 a Cultura [ICON_CULTURE] y +1 a Ciencia [ICON_SCIENCE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",		"Unidades navales entrenadas en una ciudad que tiene al menos una de estas casillas comienzan con un ascenso [ICON_PROMOTION] gratis."	),
 
 -----------------------------------------------
@@ -298,7 +340,7 @@ VALUES
 -- OUNIANGA
 -----------------------------------------------
 
-	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Maravilla de naturaleza de dos casillas. Proporciona +3 a Alimentos [ICON_FOOD], +1 a Cultura [ICON_CULTURE], and +1 de Oro [ICON_GOLD] y Agua dulce también."	),
+	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Maravilla de naturaleza de dos casillas. Proporciona +2 a Alimentos [ICON_FOOD], +2 a Cultura [ICON_CULTURE], and +1 de Oro [ICON_GOLD] y Agua dulce también."	),
 	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"En cualquier Civilización que tiene al menos una de estas casillas, Distritos especializados reciben una Bonificación mayor por casillas de Oasis."	),
 	("es_ES",	"LOC_TM_FEATURE_OUNIANGA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_OUNIANGA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_OUNIANGA_EFFECT}"	),
 

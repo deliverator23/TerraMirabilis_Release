@@ -35,6 +35,22 @@ VALUES
     "バリンジャー・クレーターは、アメリカのアリゾナ州にある巨大な隕石孔である。科学者によれば、約1.2キロメートルの直径を持つこのクレーターは、およそ5万年前に16万トンの鉄隕石が時速約4万キロで落下したことで作られたとのことである。"   ),
  
 -----------------------------------------------
+-- BIOLUMINESCENT BAY
+-----------------------------------------------
+
+	("ja_JP",	"LOC_FEATURE_BIOLUMINESCENT_BAY_NAME",					"Bioluminescent Bay"	),
+	("ja_JP",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION",		"One tile natural wonder. Yields +2 [ICON_SCIENCE] Science, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("ja_JP",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT",				"Fishing Boats provide +1 [ICON_GOLD] Gold on outgoing international [ICON_TRADEROUTE] Trade Routes from their cities for any Civilization that owns this tile."	),
+	
+	("ja_JP",	'LOC_TM_FEATURE_BIOLUMINESCENT_BAY_QUOTE',
+	'"The emission of light from fire, lightning bolts, stars or living beings attracts the attention of any human being. In the case of bioluminescence the light has a strange glow, something magic and mysterious."[NEWLINE]- Cassius Stevani'	),
+	
+	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_1",	
+	"The Bioluminescent Bay (also known as Puerto Mosquito, or Mosquito Bay), is considered the best example of a bioluminescent bay in the United States and is listed as a national natural landmark, one of five in Puerto Rico. The luminescence in the bay is caused by a micro-organism, the dinoflagellate Pyrodinium bahamense, which glows whenever the water is disturbed, leaving a trail of neon blue."	),
+	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_2",	
+	"A combination of factors creates the necessary conditions for bioluminescence: red mangrove trees surround the water, a complete lack of modern development around the bay, the water is cool enough and deep enough, and a small channel to the ocean keeps the dinoflagellates in the bay. This small channel was created artificially, being the result of attempts by the occupants of Spanish ships to choke off the bay from the ocean. The Spanish believed that the bioluminescence they encountered there while first exploring the area, was the work of the devil and tried to block ocean water from entering the bay by dropping huge boulders in the channel. The Spanish only succeeded in preserving and increasing the luminescence in the now isolated bay."	),
+
+-----------------------------------------------
 -- CERRO DE POTOSI
 -----------------------------------------------
  
@@ -63,6 +79,28 @@ VALUES
  
     ("ja_JP",   "LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",   "1タイルの自然遺産。湖。真水をもたらす。 [ICON_Faith] 信仰力+4、 [ICON_Science] 科学力+1。"    ),
     ("ja_JP",   "LOC_TM_FEATURE_CRATER_LAKE_EFFECT",        "このタイルを領有する都市では、 [ICON_Faith] 信仰力を用いて建造物を購入できる。"    ),
+
+-----------------------------------------------
+-- DALLOL
+-----------------------------------------------
+
+	("ja_JP",	"LOC_FEATURE_DALLOL_NAME",					"Dallol"	),
+	("ja_JP",	"LOC_TM_FEATURE_DALLOL_DESCRIPTION",		"One tile natural wonder. Provides +2 [ICON_SCIENCE] Science, +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold."	),
+	("ja_JP",	"LOC_TM_FEATURE_DALLOL_EFFECT",				"Grants a free copy of the [ICON_RESOURCE_TM_SYLVITE] Sylvite luxury resource (not tradeable), which provides +6 [ICON_Amenities] Amenities, to any Civilization that owns this tile."	),
+	
+	("ja_JP",	'LOC_TM_FEATURE_DALLOL_QUOTE',	
+	'"There is hell, there is darkness, there is the sulfurous pit— burning, scalding, stench, consumption!"[NEWLINE]- William Shakespeare, King Lear'	),
+	
+	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_1",	
+	"Dallol is a cinder cone volcano in the Danakil Depression, northeast of the Erta Ale Range in Ethiopia. It has been formed by the intrusion of basaltic magma into Miocene salt deposits and subsequent hydrothermal activity. Phreatic eruptions took place in 1926, forming Dallol Volcano while numerous other eruption craters dot the salt flats nearby. These craters are the lowest known subaerial volcanic vents in the world, at 45 m (150 ft) or more below sea level."	),
+	("ja_JP",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_2",	
+	"Numerous hot springs are discharging brine and acidic liquid here. Small, widespread, temporary geysers produce cones of salt. The Dallol deposits include significant bodies of potash found directly at the surface. The term Dallol was coined by the Afar people and means dissolution or disintegration, describing a landscape of green acid ponds (pH-values less than 1) and iron oxide, sulfur and salt desert plains."	),
+
+	("ja_JP",	"LOC_RESOURCE_TM_SYLVITE_NAME",	"Sylvite"	),
+	("ja_JP",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_1",
+	"In Dallol, Ethiopia, Potash production is said to have reached 51,000 metric tons after 1917, and between the years 1925-29, an Italian company mined 25,000 tons of Sylvite. By 1965, about 10,000 holes had been drilled at 65 locations across Dallol."	),
+	("ja_JP",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_2",
+	"Named for the Dutch chemist, Francois Sylvius de le Boe, Sylvite was first described at Mt. Vesuvius near Napoli in Italy. Found in many evaporite deposits around the world, Sylvite is one of the last evaporite minerals to precipitate out of solution and as such, is only found in very dry saline areas. It is used for spectroscopic prisms and lenses, but its principal use is as a potassium fertilizer."	),
  
 -----------------------------------------------
 -- DEAD SEA
@@ -199,7 +237,7 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
  
-    ("ja_JP",   "LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",   "2タイルの自然遺産。隣接するタイルに [ICON_Culture] 文化力+1、 [ICON_Science] 科学力+1。"    ),
+    ("ja_JP",   "LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",   "3タイルの自然遺産。隣接するタイルに [ICON_Culture] 文化力+1、 [ICON_Science] 科学力+1。"    ),
     ("ja_JP",   "LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",        "このタイルを領有する都市で生産する海洋ユニットに [ICON_Promotion] レベルアップが1つ無償でもたらされる。" ),
  
 -----------------------------------------------
@@ -280,7 +318,7 @@ VALUES
 -----------------------------------------------
 
 	("ja_JP",	"LOC_FEATURE_OUNIANGA_NAME",					"ウニアンガ湖群"	),
-	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"2タイルの自然遺産。真水をもたらす。 [ICON_FOOD] 食料+3、 [ICON_CULTURE] 文化力+1、 [ICON_GOLD] ゴールド+1。"	),
+	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"2タイルの自然遺産。真水をもたらす。 [ICON_FOOD] 食料+2、 [ICON_CULTURE] 文化力+2、 [ICON_GOLD] ゴールド+1。"	),
 	("ja_JP",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"このタイルを1つ以上領有する文明は、専門区域がオアシスから大量の隣接ボーナスを得る。"	),
 
 	("ja_JP",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"隣接するオアシスにより [ICON_FAITH] 信仰力+{1_num} (ウニアンガ湖群)。"	),

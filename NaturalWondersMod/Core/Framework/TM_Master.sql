@@ -8,24 +8,26 @@
 -----------------------------------------------
 
 INSERT INTO TM_Master
-		(FeatureType,					Tiles,	Impassable, NoAdjacentFeatures,	Coast,	NoCoast,	MinDistanceLand,	MaxDistanceLand,	Lake,	NotCliff,	RequiresRiver,	NoRiver,	AddsFreshWater,	MovementChange,	SightThroughModifier,	DefenseModifier,	Appeal,	DoubleAdjacentTerrainYield,	CustomPlacement,			DependsOnDLC		)
-VALUES	('FEATURE_BARRINGER_CRATER',	1,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_CERRO_DE_POTOSI',		1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_GIBRALTAR',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_GIBRALTAR',		NULL				),
-		('FEATURE_GRAND_MESA',			1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_KAILASH',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_KRAKATOA',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_LAKE_VICTORIA',		4,		0,			0,					0,		1,			0,					0,					1,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_MOSI_OA_TUNYA',		1,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_MOSI_OA_TUNYA',	NULL				),
-		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_RORAIMA',		NULL				),
-		('FEATURE_NAMIB',				3,		0,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_ZHANGYE_DANXIA',	NULL				),
-		('FEATURE_OLD_FAITHFUL',		1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_OUNIANGA',			2,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_SALAR_DE_UYUNI',		4,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_SINAI',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_SRI_PADA',			1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_VREDEFORT_DOME',		2,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,						NULL				),
-		('FEATURE_WULINGYUAN',			2,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,						'INDONESIA_KHMER'	);
+		(FeatureType,					Tiles,	Impassable, NoAdjacentFeatures,	Coast,	NoCoast,	MinDistanceLand,	MaxDistanceLand,	Lake,	NotCliff,	RequiresRiver,	NoRiver,	AddsFreshWater,	MovementChange,	SightThroughModifier,	DefenseModifier,	Appeal,	DoubleAdjacentTerrainYield,	CustomPlacement,					DependsOnDLC		)
+VALUES	('FEATURE_BARRINGER_CRATER',	1,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_BIOLUMINESCENT_BAY',	1,		0,			0,					0,		0,			1,					1,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_CERRO_DE_POTOSI',		1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_DALLOL',				1,		0,			1,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_GIBRALTAR',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_GIBRALTAR',				NULL				),
+		('FEATURE_GRAND_MESA',			1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_KAILASH',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_KRAKATOA',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_LAKE_VICTORIA',		4,		0,			0,					0,		1,			0,					0,					1,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_MOSI_OA_TUNYA',		1,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_MOSI_OA_TUNYA',			NULL				),
+		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_RORAIMA',				NULL				),
+		('FEATURE_NAMIB',				3,		0,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_ZHANGYE_DANXIA',			NULL				),
+		('FEATURE_OLD_FAITHFUL',		1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_OUNIANGA',			2,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_SALAR_DE_UYUNI',		4,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_SINAI',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_SRI_PADA',			1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_VREDEFORT_DOME',		2,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
+		('FEATURE_WULINGYUAN',			2,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								'INDONESIA_KHMER'	);
 		
 -----------------------------------------------
 -- TM_FeatureYields
@@ -36,8 +38,14 @@ INSERT INTO TM_FeatureYields
 VALUES	-- TERRA MIRABILIS
 		('FEATURE_BARRINGER_CRATER',	0,			'YIELD_SCIENCE',	3,				'BARRINGER_SCIENCE'				),
 		('FEATURE_BARRINGER_CRATER',	0,			'YIELD_GOLD',		2,				'BARRINGER_GOLD'				),
+		('FEATURE_BIOLUMINESCENT_BAY',	0,			'YIELD_SCIENCE',	2,				'BIOLUMINESCENT_BAY_SCIENCE'	),
+		('FEATURE_BIOLUMINESCENT_BAY',	0,			'YIELD_CULTURE',	2,				'BIOLUMINESCENT_BAY_CULTURE'	),
+		('FEATURE_BIOLUMINESCENT_BAY',	0,			'YIELD_GOLD',		1,				'BIOLUMINESCENT_BAY_GOLD'		),
 		('FEATURE_CERRO_DE_POTOSI',		1,			'YIELD_PRODUCTION',	1,				'POTOSI_PRODUCTION'				),
 		('FEATURE_CERRO_DE_POTOSI',		1,			'YIELD_GOLD',		1,				'POTOSI_GOLD'					),
+		('FEATURE_DALLOL',				0,			'YIELD_SCIENCE',	2,				'DALLOL_SCIENCE'				),
+		('FEATURE_DALLOL',				0,			'YIELD_PRODUCTION',	2,				'DALLOL_PRODUCTION'				),
+		('FEATURE_DALLOL',				0,			'YIELD_GOLD',		1,				'DALLOL_GOLD'					),
 		('FEATURE_GIBRALTAR',			1,			'YIELD_FOOD',		1,				'GIBRALTAR_FOOD'				),
 		('FEATURE_GIBRALTAR',			1,			'YIELD_GOLD',		1,				'GIBRALTAR_GOLD'				),
 		('FEATURE_GRAND_MESA',			1,			'YIELD_FOOD',		1,				'GRAND_MESA_FOOD'				),
@@ -132,12 +140,15 @@ INSERT INTO TM_Placement
 		(FeatureType,					Type,		Object,				Reference			)
 VALUES	-- Base
 		('FEATURE_BARRIER_REEF',		'TERRAIN',	'COAST',			'VALID_TERRAINS'	),
+		('FEATURE_BIOLUMINESCENT_BAY',	'TERRAIN',	'COAST',			'VALID_TERRAINS'	),
 		('FEATURE_CLIFFS_DOVER',		'TERRAIN',	'GRASS_HILLS',		'VALID_TERRAINS'	),
 		('FEATURE_CLIFFS_DOVER',		'TERRAIN',	'PLAINS_HILLS',		'VALID_TERRAINS'	),
 		('FEATURE_CRATER_LAKE',			'TERRAIN',	'PLAINS',			'VALID_TERRAINS'	),
 		('FEATURE_CRATER_LAKE',			'TERRAIN',	'PLAINS_HILLS',		'VALID_TERRAINS'	),
 		('FEATURE_CRATER_LAKE',			'TERRAIN',	'GRASS',			'VALID_TERRAINS'	),
 		('FEATURE_CRATER_LAKE',			'TERRAIN',	'GRASS_HILLS',		'VALID_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'DESERT',			'VALID_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'DESERT_HILLS',		'VALID_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'DESERT',			'VALID_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'DESERT_HILLS',		'VALID_TERRAINS'	),
 		('FEATURE_EVEREST',				'TERRAIN',	'DESERT_MOUNTAIN',	'VALID_TERRAINS'	),
@@ -308,6 +319,10 @@ VALUES	-- Base
 		('FEATURE_CERRO_DE_POTOSI',		'TERRAIN',	'PLAINS_HILLS',		'ADJACENT_TERRAINS'	),
 		('FEATURE_CERRO_DE_POTOSI',		'TERRAIN',	'GRASS',			'ADJACENT_TERRAINS'	),
 		('FEATURE_CERRO_DE_POTOSI',		'TERRAIN',	'GRASS_HILLS',		'ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'DESERT',			'ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'DESERT_HILLS',		'ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'DESERT_MOUNTAIN',	'ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'COAST',			'ADJACENT_TERRAINS'	),
 		('FEATURE_GIBRALTAR',			'TERRAIN',	'GRASS',			'ADJACENT_TERRAINS'	),
 		('FEATURE_GIBRALTAR',			'TERRAIN',	'GRASS_HILLS',		'ADJACENT_TERRAINS'	),
 		('FEATURE_GIBRALTAR',			'TERRAIN',	'PLAINS',			'ADJACENT_TERRAINS'	),
@@ -371,6 +386,12 @@ VALUES	-- Base
 		('FEATURE_CRATER_LAKE',			'TERRAIN',	'TUNDRA_HILLS',		'NOT_ADJACENT_TERRAINS'	),
 		('FEATURE_CRATER_LAKE',			'TERRAIN',	'SNOW',				'NOT_ADJACENT_TERRAINS'	),
 		('FEATURE_CRATER_LAKE',			'TERRAIN',	'SNOW_HILLS',		'NOT_ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'GRASS',			'NOT_ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'GRASS_HILLS',		'NOT_ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'GRASS_MOUNTAIN',	'NOT_ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'PLAINS',			'NOT_ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'PLAINS_HILLS',		'NOT_ADJACENT_TERRAINS'	),
+		('FEATURE_DALLOL',				'TERRAIN',	'PLAINS_MOUNTAIN',	'NOT_ADJACENT_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'GRASS_MOUNTAIN',	'NOT_ADJACENT_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'PLAINS_MOUNTAIN',	'NOT_ADJACENT_TERRAINS'	),
 		('FEATURE_DEAD_SEA',			'TERRAIN',	'DESERT_MOUNTAIN',	'NOT_ADJACENT_TERRAINS'	),
@@ -570,13 +591,14 @@ VALUES	-- Base
 -----------------------------------------------
 
 INSERT INTO TM_Placement
-		(FeatureType,				Type,		Object,		Reference			)
+		(FeatureType,					Type,		Object,		Reference			)
 VALUES	-- Base
-		('FEATURE_YOSEMITE',		'FEATURE',	'FOREST',	'ADJACENT_FEATURES'	),
+		('FEATURE_YOSEMITE',			'FEATURE',	'FOREST',	'ADJACENT_FEATURES'	),
 		-- Terra Mirabilis
-		('FEATURE_GRAND_MESA',		'FEATURE',	'FOREST',	'ADJACENT_FEATURES'	),
-		('FEATURE_OLD_FAITHFUL',	'FEATURE',	'FOREST',	'ADJACENT_FEATURES'	),
-		('FEATURE_WULINGYUAN',		'FEATURE',	'JUNGLE',	'ADJACENT_FEATURES'	);
+		('FEATURE_BIOLUMINESCENT_BAY',	'FEATURE',	'JUNGLE',	'ADJACENT_FEATURES'	),
+		('FEATURE_GRAND_MESA',			'FEATURE',	'FOREST',	'ADJACENT_FEATURES'	),
+		('FEATURE_OLD_FAITHFUL',		'FEATURE',	'FOREST',	'ADJACENT_FEATURES'	),
+		('FEATURE_WULINGYUAN',			'FEATURE',	'JUNGLE',	'ADJACENT_FEATURES'	);
 
 -----------------------------------------------
 -- ModCheck

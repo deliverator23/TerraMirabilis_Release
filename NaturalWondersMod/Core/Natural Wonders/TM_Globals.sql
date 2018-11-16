@@ -89,6 +89,14 @@
 	WHERE	Name = 'EXPERIENCE_REVEAL_NATURAL_WONDER';
 
 -----------------------------------------------
+-- Natural Wonder adjacent fertility
+-----------------------------------------------
+
+	UPDATE	GlobalParameters
+	SET		Value = (SELECT Value FROM TM_UserSettings WHERE Setting = 'NW_FERTILITY')
+	WHERE	Name = 'NATURAL_WONDER_ADJACENT_FERTILITY';
+
+-----------------------------------------------
 -- Natural Wonders provide Adjacency Bonuses to all Specialty Districts
 -----------------------------------------------
 
@@ -268,3 +276,8 @@
 							AND s.Section = 'DISABLED'
 							)
 						);
+
+	-- Special Case for Bioluminescent Bay
+	DELETE FROM ImprovementModifiers
+	WHERE ModifierId IN ('MODIFIER_TM_FEATURE_BIOLUMINESCENT_BAY_OUTGOING_TRADE')
+	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 0);

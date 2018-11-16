@@ -1,475 +1,514 @@
 /*
-	Localisation
-	Language: Italian ("it_IT")
-	Credits: Your Name Here
-	
-	Guide:
-	~ Do not change anything in UPPERCASE text, including [ICONS]. These are important references.
-	~ Keep your changes inside the "quotation marks"
-		
-	Thank you for your help :) just ask us if you have any questions.
+    Localisation
+    Language: Italian ("it_IT")
+    Credits: YamiNick
+   
+    Guide:
+    ~ Do not change anything in UPPERCASE text, including [ICONS]. These are important references.
+    ~ Keep your changes inside the "quotation marks"
+       
+    Thank you for your help :) just ask us if you have any questions.
 */
-
+ 
 INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
 VALUES
-
+ 
 -----------------------------------------------
 -- BARRIER REEF
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_BARRIER_REEF_DESCRIPTION",		"Two tile natural wonder. Yields +2 [ICON_FOOD] Food, +1 [ICON_GOLD] Gold, and +2 [ICON_SCIENCE] Science."	),
-	("it_IT",	"LOC_TM_FEATURE_BARRIER_REEF_EFFECT",			"Improved sea resources yield +1 [ICON_GOLD] Gold for any Civilization that owns at least one of these tiles."	),
-	
+ 
+    ("it_IT",   "LOC_TM_FEATURE_BARRIER_REEF_DESCRIPTION",      "Una Meraviglia naturale che occupa due caselle. Fornisce +2 [ICON_FOOD] Cibo, +1 [ICON_GOLD] Oro, e +2 [ICON_SCIENCE] Scienza."    ),
+    ("it_IT",   "LOC_TM_FEATURE_BARRIER_REEF_EFFECT",           "Le caselle marittime migliorate forniscono +1 [ICON_GOLD] Oro ad ogni Civiltà che occupa almeno una casella di questa Meraviglia naturale."   ),
+   
 -----------------------------------------------
 -- BARRINGER CRATER
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_BARRINGER_CRATER_NAME",				"Barringer Crater"	),
-	("it_IT",	"LOC_TM_FEATURE_BARRINGER_CRATER_DESCRIPTION",		"One tile natural wonder. Yields +3 [ICON_SCIENCE] Science and +2 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_BARRINGER_CRATER_EFFECT",			"Receive +20% [ICON_PRODUCTION] Production toward Space Race projects in the City that owns this tile."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_BARRINGER_CRATER_QUOTE',
-	'"In fact we can now prove that this crater is due to the collision with the earth of an extra-terrestrial body, possibly a small asteroid, which was presumably metallic in nature."[NEWLINE]- Daniel Barringer'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BARRINGER_CRATER_CHAPTER_HISTORY_PARA_1",	
-	"The Barringer Crater is a huge meteorite crater located in Arizona, in the United States of America. The crater is 1,200 meters (4,000 feet) in diameter, and scientists believe that it was created some 50,000 years ago when the site was hit by a large nickel-iron meteorite weighing, at time of impact, 160,000 tons and moving at perhaps 44,000 kilometers per hour (27,000 mph)."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_BARRINGER_CRATER_NAME",                "Cratere di Barringer"  ),
+    ("it_IT",   "LOC_TM_FEATURE_BARRINGER_CRATER_DESCRIPTION",      "Una Meraviglia naturale che occupa una casella. Fornisce +3 [ICON_SCIENCE] Scienza e +2 [ICON_GOLD] Oro."  ),
+    ("it_IT",   "LOC_TM_FEATURE_BARRINGER_CRATER_EFFECT",           "+20% [ICON_PRODUCTION] alla Produzione verso i progetti di Corsa allo Spazio nella Città che occupa questa casella."  ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_BARRINGER_CRATER_QUOTE',
+    '"Difatti, ora possiamo dimostrare che questo cratere è dovuto alla collisione con la terra di un corpo extraterrestre, possibilmente un piccolo asteroide, presumibilmente di natura metallica."[NEWLINE]- Daniel Barringer'  ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_BARRINGER_CRATER_CHAPTER_HISTORY_PARA_1", 
+    "Il Cratere di Barringer è un enorme cratere meteoritico situato in Arizona, negli Stati Uniti d'America. Il cratere ha un diametro di 1.200 metri e gli scienziati credono che sia stato creato circa 50.000 anni fa quando il sito fu colpito da un grande meteorite di ferro-nichel che pesava, al momento dell'impatto, 160.000 tonnellate e si muoveva a circa 44.000 km orari."  ),
+ 
+-----------------------------------------------
+-- BIOLUMINESCENT BAY
+-----------------------------------------------
+ 
+    ("it_IT",   "LOC_FEATURE_BIOLUMINESCENT_BAY_NAME",                  "Baia Bioluminescente"  ),
+    ("it_IT",   "LOC_TM_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION",        "Una Meraviglia naturale che occupa una casella. Fornisce +2 [ICON_SCIENCE] Scienza, +2 [ICON_CULTURE] Cultura e +1 [ICON_GOLD] Oro."   ),
+    ("it_IT",   "LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT",             "I Pescherecci forniscono +1 [ICON_GOLD] Oro alle [ICON_TRADEROUTE] Rotte commerciali internazionali per la Civiltà che possiede questa Meraviglia naturale."  ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_BIOLUMINESCENT_BAY_QUOTE',
+    '"L’emissione di luce da fuoco, fulmini, stelle o esseri viventi attira l’attenzione di ogni essere umano. Nel caso della bioluminescenza la luce ha uno strano bagliore, qualcosa di magico e misterioso."[NEWLINE]- Cassius Stevani'  ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_1",   
+    "La baia Bioluminescente (conosciuta anche come Puerto Mosquito o Mosquito Bay), è considerata l’esempio migliore di baia bioluminescente negli Stati Uniti ed è elencata come patrimonio nazionale naturale, uno dei cinque in Porto Rico. La luminescenza nella baia è causata da un microrganismo, il dinoflagellato Pyrodinium bahamense, che emette luce ogni volta che l’acqua viene mossa, lasciando una scia blu neon."  ),
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_2",   
+    "Una combinazione di fattori crea le condizioni necessarie per la bioluminescenza: gli alberi di mangrovie rosse che circondano la zona, la totale mancanza di sviluppo moderno attorno alla baia, la temperatura e la profondità dell’acqua e un piccolo canale verso l’oceano mantiengono i dinoflagellati nella baia. Questo piccolo canale venne creato artificialmente, essendo il risultato dei tentativi da parte esploratori spagnoli di prosciugare la baia dall’oceano. Gli spagnoli credevano che la bioluminescenza che avevano incontrato lì mentre esploravano per la prima volta l’area, fosse opera del diavolo e cercarono di bloccare l’acqua dell’oceano dall’entrare nella baia facendo cadere enormi massi nel canale. Gli spagnoli riuscirono però solamente a preservare e ad aumentare la luminescenza nella baia ormai isolata."  ), 
+ 
 -----------------------------------------------
 -- CERRO DE POTOSI
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_CERRO_DE_POTOSI_NAME",				"Cerro de Potosi"	),
-	("it_IT",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT",		"International [ICON_TRADEROUTE] Trade Routes from the City that owns this tile yield +4 [ICON_GOLD] Gold."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_CERRO_DE_POTOSI_QUOTE',	
-	'"I am rich Potosi, treasure of the world, king of all mountains and envy of kings."[NEWLINE]- First Coat of Arms of Potosi'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_CERRO_DE_POTOSI_CHAPTER_HISTORY_PARA_1",	
-	"Located in southern Bolivia, the mountain of Potosi produced nearly all of the silver mined by the Spanish during their imperial days. Once removed from the mountain, it was taken by llama and mule to the coast where it was then loaded onto treasure ships sailing back to Europe. Nearly 41,000 tons of pure silver were mined over the course of 200 years, 8,200 of which went directly to the Spanish crown. After 1800, the main silver mines were depleted, but the mining of Potosi still continues today - some for silver but now mostly for tin."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_CERRO_DE_POTOSI_NAME",             "Cerro Potosí" ),
+    ("it_IT",   "LOC_TM_FEATURE_CERRO_DE_POTOSI_DESCRIPTION",   "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +1 [ICON_PRODUCTION] Produzione e +1 [ICON_GOLD] Oro alle caselle adiacenti." ),
+    ("it_IT",   "LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT",        "Le [ICON_TRADEROUTE] Rotte commerciali internazionali che partono dalla Città che occupa questa casella forniscono +4 [ICON_GOLD] Oro."   ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_CERRO_DE_POTOSI_QUOTE',
+    '"Sono il ricco Potosí, il tesoro del mondo, il re delle montagne, e l’invidia dei re."[NEWLINE]- Primo Stemma di Potosí' ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_CERRO_DE_POTOSI_CHAPTER_HISTORY_PARA_1",  
+    "Situata nel sud della Bolivia, la montagna di Potosí ha prodotto quasi tutto l'argento estratto dagli spagnoli durante il loro periodo imperiale. Una volta rimosso dalla montagna, era portato tramite lama e muli sulla costa dove veniva poi caricato sulle flotte del tesoro che tornavano in Europa. Quasi 41.000 tonnellate di argento puro furono estratte nel corso di 200 anni, 8.200 dei quali andarono direttamente alla corona di Spagna. Dopo il 1800, le principali miniere d'argento si esaurirono, ma l'estrazione di Potosí continua ancora oggi - in parte per l'argento, ma principalmente per lo stagno."    ),
+ 
 -----------------------------------------------
 -- CLIFFS OF DOVER
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_CLIFFS_DOVER_DESCRIPTION",		"Two tile natural wonder. Appears as Cliffs. Yields +3 [ICON_CULTURE] Culture, +1 [ICON_FOOD] Food, and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_CLIFFS_DOVER_EFFECT",			"Harbors receive minor adjacency bonuses from Cliffs for any Civilization that owns at least one of these tiles."	),
-
-	("it_IT",	"LOC_MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_DESCRIPTION",	"+{1_num} [ICON_GOLD] Gold from adjacent {1_Num : plural 1?cliff; other?cliffs;}."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_CLIFFS_DOVER_DESCRIPTION",      "Una Meraviglia naturale che occupa due caselle. Ha l'aspetto di una scogliera e fornisce +3 [ICON_CULTURE] Cultura, +1 [ICON_FOOD] Cibo, e +1 [ICON_GOLD] Oro."    ),
+    ("it_IT",   "LOC_TM_FEATURE_CLIFFS_DOVER_EFFECT",           "I Porti della Civiltà che occupa almeno una casella di questa Meraviglia naturale ricevono bonus da vicinanza minori dalle Scogliere."    ),
+ 
+    ("it_IT",   "LOC_MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_DESCRIPTION",   "+{1_num} [ICON_GOLD] Oro per ogni casella adiacente che contiene {1_Num : plural 1?Scogliera; other?Scogliere;}."  ),
+ 
 -----------------------------------------------
 -- CRATER LAKE
 -----------------------------------------------
+ 
+    ("it_IT",   "LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",   "Una Meraviglia naturale che occupa una casella. Ha l'aspetto di un lago e fornisce +4 [ICON_FAITH] Fede, +1 [ICON_SCIENCE] Scienza e acqua dolce." ),
+    ("it_IT",   "LOC_TM_FEATURE_CRATER_LAKE_EFFECT",        "La città che occupa questa casella può comprare qualsiasi Edificio con la [ICON_FAITH] Fede."    ),
 
-	("it_IT",	"LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",	"One tile natural wonder. Appears as a Lake and provides fresh water. Yields +4 [ICON_FAITH] Faith and +1 [ICON_SCIENCE] Science."	),
-	("it_IT",	"LOC_TM_FEATURE_CRATER_LAKE_EFFECT",		"May purchase any Building with [ICON_FAITH] Faith in the City that owns this tile."	),
-
+-----------------------------------------------
+-- DALLOL
+-----------------------------------------------
+ 
+    ("it_IT",   "LOC_FEATURE_DALLOL_NAME",                  "Dallol"    ),
+    ("it_IT",   "LOC_TM_FEATURE_DALLOL_DESCRIPTION",        "Una Meraviglia naturale che occupa una casella. Fornisce +2 [ICON_SCIENCE] Scienza, +2 [ICON_PRODUCTION] Produzione e +1 [ICON_GOLD] Oro." ),
+    ("it_IT",   "LOC_TM_FEATURE_DALLOL_EFFECT",             "Assegna alla Civiltà che occupa questa Meraviglia naturale una copia gratuita della risorsa di lusso [ICON_RESOURCE_TM_SYLVITE] Silvite (non scambiabile), che fornisce +6 [ICON_AMENITIES] Attrattiva."  ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_DALLOL_QUOTE', 
+    '"Lì è l’inferno, lì le tenebre, lì il pozzo di zolfo – consumazione che brucia, ferisce, puzza."[NEWLINE]- William Shakespeare, Re Lear'   ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_1",   
+    "Dallol è un cratere vulcanico nella depressione della Dancalia, a nord est della catena Erta Ale in Etiopia. È stato formato dall’intrusione di magma basaltico nei depositi salini durante il Miocene e dalla seguente attività idrotermale. Eruzioni freatiche si sono svolte nel 1926, formando il Vulcano Dallol mentre numerosi altri crateri eruttivi sono comparsi nelle saline vicine. Questi crateri sono le bocche vulcaniche subaeriche più basse al mondo, a 45 metri o più sotto il livello del mare." ),
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_2",   
+    "Le umerose sorgenti termali scaricano liquidi salmastri e acidi, mentre svariati geyser piccoli e temporanei producono coni di sale. I depositi del Dallol includono significativi cumuli di cloruro di potassio che si trovano direttamente in superficie. Il termine Dallol è stato coniato dal popolo Afar e significa dissoluzione o disintegrazione, descrivendo un paesaggio composto da stagni di acido verde (valori di pH inferiori a 1), ossido di ferro, zolfo e deserti salini."  ),
+ 
+    ("it_IT",   "LOC_RESOURCE_TM_SYLVITE_NAME", "Silvite"   ),
+    ("it_IT",   "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_1",
+    "A Dallol, in Etiopia, si afferma che la produzione di cloruro di potassio abbia raggiunto le 51.000 tonnellate dopo il 1917 e, tra il 1925 e il 29, una società italiana abbia estratto 25.000 tonnellate di Silvite. Nel 1965, erano state scavate circa 10.000 buche in 65 località del Dallol."   ),
+    ("it_IT",   "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_2",
+    "La Silvite venne descritta per la prima volta in Italia, nel Monte Vesuvio e prende il nome dal chimico olandese Franciscus Sylvius. Trovata in molti depositi di evaporiti in tutto il mondo, la Silvite è uno degli ultimi minerali di evaporite a precipitare fuori da una soluzione e, dunque, si trova solo in aree saline molto secche. È usata per prismi spettroscopici e lenti, ma il suo uso principale è come fertilizzante potassico."  ),
+	
 -----------------------------------------------
 -- DEAD SEA
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_DEAD_SEA_DESCRIPTION",		"Two tile natural wonder. Appears as a Lake. Yields +2 [ICON_FAITH] Faith, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_DEAD_SEA_EFFECT",			"Units trained in a City that owns at least one of these tiles may heal an additional 10 HP when [ICON_Fortified] Fortified."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_DEAD_SEA_DESCRIPTION",      "Una Meraviglia naturale che occupa due caselle. Ha l'aspetto di un lago e fornisce +2 [ICON_FAITH] Fede, +2 [ICON_CULTURE] Cultura e +1 [ICON_GOLD] Oro."  ),
+    ("it_IT",   "LOC_TM_FEATURE_DEAD_SEA_EFFECT",           "Le unità addestrate in una Città che occupa almeno una casella di questa Meraviglia naturale si curano di 10 Salute in più quando usano [ICON_Fortified] Fortifica."    ),
+ 
 -----------------------------------------------
 -- DELICATE ARCH
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT",			"Plots are 20% cheaper to purchase for any Civilization that owns this tile."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",     "Una Meraviglia naturale che occupa una casella invalicabile. Fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_GOLD] Oro alle caselle adiacenti."  ),
+    ("it_IT",   "LOC_TM_FEATURE_DELICATE_ARCH_EFFECT",          "Il costo d'acquisto delle caselle è ridotto del 20% per la Civiltà che occupa questa casella."   ),
+ 
 -----------------------------------------------
 -- EVEREST
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_EVEREST_DESCRIPTION",		"Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_FAITH] Faith."	),
-	("it_IT",	"LOC_TM_FEATURE_EVEREST_EFFECT",			"Religious units trained in any City that owns at least one of these tiles ignore [ICON_MOVEMENT] Movement penalties on Hills and receive +1 additional spread charge."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_EVEREST_DESCRIPTION",       "Una Meraviglia naturale che occupa tre caselle invalicabili. Ha l'aspetto di una montagna e fornisce +2 [ICON_FAITH] Fede alle caselle adiacenti." ),
+    ("it_IT",   "LOC_TM_FEATURE_EVEREST_EFFECT",            "Le unità religiose addestrate in una Città che occupa almeno una casella di questa Meraviglia naturale ignorano le penalità di [ICON_MOVEMENT] Movimento sulle Colline e ricevono una Carica di diffusione religiosa aggiuntiva."   ),
+ 
 -----------------------------------------------
 -- EYE OF THE SAHARA
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_DESCRIPTION",		"Three tile natural wonder. Yields +2 [ICON_PRODUCTION] Production, +2 [ICON_SCIENCE] Science, and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT",			"Any Civilization that owns at least one of these tiles receives +2 Era Score from Historic Moments if that Moment is usually worth at least +4 Era Score."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_EYE_OF_THE_SAHARA_DESCRIPTION",     "Una Meraviglia naturale che occupa tre caselle. Fornisce +2 [ICON_PRODUCTION] Produzione, +2 [ICON_SCIENCE] Scienza, e +1 [ICON_GOLD] Gold."   ),
+    ("it_IT",   "LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT",          "Una Civiltà che occupa almeno una di queste caselle riceve +2 Punti Era dai Momenti Storici se essi valgono di solito almeno +4 Punti Era."   ),
+ 
 -----------------------------------------------
 -- EYJAFJALLAJOKULL
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",		"Two tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_FOOD] Food."	),
-	("it_IT",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",			"Specialty Districts constructed on Tundra or Snow terrain yield +1 [ICON_FOOD] Food for any Civilization that owns this tile."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",      "Una Meraviglia naturale che occupa due caselle invalicabili. Ha l'aspetto di una montagna e fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_FOOD] Cibo alle caselle adiacenti."  ),
+    ("it_IT",   "LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",           "I distretti cittadini costruiti sulla Tundra o sulla Neve forniscono +1 [ICON_FOOD] Cibo ad ogni Civiltà che occupa almeno una casella di questa Meraviglia naturale."    ),
+ 
 -----------------------------------------------
 -- GALAPAGOS
 -----------------------------------------------
-	
-	("it_IT",	"LOC_TM_FEATURE_GALAPAGOS_DESCRIPTION",		"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_SCIENCE] Science."	),
-	("it_IT",	"LOC_TM_FEATURE_GALAPAGOS_EFFECT",			"Grants a free copy of the [ICON_RESOURCE_TM_TORTOISE] Tortoise luxury resource (not tradeable), which provides +6 [ICON_AMENITIES] Amenities, to any Civilization that owns at least one of these tiles."	),
-
-	("it_IT",	"LOC_RESOURCE_TM_TORTOISE_NAME",	"Tortoise"	),
-	("it_IT",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_TORTOISE_CHAPTER_HISTORY_PARA_1",
-	"The Galapagos giant tortoise is the largest living species of tortoise, weighing up to 417kg. Today, giant tortoises exist on only two remote archipelagos, the Galapagos Islands, and Aldabra. Their numbers declined from over 250,000 in the 16th century to around 3,000 in 1970 due to overexploitation of the species for meat and oil. The extinction of most giant tortoise lineages is thought to have been caused by predation by humans as the tortoises themselves have no natural predators on the remote Galapagos archipelago that they are native to."	),
-
+   
+    ("it_IT",   "LOC_TM_FEATURE_GALAPAGOS_DESCRIPTION",     "Una Meraviglia naturale che occupa due caselle invalicabili. Fornisce +2 [ICON_SCIENCE] Scienza alle caselle adiacenti."   ),
+    ("it_IT",   "LOC_TM_FEATURE_GALAPAGOS_EFFECT",          "Assegna ad ogni Civiltà che occupa almeno una casella di questa Meraviglia naturale una copia gratuita della risorsa di lusso [ICON_RESOURCE_TM_TORTOISE] Tartaruga (non scambiabile), che fornisce +6 [ICON_AMENITIES] Attrattiva."  ),
+ 
+    ("it_IT",   "LOC_RESOURCE_TM_TORTOISE_NAME",    "Tartaruga" ),
+    ("it_IT",   "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_TORTOISE_CHAPTER_HISTORY_PARA_1",
+    "La tartaruga gigante delle Galapagos è la più grande specie vivente di tartaruga e può pesare fino a 417 kg. Ad oggi, le tartarughe giganti esistono solo in due remoti arcipelaghi: le Isole Galapagos e Aldabra. Il loro numero è diminuito da oltre 250.000 nel sedicesimo secolo a circa 3.000 nel 1970 a causa dell'eccessivo sfruttamento delle specie per carne e olio. Si pensa che l'estinzione della maggior parte dei lignaggi delle tartarughe giganti sia stata causata dagli umani poiché le tartarughe non hanno predatori naturali nell'arcipelago delle Galapagos."  ),
+ 
 -----------------------------------------------
 -- GIANTS CAUSEWAY
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION",	"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_CULTURE] Culture."	),
-	("it_IT",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT",		"Land units trained in a City that owns at least one of these tiles start with a free [ICON_PROMOTION] Promotion."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION",   "Una Meraviglia naturale che occupa due caselle invalicabili. Fornisce +2 [ICON_CULTURE] Cultura alle caselle adiacenti."   ),
+    ("it_IT",   "LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT",        "Le Unità di terra addestrate in una Città che occupa almeno una casella di questa Meraviglia naturale ricevono un [ICON_PROMOTION] livello di promozione gratuito."  ),
+ 
 -----------------------------------------------
 -- GRAND MESA
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_GRAND_MESA_NAME",				"Grand Mesa"	),
-	("it_IT",	"LOC_TM_FEATURE_GRAND_MESA_DESCRIPTION",	"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FOOD] Food and +1 [ICON_CULTURE] Culture."	),
-	("it_IT",	"LOC_TM_FEATURE_GRAND_MESA_EFFECT",			"Units trained in the City that owns this tile ignore [ICON_MOVEMENT] Movement penalties in Forest or Jungle."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_GRAND_MESA_QUOTE',	
-	'"Conservation means the wise use of the earth and its resources for the lasting good of men."[NEWLINE]- Gifford Pinchot'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_GRAND_MESA_CHAPTER_HISTORY_PARA_1",	
-	"The Grand Mesa is a large geologic formation in Colorado, the United States of America. Rising some 1,500 meters (5,000 feet) above the surrounding territory and with an area of 1300 square kilometers (500 square miles), it is the largest mesa in the world. The Grand Mesa has a layer of volcanic basalt on top, which resists erosion. It did not so much rise into the air, as it remained at its original height, as the surrounding terrain was eroded by the action of the Colorado and Gunnison rivers.  The Grand Mesa National Forest (originally called Battlement Mesa Forest Reserve) was created by Benjamin Harrison on December 24, 1892. It was the third forest reserve created in United States."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_GRAND_MESA_NAME",              "Grand Mesa"    ),
+    ("it_IT",   "LOC_TM_FEATURE_GRAND_MESA_DESCRIPTION",    "Una Meraviglia naturale che occupa una casella invalicabile. Fornisce +1 [ICON_FOOD] Cibo e +1 [ICON_CULTURE] Cultura alle caselle adiacenti." ),
+    ("it_IT",   "LOC_TM_FEATURE_GRAND_MESA_EFFECT",         "Le unità addestrate nella Città che occupa questa casella ignorano le penalità di [ICON_MOVEMENT] Movimento nei Boschi e nelle Foreste pluviali."   ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_GRAND_MESA_QUOTE', 
+    '"Conservazione significa l’uso saggio della terra e delle sue risorse per il bene duraturo degli uomini."[NEWLINE]- Gifford Pinchot'   ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_GRAND_MESA_CHAPTER_HISTORY_PARA_1",   
+    "La Grand Mesa è una grande formazione geologica in Colorado, negli Stati Uniti d'America. Con un'altezza di circa 1.500 metri sopra il territorio circostante ed un'area di 1.300 km² è la più grande mesa del mondo. Nella parte superiore, la Grand Mesa ha uno strato di basalto vulcanico che resiste all'erosione. Nel tempo rimase della sua altezza originale a causa dell'erosione del terreno circostante per via dell'azione dei fiumi Colorado e Gunnison. La Grand Mesa National Forest (chiamata in origine Battlement Mesa Forest Reserve) fu creata da Benjamin Harrison nel 24 dicembre 1892. Fu la terza Foresta Nazionale creata negli Stati Uniti." ),
+ 
 -----------------------------------------------
 -- HA LONG BAY
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",	"Two tile natural wonder. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_FOOD] Food and +1 [ICON_PRODUCTION] Production."	),
-	("it_IT",	"LOC_TM_FEATURE_HA_LONG_BAY_EFFECT",		"Harbors provide +2 [ICON_HOUSING] Housing for any Civilization that owns at least one of these tiles."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",   "Una Meraviglia naturale che occupa due caselle. Fornisce +2 [ICON_CULTURE] Cultura, +2 [ICON_FOOD] Cibo e +1 [ICON_PRODUCTION] Produzione."    ),
+    ("it_IT",   "LOC_TM_FEATURE_HA_LONG_BAY_EFFECT",        "Il Porto di una Città che occupa almeno una casella di questa Meraviglia naturale fornisce +2 [ICON_HOUSING]."    ),
+ 
 -----------------------------------------------
 -- KAILASH
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_KAILASH_NAME",				"Mount Kailash"	),
-	("it_IT",	"LOC_TM_FEATURE_KAILASH_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_CULTURE] Culture."	),
-	("it_IT",	"LOC_TM_FEATURE_KAILASH_EFFECT",		"Receive +1 [ICON_CULTURE] Culture for every foreign City that follows the [ICON_RELIGION] Religion of the Civilization that owns this tile."	),
-		
-	("it_IT",	'LOC_TM_FEATURE_KAILASH_QUOTE',	
-	'"After thus having instructed the godly ones Lord Brahma went away with in his wake the forefathers and the leaders of the people whom he took from his own place to the abode of Lord Shiva, Kailash, the best of all mountains that is so dear to the master."[NEWLINE]- The Bhagavata Purana'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_KAILASH_CHAPTER_HISTORY_PARA_1",	
-	"The sacred peak of Mount Kailash, found in the Himalayas of Tibet, is cherished by a number of religions, particularly the followers of Hinduism. It is believed to be the home of Lord Shiva, who dwells on the mountain in a state of eternal bliss. Mount Kailash is said to be among the most difficult of all religious pilgrimages, as the harsh conditions dissuade many would-be pilgrims, and the mountain is not accessible by any forms of modern transportation."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_KAILASH_NAME",             "Monte Kailash" ),
+    ("it_IT",   "LOC_TM_FEATURE_KAILASH_DESCRIPTION",   "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +1 [ICON_FAITH] Fede e +1 [ICON_CULTURE] Cultura alle caselle adiacenti." ),
+    ("it_IT",   "LOC_TM_FEATURE_KAILASH_EFFECT",        "La Città che occupa questa casella riceve +1 [ICON_CULTURE] Cultura per ogni Città straniera che segue la [ICON_RELIGION] Religione della Civiltà che possiede questa Meraviglia naturale." ),
+       
+    ("it_IT",   'LOC_TM_FEATURE_KAILASH_QUOTE',
+    '"Dopo aver dato queste istruzioni agli esseri celesti, ai Pita e ai capi degli esseri viventi, Brahma li condusse con sé alla dimora di Siva, Kailasa, la migliore di tutte le montagne e la più cara al suo padrone."[NEWLINE]- Bhagavata Purana'   ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_KAILASH_CHAPTER_HISTORY_PARA_1",  
+    "La vetta sacra del Monte Kailash, che si trova nel versante tibetano dell'Himalaya, è adorata da diverse religione, in particolare dai seguaci dell'Induismo. Si crede che sia la casa di Siva, che dimora sulla montagna in uno stato di beatitudine eterna. Si dice che quello del Monte Kailash sia uno dei pellegrinaggi religiosi più difficili, poiché le condizioni aspre e il fatto che la montagna non sia accessibile da nessuna forma di trasporto moderno, dissuadono molti aspiranti pellegrini."  ),
+ 
 -----------------------------------------------
 -- KILIMANJARO
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_FOOD] Food."	),
-	("it_IT",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT",		"Receive +1 [ICON_Citizen] Population in the City that owns this tile when a Specialty District is constructed."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION",   "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +2 [ICON_FOOD] Cibo alle caselle adiacenti."  ),
+    ("it_IT",   "LOC_TM_FEATURE_KILIMANJARO_EFFECT",        "La Città che occupa questa casella riceve +1 [ICON_Citizen] Popolazione quando viene costruito un distretto cittadino."   ),
+ 
 -----------------------------------------------
 -- KRAKATOA
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_KRAKATOA_NAME",				"Krakatoa"	),
-	("it_IT",	"LOC_TM_FEATURE_KRAKATOA_DESCRIPTION",		"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_SCIENCE] Science and +1 [ICON_CULTURE] Culture."	),
-	("it_IT",	"LOC_TM_FEATURE_KRAKATOA_EFFECT",			"Receive +2 [ICON_SCIENCE] Science for each Specialty District in a City that owns this tile, increasing to +3 if the City has a National Park."	),
-	("it_IT",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",		"Any Civilization that owns this tile receives a free [ICON_TechBoosted] Eureka upon earning a [ICON_GREATADMIRAL] Great Admiral."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_KRAKATOA_QUOTE',	
-	'"I saw with amazement that the island of Krakatoa lay completely burnt and barren in front of our eyes and that at four locations was throwing up large chunks of fire."[NEWLINE]- Johann Wilhelm Vogel'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_KRAKATOA_CHAPTER_HISTORY_PARA_1",	
-	"Krakatoa is a volcanic island located in Indonesia, between the islands of Java and Sumatra. The volcano exploded violently in August, 1883 with a force equivalent to 13,000 times the power of the Hiroshima nuclear bomb. The blast is widely regarded as the loudest sound ever recorded. The eruption destroyed over half of the island, and was heard in parts of Australia, some 3,200 kilometers (2,000 miles) away. Some 37,000 people were killed by the eruption and subsequent tsunamis. The volcano has been emitting lava steadily for the past eighty years, rebuilding the cone at a rate of about 5 meters per year (15 feet per year)."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_KRAKATOA_NAME",                "Krakatoa"  ),
+    ("it_IT",   "LOC_TM_FEATURE_KRAKATOA_DESCRIPTION",      "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +1 [ICON_SCIENCE] Scienza e +1 [ICON_CULTURE] Cultura alle caselle adiacenti."    ),
+    ("it_IT",   "LOC_TM_FEATURE_KRAKATOA_EFFECT",           "La Città che occupa questa casella riceve +2 [ICON_SCIENCE] Scienza per ogni distretto cittadino, che aumenta a +3 se nella città è presente un Parco nazionale."   ),
+    ("it_IT",   "LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",       "La Città che occupa questa casella riceve un [ICON_TechBoosted] Eureka gratuito quando ottiene un [ICON_GREATADMIRAL] Grande Ammiraglio." ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_KRAKATOA_QUOTE',   
+    '"Vidi con stupore che l’isola di Krakatoa giaceva completamente bruciata e sterile davanti ai nostri occhi e che in quattro punti stava rigettando larghe lingue di fuoco."[NEWLINE]- Johann Wilhelm Vogel'    ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_KRAKATOA_CHAPTER_HISTORY_PARA_1", 
+    "Krakatoa è un'isola vulcanica situata in Indonesia, tra le isole di Giava e di Sumatra. Il vulcano esplose violentemente nell'agosto del 1883, con una forza equivalente a 13.000 volte quella della bomba atomica di Hiroshima. L'esplosione è ampiamente considerata come il suono più forte mai registrato. L'eruzione distrusse più della metà dell'isola e fu udita in alcune parti dell'Australia, a 3.200 km di distanza. Circa 37.000 persone rimasero uccise dall'eruzione e dai successivi tsunami. Il vulcano ha emesso costantemente lava negli ultimi ottanta anni, ricostruendo il cono vulcanico ad una velocità di 5 metri all'anno."    ),
+ 
 -----------------------------------------------
 -- LAKE RETBA
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_LAKE_RETBA_DESCRIPTION",	"Two tile natural wonder. Appears as a Lake. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production."	),
-	("it_IT",	"LOC_TM_FEATURE_LAKE_RETBA_EFFECT",			"Any Civilization that owns at least one of these tiles receives +2 [ICON_GOLD] Gold for each unique copy of a Luxury resource that they own."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_LAKE_RETBA_DESCRIPTION",    "Una Meraviglia naturale che occupa due caselle. Ha l'aspetto di un lago e fornisce +2 [ICON_CULTURE] Cultura, +2 [ICON_GOLD] Oro e +1 [ICON_PRODUCTION] Produzione."   ),
+    ("it_IT",   "LOC_TM_FEATURE_LAKE_RETBA_EFFECT",         "La Civiltà che occupa almeno una casella di questa Meraviglia naturale ottiene +2 [ICON_GOLD] Oro per ogni Risorsa di lusso unica che possiede."  ),
+ 
 -----------------------------------------------
 -- LAKE VICTORIA
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_LAKE_VICTORIA_NAME",				"Lake Victoria"	),
-	("it_IT",	"LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION",		"Four tile natural wonder. Appears as a Lake and provides Fresh Water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT",			"Any Civilization that owns at least one of these tiles receives +15% [ICON_FOODSURPLUS] Growth in Cities not on their original [ICON_CAPITAL] Capital's continent."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_LAKE_VICTORIA_QUOTE',	
-	'"I saw that old father Nile without any doubt rises in the Victoria Nyanza, and as I had foretold, that lake is the great source of the holy river which cradled the first expounder of our religious belief."[NEWLINE]- John Hanning Speke'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_LAKE_VICTORIA_CHAPTER_HISTORY_PARA_1",	
-	"With a surface area over 26,000 square miles (68,800 km²), Lake Victoria is the largest lake in Africa, the second largest freshwater lake on Earth, and the largest tropical lake in the world. Two large rivers leave the lake, the White Nile and the Katonga. The first historical records of the lake come from Arab traders seeking gold, ivory and other commodities from the natives as they pushed inland from the coast. The search by European explorers for the source of the Nile led to the discovery of the lake by the Englishman John Speke in 1858 AD, who named it after the then British monarch."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_LAKE_VICTORIA_NAME",               "Lago Vittoria" ),
+    ("it_IT",   "LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION",     "Una Meraviglia naturale che occupa quattro caselle. Ha l'aspetto di un lago e fornisce +3 [ICON_FOOD] Cibo, +1 [ICON_CULTURE] Cultura, +1 [ICON_GOLD] Oro e acqua dolce."  ),
+    ("it_IT",   "LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT",          "La Civiltà che occupa almeno una casella di questa Meraviglia naturale aumenta del 15% la [ICON_FOODSURPLUS] Crescita in tutte le città situate in un continente diverso da quello della [ICON_CAPITAL] Capitale originale." ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_LAKE_VICTORIA_QUOTE',  
+    '"Vidi il vecchio padre Nilo sorgere senza alcun dubbio dal Victoria Nyanza, e come avevo predetto, quel lago è la grande fonte del fiume sacro che cullò il primo interprete del nostro credo religioso."[NEWLINE]- John Hanning Speke'  ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_LAKE_VICTORIA_CHAPTER_HISTORY_PARA_1",
+    "Con una superficie di oltre 68.800 km², il Lago Vittoria è il più grande lago in Africa, il secondo più grande lago d'acqua dolce sulla Terra e il più grande lago tropicale del mondo. Due grandi fiumi nascono dal lago, il Nilo Bianco e la Katonga. I primi documenti storici del lago provengono dai commercianti arabi che cercavano oro, avorio e altri prodotti dai nativi mentre spingevano verso l'interno dalla costa. La ricerca degli esploratori europei per la fonte del Nilo portò alla scoperta del lago da parte dell'inglese John Speke nel 1858, che lo intitolò all'allora sovrana britannica. "   ),
+ 
 -----------------------------------------------
 -- LYSEFJORDEN
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"Two tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_SCIENCE] Science"	),
-	("it_IT",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",		"Naval units trained in a City that owns at least one of these tiles start with a free [ICON_PROMOTION] Promotion."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",   "Una Meraviglia naturale che occupa tre caselle invalicabili. Fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_SCIENCE] Scienza alle caselle adiacenti."   ),
+    ("it_IT",   "LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",        "Le unità navali addestrate nella Città che occupa almeno una casella di questa Meraviglia naturale ricevono un [ICON_PROMOTION] livello di promozione gratuito." ),
+ 
 -----------------------------------------------
 -- MATTERHORN
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",	"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_CULTURE] Culture."	),
-	("it_IT",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",			"Land Units trained in a City that owns this tile ignore [ICON_MOVEMENT] Movement penalties on Hills, and receive +3 [ICON_STRENGTH] Combat Strength when fighting on them."	),
-
-	("it_IT",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",	"+{1_Amount} Combat Bonus on Hills (Matterhorn)"	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",    "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +2 [ICON_CULTURE] Cultura alle caselle adiacenti."    ),
+    ("it_IT",   "LOC_TM_FEATURE_MATTERHORN_EFFECT",         "Le unità di terra addestrate nella Città che occupa questa casella ignorano le penalità di [ICON_MOVEMENT] Movimento sulle Colline e ricevono +3 [ICON_STRENGTH] Forza di combattimento quando combattono sopra di esse."   ),
+ 
+    ("it_IT",   "LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",    "+{1_Amount} Bonus di combattimento sulle Colline (Cervino)"    ),
+ 
 -----------------------------------------------
 -- MOSI_OA_TUNYA
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_MOSI_OA_TUNYA_NAME",					"Mosi-oa-Tunya"	),
-	("it_IT",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",			"Two tile impassable natural wonder. Provides fresh water. Adjacent plots yield +2 [ICON_FOOD] Food."	),
-	("it_IT",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",				"Improved bonus resources adjacent to a river provide +1 [ICON_FOOD] Food for the Civilization that owns this tile."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_MOSI_OA_TUNYA_QUOTE',	
-	'"Creeping with awe to the verge, I peered down into a large rent and saw that a stream of a thousand yards broad leaped down a hundred feet, and then became suddenly compressed into a space of fifteen or twenty yards, the most wonderful sight I had witnessed in Africa."[NEWLINE]- David Livingstone'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOSI_OA_TUNYA_CHAPTER_HISTORY_PARA_1",	
-	"The Mosi-oa-Tunya, otherwise known as Victoria Falls, is among the most spectacular waterfalls in the world. The Zambezi River, which is more than 2 kilometers wide at this point, plunges noisily down a series of basalt gorges and raises an iridescent mist that can be seen more than 50 km away. Its name, which translates to 'The Smoke Which Thunders', comes from the Kololo or Lozi language used throughout Zambia and in parts of Zimbabwe, though it is more commonly known worldwide as Victoria Falls due to Scottish missionary and explorer, David Livingstone, who is perhaps most famous for giving a name to a waterfall that already had one."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_MOSI_OA_TUNYA_NAME",                   "Mosi-oa-Tunya" ),
+    ("it_IT",   "LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",         "Una Meraviglia naturale che occupa due caselle invalicabili. Fornisce +2 [ICON_FOOD] Cibo e acqua dolce alle caselle adiacenti."   ),
+    ("it_IT",   "LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",              "Le risorse bonus migliorate adiacenti ad un fiume forniscono +1 [ICON_FOOD] Cibo alle Civiltà che occupano le caselle di questa Meraviglia naturale." ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_MOSI_OA_TUNYA_QUOTE',  
+    '"Strisciando con timore reverenziale verso il bordo, scrutai attraverso una grande fenditura e vidi un fiume largo mille iarde precipitare per un centinaio di piedi, e poi improvvisamente venir compresso in uno spazio di quindici o venti iarde, la più bella vista a cui avevo assistito in Africa."[NEWLINE]- David Livingstone'    ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_MOSI_OA_TUNYA_CHAPTER_HISTORY_PARA_1",
+    "Mosi-oa-Tunya, altrimenti noto come Cascate Vittoria, è tra le cascate più spettacolari del mondo. Il fiume Zambesi, che in questa area è largo più di 2 km, si tuffa fragorosamente in una serie di gole di basalto e solleva una nebbia iridescente che può essere vista a più di 50 km di distanza. Il suo nome, che si traduce in 'fumo che tuona', deriva dalla lingua Kololo o Lozi utilizzata in tutto lo Zambia ed in alcune parti dello Zimbabwe, sebbene siano più comunemente conosciute in tutto il mondo come Cascate Vittoria per via del missionario ed esploratore scozzese David Livingstone, che è forse più famoso per aver dato il nome ad una cascata che già ne aveva uno."    ),
+ 
 -----------------------------------------------
 -- MOTLATSE CANYON
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_MOTLATSE_CANYON_NAME",				"Motlatse Canyon"	),
-	("it_IT",	"LOC_TM_FEATURE_MOTLATSE_CANYON_DESCRIPTION",	"Four tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_SCIENCE] Science."	),
-	("it_IT",	"LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT",		"Specialty Districts receive +1 of their respective yield on Breathtaking plots for any Civilization that owns at least one of these tiles."	),
-	
-	("it_IT",	"LOC_ADJ_MOTLATSE_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from the tile's Appeal. (Motlatse Canyon)"	),
-	("it_IT",	"LOC_ADJ_MOTLATSE_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_SCIENCE] Science from the tile's Appeal. (Motlatse Canyon)"	),
-	("it_IT",	"LOC_ADJ_MOTLATSE_CULTURE_DESCRIPTION",			"+{1_num} [ICON_CULTURE] Culture from the tile's Appeal. (Motlatse Canyon)"	),
-	("it_IT",	"LOC_ADJ_MOTLATSE_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Production from the tile's Appeal. (Motlatse Canyon)"	),
-	("it_IT",	"LOC_ADJ_MOTLATSE_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Gold from the tile's Appeal. (Motlatse Canyon)"	),
-
-	("it_IT",	'LOC_TM_FEATURE_MOTLATSE_CANYON_QUOTE',	
-	'"I believe that South Africa is the most beautiful place on earth. Admittedly, I am biased, but I think even the most scrupulous critic would agree that we have been blessed with a truly wonderful land."[NEWLINE]- Nelson Mandela'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOTLATSE_CANYON_CHAPTER_HISTORY_PARA_1",	
-	"The Motlatse Canyon is a significant natural feature of South Africa, located in Mpumalanga, and forming the northern part of the Drakensberg escarpment. Located in the Blyde River Canyon Nature Reserve, it is 25 kilometers in length and is, on average, around 750 meters deep, sporting some of the deepest precipitous cliffs of any canyon on the planet."	),
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOTLATSE_CANYON_CHAPTER_HISTORY_PARA_2",	
-	"While it is difficult to compare canyons world-wide, Blyde River Canyon is one of the largest canyons on Earth, and it may be the largest green canyon due to its lush subtropical foliage. It supports a large diversity of flora and fauna, including numerous fish and antelope species as well as hippos, crocodiles and every primate species that may be seen in south Africa, making it a very popular region for tourism."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_MOTLATSE_CANYON_NAME",             "Motlatse Canyon"   ),
+    ("it_IT",   "LOC_TM_FEATURE_MOTLATSE_CANYON_DESCRIPTION",   "Una Meraviglia naturale che occupa quattro caselle invalicabili. Fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_SCIENCE] Scienza alle caselle adiacenti."   ),
+    ("it_IT",   "LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT",        "I  distretti cittadini della Civiltà che occupa almeno una casella di questa Meraviglia naturale ricevono +1 al loro rispettivo rendimento su caselle Mozzafiato."    ),
+   
+    ("it_IT",   "LOC_ADJ_MOTLATSE_FAITH_DESCRIPTION",           "+{1_num} [ICON_FAITH] Fede dall'Appeal della casella. (Motlatse Canyon)"   ),
+    ("it_IT",   "LOC_ADJ_MOTLATSE_SCIENCE_DESCRIPTION",         "+{1_num} [ICON_SCIENCE] Scienza dall'Appeal della casella. (Motlatse Canyon)"  ),
+    ("it_IT",   "LOC_ADJ_MOTLATSE_CULTURE_DESCRIPTION",         "+{1_num} [ICON_CULTURE] Cultura dall'Appeal della casella. (Motlatse Canyon)"  ),
+    ("it_IT",   "LOC_ADJ_MOTLATSE_PRODUCTION_DESCRIPTION",      "+{1_num} [ICON_PRODUCTION] Produzione dall'Appeal della casella. (Motlatse Canyon)"    ),
+    ("it_IT",   "LOC_ADJ_MOTLATSE_GOLD_DESCRIPTION",            "+{1_num} [ICON_GOLD] Oro dall'Appeal della casella. (Motlatse Canyon)" ),
+ 
+    ("it_IT",   'LOC_TM_FEATURE_MOTLATSE_CANYON_QUOTE',
+    '"Credo che il Sud Africa sia il più bel posto al mondo. Ovviamente sono di parte, ma penso che anche il critico più scrupoloso sarebbe d’accordo nel dire che siamo stati benedetti di una terra veramente meravigliosa."[NEWLINE]- Nelson Mandela'    ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_MOTLATSE_CANYON_CHAPTER_HISTORY_PARA_1",  
+    "Il Canyon Motlatse è un importante elemento naturale del Sud Africa, situato a Mpumalanga, costituisce la parte settentrionale della scarpata del Drakensberg. Situato nella riserva naturale del Blyde River Canyon, ha una lunghezza di 25 km ed ha una profondità media di 750 metri, con alcune delle più profonde scogliere di qualsiasi canyon del pianeta."  ),
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_MOTLATSE_CANYON_CHAPTER_HISTORY_PARA_2",  
+    "Anche se è difficile confrontare i canyon in tutto il mondo, il Blyde River Canyon è uno dei più grandi canyon della Terra, e potrebbe essere il più grande canyon verde grazie al suo lussureggiante fogliame subtropicale. Supporta una grande varietà di flora e fauna, tra cui numerose specie di pesci e antilopi, nonché ippopotami, coccodrilli e ogni specie di primati che può essere vista in Sud Africa, rendendolo un territorio molto popolare per il turismo."    ),
+ 
 -----------------------------------------------
 -- NAMIB
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_NAMIB_NAME",					"Namib"	),
-	("it_IT",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Two tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"Foreign [ICON_TRADEROUTE] Trade Routes that pass through your cities provide +1 [ICON_CULTURE] Culture for any Civilization that owns at least one of these tiles."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_NAMIB_QUOTE',	
-	'"I love to hear the sound made by sand dunes, I am one of those who perceive the rhythm of a landscape as recorded in many paintings, I am one of thousands who know I am finally home."[NEWLINE]- Mvula Ya Nangolo'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_NAMIB_CHAPTER_HISTORY_PARA_1",	
-	"The Namib is a coastal desert in southern Africa, whose name is of Nama origin and means 'vast place'. The Namib stretches for more than 2,000km along the Atlantic coasts of Angola, Namibia, and South Africa. Having endured arid, or semi-arid conditions for roughly 55-80 million years, the Namib may be the oldest desert in the world, containing some of the world's driest regions. Owing to its aridity, the Namib is almost totally uninhabited except for a small number of scattered settlements, which have historically served as trading posts for the routes of traders and missionaries that cross the desert."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_NAMIB_NAME",                   "Deserto del Namib" ),
+    ("it_IT",   "LOC_TM_FEATURE_NAMIB_DESCRIPTION",         "Una Meraviglia naturale che occupa due caselle. Fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_GOLD] Oro."  ),
+    ("it_IT",   "LOC_TM_FEATURE_NAMIB_EFFECT",              "Le [ICON_TRADEROUTE] Rotte commerciali straniere che passano nella Città che occupa almeno una casella di questa Meraviglia naturale forniscono +1 [ICON_CULTURE] Cultura."   ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_NAMIB_QUOTE',  
+    '"Mi piace ascoltare il suono prodotto dalle dune di sabbia, sono uno di quelli che percepisce il ritmo di un paesaggio immortalato in molti dipinti, sono uno dei migliaia che sa che sono finalmente a casa."[NEWLINE]- Mvula Ya Nangolo' ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_NAMIB_CHAPTER_HISTORY_PARA_1",
+    "Il Namib è un deserto costiero dell'Africa meridionale, il cui nome è di origine Nama e significa 'luogo vasto'. Il Namib si estende per oltre 2.000 km lungo le coste atlantiche dell'Angola, della Namibia e del Sudafrica. Avendo sopportato condizioni aride, o semi-aride per circa 55-80 milioni di anni, il Namib potrebbe essere il più antico deserto del mondo, che contiene alcune delle regioni più aride del pianeta. A causa della sua aridità, il Namib è quasi completamente disabitato, tranne che per un piccolo numero di insediamenti sparsi, che storicamente servirono da empori per le rotte di commercianti e missionari che attraversavano il deserto." ),
+ 
 -----------------------------------------------
 -- OLD FAITHFUL
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_OLD_FAITHFUL_NAME",				"Old Faithful"	),
-	("it_IT",	"LOC_TM_FEATURE_OLD_FAITHFUL_DESCRIPTION",		"One tile natural wonder. Yields +3 [ICON_SCIENCE] Science, +1 [ICON_FAITH] Faith, and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT",			"Campus districts trigger a culture bomb in any City. Double adjacency bonuses for Campus districts if their City has a National Park."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_OLD_FAITHFUL_QUOTE',	
-	'"It spouted at regular intervals nine times during our stay, the columns of boiling water being thrown from ninety to one hundred and twenty-five feet at each discharge, which lasted from fifteen to twenty minutes. We gave it the name of Old Faithful."[NEWLINE]- Nathaniel P. Langford'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OLD_FAITHFUL_CHAPTER_HISTORY_PARA_1",	
-	"Old Faithful is a geyser found in Yellowstone National Park, in Wyoming, US. First seen by Europeans in 1870 (and by natives some 10,000 years before that), Old Faithful was thus named because of the regularity of its eruption. The geyser shoots a column of boiling water to a height of some 30-50 meters (100-175 feet) every 60-90 minutes (the interval determined by the ferocity of the previous eruption). Geysers occur when subterranean water hits magma (molten rock). The water is instantly turned to steam, which rushes out the nearest available opening at tremendously high pressure. Old Faithful and the other 250 geysers in Yellowstone are enjoyed by some three million visitors each year."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_OLD_FAITHFUL_NAME",                "Old Faithful"  ),
+    ("it_IT",   "LOC_TM_FEATURE_OLD_FAITHFUL_DESCRIPTION",      "Una Meraviglia naturale che occupa una casella. Fornisce +3 [ICON_SCIENCE] Scienza, +1 [ICON_FAITH] Fede e +1 [ICON_GOLD] Oro."    ),
+    ("it_IT",   "LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT",           "I distretti Campus fanno scattare una Bomba culturale in ogni Città. Raddoppia i Bonus da vicinanza dei distretti Campus se la Città possiede un Parco nazionale."   ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_OLD_FAITHFUL_QUOTE',   
+    '"Eruttò ad intervalli regolari nove volte durante la nostra permanenza, le colonne di acqua bollente venivano spruzzate da novanta a centoventicinque piedi ad ogni scarica, che durava da quindici a venti minuti. Gli abbiamo dato il nome di Old Faithful.- Nathaniel P. Langford' ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_OLD_FAITHFUL_CHAPTER_HISTORY_PARA_1", 
+    "Old Faithful è un geyser che si trova nel Parco Nazionale di Yellowstone, nel Wyoming, negli Stati Uniti. Visto per la prima volta dagli europei nel 1870 (e dai nativi circa 10.000 anni prima), Old Faithful fu così chiamato per la regolarità delle sua eruzioni. Il geyser spara una colonna d'acqua bollente ad un'altezza di circa 30-50 metri ogni 60-90 minuti (l'intervallo è determinato dalla ferocia della precedente eruzione). I geyser si verificano quando l'acqua sotterranea colpisce il magma. L'acqua viene istantaneamente trasformata in vapore, che si precipita verso l'apertura più vicina disponibile ad una pressione altissima. Old Faithful e gli altri 250 geyser di Yellowstone sono frequentati da circa tre milioni di visitatori ogni anno."   ),
+ 
 -----------------------------------------------
 -- OUNIANGA
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_OUNIANGA_NAME",					"Ounianga"	),
-	("it_IT",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
-
-	("it_IT",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("it_IT",	"LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_SCIENCE] Science from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("it_IT",	"LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",			"+{1_num} [ICON_CULTURE] Culture from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("it_IT",	"LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Gold from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("it_IT",	"LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Production from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_OUNIANGA_QUOTE',	
-	'"At the beginning, the language of the desert was grass blooming against the wall of wind, tall palms swaying in the season of seeding and cinders carried by air to the blue welcome of warm sand. She was our first fountain, our mother, who held us, then gave us away to the age of waiting cities."[NEWLINE]- Al-Munsif al-Wahaybi'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1",	
-	"Lakes of Ounianga are a series of eighteen interconnected lakes in the hyper arid Ennedi region of the Sahara desert, occupying a basin in the mountains of West Tibesti and Ennedi East. It constitutes an exceptional natural landscape of great beauty with striking colours and shapes. The saline, hyper saline and freshwater lakes are supplied by groundwater and are found in two groups 40 km apart. Ounianga Kebir comprises four lakes, the largest of which, Yoan, covers an area of 358 ha and is 27 m deep. Its highly saline waters only sustain algae and some microorganisms. The second group, Ounianga Serir, comprises fourteen lakes separated by sand dunes. Floating reeds cover almost half the surface of these lakes reducing evaporation. Lake Teli has the largest surface area but is less than 10 m deep. With their high quality freshwater, some of these lakes are home to aquatic fauna, particularly fish."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_OUNIANGA_NAME",                    "Laghi di Ounianga" ),
+    ("it_IT",   "LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",          "Una Meraviglia naturale che occupa due caselle. Fornisce +3 [ICON_FOOD] Cibo, +1 [ICON_CULTURE] Cultura, +1 [ICON_GOLD] Oro e acqua dolce."    ),
+    ("it_IT",   "LOC_TM_FEATURE_OUNIANGA_EFFECT",               "Le Oasi forniscono Bonus di vicinanza maggiori per i distretti cittadini della Civiltà che occupa almeno una delle caselle di questa Meraviglia naturale."    ),
+ 
+    ("it_IT",   "LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",           "+{1_num} [ICON_FAITH] Fede per ogni casella adiacente che contiene {1_Num : plural 1?Oasi; other?Oasi;} (Laghi di Ounianga)."  ),
+    ("it_IT",   "LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",         "+{1_num} [ICON_SCIENCE] Scienza per ogni casella adiacente che contiene {1_Num : plural 1?Oasi; other?Oasi;} (Laghi di Ounianga)." ),
+    ("it_IT",   "LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",         "+{1_num} [ICON_CULTURE] Cultura per ogni casella adiacente che contiene {1_Num : plural 1?Oasi; other?Oasi;} (Laghi di Ounianga)." ),
+    ("it_IT",   "LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",            "+{1_num} [ICON_GOLD] Oro per ogni casella adiacente che contiene {1_Num : plural 1?Oasi; other?Oasi;} (Laghi di Ounianga)."    ),
+    ("it_IT",   "LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",      "+{1_num} [ICON_PRODUCTION] Produzione per ogni casella adiacente che contiene {1_Num : plural 1?Oasi; other?Oasi;} (Laghi di Ounianga)."   ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_OUNIANGA_QUOTE',   
+    '"In principio, la lingua del deserto era l’erba che fioriva contro il muro del vento, alte palme che ondeggiavano nella stagione della semina e ceneri trasportate dall’aria al triste benvenuto della sabbia calda. Era la nostra prima fontana, nostra madre, che ci ha tenuto, e poi dato via all’epoca delle città nascenti."[NEWLINE]- Al-Munsif al-Wahaybi' ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1", 
+    "I laghi di Ounianga sono una serie di diciotto laghi interconnessi nell'aridissima regione Ennedi del deserto del Sahara, che occupa un bacino tra le montagne di West Tibesti e Ennedi East. Costituisce un paesaggio naturale di eccezionale bellezza con colori e forme suggestive. I laghi salini e d'acqua dolce sono riforniti dalle falde acquifere e si trovano in due gruppi distanti 40 km. Ounianga Kebir comprende quattro laghi, il più grande dei quali, Yoan, copre un'area di 358 ettari ed è profondo 27 metri. Le sue acque altamente saline accolgono solo alghe e alcuni microrganismi. Il secondo gruppo, Ounianga Serir, comprende quattordici laghi separati da dune di sabbia. I canneti coprono quasi la metà della superficie di questi laghi riducendone l'evaporazione. Il lago Teli ha la superficie più grande ma è profondo meno di 10 metri. Con la loro acqua dolce di alta qualità, alcuni di questi laghi ospitano fauna acquatica, in particolare i pesci."  ),
+ 
 -----------------------------------------------
 -- PANTANAL
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_PANTANAL_DESCRIPTION",			"Four tile natural wonder. Appears as Marsh. Provides +3 [ICON_FOOD] Food and +2 [ICON_CULTURE] Culture."	),
-	("it_IT",	"LOC_TM_FEATURE_PANTANAL_EFFECT",				"Marsh tiles provide standard adjacency bonuses for Specialty Districts for any Civilization that owns at least one of these tiles."	),
-	
-	("it_IT",	"LOC_ADJ_PANTANAL_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-	("it_IT",	"LOC_ADJ_PANTANAL_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_SCIENCE] Science from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-	("it_IT",	"LOC_ADJ_PANTANAL_CULTURE_DESCRIPTION",			"+{1_num} [ICON_CULTURE] Culture from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-	("it_IT",	"LOC_ADJ_PANTANAL_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Gold from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-	("it_IT",	"LOC_ADJ_PANTANAL_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Production from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_PANTANAL_DESCRIPTION",          "Una Meraviglia naturale che occupa quattro caselle. Ha l'aspetto di una palude e fornisce +3 [ICON_FOOD] Cibo e +2 [ICON_CULTURE] Cultura."    ),
+    ("it_IT",   "LOC_TM_FEATURE_PANTANAL_EFFECT",               "Le Paludi forniscono Bonus di vicinanza standard per i distretti cittadini della Civiltà che occupa almeno una delle caselle di questa Meraviglia naturale."  ),
+   
+    ("it_IT",   "LOC_ADJ_PANTANAL_FAITH_DESCRIPTION",           "+{1_num} [ICON_FAITH] Fede per ogni casella adiacente che contiene {1_Num : plural 1?Palude; other?Paludi;} (Pantanal)."   ),
+    ("it_IT",   "LOC_ADJ_PANTANAL_SCIENCE_DESCRIPTION",         "+{1_num} [ICON_SCIENCE] Scienza per ogni casella adiacente che contiene {1_Num : plural 1?Palude; other?Paludi;} (Pantanal)."  ),
+    ("it_IT",   "LOC_ADJ_PANTANAL_CULTURE_DESCRIPTION",         "+{1_num} [ICON_CULTURE] Cultura per ogni casella adiacente che contiene {1_Num : plural 1?Palude; other?Paludi;} (Pantanal)."  ),
+    ("it_IT",   "LOC_ADJ_PANTANAL_GOLD_DESCRIPTION",            "+{1_num} [ICON_GOLD] Oro per ogni casella adiacente che contiene {1_Num : plural 1?Palude; other?Paludi;} (Pantanal)." ),
+    ("it_IT",   "LOC_ADJ_PANTANAL_PRODUCTION_DESCRIPTION",      "+{1_num} [ICON_PRODUCTION] Produzione per ogni casella adiacente che contiene {1_Num : plural 1?Palude; other?Paludi;} (Pantanal)."    ),
+ 
 -----------------------------------------------
 -- PIOPIOTAHI
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION",	"Three tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_PIOPIOTAHI_EFFECT",			"[ICON_AMENITIES] Amenities provided by regional buildings extend 3 tiles further for any Civilization that owns at least one of these tiles."	),
-	
+ 
+    ("it_IT",   "LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION",    "Una Meraviglia naturale che occupa tre caselle invalicabili. Fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_GOLD] Oro alle caselle adiacenti."  ),
+    ("it_IT",   "LOC_TM_FEATURE_PIOPIOTAHI_EFFECT",         "L'[ICON_AMENITIES] Attrattiva su base regionale fornita dalle strutture si estende di 3 caselle nella Civiltà che occupa almeno una delle caselle di questa Meraviglia naturale." ),
+   
 -----------------------------------------------
 -- ROCK OF GIBRALTAR
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_GIBRALTAR_NAME",				"Rock of Gibraltar"	),
-	("it_IT",	"LOC_TM_FEATURE_GIBRALTAR_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FOOD] Food and +1 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_GIBRALTAR_EFFECT",			"Encampments and Harbors receive +2 [ICON_GREATPERSON] Great Person Points of their respective type in the City that owns this tile."	),
-
-	("it_IT",	'LOC_TM_FEATURE_GIBRALTAR_QUOTE',	
-	'"Look round, my boys, and view how beautiful the Rock appears by the light of the glorious fire."[NEWLINE]- George Augustus Eliott'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_GIBRALTAR_CHAPTER_HISTORY_PARA_1",	
-	"Gibraltar is a peninsula containing a remarkable rock formation at the mouth of the Mediterranean Sea. Captured from Spain by the English and Dutch in 1704 and ceded to England in 1713, Gibraltar has been a British possession ever since (much to the annoyance of Spain, which wants it back). Commanding the entrance to the Atlantic from the Mediterranean, Gibraltar has been a major British naval base for three hundred years. Most of Gibraltar is covered by the 'Rock', a huge formation of shale, sandstone and limestone thrust up by the unimaginable power of plate tectonics. The Rock stands some 430 meters (1400 feet) in height. At one time Gibraltar was a massive fortification allowing Britain to dominate the narrow Mediterranean-Atlantic passage, but today the island is more of a nature preserve and tourist destination than it is a military base."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_GIBRALTAR_NAME",               "Rocca di Gibilterra"   ),
+    ("it_IT",   "LOC_TM_FEATURE_GIBRALTAR_DESCRIPTION",     "Una Meraviglia naturale che occupa una casella invalicabile. Fornisce +1 [ICON_FOOD] Cibo e +1 [ICON_GOLD] Oro alle caselle adiacenti."    ),
+    ("it_IT",   "LOC_TM_FEATURE_GIBRALTAR_EFFECT",          "Accampamenti e Porti ricevono +2 punti [ICON_GREATPERSON] Grande Personaggio della loro rispettiva tipologia nella Città che occupa questa casella."  ),
+ 
+    ("it_IT",   'LOC_TM_FEATURE_GIBRALTAR_QUOTE',  
+    '"Guardatevi intorno, figli miei, e osservate quanto appare meravigliosa la Rocca alla luce del fuoco glorioso."[NEWLINE]- George Augustus Eliott'  ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_GIBRALTAR_CHAPTER_HISTORY_PARA_1",
+    "Gibilterra è una penisola che contiene una notevole formazione rocciosa alla foce del Mar Mediterraneo. Catturata alla Spagna dagli inglesi e dagli olandesi nel 1704 e ceduta all'Inghilterra nel 1713, Gibilterra è stata un possedimento britannico da allora (con gran dispiacere della Spagna, che la vuole indietro). Comandando l'ingresso nell'Atlantico dal Mediterraneo, Gibilterra è stata una delle principali basi navali britanniche per trecento anni. La maggior parte di Gibilterra è coperta dalla Rocca, un'enorme formazione di scisto, arenaria e calcare spinta dall'imprevedibile potenza della tettonica a zolle. La Rocca si trova a circa 430 metri di altezza. Un tempo Gibilterra era una massiccia fortificazione che permetteva alla Gran Bretagna di dominare lo stretto passaggio dell'Atlantico Mediterraneo, ma oggi l'isola è più una riserva naturale ed una destinazione turistica che una base militare."  ),
+ 
 -----------------------------------------------
 -- RORAIMA
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_RORAIMA_DESCRIPTION",	"Four tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_SCIENCE] Science."	),
-	("it_IT",	"LOC_TM_FEATURE_RORAIMA_EFFECT",		"Jungle does not diminish the appeal of adjacent plots for any Civilization that owns at least one of these tiles."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_RORAIMA_DESCRIPTION",   "Una Meraviglia naturale che occupa quattro caselle invalicabili. Ha l'aspetto di una montagna e fornisce +1 [ICON_FAITH] Fede e +1 [ICON_SCIENCE] Scienza alle caselle adiacenti." ),
+    ("it_IT",   "LOC_TM_FEATURE_RORAIMA_EFFECT",        "Le Foreste pluviali non abbassano l'Appeal delle caselle adiacenti della Civiltà che occupa almeno una delle caselle di questa Meraviglia naturale."  ),
+ 
 -----------------------------------------------
 -- SALAR DE UYUNI
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_SALAR_DE_UYUNI_NAME",				"Salar de Uyuni"	),
-	("it_IT",	"LOC_TM_FEATURE_SALAR_DE_UYUNI_DESCRIPTION",	"Four tile natural wonder. Yields +2 [ICON_SCIENCE] Science, +1 [ICON_PRODUCTION] Production, and +2 [ICON_GOLD] Gold."	),
-	("it_IT",	"LOC_TM_FEATURE_SALAR_DE_UYUNI_EFFECT",			"Grants a free copy of the [ICON_RESOURCE_TM_LITHIUM] Lithium luxury resource (not tradeable), which provides +6 [ICON_AMENITIES] Amenities, to any player that owns at least one of these tiles."	),
-
-	("it_IT",	'LOC_TM_FEATURE_SALAR_DE_UYUNI_QUOTE',	
-	'"I shivered in those solitudes when I heard the voice of the salt in the desert."[NEWLINE]- Pablo Neruda'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_SALAR_DE_UYUNI_CHAPTER_HISTORY_PARA_1",	
-	"Situated in southwest Bolivia, near the Chilean border and the Atacama Desert, lies Salar de Uyuni; the largest salt flat on Earth at 10,582 square kilometers, roughly 100 times the size of the Bonneville Salt Flats in the United States. The Salar was formed a result of transformations between several prehistoric lakes. Covered by a few meters of salt crust, it has an extraordinary flatness with the average elevation variations within one meter over the entire area of the Salar. The large area, clear skies, and exceptional flatness of the surface make it an ideal object for calibrating the altimeters of Earth observation satellites."	),
-
-	("it_IT",	"LOC_RESOURCE_TM_LITHIUM_NAME",	"Lithium"	),
-	("it_IT",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_LITHIUM_CHAPTER_HISTORY_PARA_1",
-	"Lithium, from Greek lithos stone, is a soft, silver-white metal that has highly reactive properties. Lithium and its compounds have several industrial applications, including heat-resistant glass and ceramics, lithium grease lubricants, flux additives for iron, steel and aluminium production, lithium batteries, and lithium-ion batteries. Salar de Uyuni, in southwest Bolivia, contains 50% to 70% of the world's known lithium reserves, which is in the process of being extracted."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_SALAR_DE_UYUNI_NAME",              "Salar de Uyuni"    ),
+    ("it_IT",   "LOC_TM_FEATURE_SALAR_DE_UYUNI_DESCRIPTION",    "Una Meraviglia naturale che occupa quattro caselle. Fornisce +2 [ICON_SCIENCE] Scienza, +1 [ICON_PRODUCTION] Produzione e +2 [ICON_GOLD] Oro." ),
+    ("it_IT",   "LOC_TM_FEATURE_SALAR_DE_UYUNI_EFFECT",         "Assegna ad ogni Civiltà che occupa almeno una casella di questa Meraviglia naturale una copia gratuita della risorsa di lusso [ICON_RESOURCE_TM_LITHIUM] Litio (non scambiabile), che fornisce +6 [ICON_AMENITIES] Attrattiva."   ),
+ 
+    ("it_IT",   'LOC_TM_FEATURE_SALAR_DE_UYUNI_QUOTE', 
+    '"Fui commosso da certe solitudini ascoltando la voce del sale nel deserto. "[NEWLINE]- Pablo Neruda'   ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_SALAR_DE_UYUNI_CHAPTER_HISTORY_PARA_1",   
+    "Situato nel sud-ovest della Bolivia, vicino al confine cileno e al deserto di Atacama, si trova Salar de Uyuni, che con i suoi 10.582 km² è la più grande distesa salata sulla Terra. Il Salar si è formato a seguito di trasformazioni da parte di diversi laghi preistorici. È coperto da alcuni metri di crosta di sale, che ha una straordinaria planarità, con variazioni di elevazione medie all'interno di un metro sull'intera area del Salar.
+L'ampia area, il cielo terso e l'eccezionale planarità della superficie lo rendono un oggetto ideale per calibrare gli altimetri dei satelliti di osservazione della Terra."   ),
+ 
+    ("it_IT",   "LOC_RESOURCE_TM_LITHIUM_NAME", "Litio" ),
+    ("it_IT",   "LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_LITHIUM_CHAPTER_HISTORY_PARA_1",
+    "Il litio (dal greco lithos, 'pietra') è un metallo tenero di colore bianco-argento che ha proprietà altamente reattive. Il litio e i suoi composti hanno diverse applicazioni industriali, tra cui vetro e ceramiche resistenti al calore, lubrificanti al grasso di litio, additivi per il flusso di ferro, acciaio e produzione di alluminio, batterie al litio e batterie agli ioni di litio. Salar de Uyuni, nel sud-ovest della Bolivia, contiene dal 50 al 70% delle riserve di litio conosciute nel mondo, che è in fase di estrazione." ),
+ 
 -----------------------------------------------
 -- SINAI
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_SINAI_NAME",				"Mount Sinai"	),
-	("it_IT",	"LOC_TM_FEATURE_SINAI_DESCRIPTION",		"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_FAITH] Faith."	),
-	("it_IT",	"LOC_TM_FEATURE_SINAI_EFFECT",			"Holy Sites provide +1 [ICON_GREATPERSON] Great Person Points toward [ICON_GREATPROPHET] Great Prophets for the player that owns this tile. Religious units trained in this City receive +10 Theological [ICON_STRENGTH] Combat Strength."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_SINAI_QUOTE',	
-	'"When the Lord finished speaking to Moses on Mount Sinai, he gave him the two tablets of the covenant law, the tablets of stone inscribed by the finger of God."[NEWLINE]- Exodus 31:18'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_SINAI_CHAPTER_HISTORY_PARA_1",	
-	"Found on the Sinai Peninsula of Egypt, Mount Sinai is among the most revered holy sites recognized by the followers of Judaism, Christianity, and Islam. Mount Sinai is believed to be the location where Moses first received the Ten Commandments from God during the Israelites' exodus from Egypt, making the peak an important site for religious pilgrims from around the world."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_SINAI_NAME",               "Monte Sinai"   ),
+    ("it_IT",   "LOC_TM_FEATURE_SINAI_DESCRIPTION",     "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +2 [ICON_FAITH] Fede alle caselle adiacenti." ),
+    ("it_IT",   "LOC_TM_FEATURE_SINAI_EFFECT",          "I Luoghi Sacri forniscono +1 punto [ICON_GREATPROPHET] Grande Profeta al giocatore che occupa questa casella. Le unità religiose addestrate nella Città che occupa questa casella ricevono +10 [ICON_STRENGTH] Forza religiosa." ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_SINAI_QUOTE',  
+    '"Quando il Signore ebbe finito di parlare con Mosè sul monte Sinai, gli diede le due tavole della testimonianza, tavole di pietra, scritte dal dito di Dio."[NEWLINE]- Esodo 31:18'   ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_SINAI_CHAPTER_HISTORY_PARA_1",
+    "Found on the Sinai Peninsula of Egypt, Mount Sinai is among the most revered holy sites recognized by the followers of Judaism, Christianity, and Islam. Mount Sinai is believed to be the location where Moses first received the Ten Commandments from God during the Israelites' exodus from Egypt, making the peak an important site for religious pilgrims from around the world."    ),
+ 
 -----------------------------------------------
 -- SRI PADA
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_SRI_PADA_NAME",				"Sri Pada"	),
-	("it_IT",	"LOC_TM_FEATURE_SRI_PADA_DESCRIPTION",		"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_FOOD] Food and +1 [ICON_FAITH] Faith."	),
-	("it_IT",	"LOC_TM_FEATURE_SRI_PADA_EFFECT",			"Religious units trained in the City that owns this tile receive [ICON_CULTURE] Culture upon converting a City to their [ICON_RELIGION] Religion for the first time."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_SRI_PADA_QUOTE',	
-	'"An exceedingly wondrous sight, which is endowed with supreme splendour."[NEWLINE]- The Mahabharata'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_SRI_PADA_CHAPTER_HISTORY_PARA_1",	
-	"Towering above Sri Lanka, Sri Pada is a large mountain peak with an unusually conical shape that is held sacred by a number of religions for the footprint found at its peak. The footprint, a large depression found in a rock formation on the summit, has been attributed to Buddha, Shiva, and the biblical figure Adam, leading to a reverence among followers of Buddhism, Hinduism, and Islam. Each year, thousands of pilgrims trek for hours up the mountain to pay their respects at the holy site."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_SRI_PADA_NAME",                "Sri Pada"  ),
+    ("it_IT",   "LOC_TM_FEATURE_SRI_PADA_DESCRIPTION",       "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +1 [ICON_FOOD] Food e +1 [ICON_FAITH] Fede alle caselle adiacenti."  ),
+    ("it_IT",   "LOC_TM_FEATURE_SRI_PADA_EFFECT",           "Le unità religiose addestrate nella Città che occupa questa Meraviglia naturale ricevono [ICON_CULTURE] Cultura quando convertono una Città alla loro [ICON_RELIGION] Religione per la prima volta."    ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_SRI_PADA_QUOTE',   
+    '"Una visione straordinariamente meravigliosa, dotata di supremo splendore."[NEWLINE]- The Mahabharata' ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_SRI_PADA_CHAPTER_HISTORY_PARA_1", 
+    "Torreggiando sullo Sri Lanka, Sri Pada è un grande picco montuoso con una forma insolitamente conica che è ritenuta sacra da un certo numero di religioni per l'impronta trovata al suo apice. L'impronta, una grande depressione trovata in una formazione rocciosa sulla cima, è stata attribuita a Buddha, Shiva e alla figura biblica di Adamo, portando a una venerazione tra i seguaci del buddismo, dell'induismo e dell'Islam. Ogni anno migliaia di pellegrini camminano per ore sulla montagna per rendere omaggio al luogo sacro."   ),
+ 
 -----------------------------------------------
 -- TORRES DEL PAINE
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_TORRES_DEL_PAINE_DESCRIPTION",		"Two tile impassable natural wonder. Doubles the terrain yields of adjacent tiles."	),
-	("it_IT",	"LOC_TM_FEATURE_TORRES_DEL_PAINE_EFFECT",			"Any City that owns at least one of these tiles may build one extra District than the [ICON_Citizen] Population would normally allow."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_TORRES_DEL_PAINE_DESCRIPTION",      "Una Meraviglia naturale che occupa due caselle invalicabili. Raddoppia le rese dei terreni in tutte le caselle adiacenti." ),
+    ("it_IT",   "LOC_TM_FEATURE_TORRES_DEL_PAINE_EFFECT",           "Le Città che occupano almeno una casella di questa Meraviglia naturale possono costruire un distretto aggiuntivo superando il limite imposto dalla [ICON_Citizen] Popolazione."   ),
+ 
 -----------------------------------------------
 -- TSINGY
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_TSINGY_DESCRIPTION",	"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_SCIENCE] Science."	),
-	("it_IT",	"LOC_TM_FEATURE_TSINGY_EFFECT",			"Theater districts trigger a culture bomb in any City. Double adjacency bonuses for Theater districts if their City has a National Park."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_TSINGY_DESCRIPTION",    "Una Meraviglia naturale che occupa una casella invalicabile. Fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_SCIENCE] Scienza alle caselle adiacenti."   ),
+    ("it_IT",   "LOC_TM_FEATURE_TSINGY_EFFECT",         "I distretti Piazza del Teatro fanno scattare una Bomba Culturale in ogni Città. Raddoppia i Bonus da vicinanza dei distretti Piazza del Teatro se la Città possiede un Parco nazionale." ),
+ 
 -----------------------------------------------
 -- UBSUNUR HOLLOW
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION",	"Four tile natural wonder. Appears as Marsh. Yields +2 [ICON_FAITH] Faith, +1 [ICON_FOOD] Food, and +2 [ICON_PRODUCTION] Production."	),
-	("it_IT",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT",			"Any Civilization that owns at least one of these tiles receives a free [ICON_CivicBoosted] Inspiration upon earning a [ICON_GREATGENERAL] Great General."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION",    "Una Meraviglia naturale che occupa quattro caselle. Ha l'aspetto di una palude e fornisce +2 [ICON_FAITH] Fede, +1 [ICON_FOOD] Cibo e +2 [ICON_PRODUCTION] Produzione."    ),
+    ("it_IT",   "LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT",         "La Civiltà che occupa almeno una casella di questa Meraviglia naturale riceve un [ICON_CivicBoosted] Impulso gratuito quando ottiene un [ICON_GREATGENERAL] Grande Generale." ),
+ 
 -----------------------------------------------
 -- ULURU
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith."	),
-	("it_IT",	"LOC_TM_FEATURE_ULURU_EFFECT",			"Specialty Districts constructed on desert terrain yield +1 [ICON_FOOD] Food for any Civilization that owns this tile."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_ULURU_DESCRIPTION",     "Una Meraviglia naturale che occupa una casella invalicabile. Fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_FAITH] Fede alle caselle adiacenti."    ),
+    ("it_IT",   "LOC_TM_FEATURE_ULURU_EFFECT",          "I distretti cittadini costruiti sul Deserto forniscono +1 [ICON_FOOD] Cibo ad ogni Civiltà che possiede almeno una casella di questa Meraviglia naturale."    ),
+ 
 -----------------------------------------------
 -- VREDEFORT DOME
 -----------------------------------------------
-
-	("it_IT",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"Vredefort Dome"	),
-	("it_IT",	"LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",		"Two tile natural wonder. Yields +2 [ICON_FOOD] Food, +2 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
-	("it_IT",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",				"Farms provide +1 [ICON_FOOD] Food when adjacent to another Farm for any Civilization that owns at least one of these tiles."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_VREDEFORT_DOME_QUOTE',	
-	'"When geologists first wandered the spectacular ring of hills straddling the Vaal River north of Vredefort nearly 150 years ago, they immediately recognised that the unusually shattered and uptilted rocks bore witness to an exceptionally violent event in the distant past."[NEWLINE]- Wolf Uwe Reimold'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_VREDEFORT_DOME_CHAPTER_HISTORY_PARA_1",	
-	"The Vredefort Dome is the largest verified impact crater on Earth, more than 300km across when it was formed. What remains of it is located in the present-day Free State province of South Africa where cultivated agriculture dominates the landscape. The crater is estimated to be over 2 billion years old, with impact taking place in the Paleoproterozoic Era, making it the second-oldest known crater on Earth."	),
-
+ 
+    ("it_IT",   "LOC_FEATURE_VREDEFORT_DOME_NAME",                  "Cratere di Vredefort"  ),
+    ("it_IT",   "LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",        "Una Meraviglia naturale che occupa due caselle. Fornisce +2 [ICON_FOOD] Cibo, +2 [ICON_SCIENCE] Scienza e +1 [ICON_CULTURE] Cultura."  ),
+    ("it_IT",   "LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",             "Le Fattorie della Civiltà che possiede almeno una casella di questa Meraviglia naturale forniscono +1 [ICON_FOOD] Cibo quando sono adiacenti ad altre Fattorie."  ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_VREDEFORT_DOME_QUOTE', 
+    '"Quando i geologi, circa 150 anni fa, per la prima volta vagarono per lo spettacolare anello di colline a cavallo del fiume Vaal, a nord di Vredefort, riconobbero immediatamente che le rocce insolitamente distrutte e rovesciate rendevano testimonianza di un evento eccezionalmente violento nel lontano passato."[NEWLINE]- Wolf Uwe Reimold'    ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_VREDEFORT_DOME_CHAPTER_HISTORY_PARA_1",   
+    "Il cratere Vredefort, noto anche come Vredefort Dome, è il più grande cratere meteoritico della Terra, misurante più di 300 km di diametro al momento della sua formazione. Ciò che rimane di esso si trova nell'attuale provincia del Free State in Sudafrica, dove l'agricoltura domina il paesaggio. Si stima che il cratere abbia più di 2 miliardi di anni, con un impatto che ha avuto luogo nell'era Paleoproterozoica, rendendolo il secondo più antico cratere conosciuto sulla Terra." ),
+ 
 -----------------------------------------------
 -- WULINGYUAN
 -----------------------------------------------
-	
-	("it_IT",	"LOC_FEATURE_WULINGYUAN_NAME",				"Wulingyuan"	),
-	("it_IT",	"LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",	"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_CULTURE] Culture"	),
-	("it_IT",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",			"Great Works of [ICON_GreatWork_Writing] Writing yield +2 [ICON_CULTURE] Culture and +50% [ICON_TOURISM] Tourism for any Civilization that owns at least one of these tiles."	),
-	
-	("it_IT",	'LOC_TM_FEATURE_WULINGYUAN_QUOTE',	
-	'"From ten thousand valleys the trees touch heaven, on a thousand peaks cuckoos are calling, and, after a night of mountain rain, from each summit come hundreds of silken cascades."[NEWLINE]- Wang Wei'	),
-	
-	("it_IT",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_WULINGYUAN_CHAPTER_HISTORY_PARA_1",	
-	"Wulingyuan is a scenic and historical site in south-central China. It is noted for more than 3,000 quartzite sandstone pillars and peaks, many over 200 meters in height, along with ravines, gorges, pools, lakes, rivers and waterfalls. It features 40 caves and two natural bridges, Xianrenqiao (Bridge of the Immortals) and Tianqiashengkong (Bridge Across the Sky)."	),
-
+   
+    ("it_IT",   "LOC_FEATURE_WULINGYUAN_NAME",              "Wulingyuan"    ),
+    ("it_IT",   "LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",    "Una Meraviglia naturale che occupa due caselle invalicabili. Fornisce +2 [ICON_CULTURE] Cultura alle caselle adiacenti"    ),
+    ("it_IT",   "LOC_TM_FEATURE_WULINGYUAN_EFFECT",         "I Capolavori [ICON_GreatWork_Writing] letterari forniscono +2 [ICON_CULTURE] Cultura e +50% al [ICON_TOURISM] Turismo alla Civiltà che possiede almeno una casella di questa Meraviglia naturale."    ),
+   
+    ("it_IT",   'LOC_TM_FEATURE_WULINGYUAN_QUOTE', 
+    '"Da diecimila valli gli alberi toccano il cielo, su mille cime i cuculi stanno chiamando, e, dopo una notte di piogge di montagna, da ogni cima arrivano centinaia di cascate di seta."[NEWLINE]- Wang Wei'    ),
+   
+    ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_WULINGYUAN_CHAPTER_HISTORY_PARA_1",   
+    "Wulingyuan è un'area di interesse storico e paesaggistico della Cina centro-meridionale. È noto per più di 3.000 pilastri di quarzareniti, molti oltre 200 metri di altezza, assieme a burroni, gole, stagni, laghi, fiumi e cascate. È dotato di 40 grotte e due ponti naturali, Xianrenqiao ('Ponte degli Immortali') e Tianqiashengkong ('Ponte che attraversa il cielo')." ),
+ 
 -----------------------------------------------
 -- YOSEMITE
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_YOSEMITE_DESCRIPTION",		"Two tile impassable natural wonder. Adjacent plots yield +1 [ICON_GOLD] Gold and +1 [ICON_SCIENCE] Science."	),
-	("it_IT",	"LOC_TM_FEATURE_YOSEMITE_EFFECT",			"Forest provides an additional +1 Appeal to adjacent plots for any Civilization that owns at least one of these tiles."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_YOSEMITE_DESCRIPTION",      "Una Meraviglia naturale che occupa due caselle invalicabili. Fornisce +1 [ICON_GOLD] Oro e +1 [ICON_SCIENCE] Scienza alle caselle adiacenti."  ),
+    ("it_IT",   "LOC_TM_FEATURE_YOSEMITE_EFFECT",           "Le Foreste forniscono +1 Appeal alle caselle adiacenti per la Civiltà che possiede almeno una casella di questa Meraviglia naturale." ),
+ 
 -----------------------------------------------
 -- ZHANGYE DANXIA
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_DESCRIPTION",	"Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_SCIENCE] Science."	),
-	("it_IT",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT",			"Commercial Hubs and Campus districts in a City that owns at least one of these tiles receive +2 [ICON_GREATPERSON] Great Person Points of their respective type."	),
-
+ 
+    ("it_IT",   "LOC_TM_FEATURE_ZHANGYE_DANXIA_DESCRIPTION",    "Una Meraviglia naturale che occupa tre caselle invalicabili. Ha l'aspetto di una montagna e fornisce +2 [ICON_SCIENCE] Scienza alle caselle adiacenti."    ),
+    ("it_IT",   "LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT",         "Snodi commerciali e Campus ottengono +2 punti [ICON_GREATPERSON] Grande personaggio della loro rispettiva tipologia nella Città che occupa almeno una casella di questa Meraviglia naturale." ),
+ 
 -----------------------------------------------
 -- MISC - District Adjacency
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_ADJ_NW_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-	("it_IT",	"LOC_TM_ADJ_NW_SCIENCE_DESCRIPTION",		"+{1_num} [ICON_SCIENCE] Science from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-	("it_IT",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} [ICON_CULTURE] Culture from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-	("it_IT",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Production from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-	("it_IT",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Gold from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-
+ 
+    ("it_IT",   "LOC_TM_ADJ_NW_FAITH_DESCRIPTION",          "+{1_num} [ICON_FAITH] Fede dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}." ),
+    ("it_IT",   "LOC_TM_ADJ_NW_SCIENCE_DESCRIPTION",        "+{1_num} [ICON_SCIENCE] Scienza dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."    ),
+    ("it_IT",   "LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",        "+{1_num} [ICON_CULTURE] Cultura dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."    ),
+    ("it_IT",   "LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",     "+{1_num} [ICON_PRODUCTION] Produzione dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."  ),
+    ("it_IT",   "LOC_TM_ADJ_NW_GOLD_DESCRIPTION",       "+{1_num} [ICON_GOLD] Oro dalla vicinanza di {1_Num : plural 1?Meraviglia naturale; other?Meraviglie naturali;}."   ),
+ 
 -----------------------------------------------
 -- MISC - Naturlist
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_UNIT_NATURALIST_DESCRIPTION",	"A late-game civilian who can create a single National Park to attract [ICON_TOURISM] Tourists. Must be purchased with [ICON_GOLD] Gold."	),
-
+ 
+    ("it_IT",   "LOC_TM_UNIT_NATURALIST_DESCRIPTION",   "Unità civile disponibile nella fase finale della partita, può creare un singolo Parco nazionale per attirare [ICON_TOURISM] Turisti. Dev'essere acquistata spendendo [ICON_GOLD] Oro."   ),
+ 
 -----------------------------------------------
 -- MOD SUPPORT
 -----------------------------------------------
-
-	("it_IT",	"LOC_TM_FEATURE_FUJI_DESCRIPTION",		"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith. Districts built in adjacent tiles provide an additional +2 [ICON_GREATPERSON] Great Person points of their type."	);
+ 
+    ("it_IT",   "LOC_TM_FEATURE_FUJI_DESCRIPTION",      "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_FAITH] Fede alle caselle adiacenti. I distretti costruiti nelle caselle adiacenti forniscono +2 punti [ICON_GREATPERSON] Grande Personaggio della loro rispettiva tipologia."  );

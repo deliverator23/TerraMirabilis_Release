@@ -15,33 +15,33 @@ VALUES
 -- NOTE: Lowering this number will increase the likelihood of NWs appearing closer to each other
 -----------------------------------------------
 
-	('WONDER_DISTANCE',		NULL,	5),
+	('WONDER_DISTANCE',		NULL,	7),
 
 -----------------------------------------------
 -- SECTION B
 
 -- Amount of Natural Wonders In Game (by map size)
--- Game Defaults below. We've tripled them on every map size.
+-- Game Defaults below. We've doubled them on every map size.
 
 -- NOTE: This does not guarantee you will see X number of wonders in the game. This will be due to map script placement. Consider this more of a maximum value.
 -----------------------------------------------
 
-	('WONDERS_DUEL',		'NW_MAP_SIZE',	6), -- Game Default 2
-	('WONDERS_TINY',		'NW_MAP_SIZE',	9), -- Game Default 3
-	('WONDERS_SMALL',		'NW_MAP_SIZE',	12), -- Game Default 4
-	('WONDERS_STANDARD',	'NW_MAP_SIZE',	15), -- Game Default 5
-	('WONDERS_LARGE',		'NW_MAP_SIZE',	18), -- Game Default 6
-	('WONDERS_HUGE',		'NW_MAP_SIZE',	21), -- Game Default 7
+	('WONDERS_DUEL',		'NW_MAP_SIZE',	4), -- Game Default 2
+	('WONDERS_TINY',		'NW_MAP_SIZE',	6), -- Game Default 3
+	('WONDERS_SMALL',		'NW_MAP_SIZE',	8), -- Game Default 4
+	('WONDERS_STANDARD',	'NW_MAP_SIZE',	10), -- Game Default 5
+	('WONDERS_LARGE',		'NW_MAP_SIZE',	12), -- Game Default 6
+	('WONDERS_HUGE',		'NW_MAP_SIZE',	14), -- Game Default 7
 
 	-- Gedemon's YNAMP
-	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	24), -- Default 8
-	('WONDERS_GIANT',		'NW_MAP_SIZE',	36), -- Default 12
-	('WONDERS_LUDICROUS',	'NW_MAP_SIZE',	48), -- Default 16
+	('WONDERS_ENORMOUS',	'NW_MAP_SIZE',	16), -- Default 8
+	('WONDERS_GIANT',		'NW_MAP_SIZE',	24), -- Default 12
+	('WONDERS_LUDICROUS',	'NW_MAP_SIZE',	32), -- Default 16
 
 	-- pOkiehl's Larger Map Sizes
-	('WONDERS_MASSIVE',		'NW_MAP_SIZE',	24), -- Default 8
-	('WONDERS_GIGANTIC',	'NW_MAP_SIZE',	36), -- Default 12
-	('WONDERS_COLOSSAL',	'NW_MAP_SIZE',	48), -- Default 16
+	('WONDERS_MASSIVE',		'NW_MAP_SIZE',	16), -- Default 8
+	('WONDERS_GIGANTIC',	'NW_MAP_SIZE',	24), -- Default 12
+	('WONDERS_COLOSSAL',	'NW_MAP_SIZE',	32), -- Default 16
 
 -----------------------------------------------
 -- SECTION C
@@ -132,7 +132,25 @@ VALUES
 	('NW_REVEAL_XP',	NULL,	15), -- Game Default 10
 
 -----------------------------------------------
--- SECTION K (Rise & Fall Only)
+-- SECTION K
+
+-- Natural Wonder adjacent fertility
+
+-- NOTE: "Fertility" is essentially a weight that determines how desirable a plot is to the AI. It is not the only weight that determines this, but it is one of them.
+-- NOTE: By increasing this number, you are making the AI more competitive for them. We feel 2 is a decent weight to add a bit of a "settler race", but you can increase or decrease it.
+
+-- Some examples of existing fertility weights:
+-- Coast = 0
+-- Fresh Water = 2
+-- Luxury Resource = 5
+-- River = 1
+-- Snow / Ice = 0
+-----------------------------------------------
+
+	('NW_FERTILITY',	NULL,	2), -- Game Default 1
+
+-----------------------------------------------
+-- SECTION L (Rise & Fall Only)
 
 -- Adjust EraScore earned for finding or settling Natural Wonders.
 
@@ -144,7 +162,7 @@ VALUES
 	('ERASCORE_DISCOVERED_FIRST',	NULL,	2), -- Game Default 3
 
 -----------------------------------------------
--- SECTION L
+-- SECTION M
 
 -- Enable Natural Wonders
 -- Change the word Enabled to Disabled below
@@ -189,7 +207,9 @@ VALUES
 
 	-- Terra Mirabilis
 	('FEATURE_BARRINGER_CRATER',	'ENABLED',		NULL),
+	('FEATURE_BIOLUMINESCENT_BAY',	'ENABLED',		NULL),
 	('FEATURE_CERRO_DE_POTOSI',		'ENABLED',		NULL),
+	('FEATURE_DALLOL',				'ENABLED',		NULL),
 	('FEATURE_GIBRALTAR',			'ENABLED',		NULL),
 	('FEATURE_GRAND_MESA',			'ENABLED',		NULL),
 	('FEATURE_KAILASH',				'ENABLED',		NULL),

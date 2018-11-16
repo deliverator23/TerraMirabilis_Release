@@ -35,6 +35,22 @@ VALUES
 	"The Barringer Crater is a huge meteorite crater located in Arizona, in the United States of America. The crater is 1,200 meters (4,000 feet) in diameter, and scientists believe that it was created some 50,000 years ago when the site was hit by a large nickel-iron meteorite weighing, at time of impact, 160,000 tons and moving at perhaps 44,000 kilometers per hour (27,000 mph)."	),
 
 -----------------------------------------------
+-- BIOLUMINESCENT BAY
+-----------------------------------------------
+
+	("ko_KR",	"LOC_FEATURE_BIOLUMINESCENT_BAY_NAME",					"Bioluminescent Bay"	),
+	("ko_KR",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION",		"One tile natural wonder. Yields +2 [ICON_SCIENCE] Science, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("ko_KR",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT",				"Fishing Boats provide +1 [ICON_GOLD] Gold on outgoing international [ICON_TRADEROUTE] Trade Routes from their cities for any Civilization that owns this tile."	),
+	
+	("ko_KR",	'LOC_TM_FEATURE_BIOLUMINESCENT_BAY_QUOTE',
+	'"The emission of light from fire, lightning bolts, stars or living beings attracts the attention of any human being. In the case of bioluminescence the light has a strange glow, something magic and mysterious."[NEWLINE]- Cassius Stevani'	),
+	
+	("ko_KR",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_1",	
+	"The Bioluminescent Bay (also known as Puerto Mosquito, or Mosquito Bay), is considered the best example of a bioluminescent bay in the United States and is listed as a national natural landmark, one of five in Puerto Rico. The luminescence in the bay is caused by a micro-organism, the dinoflagellate Pyrodinium bahamense, which glows whenever the water is disturbed, leaving a trail of neon blue."	),
+	("ko_KR",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_2",	
+	"A combination of factors creates the necessary conditions for bioluminescence: red mangrove trees surround the water, a complete lack of modern development around the bay, the water is cool enough and deep enough, and a small channel to the ocean keeps the dinoflagellates in the bay. This small channel was created artificially, being the result of attempts by the occupants of Spanish ships to choke off the bay from the ocean. The Spanish believed that the bioluminescence they encountered there while first exploring the area, was the work of the devil and tried to block ocean water from entering the bay by dropping huge boulders in the channel. The Spanish only succeeded in preserving and increasing the luminescence in the now isolated bay."	),
+
+-----------------------------------------------
 -- CERRO DE POTOSI
 -----------------------------------------------
 
@@ -63,6 +79,28 @@ VALUES
 
 	("ko_KR",	"LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",	"One tile natural wonder. Appears as a Lake and provides fresh water. Yields +4 [ICON_FAITH] Faith and +1 [ICON_SCIENCE] Science."	),
 	("ko_KR",	"LOC_TM_FEATURE_CRATER_LAKE_EFFECT",		"May purchase any Building with [ICON_FAITH] Faith in the City that owns this tile."	),
+
+-----------------------------------------------
+-- DALLOL
+-----------------------------------------------
+
+	("ko_KR",	"LOC_FEATURE_DALLOL_NAME",					"Dallol"	),
+	("ko_KR",	"LOC_TM_FEATURE_DALLOL_DESCRIPTION",		"One tile natural wonder. Provides +2 [ICON_SCIENCE] Science, +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold."	),
+	("ko_KR",	"LOC_TM_FEATURE_DALLOL_EFFECT",				"Grants a free copy of the [ICON_RESOURCE_TM_SYLVITE] Sylvite luxury resource (not tradeable), which provides +6 [ICON_Amenities] Amenities, to any Civilization that owns this tile."	),
+	
+	("ko_KR",	'LOC_TM_FEATURE_DALLOL_QUOTE',	
+	'"There is hell, there is darkness, there is the sulfurous pit— burning, scalding, stench, consumption!"[NEWLINE]- William Shakespeare, King Lear'	),
+	
+	("ko_KR",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_1",	
+	"Dallol is a cinder cone volcano in the Danakil Depression, northeast of the Erta Ale Range in Ethiopia. It has been formed by the intrusion of basaltic magma into Miocene salt deposits and subsequent hydrothermal activity. Phreatic eruptions took place in 1926, forming Dallol Volcano while numerous other eruption craters dot the salt flats nearby. These craters are the lowest known subaerial volcanic vents in the world, at 45 m (150 ft) or more below sea level."	),
+	("ko_KR",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_2",	
+	"Numerous hot springs are discharging brine and acidic liquid here. Small, widespread, temporary geysers produce cones of salt. The Dallol deposits include significant bodies of potash found directly at the surface. The term Dallol was coined by the Afar people and means dissolution or disintegration, describing a landscape of green acid ponds (pH-values less than 1) and iron oxide, sulfur and salt desert plains."	),
+
+	("ko_KR",	"LOC_RESOURCE_TM_SYLVITE_NAME",	"Sylvite"	),
+	("ko_KR",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_1",
+	"In Dallol, Ethiopia, Potash production is said to have reached 51,000 metric tons after 1917, and between the years 1925-29, an Italian company mined 25,000 tons of Sylvite. By 1965, about 10,000 holes had been drilled at 65 locations across Dallol."	),
+	("ko_KR",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_2",
+	"Named for the Dutch chemist, Francois Sylvius de le Boe, Sylvite was first described at Mt. Vesuvius near Napoli in Italy. Found in many evaporite deposits around the world, Sylvite is one of the last evaporite minerals to precipitate out of solution and as such, is only found in very dry saline areas. It is used for spectroscopic prisms and lenses, but its principal use is as a potassium fertilizer."	),
 
 -----------------------------------------------
 -- DEAD SEA
@@ -199,7 +237,7 @@ VALUES
 -- LYSEFJORDEN
 -----------------------------------------------
 
-	("ko_KR",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"Two tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_SCIENCE] Science"	),
+	("ko_KR",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"Three tile natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_SCIENCE] Science"	),
 	("ko_KR",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",		"Naval units trained in a City that owns at least one of these tiles start with a free [ICON_PROMOTION] Promotion."	),
 
 -----------------------------------------------
@@ -280,7 +318,7 @@ VALUES
 -----------------------------------------------
 
 	("ko_KR",	"LOC_FEATURE_OUNIANGA_NAME",					"Ounianga"	),
-	("ko_KR",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +3 [ICON_FOOD] Food, +1 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
+	("ko_KR",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +2 [ICON_FOOD] Food, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
 	("ko_KR",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
 
 	("ko_KR",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
