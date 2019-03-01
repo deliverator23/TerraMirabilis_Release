@@ -1,5 +1,5 @@
 /*
-	Master
+	Master Wonders
 	Credits: ChimpanG, Deliverator
 */
 
@@ -8,129 +8,157 @@
 -----------------------------------------------
 
 INSERT INTO TM_Master
-		(FeatureType,					Tiles,	Impassable, NoAdjacentFeatures,	Coast,	NoCoast,	MinDistanceLand,	MaxDistanceLand,	Lake,	NotCliff,	RequiresRiver,	NoRiver,	AddsFreshWater,	MovementChange,	SightThroughModifier,	DefenseModifier,	Appeal,	DoubleAdjacentTerrainYield,	CustomPlacement,					DependsOnDLC		)
-VALUES	('FEATURE_BARRINGER_CRATER',	1,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_BIOLUMINESCENT_BAY',	1,		0,			0,					0,		0,			1,					1,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_CERRO_DE_POTOSI',		1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_DALLOL',				1,		0,			1,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_GIBRALTAR',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_GIBRALTAR',				NULL				),
-		('FEATURE_GRAND_MESA',			1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_KAILASH',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_KRAKATOA',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_LAKE_VICTORIA',		4,		0,			0,					0,		1,			0,					0,					1,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_MOSI_OA_TUNYA',		1,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_MOSI_OA_TUNYA',			NULL				),
-		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_RORAIMA',				NULL				),
-		('FEATURE_NAMIB',				3,		0,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_ZHANGYE_DANXIA',			NULL				),
-		('FEATURE_OLD_FAITHFUL',		1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_OUNIANGA',			2,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_SALAR_DE_UYUNI',		4,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_SINAI',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_SRI_PADA',			1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_VREDEFORT_DOME',		2,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								NULL				),
-		('FEATURE_WULINGYUAN',			2,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL,								'INDONESIA_KHMER'	);
+		(FeatureType,					Tiles,	Impassable, NoAdjacentFeatures,	Coast,	NoCoast,	MinDistanceLand,	MaxDistanceLand,	Lake,	NotCliff,	RequiresRiver,	NoRiver,	AddsFreshWater,	MovementChange,	SightThroughModifier,	DefenseModifier,	Appeal,	DoubleAdjacentTerrainYield,	CustomPlacement				)
+VALUES	-- ('FEATURE_ANGEL_GLACIER',	1,		0,			1,					0,		0,			2,					2,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		-- ('FEATURE_AZURE_WINDOW',		1,		1,			0,					1,		0,			1,					1,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_BARRINGER_CRATER',	1,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL						),
+		('FEATURE_BIOLUMINESCENT_BAY',	1,		0,			0,					0,		0,			1,					1,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_CERRO_DE_POTOSI',		1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_DALLOL',				1,		0,			1,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_GIBRALTAR',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_GIBRALTAR'		),
+		('FEATURE_GRAND_MESA',			1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_KAILASH',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		-- ('FEATURE_KELIMUTU',			3,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL						),
+		('FEATURE_KRAKATOA',			1,		1,			0,					1,		0,			0,					0,					0,		0,			0,				1,			0,				0,				1,						0,					2,		0,							NULL						),
+		('FEATURE_LAKE_VICTORIA',		4,		0,			0,					0,		1,			0,					0,					1,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_MOSI_OA_TUNYA',		1,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_MOSI_OA_TUNYA'	),
+		('FEATURE_MOTLATSE_CANYON',		4,		1,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				0,				2,						0,					2,		0,							'PLACEMENT_RORAIMA'			),
+		('FEATURE_NAMIB',				3,		0,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							'PLACEMENT_ZHANGYE_DANXIA'	),
+		-- ('FEATURE_OKAVANGO',			3,		0,			0,					0,		1,			0,					0,					0,		0,			1,				0,			1,				1,				2,						-2,					2,		0,							'PLACEMENT_OKAVANGO'		),
+		('FEATURE_OLD_FAITHFUL',		1,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_OUNIANGA',			2,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			1,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_SALAR_DE_UYUNI',		4,		0,			1,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				0,						0,					2,		0,							NULL						),
+		('FEATURE_SINAI',				1,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_SRI_PADA',			1,		1,			0,					0,		0,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_VREDEFORT_DOME',		2,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						),
+		('FEATURE_WULINGYUAN',			2,		1,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						);
+		-- ('FEATURE_YELLOWSTONE',		3,		0,			0,					0,		1,			0,					0,					0,		0,			0,				1,			0,				0,				2,						0,					2,		0,							NULL						); -- To replace Old Faithful
 		
 -----------------------------------------------
 -- TM_FeatureYields
 -----------------------------------------------
 
 INSERT INTO TM_FeatureYields
-		(FeatureType,					Impassable,	YieldType,			YieldChange,	Reference						)
-VALUES	-- TERRA MIRABILIS
-		('FEATURE_BARRINGER_CRATER',	0,			'YIELD_SCIENCE',	3,				'BARRINGER_SCIENCE'				),
-		('FEATURE_BARRINGER_CRATER',	0,			'YIELD_GOLD',		2,				'BARRINGER_GOLD'				),
-		('FEATURE_BIOLUMINESCENT_BAY',	0,			'YIELD_SCIENCE',	2,				'BIOLUMINESCENT_BAY_SCIENCE'	),
-		('FEATURE_BIOLUMINESCENT_BAY',	0,			'YIELD_CULTURE',	2,				'BIOLUMINESCENT_BAY_CULTURE'	),
-		('FEATURE_BIOLUMINESCENT_BAY',	0,			'YIELD_GOLD',		1,				'BIOLUMINESCENT_BAY_GOLD'		),
-		('FEATURE_CERRO_DE_POTOSI',		1,			'YIELD_PRODUCTION',	1,				'POTOSI_PRODUCTION'				),
-		('FEATURE_CERRO_DE_POTOSI',		1,			'YIELD_GOLD',		1,				'POTOSI_GOLD'					),
-		('FEATURE_DALLOL',				0,			'YIELD_SCIENCE',	2,				'DALLOL_SCIENCE'				),
-		('FEATURE_DALLOL',				0,			'YIELD_PRODUCTION',	2,				'DALLOL_PRODUCTION'				),
-		('FEATURE_DALLOL',				0,			'YIELD_GOLD',		1,				'DALLOL_GOLD'					),
-		('FEATURE_GIBRALTAR',			1,			'YIELD_FOOD',		1,				'GIBRALTAR_FOOD'				),
-		('FEATURE_GIBRALTAR',			1,			'YIELD_GOLD',		1,				'GIBRALTAR_GOLD'				),
-		('FEATURE_GRAND_MESA',			1,			'YIELD_FOOD',		1,				'GRAND_MESA_FOOD'				),
-		('FEATURE_GRAND_MESA',			1,			'YIELD_CULTURE',	1,				'GRAND_MESA_CULTURE'			),
-		('FEATURE_KAILASH',				1,			'YIELD_FAITH',		1,				'KAILASH_FAITH'					),
-		('FEATURE_KAILASH',				1,			'YIELD_CULTURE',	1,				'KAILASH_CULTURE'				),
-		('FEATURE_KRAKATOA',			1,			'YIELD_SCIENCE',	1,				'KRAKATOA_SCIENCE'				),
-		('FEATURE_KRAKATOA',			1,			'YIELD_CULTURE',	1,				'KRAKATOA_CULTURE'				),
-		('FEATURE_LAKE_VICTORIA',		0,			'YIELD_FOOD',		3,				'VICTORIA_FOOD'					),
-		('FEATURE_LAKE_VICTORIA',		0,			'YIELD_GOLD',		1,				'VICTORIA_GOLD'					),
-		('FEATURE_LAKE_VICTORIA',		0,			'YIELD_CULTURE',	1,				'VICTORIA_CULTURE'				),
-		('FEATURE_MOSI_OA_TUNYA',		1,			'YIELD_FOOD',		2,				'MOSI_OA_TUNYA_FOOD'			),
-		('FEATURE_MOTLATSE_CANYON',		1,			'YIELD_CULTURE',	1,				'MOTLATSE_CULTURE'				),
-		('FEATURE_MOTLATSE_CANYON',		1,			'YIELD_SCIENCE',	1,				'MOTLATSE_SCIENCE'				),
-		('FEATURE_OLD_FAITHFUL',		0,			'YIELD_GOLD',		1,				'OLD_FAITHFUL_GOLD'				),
-		('FEATURE_OLD_FAITHFUL',		0,			'YIELD_SCIENCE',	3,				'OLD_FAITHFUL_SCIENCE'			),
-		('FEATURE_OLD_FAITHFUL',		0,			'YIELD_FAITH',		1,				'OLD_FAITHFUL_FAITH'			),
-		('FEATURE_NAMIB',				0,			'YIELD_GOLD',		2,				'NAMIB_GOLD'					),
-		('FEATURE_NAMIB',				0,			'YIELD_CULTURE',	3,				'NAMIB_CULTURE'					),
-		('FEATURE_OUNIANGA',			0,			'YIELD_FOOD',		2,				'OUNIANGA_FOOD'					),
-		('FEATURE_OUNIANGA',			0,			'YIELD_GOLD',		1,				'OUNIANGA_GOLD'					),
-		('FEATURE_OUNIANGA',			0,			'YIELD_CULTURE',	2,				'OUNIANGA_CULTURE'				),
-		('FEATURE_SALAR_DE_UYUNI',		0,			'YIELD_SCIENCE',	1,				'SALAR_DE_UYUNI_SCIENCE'		),
-		('FEATURE_SALAR_DE_UYUNI',		0,			'YIELD_GOLD',		2,				'SALAR_DE_UYUNI_GOLD'			),
-		('FEATURE_SALAR_DE_UYUNI',		0,			'YIELD_PRODUCTION',	2,				'SALAR_DE_UYUNI_PRODUCTION'		),
-		('FEATURE_SINAI',				1,			'YIELD_FAITH',		2,				'SINAI_FAITH'					),
-		('FEATURE_SRI_PADA',			1,			'YIELD_FOOD',		1,				'SRI_PADA_FOOD'					),
-		('FEATURE_SRI_PADA',			1,			'YIELD_FAITH',		1,				'SRI_PADA_FAITH'				),
-		('FEATURE_VREDEFORT_DOME',		0,			'YIELD_FOOD',		2,				'VREDEFORT_FOOD'				),
-		('FEATURE_VREDEFORT_DOME',		0,			'YIELD_SCIENCE',	2,				'VREDEFORT_SCIENCE'				),
-		('FEATURE_VREDEFORT_DOME',		0,			'YIELD_CULTURE',	1,				'VREDEFORT_CULTURE'				),
-		('FEATURE_WULINGYUAN',			1,			'YIELD_CULTURE',	2,				'WULINGYUAN_CULTURE'			),
+		(FeatureType,					Impassable,	YieldType,			YieldChange,	Reference,						Required,	Version,			Removed	)
+VALUES	
+		-- TERRA MIRABILIS
+		('FEATURE_BARRINGER_CRATER',	0,			'YIELD_SCIENCE',	3,				'BARRINGER_SCIENCE',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_BARRINGER_CRATER',	0,			'YIELD_GOLD',		2,				'BARRINGER_GOLD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_BIOLUMINESCENT_BAY',	0,			'YIELD_SCIENCE',	2,				'BIOLUMINESCENT_BAY_SCIENCE',	'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_BIOLUMINESCENT_BAY',	0,			'YIELD_CULTURE',	2,				'BIOLUMINESCENT_BAY_CULTURE',	'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_BIOLUMINESCENT_BAY',	0,			'YIELD_GOLD',		1,				'BIOLUMINESCENT_BAY_GOLD',		'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_CERRO_DE_POTOSI',		1,			'YIELD_PRODUCTION',	1,				'POTOSI_PRODUCTION',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_CERRO_DE_POTOSI',		1,			'YIELD_GOLD',		1,				'POTOSI_GOLD',					'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_DALLOL',				0,			'YIELD_SCIENCE',	2,				'DALLOL_SCIENCE',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_DALLOL',				0,			'YIELD_PRODUCTION',	2,				'DALLOL_PRODUCTION',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_DALLOL',				0,			'YIELD_GOLD',		1,				'DALLOL_GOLD',					'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_GIBRALTAR',			1,			'YIELD_FOOD',		1,				'GIBRALTAR_FOOD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_GIBRALTAR',			1,			'YIELD_GOLD',		1,				'GIBRALTAR_GOLD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_GRAND_MESA',			1,			'YIELD_FOOD',		1,				'GRAND_MESA_FOOD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_GRAND_MESA',			1,			'YIELD_CULTURE',	1,				'GRAND_MESA_CULTURE',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_KAILASH',				1,			'YIELD_FAITH',		1,				'KAILASH_FAITH',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_KAILASH',				1,			'YIELD_CULTURE',	1,				'KAILASH_CULTURE',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_KRAKATOA',			1,			'YIELD_SCIENCE',	1,				'KRAKATOA_SCIENCE',				'XP2',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_LAKE_VICTORIA',		0,			'YIELD_FOOD',		3,				'VICTORIA_FOOD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_LAKE_VICTORIA',		0,			'YIELD_GOLD',		1,				'VICTORIA_GOLD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_LAKE_VICTORIA',		0,			'YIELD_CULTURE',	1,				'VICTORIA_CULTURE',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_MOSI_OA_TUNYA',		1,			'YIELD_FOOD',		2,				'MOSI_OA_TUNYA_FOOD',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_MOTLATSE_CANYON',		1,			'YIELD_CULTURE',	1,				'MOTLATSE_CULTURE',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_MOTLATSE_CANYON',		1,			'YIELD_SCIENCE',	1,				'MOTLATSE_SCIENCE',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_OLD_FAITHFUL',		0,			'YIELD_GOLD',		1,				'OLD_FAITHFUL_GOLD',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_OLD_FAITHFUL',		0,			'YIELD_SCIENCE',	3,				'OLD_FAITHFUL_SCIENCE',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_OLD_FAITHFUL',		0,			'YIELD_FAITH',		1,				'OLD_FAITHFUL_FAITH',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_NAMIB',				0,			'YIELD_GOLD',		2,				'NAMIB_GOLD',					'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_NAMIB',				0,			'YIELD_CULTURE',	3,				'NAMIB_CULTURE',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_OUNIANGA',			0,			'YIELD_FOOD',		2,				'OUNIANGA_FOOD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_OUNIANGA',			0,			'YIELD_GOLD',		1,				'OUNIANGA_GOLD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_OUNIANGA',			0,			'YIELD_CULTURE',	2,				'OUNIANGA_CULTURE',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_SALAR_DE_UYUNI',		0,			'YIELD_SCIENCE',	2,				'SALAR_DE_UYUNI_SCIENCE',		'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_SALAR_DE_UYUNI',		0,			'YIELD_GOLD',		2,				'SALAR_DE_UYUNI_GOLD',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_SALAR_DE_UYUNI',		0,			'YIELD_PRODUCTION',	1,				'SALAR_DE_UYUNI_PRODUCTION',	'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_SINAI',				1,			'YIELD_FAITH',		2,				'SINAI_FAITH',					'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_SRI_PADA',			1,			'YIELD_FOOD',		1,				'SRI_PADA_FOOD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_SRI_PADA',			1,			'YIELD_FAITH',		1,				'SRI_PADA_FAITH',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_VREDEFORT_DOME',		0,			'YIELD_FOOD',		2,				'VREDEFORT_FOOD',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_VREDEFORT_DOME',		0,			'YIELD_SCIENCE',	2,				'VREDEFORT_SCIENCE',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_VREDEFORT_DOME',		0,			'YIELD_CULTURE',	1,				'VREDEFORT_CULTURE',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_WULINGYUAN',			1,			'YIELD_CULTURE',	2,				'WULINGYUAN_CULTURE',			'DLC6',		'TERRA_MIRABILIS',	NULL	),
 		
-		-- FIRAXIS
-		('FEATURE_BARRIER_REEF',		0,			'YIELD_FOOD',		2,				'BARRIER_REEF_FOOD'				),
-		('FEATURE_BARRIER_REEF',		0,			'YIELD_GOLD',		1,				'BARRIER_REEF_GOLD'				),
-		('FEATURE_BARRIER_REEF',		0,			'YIELD_SCIENCE',	2,				'BARRIER_REEF_SCIENCE'			),
-		('FEATURE_CLIFFS_DOVER',		0,			'YIELD_FOOD',		1,				'CLIFFS_DOVER_FOOD'				),
-		('FEATURE_CLIFFS_DOVER',		0,			'YIELD_GOLD',		1,				'CLIFFS_DOVER_GOLD'				),
-		('FEATURE_CLIFFS_DOVER',		0,			'YIELD_CULTURE',	3,				'CLIFFS_DOVER_CULTURE'			),
-		('FEATURE_CRATER_LAKE',			0,			'YIELD_SCIENCE',	1,				'CRATER_LAKE_SCIENCE'			),
-		('FEATURE_CRATER_LAKE',			0,			'YIELD_FAITH',		4,				'CRATER_LAKE_FAITH'				),
-		('FEATURE_DEAD_SEA',			0,			'YIELD_GOLD',		1,				'DEAD_SEA_GOLD'					),
-		('FEATURE_DEAD_SEA',			0,			'YIELD_CULTURE',	2,				'DEAD_SEA_CULTURE'				),
-		('FEATURE_DEAD_SEA',			0,			'YIELD_FAITH',		2,				'DEAD_SEA_FAITH'				),
-		('FEATURE_DELICATE_ARCH',		1,			'YIELD_CULTURE',	1,				'DELICATE_ARCH_CULTURE'			),
-		('FEATURE_DELICATE_ARCH',		1,			'YIELD_GOLD',		1,				'DELICATE_ARCH_GOLD'			),
-		('FEATURE_EVEREST',				1,			'YIELD_FAITH',		2,				'EVEREST_FAITH'					),
-		('FEATURE_EYE_OF_THE_SAHARA',	0,			'YIELD_PRODUCTION',	2,				'EYE_OF_THE_SAHARA_PRODUCTION'	),
-		('FEATURE_EYE_OF_THE_SAHARA',	0,			'YIELD_GOLD',		1,				'EYE_OF_THE_SAHARA_GOLD'		),
-		('FEATURE_EYE_OF_THE_SAHARA',	0,			'YIELD_SCIENCE',	2,				'EYE_OF_THE_SAHARA_SCIENCE'		),
-		('FEATURE_EYJAFJALLAJOKULL',	1,			'YIELD_FOOD',		1,				'EYJAFJALLAJOKULL_FOOD'			),
-		('FEATURE_EYJAFJALLAJOKULL',	1,			'YIELD_CULTURE',	1,				'EYJAFJALLAJOKULL_CULTURE'		),
-		('FEATURE_GALAPAGOS',			1,			'YIELD_SCIENCE',	2,				'GALAPAGOS_SCIENCE'				),
-		('FEATURE_GIANTS_CAUSEWAY',		1,			'YIELD_CULTURE',	2,				'GIANTS_CAUSEWAY_CULTURE'		),
-		('FEATURE_HA_LONG_BAY',			0,			'YIELD_FOOD',		2,				'HA_LONG_BAY_FOOD'				),
-		('FEATURE_HA_LONG_BAY',			0,			'YIELD_PRODUCTION',	1,				'HA_LONG_BAY_PRODUCTION'		),
-		('FEATURE_HA_LONG_BAY',			0,			'YIELD_CULTURE',	2,				'HA_LONG_BAY_CULTURE'			),
-		('FEATURE_KILIMANJARO',			1,			'YIELD_FOOD',		2,				'KILIMANJARO_FOOD'				),
-		('FEATURE_LAKE_RETBA',			0,			'YIELD_PRODUCTION',	1,				'LAKE_RETBA_PRODUCTION'			),
-		('FEATURE_LAKE_RETBA',			0,			'YIELD_GOLD',		2,				'LAKE_RETBA_GOLD'				),
-		('FEATURE_LAKE_RETBA',			0,			'YIELD_CULTURE',	2,				'LAKE_RETBA_CULTURE'			),
-		('FEATURE_LYSEFJORDEN',			1,			'YIELD_SCIENCE',	1,				'LYSEFJORDEN_SCIENCE'			),
-		('FEATURE_LYSEFJORDEN',			1,			'YIELD_CULTURE',	1,				'LYSEFJORDEN_CULTURE'			),
-		('FEATURE_MATTERHORN',			1,			'YIELD_CULTURE',	2,				'MATTERHORN_CULTURE'			),
-		('FEATURE_PANTANAL',			0,			'YIELD_FOOD',		3,				'PANTANAL_FOOD'					),
-		('FEATURE_PANTANAL',			0,			'YIELD_CULTURE',	2,				'PANTANAL_CULTURE'				),
-		('FEATURE_PIOPIOTAHI',			1,			'YIELD_GOLD',		1,				'PIOPIOTAHI_GOLD'				),
-		('FEATURE_PIOPIOTAHI',			1,			'YIELD_CULTURE',	1,				'PIOPIOTAHI_CULTURE'			),
-		('FEATURE_RORAIMA',				1,			'YIELD_SCIENCE',	1,				'RORAIMA_CULTURE'				),
-		('FEATURE_RORAIMA',				1,			'YIELD_FAITH',		1,				'RORAIMA_FAITH'					),
-		('FEATURE_TSINGY',				1,			'YIELD_SCIENCE',	1,				'TSINGY_SCIENCE'				),
-		('FEATURE_TSINGY',				1,			'YIELD_CULTURE',	1,				'TSINGY_CULTURE'				),
-		('FEATURE_UBSUNUR_HOLLOW',		0,			'YIELD_FOOD',		1,				'UBSUNUR_HOLLOW_FOOD'			),
-		('FEATURE_UBSUNUR_HOLLOW',		0,			'YIELD_PRODUCTION',	2,				'UBSUNUR_HOLLOW_PRODUCTION'		),
-		('FEATURE_UBSUNUR_HOLLOW',		0,			'YIELD_FAITH',		2,				'UBSUNUR_HOLLOW_FAITH'			),
-		('FEATURE_ULURU',				1,			'YIELD_CULTURE',	1,				'ULURU_CULTURE'					),
-		('FEATURE_ULURU',				1,			'YIELD_FAITH',		1,				'ULURU_FAITH'					),
-		('FEATURE_YOSEMITE',			1,			'YIELD_GOLD',		1,				'YOSEMITE_GOLD'					),
-		('FEATURE_YOSEMITE',			1,			'YIELD_SCIENCE',	1,				'YOSEMITE_SCIENCE'				),
-		('FEATURE_ZHANGYE_DANXIA',		1,			'YIELD_SCIENCE',	2,				'ZHANGYE_DANXIA_SCIENCE'		),
+		-- FIRAXIS (BASE)
+		('FEATURE_BARRIER_REEF',		0,			'YIELD_FOOD',		2,				'BARRIER_REEF_FOOD',			'BASE',		NULL,				NULL	),
+		('FEATURE_BARRIER_REEF',		0,			'YIELD_GOLD',		1,				'BARRIER_REEF_GOLD',			'BASE',		NULL,				NULL	),
+		('FEATURE_BARRIER_REEF',		0,			'YIELD_SCIENCE',	2,				'BARRIER_REEF_SCIENCE',			'BASE',		NULL,				NULL	),
+		('FEATURE_CLIFFS_DOVER',		0,			'YIELD_FOOD',		1,				'CLIFFS_DOVER_FOOD',			'BASE',		NULL,				NULL	),
+		('FEATURE_CLIFFS_DOVER',		0,			'YIELD_GOLD',		1,				'CLIFFS_DOVER_GOLD',			'BASE',		NULL,				NULL	),
+		('FEATURE_CLIFFS_DOVER',		0,			'YIELD_CULTURE',	3,				'CLIFFS_DOVER_CULTURE',			'BASE',		NULL,				NULL	),
+		('FEATURE_CRATER_LAKE',			0,			'YIELD_SCIENCE',	1,				'CRATER_LAKE_SCIENCE',			'BASE',		NULL,				NULL	),
+		('FEATURE_CRATER_LAKE',			0,			'YIELD_FAITH',		4,				'CRATER_LAKE_FAITH',			'BASE',		NULL,				NULL	),
+		('FEATURE_DEAD_SEA',			0,			'YIELD_GOLD',		1,				'DEAD_SEA_GOLD',				'BASE',		NULL,				NULL	),
+		('FEATURE_DEAD_SEA',			0,			'YIELD_CULTURE',	2,				'DEAD_SEA_CULTURE',				'BASE',		NULL,				NULL	),
+		('FEATURE_DEAD_SEA',			0,			'YIELD_FAITH',		2,				'DEAD_SEA_FAITH',				'BASE',		NULL,				NULL	),
+		('FEATURE_EVEREST',				1,			'YIELD_FAITH',		2,				'EVEREST_FAITH',				'BASE',		NULL,				NULL	),
+		('FEATURE_GALAPAGOS',			1,			'YIELD_SCIENCE',	2,				'GALAPAGOS_SCIENCE',			'BASE',		NULL,				NULL	),
+		('FEATURE_KILIMANJARO',			1,			'YIELD_FOOD',		2,				'KILIMANJARO_FOOD',				'BASE',		NULL,				'XP2'	),
+		('FEATURE_KILIMANJARO',			1,			'YIELD_FOOD',		1,				'KILIMANJARO_FOOD',				'XP2',		NULL,				NULL	),
+		('FEATURE_PANTANAL',			0,			'YIELD_FOOD',		3,				'PANTANAL_FOOD',				'BASE',		NULL,				NULL	),
+		('FEATURE_PANTANAL',			0,			'YIELD_CULTURE',	2,				'PANTANAL_CULTURE',				'BASE',		NULL,				NULL	),
+		('FEATURE_PIOPIOTAHI',			1,			'YIELD_GOLD',		1,				'PIOPIOTAHI_GOLD',				'BASE',		NULL,				NULL	),
+		('FEATURE_PIOPIOTAHI',			1,			'YIELD_CULTURE',	1,				'PIOPIOTAHI_CULTURE',			'BASE',		NULL,				NULL	),
+		('FEATURE_TSINGY',				1,			'YIELD_SCIENCE',	1,				'TSINGY_SCIENCE',				'BASE',		NULL,				NULL	),
+		('FEATURE_TSINGY',				1,			'YIELD_CULTURE',	1,				'TSINGY_CULTURE',				'BASE',		NULL,				NULL	),
+		('FEATURE_YOSEMITE',			1,			'YIELD_GOLD',		1,				'YOSEMITE_GOLD',				'BASE',		NULL,				NULL	),
+		('FEATURE_YOSEMITE',			1,			'YIELD_SCIENCE',	1,				'YOSEMITE_SCIENCE',				'BASE',		NULL,				NULL	),
 		
-		-- SUKRITACT
-		('FEATURE_SUK_FUJI',			1,			'YIELD_CULTURE',	1,				'FUJI_CULTURE'					),
-		('FEATURE_SUK_FUJI',			1,			'YIELD_FAITH',		1,				'FUJI_FAITH'					);
+		-- FIRAXIS (DLC2 ~ VIKINGS SCENARIO)
+		('FEATURE_EYJAFJALLAJOKULL',	1,			'YIELD_FOOD',		1,				'EYJAFJALLAJOKULL_FOOD',		'DLC2',		NULL,				'XP2'	),
+		('FEATURE_EYJAFJALLAJOKULL',	1,			'YIELD_CULTURE',	1,				'EYJAFJALLAJOKULL_CULTURE',		'DLC2',		NULL,				NULL	),
+		('FEATURE_GIANTS_CAUSEWAY',		1,			'YIELD_CULTURE',	2,				'GIANTS_CAUSEWAY_CULTURE',		'DLC2',		NULL,				NULL	),
+		('FEATURE_LYSEFJORDEN',			1,			'YIELD_SCIENCE',	1,				'LYSEFJORDEN_SCIENCE',			'DLC2',		NULL,				NULL	),
+		('FEATURE_LYSEFJORDEN',			1,			'YIELD_CULTURE',	1,				'LYSEFJORDEN_CULTURE',			'DLC2',		NULL,				NULL	),
+		
+		-- FIRAXIS (DLC3 ~ AUSTRALIA)
+		('FEATURE_ULURU',				1,			'YIELD_CULTURE',	1,				'ULURU_CULTURE',				'DLC3',		NULL,				NULL	),
+		('FEATURE_ULURU',				1,			'YIELD_FAITH',		1,				'ULURU_FAITH',					'DLC3',		NULL,				NULL	),
+
+		-- FIRAXIS (DLC6 - INDONESIA KHMER)
+		('FEATURE_HA_LONG_BAY',			0,			'YIELD_FOOD',		2,				'HA_LONG_BAY_FOOD',				'DLC6',		NULL,				NULL	),
+		('FEATURE_HA_LONG_BAY',			0,			'YIELD_PRODUCTION',	1,				'HA_LONG_BAY_PRODUCTION',		'DLC6',		NULL,				NULL	),
+		('FEATURE_HA_LONG_BAY',			0,			'YIELD_CULTURE',	2,				'HA_LONG_BAY_CULTURE',			'DLC6',		NULL,				NULL	),
+		
+		-- FIRAXIS (RISE AND FALL)
+		('FEATURE_DELICATE_ARCH',		1,			'YIELD_CULTURE',	1,				'DELICATE_ARCH_CULTURE',		'XP1',		NULL,				NULL	),
+		('FEATURE_DELICATE_ARCH',		1,			'YIELD_GOLD',		1,				'DELICATE_ARCH_GOLD',			'XP1',		NULL,				NULL	),
+		('FEATURE_EYE_OF_THE_SAHARA',	0,			'YIELD_PRODUCTION',	2,				'EYE_OF_THE_SAHARA_PRODUCTION',	'XP1',		NULL,				NULL	),
+		('FEATURE_EYE_OF_THE_SAHARA',	0,			'YIELD_GOLD',		1,				'EYE_OF_THE_SAHARA_GOLD',		'XP1',		NULL,				NULL	),
+		('FEATURE_EYE_OF_THE_SAHARA',	0,			'YIELD_SCIENCE',	2,				'EYE_OF_THE_SAHARA_SCIENCE',	'XP1',		NULL,				NULL	),
+		('FEATURE_LAKE_RETBA',			0,			'YIELD_PRODUCTION',	1,				'LAKE_RETBA_PRODUCTION',		'XP1',		NULL,				NULL	),
+		('FEATURE_LAKE_RETBA',			0,			'YIELD_GOLD',		2,				'LAKE_RETBA_GOLD',				'XP1',		NULL,				NULL	),
+		('FEATURE_LAKE_RETBA',			0,			'YIELD_CULTURE',	2,				'LAKE_RETBA_CULTURE',			'XP1',		NULL,				NULL	),
+		('FEATURE_MATTERHORN',			1,			'YIELD_CULTURE',	2,				'MATTERHORN_CULTURE',			'XP1',		NULL,				NULL	),
+		('FEATURE_RORAIMA',				1,			'YIELD_SCIENCE',	1,				'RORAIMA_CULTURE',				'XP1',		NULL,				NULL	),
+		('FEATURE_RORAIMA',				1,			'YIELD_FAITH',		1,				'RORAIMA_FAITH',				'XP1',		NULL,				NULL	),
+		('FEATURE_UBSUNUR_HOLLOW',		0,			'YIELD_FOOD',		1,				'UBSUNUR_HOLLOW_FOOD',			'XP1',		NULL,				NULL	),
+		('FEATURE_UBSUNUR_HOLLOW',		0,			'YIELD_PRODUCTION',	2,				'UBSUNUR_HOLLOW_PRODUCTION',	'XP1',		NULL,				NULL	),
+		('FEATURE_UBSUNUR_HOLLOW',		0,			'YIELD_FAITH',		2,				'UBSUNUR_HOLLOW_FAITH',			'XP1',		NULL,				NULL	),
+		('FEATURE_ZHANGYE_DANXIA',		1,			'YIELD_SCIENCE',	2,				'ZHANGYE_DANXIA_SCIENCE',		'XP1',		NULL,				NULL	),		
+
+		-- FIRAXIS (GATHERING STORM)
+		('FEATURE_CHOCOLATEHILLS',		0,			'YIELD_CULTURE',	2,				'CHOCOLATE_HILLS_CULTURE',		'XP2',		NULL,				NULL	),
+		('FEATURE_CHOCOLATEHILLS',		0,			'YIELD_FOOD',		1,				'CHOCOLATE_HILLS_FOOD',			'XP2',		NULL,				NULL	),
+		('FEATURE_CHOCOLATEHILLS',		0,			'YIELD_PRODUCTION',	2,				'CHOCOLATE_HILLS_PRODUCTION',	'XP2',		NULL,				NULL	),
+		('FEATURE_IKKIL',				1,			'YIELD_SCIENCE',	1,				'IK_KIL_SCIENCE',				'XP2',		NULL,				NULL	),
+		('FEATURE_IKKIL',				1,			'YIELD_FAITH',		1,				'IK_KIL_FAITH',					'XP2',		NULL,				NULL	),
+		('FEATURE_DEVILSTOWER',			1,			'YIELD_PRODUCTION',	1,				'MATO_TIPILA_PRODUCTION',		'XP2',		NULL,				NULL	),
+		('FEATURE_DEVILSTOWER',			1,			'YIELD_FAITH',		1,				'MATO_TIPILA_FAITH',			'XP2',		NULL,				NULL	),
+		('FEATURE_PAMUKKALE',			1,			'YIELD_CULTURE',	1,				'PAMUKKALE_CULTURE',			'XP2',		NULL,				NULL	),
+		('FEATURE_PAMUKKALE',			1,			'YIELD_GOLD',		1,				'PAMUKKALE_GOLD',				'XP2',		NULL,				NULL	),
+		('FEATURE_GOBUSTAN',			0,			'YIELD_CULTURE',	3,				'GOBUSTAN_CULTURE',				'XP2',		NULL,				NULL	),
+		('FEATURE_GOBUSTAN',			0,			'YIELD_SCIENCE',	1,				'GOBUSTAN_SCIENCE',				'XP2',		NULL,				NULL	),
+		('FEATURE_GOBUSTAN',			0,			'YIELD_PRODUCTION',	1,				'GOBUSTAN_PRODUCTION',			'XP2',		NULL,				NULL	),
+		('FEATURE_WHITEDESERT',			0,			'YIELD_SCIENCE',	1,				'SAHARA_EL_BEYDA_SCIENCE',		'XP2',		NULL,				NULL	),
+		('FEATURE_WHITEDESERT',			0,			'YIELD_CULTURE',	1,				'SAHARA_EL_BEYDA_CULTURE',		'XP2',		NULL,				NULL	),
+		('FEATURE_WHITEDESERT',			0,			'YIELD_GOLD',		3,				'SAHARA_EL_BEYDA_GOLD'	,		'XP2',		NULL,				NULL	),
+		('FEATURE_VESUVIUS',			1,			'YIELD_PRODUCTION',	1,				'VESUVIUS_PRODUCTION',			'XP2',		NULL,				NULL	);
 
 -----------------------------------------------
 -- Feature_ValidTerrains
@@ -601,8 +629,72 @@ VALUES	-- Base
 		('FEATURE_WULINGYUAN',			'FEATURE',	'JUNGLE',	'ADJACENT_FEATURES'	);
 
 -----------------------------------------------
--- ModCheck
+-- TM_Validation
 -----------------------------------------------
 
-INSERT INTO ModCheck (ModType)
-VALUES	('TERRA_MIRABILIS');
+INSERT INTO TM_Validation
+		(FeatureType,					Required,	Version,			Removed	)
+VALUES
+		-- TERRA MIRABILIS
+		('FEATURE_BARRINGER_CRATER',	'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_BIOLUMINESCENT_BAY',	'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_CERRO_DE_POTOSI',		'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_DALLOL',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_GIBRALTAR',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_GRAND_MESA',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_KAILASH',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_KRAKATOA',			'XP2',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_LAKE_VICTORIA',		'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_MOSI_OA_TUNYA',		'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_MOTLATSE_CANYON',		'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_OLD_FAITHFUL',		'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_NAMIB',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_OUNIANGA',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_SALAR_DE_UYUNI',		'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_SINAI',				'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_SRI_PADA',			'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_VREDEFORT_DOME',		'BASE',		'TERRA_MIRABILIS',	NULL	),
+		('FEATURE_WULINGYUAN',			'DLC6',		'TERRA_MIRABILIS',	NULL	),
+		
+		-- FIRAXIS (BASE)
+		('FEATURE_BARRIER_REEF',		'BASE',		NULL,				NULL	),
+		('FEATURE_CLIFFS_DOVER',		'BASE',		NULL,				NULL	),
+		('FEATURE_CRATER_LAKE',			'BASE',		NULL,				NULL	),
+		('FEATURE_DEAD_SEA',			'BASE',		NULL,				NULL	),
+		('FEATURE_EVEREST',				'BASE',		NULL,				NULL	),
+		('FEATURE_GALAPAGOS',			'BASE',		NULL,				NULL	),
+		('FEATURE_KILIMANJARO',			'BASE',		NULL,				NULL	),
+		('FEATURE_PANTANAL',			'BASE',		NULL,				NULL	),
+		('FEATURE_PIOPIOTAHI',			'BASE',		NULL,				NULL	),
+		('FEATURE_TORRES_DEL_PAINE',	'BASE',		NULL,				NULL	),
+		('FEATURE_TSINGY',				'BASE',		NULL,				NULL	),
+		('FEATURE_YOSEMITE',			'BASE',		NULL,				NULL	),
+		
+		-- FIRAXIS (DLC2 ~ VIKINGS SCENARIO)
+		('FEATURE_EYJAFJALLAJOKULL',	'DLC2',		NULL,				NULL	),
+		('FEATURE_GIANTS_CAUSEWAY',		'DLC2',		NULL,				NULL	),
+		('FEATURE_LYSEFJORDEN',			'DLC2',		NULL,				NULL	),
+		
+		-- FIRAXIS (DLC3 ~ AUSTRALIA)
+		('FEATURE_ULURU',				'DLC3',		NULL,				NULL	),
+
+		-- FIRAXIS (DLC6 - INDONESIA KHMER)
+		('FEATURE_HA_LONG_BAY',			'DLC6',		NULL,				NULL	),
+		
+		-- FIRAXIS (RISE AND FALL)
+		('FEATURE_DELICATE_ARCH',		'XP1',		NULL,				NULL	),
+		('FEATURE_EYE_OF_THE_SAHARA',	'XP1',		NULL,				NULL	),
+		('FEATURE_LAKE_RETBA',			'XP1',		NULL,				NULL	),
+		('FEATURE_MATTERHORN',			'XP1',		NULL,				NULL	),
+		('FEATURE_RORAIMA',				'XP1',		NULL,				NULL	),
+		('FEATURE_UBSUNUR_HOLLOW',		'XP1',		NULL,				NULL	),
+		('FEATURE_ZHANGYE_DANXIA',		'XP1',		NULL,				NULL	),	
+
+		-- FIRAXIS (GATHERING STORM)
+		('FEATURE_CHOCOLATEHILLS',		'XP2',		NULL,				NULL	),
+		('FEATURE_IKKIL',				'XP2',		NULL,				NULL	),
+		('FEATURE_DEVILSTOWER',			'XP2',		NULL,				NULL	),
+		('FEATURE_PAMUKKALE',			'XP2',		NULL,				NULL	),
+		('FEATURE_GOBUSTAN',			'XP2',		NULL,				NULL	),
+		('FEATURE_WHITEDESERT',			'XP2',		NULL,				NULL	),
+		('FEATURE_VESUVIUS',			'XP2',		NULL,				NULL	);

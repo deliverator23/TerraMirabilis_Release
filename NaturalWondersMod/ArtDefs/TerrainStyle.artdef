@@ -411,7 +411,7 @@
 							<m_ParamName text="TerrainElement"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="NWON_Krakatoa"/>
+							<m_EntryName text=""/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
 							<m_BLPPackage text="terrain/TerrainAssetSet_Base"/>
@@ -1179,7 +1179,7 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text=""/>
+							<m_EntryName text="ART_DEF_TERRAIN_ASSET_NWON_HALONGBAY"/>
 							<m_XLPClass text="TerrainElement"/>
 							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
 							<m_BLPPackage text=""/>
@@ -1187,10 +1187,10 @@
 							<m_ParamName text="TerrainElement"/>
 						</Element>
 						<Element class="AssetObjects..BLPEntryValue">
-							<m_EntryName text="ART_DEF_TERRAIN_ASSET_NWON_HALONGBAY"/>
+							<m_EntryName text=""/>
 							<m_XLPClass text="TerrainAsset"/>
 							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
-							<m_BLPPackage text="terrain/TerrainAssetSet_Base"/>
+							<m_BLPPackage text=""/>
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
 						</Element>

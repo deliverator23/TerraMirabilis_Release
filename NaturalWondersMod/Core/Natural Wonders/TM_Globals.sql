@@ -40,9 +40,33 @@
 	WHERE	MapSizeType = 'MAPSIZE_HUGE';
 
 -----------------------------------------------
--- Naturalist purchase with Gold instead of Faith
+-- Naturalist purchase with Gold AND Faith
 -----------------------------------------------
 
+	INSERT INTO Tags
+			(Tag,					Vocabulary		)
+	VALUES	('CLASS_TM_NATURLIST',	'ABILITY_CLASS'	);
+
+	INSERT INTO TypeTags
+			(Type,				Tag						)
+	VALUES	('UNIT_NATURALIST',	'CLASS_TM_NATURLIST'	);
+
+	UPDATE	Units
+	SET		PurchaseYield = 'YIELD_GOLD'
+	WHERE	UnitType = 'UNIT_NATURALIST';
+
+	INSERT INTO TraitModifiers
+			(TraitType,					ModifierId								)
+	VALUES	('TRAIT_LEADER_MAJOR_CIV',	'MODIFIER_TM_NATURALIST_FAITH_PURCHASE'	);
+
+	INSERT INTO Modifiers
+			(ModifierId,								ModifierType						)
+	VALUES	('MODIFIER_TM_NATURALIST_FAITH_PURCHASE',	'MODTYPE_TM_UNIT_FAITH_PURCHASE'	);
+
+	INSERT INTO ModifierArguments
+			(ModifierId,								Name,	Value					)
+	VALUES	('MODIFIER_TM_NATURALIST_FAITH_PURCHASE',	'Tag',	'CLASS_TM_NATURLIST'	);
+/*
 	UPDATE	Units
 	SET		PurchaseYield = (SELECT Section FROM TM_UserSettings WHERE Setting = 'NATURALIST_PURCHASE')			
 	WHERE	UnitType = 'UNIT_NATURALIST';
@@ -51,7 +75,7 @@
 	SET		Description = (SELECT 'LOC_TM_UNIT_NATURALIST_DESCRIPTION' FROM TM_UserSettings WHERE Setting = 'NATURALIST_PURCHASE' AND Section = 'YIELD_GOLD')			
 	WHERE	UnitType = 'UNIT_NATURALIST'
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NATURALIST_PURCHASE' AND Section = 'YIELD_GOLD');
-
+*/
 -----------------------------------------------
 -- National Parks provide Gold equal to their tourism
 -----------------------------------------------
@@ -248,23 +272,23 @@
 -----------------------------------------------
 
 	DELETE FROM Types
-	WHERE Type IN (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1))
+	WHERE Type IN (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation))
 	AND Kind = 'KIND_FEATURE';
 
 	DELETE FROM Features
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM Feature_YieldChanges
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM Feature_AdjacentYields
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM Feature_ValidTerrains
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM Feature_AdjacentTerrains
-	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation WHERE Active = 1));
+	WHERE FeatureType = (SELECT Setting FROM TM_UserSettings WHERE Section = 'DISABLED' AND Setting IN (SELECT FeatureType FROM TM_Validation));
 
 	DELETE FROM GameModifiers
 	WHERE ModifierId IN (SELECT a.*

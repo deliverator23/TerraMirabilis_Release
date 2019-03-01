@@ -70,6 +70,14 @@ VALUES
 	"Located in southern Bolivia, the mountain of Potosi produced nearly all of the silver mined by the Spanish during their imperial days. Once removed from the mountain, it was taken by llama and mule to the coast where it was then loaded onto treasure ships sailing back to Europe. Nearly 41,000 tons of pure silver were mined over the course of 200 years, 8,200 of which went directly to the Spanish crown. After 1800, the main silver mines were depleted, but the mining of Potosi still continues today - some for silver but now mostly for tin."	),
 
 -----------------------------------------------
+-- CHOCOLATE HILLS
+-----------------------------------------------
+
+	("en_US",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_DESCRIPTION",			"Four tile natural wonder. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food."	),
+	("en_US",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_EFFECT",				"Any Civilization that owns at least one of these tiles exerts +25% [ICON_TOURISM] Tourism toward other Civilizations with whom they have a [ICON_TRADEROUTE] Trade Route."	),
+	("en_US",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_CHOCOLATE_HILLS_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_CHOCOLATE_HILLS_EFFECT}"	),
+
+-----------------------------------------------
 -- CLIFFS OF DOVER
 -----------------------------------------------
 
@@ -115,14 +123,14 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_DEAD_SEA_DESCRIPTION",				"Two tile natural wonder. Appears as a Lake. Yields +2 [ICON_Faith] Faith, +2 [ICON_Culture] Culture, and +1 [ICON_Gold] Gold."	),
-	("en_US",	"LOC_TM_FEATURE_DEAD_SEA_EFFECT",					"Units trained in a City that owns at least one of these tiles may heal an additional 10 HP when [ICON_Fortified] Fortified."	),
+	("en_US",	"LOC_TM_FEATURE_DEAD_SEA_EFFECT",					"Units may heal an additional 10 HP when [ICON_Fortified] Fortified for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_DEAD_SEA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_DEAD_SEA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_DEAD_SEA_EFFECT}"	),
 
 -----------------------------------------------
 -- DELICATE ARCH
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold."	),
+	("en_US",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold."	),
 	("en_US",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT",				"Plots are 20% cheaper to purchase for any Civilization that owns this tile."	),
 	("en_US",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_DELICATE_ARCH_EFFECT}"	),
 
@@ -131,7 +139,7 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_EVEREST_DESCRIPTION",			"Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Faith] Faith."	),
-	("en_US",	"LOC_TM_FEATURE_EVEREST_EFFECT",				"Religious units trained in any City that owns at least one of these tiles ignore [ICON_Movement] Movement penalties on Hills and receive +1 additional spread charge."	),
+	("en_US",	"LOC_TM_FEATURE_EVEREST_EFFECT",				"Religious units ignore [ICON_Movement] Movement penalties on Hills and receive +1 additional spread charge for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_EVEREST_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_EVEREST_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EVEREST_EFFECT}"	),
 
 -----------------------------------------------
@@ -139,16 +147,18 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_DESCRIPTION",			"Three tile natural wonder. Yields +2 [ICON_PRODUCTION] Production, +2 [ICON_Science] Science, and +1 [ICON_Gold] Gold."	),
-	("en_US",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT",				"Any Civilization that owns at least one of these tiles receives +2 Era Score from Historic Moments if that Moment is usually worth at least +4 Era Score."	),
+	("en_US",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT",				"Any Civilization that owns at least one of these tiles receives +1 Era Score from Historic Moments if that Moment is usually worth at least +4 Era Score."	),
 	("en_US",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_EYE_OF_THE_SAHARA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT}"	),
 
 -----------------------------------------------
 -- EYJAFJALLAJOKULL
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",			"Two tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Food] Food."	),
-	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",				"Specialty Districts constructed on Tundra or Snow terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
-	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",				"Two tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Food] Food."	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION",			"Two tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_CULTURE] Culture. Provides additional yields on eruption at the cost of [ICON_CITIZEN] Population and damage to infrastructure. Always active."	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",					"Specialty Districts constructed on Tundra or Snow terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_XP2_DESCRIPTION",	"{LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT}"	),
 
 -----------------------------------------------
 -- GALAPAGOS
@@ -171,12 +181,20 @@ VALUES
 	("en_US",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT}"	),
 
 -----------------------------------------------
+-- GOBUSTAN
+-----------------------------------------------
+
+	("en_US",	"LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION",			"Three tile natural wonder. Yields +3 [ICON_CULTURE] Culture, +1 [ICON_PRODUCTION] Production, and +1 [ICON_SCIENCE] Science."	),
+	("en_US",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT",				"Improved sources of [ICON_RESOURCE_OIL] Oil accumulate 2 more resources per turn for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GOBUSTAN_EFFECT}"	),
+
+-----------------------------------------------
 -- GRAND MESA
 -----------------------------------------------
 
-	("en_US",	"LOC_FEATURE_GRAND_MESA_NAME",						"Grand Mesa"	),
-	("en_US",	"LOC_TM_FEATURE_GRAND_MESA_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Food] Food and +1 [ICON_Culture] Culture."	),
-	("en_US",	"LOC_TM_FEATURE_GRAND_MESA_EFFECT",				"Units trained in the City that owns this tile ignore [ICON_Movement] Movement penalties in Forest or Jungle."	),
+	("en_US",	"LOC_FEATURE_GRAND_MESA_NAME",					"Grand Mesa"	),
+	("en_US",	"LOC_TM_FEATURE_GRAND_MESA_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Food] Food and +1 [ICON_Culture] Culture."	),
+	("en_US",	"LOC_TM_FEATURE_GRAND_MESA_EFFECT",				"Units ignore [ICON_Movement] Movement penalties in Forest or Jungle for any Civilization that owns this tile."	),
 	("en_US",	"LOC_TM_FEATURE_GRAND_MESA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GRAND_MESA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GRAND_MESA_EFFECT}"	),
 	
 	("en_US",	'LOC_TM_FEATURE_GRAND_MESA_QUOTE',	
@@ -194,10 +212,18 @@ VALUES
 	("en_US",	"LOC_TM_FEATURE_HA_LONG_BAY_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_HA_LONG_BAY_EFFECT}"	),
 
 -----------------------------------------------
+-- IK-KIL
+-----------------------------------------------
+
+	("en_US",	"LOC_TM_FEATURE_IK_KIL_DESCRIPTION",			"One tile impassable natural wonder. Provides Fresh Water. Adjacent plots yield +1 [ICON_SCIENCE] Science, and +1 [ICON_FAITH] Faith."	),
+	("en_US",	"LOC_TM_FEATURE_IK_KIL_EFFECT",					"+15% [ICON_PRODUCTION] Production toward Wonders for any Civilization that owns this tile."	),
+	("en_US",	"LOC_TM_FEATURE_IK_KIL_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_IK_KIL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_IK_KIL_EFFECT}"	),
+
+-----------------------------------------------
 -- KAILASH
 -----------------------------------------------
 
-	("en_US",	"LOC_FEATURE_KAILASH_NAME",					"Mount Kailash"	),
+	("en_US",	"LOC_FEATURE_KAILASH_NAME",						"Mount Kailash"	),
 	("en_US",	"LOC_TM_FEATURE_KAILASH_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Faith] Faith and +1 [ICON_Culture] Culture."	),
 	("en_US",	"LOC_TM_FEATURE_KAILASH_EFFECT",				"Receive +1 [ICON_Culture] Culture for every foreign City that follows the [ICON_Religion] Religion of the Civilization that owns this tile."	),
 	("en_US",	"LOC_TM_FEATURE_KAILASH_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_KAILASH_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KAILASH_EFFECT}"	),
@@ -212,9 +238,11 @@ VALUES
 -- KILIMANJARO
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Food] Food."	),
-	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT",				"Receive +1 [ICON_Citizen] Population in the City that owns this tile when a Specialty District is constructed."	),
-	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KILIMANJARO_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Food] Food."	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_FOOD] Food. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT",					"Receive +1 [ICON_Citizen] Population in the City that owns this tile when a Specialty District is constructed."	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KILIMANJARO_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT_XP2_DESCRIPTION",	"{LOC_TM_FEATURE_KILIMANJARO_XP2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KILIMANJARO_EFFECT}"	),
 
 -----------------------------------------------
 -- KRAKATOA
@@ -222,10 +250,12 @@ VALUES
 
 	("en_US",	"LOC_FEATURE_KRAKATOA_NAME",						"Krakatoa"	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Science] Science and +1 [ICON_Culture] Culture."	),
+	("en_US",	"LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_SCIENCE] Science. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT",					"Receive +2 [ICON_Science] Science for each Specialty District in a City that owns this tile, increasing to +3 if the City has a National Park."	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",				"Any Civilization that owns this tile receives a free [ICON_TechBoosted] Eureka upon earning a [ICON_GreatAdmiral] Great Admiral."	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_KRAKATOA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT}"	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1_DESCRIPTION",	"{LOC_TM_FEATURE_KRAKATOA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1}"	),
+	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP2_DESCRIPTION",	"{LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1}"	),
 	
 	("en_US",	'LOC_TM_FEATURE_KRAKATOA_QUOTE',	
 	'"I saw with amazement that the island of Krakatoa lay completely burnt and barren in front of our eyes and that at four locations was throwing up large chunks of fire."[NEWLINE]- Johann Wilhelm Vogel'	),
@@ -233,13 +263,20 @@ VALUES
 	("en_US",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_KRAKATOA_CHAPTER_HISTORY_PARA_1",	
 	"Krakatoa is a volcanic island located in Indonesia, between the islands of Java and Sumatra. The volcano exploded violently in August, 1883 with a force equivalent to 13,000 times the power of the Hiroshima nuclear bomb. The blast is widely regarded as the loudest sound ever recorded. The eruption destroyed over half of the island, and was heard in parts of Australia, some 3,200 kilometers (2,000 miles) away. Some 37,000 people were killed by the eruption and subsequent tsunamis. The volcano has been emitting lava steadily for the past eighty years, rebuilding the cone at a rate of about 5 meters per year (15 feet per year)."	),
 
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_NAME",				"Gentle Eruption"	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_DESCRIPTION",			"Smoke billows from the mountain of fire that people call Krakatoa. Could this be a foreboding sign of things to come?"	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_NAME",			"Catastrophic Eruption"	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_DESCRIPTION",	"Must we have forsaken our gods, for when we looked toward the blue sky and asked for rain, it was Krakatoa that answered with fire."	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_NAME",			"Megacolossal Eruption"	),
+	("en_US",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_DESCRIPTION",	"Cursed be the ground on which Krakatoa casts its mighty shadow. Both fire and rock it wrought upon us. For out of the ground we were taken for the ashes we are... and to the ashes we returned."	),
+
 -----------------------------------------------
 -- LAKE RETBA
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_LAKE_RETBA_DESCRIPTION",			"Two tile natural wonder. Appears as a Lake. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production."	),
-	("en_US",	"LOC_TM_FEATURE_LAKE_RETBA_EFFECT",				"Any Civilization that owns at least one of these tiles receives +2 [ICON_Gold] Gold for each unique copy of a Luxury resource that they own."	),
-	("en_US",	"LOC_TM_FEATURE_LAKE_RETBA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_LAKE_RETBA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_LAKE_RETBA_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_LAKE_RETBA_EFFECT",					"Any Civilization that owns at least one of these tiles receives +2 [ICON_Gold] Gold for each unique copy of a Luxury resource that they own."	),
+	("en_US",	"LOC_TM_FEATURE_LAKE_RETBA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_LAKE_RETBA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_LAKE_RETBA_EFFECT}"	),
 
 -----------------------------------------------
 -- LAKE VICTORIA
@@ -265,12 +302,20 @@ VALUES
 	("en_US",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_LYSEFJORDEN_EFFECT}"	),
 
 -----------------------------------------------
+-- MATO TIPILA
+-----------------------------------------------
+
+	("en_US",	"LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_PRODUCTION] Production."	),
+	("en_US",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT",				"Naturalists are 50% cheaper to purchase for any Civilization that owns this tile."	),
+	("en_US",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_DEVILSTOWER_EFFECT}"	),
+
+-----------------------------------------------
 -- MATTERHORN
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_CULTURE] Culture."	),
-	("en_US",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",				"Land Units trained in a City that owns this tile ignore [ICON_Movement] Movement penalties on Hills, and receive +3 [ICON_Strength] Combat Strength when fighting on them."	),
-	("en_US",	"LOC_TM_FEATURE_MATTERHORN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_MATTERHORN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MATTERHORN_EFFECT}"	),
+	("en_US",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",					"Units ignore [ICON_Movement] Movement penalties on Hills, and receive +3 [ICON_Strength] Combat Strength when fighting on them for any Civilization that owns this tile."	),
+	("en_US",	"LOC_TM_FEATURE_MATTERHORN_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_MATTERHORN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MATTERHORN_EFFECT}"	),
 
 	("en_US",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",		"+{1_Amount} Combat Bonus on Hills (Matterhorn)"	),
 
@@ -295,14 +340,8 @@ VALUES
 
 	("en_US",	"LOC_FEATURE_MOTLATSE_CANYON_NAME",						"Motlatse Canyon"	),
 	("en_US",	"LOC_TM_FEATURE_MOTLATSE_CANYON_DESCRIPTION",			"Four tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science."	),
-	("en_US",	"LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT",				"Specialty Districts receive +1 of their respective yield on Breathtaking plots for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT",				"River tiles with Breathtaking appeal yield +1 [ICON_GOLD] Gold for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_MOTLATSE_CANYON_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT}"	),
-	
-	("en_US",	"LOC_ADJ_MOTLATSE_FAITH_DESCRIPTION",				"+{1_num} [ICON_Faith] Faith from the tile's Appeal. (Motlatse Canyon)"	),
-	("en_US",	"LOC_ADJ_MOTLATSE_SCIENCE_DESCRIPTION",				"+{1_num} [ICON_Science] Science from the tile's Appeal. (Motlatse Canyon)"	),
-	("en_US",	"LOC_ADJ_MOTLATSE_CULTURE_DESCRIPTION",				"+{1_num} [ICON_Culture] Culture from the tile's Appeal. (Motlatse Canyon)"	),
-	("en_US",	"LOC_ADJ_MOTLATSE_PRODUCTION_DESCRIPTION",			"+{1_num} [ICON_Production] Production from the tile's Appeal. (Motlatse Canyon)"	),
-	("en_US",	"LOC_ADJ_MOTLATSE_GOLD_DESCRIPTION",				"+{1_num} [ICON_Gold] Gold from the tile's Appeal. (Motlatse Canyon)"	),
 
 	("en_US",	'LOC_TM_FEATURE_MOTLATSE_CANYON_QUOTE',	
 	'"I believe that South Africa is the most beautiful place on earth. Admittedly, I am biased, but I think even the most scrupulous critic would agree that we have been blessed with a truly wonderful land."[NEWLINE]- Nelson Mandela'	),
@@ -364,6 +403,14 @@ VALUES
 	"Lakes of Ounianga are a series of eighteen interconnected lakes in the hyper arid Ennedi region of the Sahara desert, occupying a basin in the mountains of West Tibesti and Ennedi East. It constitutes an exceptional natural landscape of great beauty with striking colours and shapes. The saline, hyper saline and freshwater lakes are supplied by groundwater and are found in two groups 40 km apart. Ounianga Kebir comprises four lakes, the largest of which, Yoan, covers an area of 358 ha and is 27 m deep. Its highly saline waters only sustain algae and some microorganisms. The second group, Ounianga Serir, comprises fourteen lakes separated by sand dunes. Floating reeds cover almost half the surface of these lakes reducing evaporation. Lake Teli has the largest surface area but is less than 10 m deep. With their high quality freshwater, some of these lakes are home to aquatic fauna, particularly fish."	),
 
 -----------------------------------------------
+-- PAMUKKALE
+-----------------------------------------------
+
+	("en_US",	"LOC_TM_FEATURE_PAMUKKALE_DESCRIPTION",				"Two tile impassable natural wonder. Provies Fresh Water. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
+	("en_US",	"LOC_TM_FEATURE_PAMUKKALE_EFFECT",					"Regional buildings within Entertainment Complex or Waterpark districts provide +1 [ICON_AMENITIES] Amenity to cities within range for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_PAMUKKALE_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_PAMUKKALE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_PAMUKKALE_EFFECT}"	),
+
+-----------------------------------------------
 -- PANTANAL
 -----------------------------------------------
 
@@ -381,7 +428,7 @@ VALUES
 -- PIOPIOTAHI
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION",			"Three tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold."	),
+	("en_US",	"LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION",		"Three tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold."	),
 	("en_US",	"LOC_TM_FEATURE_PIOPIOTAHI_EFFECT",				"[ICON_Amenities] Amenities provided by regional buildings extend 3 tiles further for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_PIOPIOTAHI_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_PIOPIOTAHI_EFFECT}"	),
 	
@@ -390,7 +437,7 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_FEATURE_GIBRALTAR_NAME",					"Rock of Gibraltar"	),
-	("en_US",	"LOC_TM_FEATURE_GIBRALTAR_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Food] Food and +1 [ICON_Gold] Gold."	),
+	("en_US",	"LOC_TM_FEATURE_GIBRALTAR_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Food] Food and +1 [ICON_Gold] Gold."	),
 	("en_US",	"LOC_TM_FEATURE_GIBRALTAR_EFFECT",				"Encampments and Harbors receive +2 [ICON_GreatPerson] Great Person Points of their respective type in the City that owns this tile."	),
 	("en_US",	"LOC_TM_FEATURE_GIBRALTAR_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GIBRALTAR_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GIBRALTAR_EFFECT}"	),
 
@@ -405,8 +452,17 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_RORAIMA_DESCRIPTION",			"Four tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_SCIENCE] Science."	),
-	("en_US",	"LOC_TM_FEATURE_RORAIMA_EFFECT",				"Jungle does not diminish the appeal of adjacent plots for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_RORAIMA_EFFECT",				"Onwed Jungle tiles do not reduce the appeal of adjacent plots for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_RORAIMA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_RORAIMA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_RORAIMA_EFFECT}"	),
+
+
+-----------------------------------------------
+-- SAHARA EL BEYDA
+-----------------------------------------------
+
+	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION",			"Four tile natural wonder. Yields +3 [ICON_GOLD] Gold, +1 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
+	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT",				"Cities are immune to damage from Dust Storms for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT}"	),
 
 -----------------------------------------------
 -- SALAR DE UYUNI
@@ -433,7 +489,7 @@ VALUES
 
 	("en_US",	"LOC_FEATURE_SINAI_NAME",					"Mount Sinai"	),
 	("en_US",	"LOC_TM_FEATURE_SINAI_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Faith] Faith."	),
-	("en_US",	"LOC_TM_FEATURE_SINAI_EFFECT",				"Holy Sites provide +1 [ICON_GreatPerson] Great Person Points toward [ICON_GreatProphet] Great Prophets for the player that owns this tile. Religious units trained in this City receive +10 Theological [ICON_Strength] Combat Strength."	),
+	("en_US",	"LOC_TM_FEATURE_SINAI_EFFECT",				"Holy Sites provide +1 [ICON_GreatPerson] Great Person Points toward [ICON_GreatProphet] Great Prophets for the player that owns this tile. Religious receive +10 Theological [ICON_Strength] Combat Strength."	),
 	("en_US",	"LOC_TM_FEATURE_SINAI_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SINAI_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SINAI_EFFECT}"	),
 	
 	("en_US",	'LOC_TM_FEATURE_SINAI_QUOTE',	
@@ -448,7 +504,7 @@ VALUES
 
 	("en_US",	"LOC_FEATURE_SRI_PADA_NAME",					"Sri Pada"	),
 	("en_US",	"LOC_TM_FEATURE_SRI_PADA_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Food] Food and +1 [ICON_Faith] Faith."	),
-	("en_US",	"LOC_TM_FEATURE_SRI_PADA_EFFECT",				"Religious units trained in the City that owns this tile receive [ICON_Culture] Culture upon converting a City to their [ICON_Religion] Religion for the first time."	),
+	("en_US",	"LOC_TM_FEATURE_SRI_PADA_EFFECT",				"Religious units from any Civilization that owns this tile receive [ICON_Culture] Culture upon converting a City to their [ICON_Religion] Religion for the first time."	),
 	("en_US",	"LOC_TM_FEATURE_SRI_PADA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SRI_PADA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SRI_PADA_EFFECT}"	),
 	
 	("en_US",	'LOC_TM_FEATURE_SRI_PADA_QUOTE',	
@@ -469,7 +525,7 @@ VALUES
 -- TSINGY
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_TSINGY_DESCRIPTION",				"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science."	),
+	("en_US",	"LOC_TM_FEATURE_TSINGY_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science."	),
 	("en_US",	"LOC_TM_FEATURE_TSINGY_EFFECT",					"Theater districts trigger a culture bomb in any City. Double adjacency bonuses for Theater districts if their City has a National Park."	),
 	("en_US",	"LOC_TM_FEATURE_TSINGY_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_TSINGY_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_TSINGY_EFFECT}"	),
 
@@ -477,7 +533,7 @@ VALUES
 -- UBSUNUR HOLLOW
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION",			"Four tile natural wonder. Appears as Marsh. Yields +2 [ICON_FAITH] Faith, +1 [ICON_FOOD] Food, and +2 [ICON_PRODUCTION] Production."	),
+	("en_US",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION",		"Four tile natural wonder. Appears as Marsh. Yields +2 [ICON_FAITH] Faith, +1 [ICON_FOOD] Food, and +2 [ICON_PRODUCTION] Production."	),
 	("en_US",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT",				"Any Civilization that owns at least one of these tiles receives a free [ICON_CivicBoosted] Inspiration upon earning a [ICON_GreatGeneral] Great General."	),
 	("en_US",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT}"	),
 
@@ -485,9 +541,17 @@ VALUES
 -- ULURU
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith."	),
+	("en_US",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith."	),
 	("en_US",	"LOC_TM_FEATURE_ULURU_EFFECT",				"Specialty Districts constructed on desert terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
 	("en_US",	"LOC_TM_FEATURE_ULURU_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_ULURU_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_ULURU_EFFECT}"	),
+
+-----------------------------------------------
+-- VESUVIUS
+-----------------------------------------------
+
+	("en_US",	"LOC_TM_FEATURE_VESUVIUS_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_PRODUCTION] Production. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
+	("en_US",	"LOC_TM_FEATURE_VESUVIUS_EFFECT",					"Antiquity Sites yield +4 [ICON_CULTURE] Culture, and [ICON_GREATWORK_ARTIFACT] Artifacts yield +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism for any Civilization that owns this tile."	),
+	("en_US",	"LOC_TM_FEATURE_VESUVIUS_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_VESUVIUS_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_VESUVIUS_EFFECT}"	),
 
 -----------------------------------------------
 -- VREDEFORT DOME
@@ -508,8 +572,8 @@ VALUES
 -- WULINGYUAN
 -----------------------------------------------
 	
-	("en_US",	"LOC_FEATURE_WULINGYUAN_NAME",						"Wulingyuan"	),
-	("en_US",	"LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",			"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Culture] Culture"	),
+	("en_US",	"LOC_FEATURE_WULINGYUAN_NAME",					"Wulingyuan"	),
+	("en_US",	"LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",		"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Culture] Culture"	),
 	("en_US",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",				"Great Works of [ICON_GreatWork_Writing] Writing yield +2 [ICON_Culture] Culture and +50% [ICON_Tourism] Tourism for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_WULINGYUAN_EFFECT}"	),
 	
@@ -524,14 +588,14 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_YOSEMITE_DESCRIPTION",			"Two tile impassable natural wonder. Adjacent plots yield +1 [ICON_Gold] Gold and +1 [ICON_Science] Science."	),
-	("en_US",	"LOC_TM_FEATURE_YOSEMITE_EFFECT",				"Forest provides an additional +1 Appeal to adjacent plots for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_YOSEMITE_EFFECT",				"Owned Forest tiles provide an additional +1 Appeal to adjacent plots for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_YOSEMITE_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_YOSEMITE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_YOSEMITE_EFFECT}"	),
 
 -----------------------------------------------
 -- ZHANGYE DANXIA
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_DESCRIPTION",			"Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Science] Science."	),
+	("en_US",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_DESCRIPTION",		"Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Science] Science."	),
 	("en_US",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT",				"Commercial Hubs and Campus districts in a City that owns at least one of these tiles receive +2 [ICON_GreatPerson] Great Person Points of their respective type."	),
 	("en_US",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_ZHANGYE_DANXIA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT}"	),
 
@@ -542,14 +606,14 @@ VALUES
 	("en_US",	"LOC_TM_ADJ_NW_FAITH_DESCRIPTION",			"+{1_num} [ICON_Faith] Faith from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 	("en_US",	"LOC_TM_ADJ_NW_SCIENCE_DESCRIPTION",		"+{1_num} [ICON_Science] Science from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 	("en_US",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} [ICON_Culture] Culture from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-	("en_US",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",	"+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("en_US",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 	("en_US",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 
 -----------------------------------------------
 -- MISC - Naturlist
 -----------------------------------------------
 
-	("en_US",	"LOC_TM_UNIT_NATURALIST_DESCRIPTION",			"A late-game civilian who can create a single National Park to attract [ICON_Tourism] Tourists. Must be purchased with [ICON_Gold] Gold."	),
+	("en_US",	"LOC_TM_UNIT_NATURALIST_DESCRIPTION",			"A late-game civilian who can create a single National Park to attract [ICON_Tourism] Tourists. Must be purchased with [ICON_GOLD] Gold or [ICON_FAITH] Faith."	),
 
 -----------------------------------------------
 -- MOD SUPPORT

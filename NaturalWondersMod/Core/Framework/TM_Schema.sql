@@ -30,16 +30,24 @@ CREATE TABLE IF NOT EXISTS TM_Master
 	Appeal							INTEGER		DEFAULT 0,
 	DoubleAdjacentTerrainYield		INTEGER		DEFAULT 0,
 	CustomPlacement					TEXT		DEFAULT NULL,
-	DependsOnDLC					TEXT		DEFAULT NULL,
+	Required						TEXT		DEFAULT NULL,
+	Version							TEXT		DEFAULT NULL,
+	Removed							TEXT		DEFAULT NULL,
 
 	PRIMARY KEY	(FeatureType)				
 	);
 
+CREATE TABLE IF NOT EXISTS ModValidation
+	(
+	Version			TEXT	DEFAULT NULL
+	);
+
 CREATE TABLE IF NOT EXISTS TM_Validation
 	(
-	FeatureType				TEXT		NOT NULL,
-	Requirement				TEXT		DEFAULT NULL,
-	Active					BOOLEAN		DEFAULT 0
+	FeatureType		TEXT	DEFAULT NULL,
+	Required		TEXT	DEFAULT NULL,
+	Version			TEXT	DEFAULT NULL,
+	Removed			TEXT	DEFAULT NULL
 	);
 
 CREATE TABLE IF NOT EXISTS TM_FeatureYields
@@ -49,7 +57,10 @@ CREATE TABLE IF NOT EXISTS TM_FeatureYields
 	Impassable				BOOLEAN		DEFAULT 0,
 	YieldType				TEXT		DEFAULT NULL,
 	YieldChange				INTEGER		DEFAULT 0,
-	Reference				TEXT		DEFAULT NULL
+	Reference				TEXT		DEFAULT NULL,
+	Required				TEXT		DEFAULT NULL,
+	Version					TEXT		DEFAULT NULL,
+	Removed					TEXT		DEFAULT NULL
 	);
 
 CREATE TABLE IF NOT EXISTS TM_Placement
@@ -58,7 +69,10 @@ CREATE TABLE IF NOT EXISTS TM_Placement
 	Active					BOOLEAN		DEFAULT 0,
 	Type					TEXT		NOT NULL,
 	Object					TEXT		NOT NULL,
-	Reference				TEXT		NOT NULL
+	Reference				TEXT		NOT NULL,
+	Required				TEXT		DEFAULT NULL,
+	Version					TEXT		DEFAULT NULL,
+	Removed					TEXT		DEFAULT NULL
 	);
 
 CREATE TABLE IF NOT EXISTS TM_UserSettings
@@ -68,12 +82,4 @@ CREATE TABLE IF NOT EXISTS TM_UserSettings
 	Value				TEXT		DEFAULT NULL,
 
 	PRIMARY KEY	(Setting)				
-	);
-
-CREATE TABLE IF NOT EXISTS ModCheck
-	(
-	ModType					TEXT		NOT NULL,
-	Active					BOOLEAN		DEFAULT 1,
-
-	PRIMARY KEY	(ModType)			
 	);

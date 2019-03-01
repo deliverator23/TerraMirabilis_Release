@@ -84,6 +84,8 @@ VALUES
 -- Our Default: 'YIELD_GOLD'
 
 -- NOTE: The game will only allow you to purchase with Gold or Faith. Nothing else.
+
+-- ADDENDUM: NOW OBSOLETE. Restructured so you can now purchase with both :)
 -----------------------------------------------
 
 	('NATURALIST_PURCHASE',	'YIELD_GOLD',	NULL),
@@ -162,7 +164,7 @@ VALUES
 	('ERASCORE_DISCOVERED_FIRST',	NULL,	2), -- Game Default 3
 
 -----------------------------------------------
--- SECTION M
+-- SECTION Z
 
 -- Enable Natural Wonders
 -- Change the word Enabled to Disabled below
@@ -204,6 +206,15 @@ VALUES
 	('FEATURE_RORAIMA',				'ENABLED',		NULL),
 	('FEATURE_UBSUNUR_HOLLOW',		'ENABLED',		NULL),
 	('FEATURE_ZHANGYE_DANXIA',		'ENABLED',		NULL),
+
+	-- Gathering Storm
+	('FEATURE_CHOCOLATEHILLS',		'ENABLED',		NULL),
+	('FEATURE_DEVILSTOWER',			'ENABLED',		NULL), -- Mato Tipila
+	('FEATURE_GOBUSTAN',			'ENABLED',		NULL),
+	('FEATURE_IKKIL',				'ENABLED',		NULL),
+	('FEATURE_PAMUKKALE',			'ENABLED',		NULL),
+	('FEATURE_VESUVIUS',			'ENABLED',		NULL),
+	('FEATURE_WHITEDESERT',			'ENABLED',		NULL), -- Sahara el Beyda
 
 	-- Terra Mirabilis
 	('FEATURE_BARRINGER_CRATER',	'ENABLED',		NULL),
