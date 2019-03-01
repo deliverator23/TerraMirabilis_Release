@@ -463,3 +463,29 @@ INSERT INTO RequirementArguments
 		(RequirementId, 			Name,			Value	)
 SELECT	'REQ_TM_IS_'||ResourceType,	'ResourceType',	ResourceType
 FROM	Resources WHERE ResourceClassType = 'RESOURCECLASS_LUXURY';
+
+-----------------------------------------------
+-- Triggers
+-----------------------------------------------
+
+CREATE TRIGGER IF NOT EXISTS TM_RetbaResource_Trigger
+AFTER INSERT ON Resources WHEN NEW.ResourceClassType = 'RESOURCECLASS_LUXURY'
+BEGIN
+	
+	INSERT INTO RequirementSets
+			(RequirementSetId,							RequirementSetType			)
+	VALUES	('REQSET_TM_PLAYER_HAS_'||NEW.ResourceType,	'REQUIREMENTSET_TEST_ALL'	);
+
+	INSERT INTO RequirementSetRequirements
+			(RequirementSetId,							RequirementId					)
+	VALUES	('REQSET_TM_PLAYER_HAS_'||NEW.ResourceType,	'REQ_TM_IS_'||NEW.ResourceType	);
+
+	INSERT INTO Requirements
+			(RequirementId, 					RequirementType							)
+	VALUES	('REQ_TM_IS_'||NEW.ResourceType,	'REQUIREMENT_PLAYER_HAS_RESOURCE_OWNED'	);
+
+	INSERT INTO RequirementArguments
+			(RequirementId, 					Name,			Value				)
+	VALUES	('REQ_TM_IS_'||NEW.ResourceType,	'ResourceType',	NEW.ResourceType	);
+
+END;
