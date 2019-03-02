@@ -4,6 +4,7 @@
 	Credits: boynextdoor
 	
 	Guide:
+	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
 	~ Do not change anything in UPPERCASE text, including [ICONS]. These are important references.
 	~ Keep your changes inside the "quotation marks"
 		
@@ -136,6 +137,7 @@ VALUES
 
 	("zh_Hans_CN",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",		"两格无法逾越的自然奇观. 以山脉形式出现. 相邻单元格 +1 [ICON_CULTURE] 文化 and +1 [ICON_FOOD] 食物."	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",			"拥有此奇观的城市位于冻土或雪地的独特区域 +1 [ICON_FOOD] 食物."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION",			"Two tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_CULTURE] Culture. Provides additional yields on eruption at the cost of [ICON_CITIZEN] Population and damage to infrastructure. Always active."	),
 
 -----------------------------------------------
 -- GALAPAGOS
@@ -154,6 +156,13 @@ VALUES
 
 	("zh_Hans_CN",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION",	"两格无法逾越的自然奇观. 相邻单元格 +2 [ICON_CULTURE] 文化."	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT",		"至少拥有一格此奇观的城市训练的陆地单位+1次 [ICON_PROMOTION] 晋升."	),
+
+ -----------------------------------------------
+-- GOBUSTAN
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION",			"Three tile natural wonder. Yields +3 [ICON_CULTURE] Culture, +1 [ICON_PRODUCTION] Production, and +1 [ICON_SCIENCE] Science."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT",				"Improved sources of [ICON_RESOURCE_OIL] Oil accumulate 2 more resources per turn for any Civilization that owns at least one of these tiles."	),
 
 -----------------------------------------------
 -- GRAND MESA
@@ -175,6 +184,14 @@ VALUES
 
 	("zh_Hans_CN",	"LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",	"两格自然奇观. 单元格 +2 [ICON_CULTURE] 文化, +2 [ICON_FOOD] 食物 and +1 [ICON_PRODUCTION] 产能."	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_HA_LONG_BAY_EFFECT",		"至少拥有一格此奇观的文明的港口提供 +2 [ICON_HOUSING] 住房."	),
+
+-----------------------------------------------
+-- IK-KIL
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_TM_FEATURE_IK_KIL_DESCRIPTION",			"One tile impassable natural wonder. Provides Fresh Water. Adjacent plots yield +1 [ICON_SCIENCE] Science, and +1 [ICON_FAITH] Faith."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_IK_KIL_EFFECT",					"+15% [ICON_PRODUCTION] Production toward Wonders for any Civilization that owns this tile."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_IK_KIL_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_IK_KIL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_IK_KIL_EFFECT}"	),
 
 -----------------------------------------------
 -- KAILASH
@@ -203,6 +220,7 @@ VALUES
 
 	("zh_Hans_CN",	"LOC_FEATURE_KRAKATOA_NAME",				"喀拉喀托火山"	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_KRAKATOA_DESCRIPTION",		"一格无法逾越的自然奇观. 以山脉形式出现. 相邻单元格 +1 [ICON_SCIENCE] 科研 and +1 [ICON_CULTURE] 文化."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_SCIENCE] Science. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_KRAKATOA_EFFECT",			"拥有此奇观的城市的每个区域获得 +2 [ICON_SCIENCE] 科研, 如果该城有国家公园，则是+3."	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",		"拥有此奇观的文明每当获得一个 [ICON_GREATADMIRAL] 海军上将时赠送一个 [ICON_TechBoosted] 尤里卡."	),
 	
@@ -248,6 +266,13 @@ VALUES
 	("zh_Hans_CN",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",			"拥有此奇观的城市生产的单位在丘陵 [ICON_MOVEMENT] 移动时无视地形影响, 且提供 +3 [ICON_STRENGTH] 攻击力."	),
 
 	("zh_Hans_CN",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",	"+{1_Amount} 攻击力当位于丘陵 (马特洪峰)"	),
+
+-----------------------------------------------
+-- MATO TIPILA
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_PRODUCTION] Production."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT",				"Naturalists are 50% cheaper to purchase for any Civilization that owns this tile."	),
 
 -----------------------------------------------
 -- MOSI_OA_TUNYA
@@ -335,6 +360,13 @@ VALUES
 	"Lakes of Ounianga are a series of eighteen interconnected lakes in the hyper arid Ennedi region of the Sahara desert, occupying a basin in the mountains of West Tibesti and Ennedi East. It constitutes an exceptional natural landscape of great beauty with striking colours and shapes. The saline, hyper saline and freshwater lakes are supplied by groundwater and are found in two groups 40 km apart. Ounianga Kebir comprises four lakes, the largest of which, Yoan, covers an area of 358 ha and is 27 m deep. Its highly saline waters only sustain algae and some microorganisms. The second group, Ounianga Serir, comprises fourteen lakes separated by sand dunes. Floating reeds cover almost half the surface of these lakes reducing evaporation. Lake Teli has the largest surface area but is less than 10 m deep. With their high quality freshwater, some of these lakes are home to aquatic fauna, particularly fish."	),
 
 -----------------------------------------------
+-- PAMUKKALE
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_TM_FEATURE_PAMUKKALE_DESCRIPTION",				"Two tile impassable natural wonder. Provies Fresh Water. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_PAMUKKALE_EFFECT",					"Regional buildings within Entertainment Complex or Waterpark districts provide +1 [ICON_AMENITIES] Amenity to cities within range for any Civilization that owns at least one of these tiles."	),
+
+-----------------------------------------------
 -- PANTANAL
 -----------------------------------------------
 
@@ -375,6 +407,13 @@ VALUES
 
 	("zh_Hans_CN",	"LOC_TM_FEATURE_RORAIMA_DESCRIPTION",	"四格无法逾越的自然奇观. 以山脉形式出现. 相邻单元格 +1 [ICON_FAITH] 信仰 and +1 [ICON_SCIENCE] 科研."	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_RORAIMA_EFFECT",		"至少拥有一格此奇观的文明的雨林不再降低地块魅力."	),
+
+-----------------------------------------------
+-- SAHARA EL BEYDA
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION",			"Four tile natural wonder. Yields +3 [ICON_GOLD] Gold, +1 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT",				"Cities are immune to damage from Dust Storms for any Civilization that owns at least one of these tiles."	),
 
 -----------------------------------------------
 -- SALAR DE UYUNI
@@ -451,6 +490,13 @@ VALUES
 	("zh_Hans_CN",	"LOC_TM_FEATURE_ULURU_EFFECT",			"拥有此奇观的城市位于沙漠上的区域 +1 [ICON_FOOD] 食物."	),
 
 -----------------------------------------------
+-- VESUVIUS
+-----------------------------------------------
+
+	("zh_Hans_CN",	"LOC_TM_FEATURE_VESUVIUS_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_PRODUCTION] Production. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_VESUVIUS_EFFECT",					"Antiquity Sites yield +4 [ICON_CULTURE] Culture, and [ICON_GREATWORK_ARTIFACT] Artifacts yield +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism for any Civilization that owns this tile."	),
+
+-----------------------------------------------
 -- VREDEFORT DOME
 -----------------------------------------------
 
@@ -470,7 +516,7 @@ VALUES
 	
 	("zh_Hans_CN",	"LOC_FEATURE_WULINGYUAN_NAME",				"武陵源"	),
 	("zh_Hans_CN",	"LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",	"两格无法逾越的自然奇观. 相邻单元格 +2 [ICON_CULTURE] 文化"	),
-	("zh_Hans_CN",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",			"至少拥有一格此奇观的文明的 [ICON_GreatWork_Writing] 著作 +2 [ICON_CULTURE] 文化 ， +50% [ICON_TOURISM] 旅游."	),
+	("zh_Hans_CN",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",			"至少拥有一格此奇观的文明的 [ICON_GreatWork_Writing] 著作 +2 [ICON_CULTURE] 文化 ， +2 [ICON_TOURISM] 旅游."	),
 	
 	("zh_Hans_CN",	'LOC_TM_FEATURE_WULINGYUAN_QUOTE',	
 	'"把张家界建设成为国内外知名的旅游胜地."[NEWLINE]- 长者亲笔题词'	),
@@ -506,10 +552,4 @@ VALUES
 -- MISC - Naturlist
 -----------------------------------------------
 
-	("zh_Hans_CN",	"LOC_TM_UNIT_NATURALIST_DESCRIPTION",	"可以建造国家公园来吸引 [ICON_TOURISM] 游客. 只能用 [ICON_GOLD] 金币购买."	),
-
------------------------------------------------
--- MOD SUPPORT
------------------------------------------------
-
-	("zh_Hans_CN",	"LOC_TM_FEATURE_FUJI_DESCRIPTION",		"一格无法逾越的自然奇观. 以山脉形式出现. 相邻单元格 +1 [ICON_CULTURE] 文化 and +1 [ICON_FAITH] 信仰. 相邻区域 +2 [ICON_GREATPERSON] 对应伟人点数."	);
+	("zh_Hans_CN",	"LOC_TM_UNIT_NATURALIST_DESCRIPTION",	"可以建造国家公园来吸引 [ICON_TOURISM] 游客. 只能用 [ICON_GOLD] 金币购买."	);

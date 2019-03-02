@@ -4,6 +4,7 @@
     Credits: YamiNick
    
     Guide:
+	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
     ~ Do not change anything in UPPERCASE text, including [ICONS]. These are important references.
     ~ Keep your changes inside the "quotation marks"
        
@@ -136,7 +137,8 @@ VALUES
  
     ("it_IT",   "LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",      "Una Meraviglia naturale che occupa due caselle invalicabili. Ha l'aspetto di una montagna e fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_FOOD] Cibo alle caselle adiacenti."  ),
     ("it_IT",   "LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",           "I distretti cittadini costruiti sulla Tundra o sulla Neve forniscono +1 [ICON_FOOD] Cibo ad ogni Civiltà che occupa almeno una casella di questa Meraviglia naturale."    ),
- 
+	("it_IT",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION",	"Two tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_CULTURE] Culture. Provides additional yields on eruption at the cost of [ICON_CITIZEN] Population and damage to infrastructure. Always active."	),
+
 -----------------------------------------------
 -- GALAPAGOS
 -----------------------------------------------
@@ -155,6 +157,13 @@ VALUES
     ("it_IT",   "LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION",   "Una Meraviglia naturale che occupa due caselle invalicabili. Fornisce +2 [ICON_CULTURE] Cultura alle caselle adiacenti."   ),
     ("it_IT",   "LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT",        "Le Unità di terra addestrate in una Città che occupa almeno una casella di questa Meraviglia naturale ricevono un [ICON_PROMOTION] livello di promozione gratuito."  ),
  
+ -----------------------------------------------
+-- GOBUSTAN
+-----------------------------------------------
+
+	("it_IT",	"LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION",			"Three tile natural wonder. Yields +3 [ICON_CULTURE] Culture, +1 [ICON_PRODUCTION] Production, and +1 [ICON_SCIENCE] Science."	),
+	("it_IT",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT",				"Improved sources of [ICON_RESOURCE_OIL] Oil accumulate 2 more resources per turn for any Civilization that owns at least one of these tiles."	),
+
 -----------------------------------------------
 -- GRAND MESA
 -----------------------------------------------
@@ -176,6 +185,14 @@ VALUES
     ("it_IT",   "LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",   "Una Meraviglia naturale che occupa due caselle. Fornisce +2 [ICON_CULTURE] Cultura, +2 [ICON_FOOD] Cibo e +1 [ICON_PRODUCTION] Produzione."    ),
     ("it_IT",   "LOC_TM_FEATURE_HA_LONG_BAY_EFFECT",        "Il Porto di una Città che occupa almeno una casella di questa Meraviglia naturale fornisce +2 [ICON_HOUSING]."    ),
  
+ -----------------------------------------------
+-- IK-KIL
+-----------------------------------------------
+
+	("it_IT",	"LOC_TM_FEATURE_IK_KIL_DESCRIPTION",			"One tile impassable natural wonder. Provides Fresh Water. Adjacent plots yield +1 [ICON_SCIENCE] Science, and +1 [ICON_FAITH] Faith."	),
+	("it_IT",	"LOC_TM_FEATURE_IK_KIL_EFFECT",					"+15% [ICON_PRODUCTION] Production toward Wonders for any Civilization that owns this tile."	),
+	("it_IT",	"LOC_TM_FEATURE_IK_KIL_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_IK_KIL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_IK_KIL_EFFECT}"	),
+
 -----------------------------------------------
 -- KAILASH
 -----------------------------------------------
@@ -203,7 +220,8 @@ VALUES
  
     ("it_IT",   "LOC_FEATURE_KRAKATOA_NAME",                "Krakatoa"  ),
     ("it_IT",   "LOC_TM_FEATURE_KRAKATOA_DESCRIPTION",      "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +1 [ICON_SCIENCE] Scienza e +1 [ICON_CULTURE] Cultura alle caselle adiacenti."    ),
-    ("it_IT",   "LOC_TM_FEATURE_KRAKATOA_EFFECT",           "La Città che occupa questa casella riceve +2 [ICON_SCIENCE] Scienza per ogni distretto cittadino, che aumenta a +3 se nella città è presente un Parco nazionale."   ),
+    ("it_IT",	"LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_SCIENCE] Science. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
+	("it_IT",   "LOC_TM_FEATURE_KRAKATOA_EFFECT",           "La Città che occupa questa casella riceve +2 [ICON_SCIENCE] Scienza per ogni distretto cittadino, che aumenta a +3 se nella città è presente un Parco nazionale."   ),
     ("it_IT",   "LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",       "La Città che occupa questa casella riceve un [ICON_TechBoosted] Eureka gratuito quando ottiene un [ICON_GREATADMIRAL] Grande Ammiraglio." ),
    
     ("it_IT",   'LOC_TM_FEATURE_KRAKATOA_QUOTE',   
@@ -249,6 +267,13 @@ VALUES
  
     ("it_IT",   "LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",    "+{1_Amount} Bonus di combattimento sulle Colline (Cervino)"    ),
  
+-----------------------------------------------
+-- MATO TIPILA
+-----------------------------------------------
+
+	("it_IT",	"LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_PRODUCTION] Production."	),
+	("it_IT",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT",				"Naturalists are 50% cheaper to purchase for any Civilization that owns this tile."	),
+
 -----------------------------------------------
 -- MOSI_OA_TUNYA
 -----------------------------------------------
@@ -332,6 +357,13 @@ VALUES
    
     ("it_IT",   "LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1", 
     "I laghi di Ounianga sono una serie di diciotto laghi interconnessi nell'aridissima regione Ennedi del deserto del Sahara, che occupa un bacino tra le montagne di West Tibesti e Ennedi East. Costituisce un paesaggio naturale di eccezionale bellezza con colori e forme suggestive. I laghi salini e d'acqua dolce sono riforniti dalle falde acquifere e si trovano in due gruppi distanti 40 km. Ounianga Kebir comprende quattro laghi, il più grande dei quali, Yoan, copre un'area di 358 ettari ed è profondo 27 metri. Le sue acque altamente saline accolgono solo alghe e alcuni microrganismi. Il secondo gruppo, Ounianga Serir, comprende quattordici laghi separati da dune di sabbia. I canneti coprono quasi la metà della superficie di questi laghi riducendone l'evaporazione. Il lago Teli ha la superficie più grande ma è profondo meno di 10 metri. Con la loro acqua dolce di alta qualità, alcuni di questi laghi ospitano fauna acquatica, in particolare i pesci."  ),
+
+-----------------------------------------------
+-- PAMUKKALE
+-----------------------------------------------
+
+	("it_IT",	"LOC_TM_FEATURE_PAMUKKALE_DESCRIPTION",				"Two tile impassable natural wonder. Provies Fresh Water. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
+	("it_IT",	"LOC_TM_FEATURE_PAMUKKALE_EFFECT",					"Regional buildings within Entertainment Complex or Waterpark districts provide +1 [ICON_AMENITIES] Amenity to cities within range for any Civilization that owns at least one of these tiles."	),
  
 -----------------------------------------------
 -- PANTANAL
@@ -374,6 +406,13 @@ VALUES
     ("it_IT",   "LOC_TM_FEATURE_RORAIMA_DESCRIPTION",   "Una Meraviglia naturale che occupa quattro caselle invalicabili. Ha l'aspetto di una montagna e fornisce +1 [ICON_FAITH] Fede e +1 [ICON_SCIENCE] Scienza alle caselle adiacenti." ),
     ("it_IT",   "LOC_TM_FEATURE_RORAIMA_EFFECT",        "Le Foreste pluviali non abbassano l'Appeal delle caselle adiacenti della Civiltà che occupa almeno una delle caselle di questa Meraviglia naturale."  ),
  
+-----------------------------------------------
+-- SAHARA EL BEYDA
+-----------------------------------------------
+
+	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION",			"Four tile natural wonder. Yields +3 [ICON_GOLD] Gold, +1 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
+	("en_US",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT",				"Cities are immune to damage from Dust Storms for any Civilization that owns at least one of these tiles."	),
+
 -----------------------------------------------
 -- SALAR DE UYUNI
 -----------------------------------------------
@@ -450,6 +489,13 @@ L'ampia area, il cielo terso e l'eccezionale planarità della superficie lo rend
     ("it_IT",   "LOC_TM_FEATURE_ULURU_EFFECT",          "I distretti cittadini costruiti sul Deserto forniscono +1 [ICON_FOOD] Cibo ad ogni Civiltà che possiede almeno una casella di questa Meraviglia naturale."    ),
  
 -----------------------------------------------
+-- VESUVIUS
+-----------------------------------------------
+
+	("it_IT",	"LOC_TM_FEATURE_VESUVIUS_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_PRODUCTION] Production. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
+	("it_IT",	"LOC_TM_FEATURE_VESUVIUS_EFFECT",					"Antiquity Sites yield +4 [ICON_CULTURE] Culture, and [ICON_GREATWORK_ARTIFACT] Artifacts yield +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism for any Civilization that owns this tile."	),
+
+-----------------------------------------------
 -- VREDEFORT DOME
 -----------------------------------------------
  
@@ -469,7 +515,7 @@ L'ampia area, il cielo terso e l'eccezionale planarità della superficie lo rend
    
     ("it_IT",   "LOC_FEATURE_WULINGYUAN_NAME",              "Wulingyuan"    ),
     ("it_IT",   "LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",    "Una Meraviglia naturale che occupa due caselle invalicabili. Fornisce +2 [ICON_CULTURE] Cultura alle caselle adiacenti"    ),
-    ("it_IT",   "LOC_TM_FEATURE_WULINGYUAN_EFFECT",         "I Capolavori [ICON_GreatWork_Writing] letterari forniscono +2 [ICON_CULTURE] Cultura e +50% al [ICON_TOURISM] Turismo alla Civiltà che possiede almeno una casella di questa Meraviglia naturale."    ),
+    ("it_IT",   "LOC_TM_FEATURE_WULINGYUAN_EFFECT",         "I Capolavori [ICON_GreatWork_Writing] letterari forniscono +2 [ICON_CULTURE] Cultura e +2 [ICON_TOURISM] Turismo alla Civiltà che possiede almeno una casella di questa Meraviglia naturale."    ),
    
     ("it_IT",   'LOC_TM_FEATURE_WULINGYUAN_QUOTE', 
     '"Da diecimila valli gli alberi toccano il cielo, su mille cime i cuculi stanno chiamando, e, dopo una notte di piogge di montagna, da ogni cima arrivano centinaia di cascate di seta."[NEWLINE]- Wang Wei'    ),
@@ -505,10 +551,4 @@ L'ampia area, il cielo terso e l'eccezionale planarità della superficie lo rend
 -- MISC - Naturlist
 -----------------------------------------------
  
-    ("it_IT",   "LOC_TM_UNIT_NATURALIST_DESCRIPTION",   "Unità civile disponibile nella fase finale della partita, può creare un singolo Parco nazionale per attirare [ICON_TOURISM] Turisti. Dev'essere acquistata spendendo [ICON_GOLD] Oro."   ),
- 
------------------------------------------------
--- MOD SUPPORT
------------------------------------------------
- 
-    ("it_IT",   "LOC_TM_FEATURE_FUJI_DESCRIPTION",      "Una Meraviglia naturale che occupa una casella invalicabile. Ha l'aspetto di una montagna e fornisce +1 [ICON_CULTURE] Cultura e +1 [ICON_FAITH] Fede alle caselle adiacenti. I distretti costruiti nelle caselle adiacenti forniscono +2 punti [ICON_GREATPERSON] Grande Personaggio della loro rispettiva tipologia."  );
+    ("it_IT",   "LOC_TM_UNIT_NATURALIST_DESCRIPTION",   "Unità civile disponibile nella fase finale della partita, può creare un singolo Parco nazionale per attirare [ICON_TOURISM] Turisti. Dev'essere acquistata spendendo [ICON_GOLD] Oro."   );

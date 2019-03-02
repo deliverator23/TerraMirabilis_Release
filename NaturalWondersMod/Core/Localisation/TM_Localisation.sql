@@ -4,12 +4,16 @@
 	Credits: ChimpanG, Deliverator
 */
 
+-----------------------------------------------
+-- Incorporate available translations
+-----------------------------------------------
+
 INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
-SELECT	(SELECT Language IN ('de_DE', 'es_ES', 'fr_FR', 'it_IT', 'ja_JP', 'ko_KR', 'pl_PL', 'pt_BR', 'ru_RU', 'zh_Hans_CN', 'zh_Hant_HK')),
+SELECT	(SELECT Language IN ('de_DE', 'es_ES', 'fr_FR', 'it_IT', 'ja_JP', 'ko_KR', 'pl_PL', 'pt_BR', 'ru_RU', 'zh_Hans_CN', 'zh_Hans_HK')),
 		Tag,
 		Text
 FROM	LocalizedText
-WHERE	Tag LIKE 'LOC_TM_FEATURE_%_EFFECT_DESCRIPTION';
+WHERE	Tag LIKE 'LOC_TM_FEATURE_%_EFFECT%DESCRIPTION';
 
 INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text)
 VALUES
@@ -249,9 +253,7 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_FEATURE_KRAKATOA_NAME",						"Krakatoa"	),
-	("en_US",	"LOC_TM_FEATURE_KRAKATOA_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Science] Science and +1 [ICON_Culture] Culture."	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_SCIENCE] Science. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
-	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT",					"Receive +2 [ICON_Science] Science for each Specialty District in a City that owns this tile, increasing to +3 if the City has a National Park."	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",				"Any Civilization that owns this tile receives a free [ICON_TechBoosted] Eureka upon earning a [ICON_GreatAdmiral] Great Admiral."	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_KRAKATOA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT}"	),
 	("en_US",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1_DESCRIPTION",	"{LOC_TM_FEATURE_KRAKATOA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1}"	),
@@ -455,7 +457,6 @@ VALUES
 	("en_US",	"LOC_TM_FEATURE_RORAIMA_EFFECT",				"Onwed Jungle tiles do not reduce the appeal of adjacent plots for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_RORAIMA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_RORAIMA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_RORAIMA_EFFECT}"	),
 
-
 -----------------------------------------------
 -- SAHARA EL BEYDA
 -----------------------------------------------
@@ -574,7 +575,7 @@ VALUES
 	
 	("en_US",	"LOC_FEATURE_WULINGYUAN_NAME",					"Wulingyuan"	),
 	("en_US",	"LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",		"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Culture] Culture"	),
-	("en_US",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",				"Great Works of [ICON_GreatWork_Writing] Writing yield +2 [ICON_Culture] Culture and +50% [ICON_Tourism] Tourism for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",				"Great Works of [ICON_GreatWork_Writing] Writing yield +2 [ICON_Culture] Culture and +2 [ICON_Tourism] Tourism for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_WULINGYUAN_EFFECT}"	),
 	
 	("en_US",	'LOC_TM_FEATURE_WULINGYUAN_QUOTE',	

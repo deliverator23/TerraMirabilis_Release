@@ -4,6 +4,7 @@
     Credits: Sub6
      
     Guide:
+	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
     ~ Do not change anything in UPPERCASE text, including [ICONS]. These are important references.
     ~ Keep your changes inside the "quotation marks"
          
@@ -136,7 +137,8 @@ VALUES
  
     ("ja_JP",   "LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",      "2タイルの自然遺産。通行不可。山岳。隣接するタイルに [ICON_Culture] 文化力+1、 [ICON_Food] 食料+1。"    ),
     ("ja_JP",   "LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",           "このタイルを1つ以上領有する文明は、ツンドラや雪原上に建設する専門区域から [ICON_Food] 食料+1を得る。"    ),
- 
+	("ja_JP",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION",	"Two tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_CULTURE] Culture. Provides additional yields on eruption at the cost of [ICON_CITIZEN] Population and damage to infrastructure. Always active."	),
+
 -----------------------------------------------
 -- GALAPAGOS
 -----------------------------------------------
@@ -155,6 +157,13 @@ VALUES
     ("ja_JP",   "LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION",   "2タイルの自然遺産。通行不可。隣接するタイルに [ICON_Culture] 文化力+2。" ),
     ("ja_JP",   "LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT",        "このタイルを1つ以上領有する都市で生産する陸上ユニットに [ICON_Promotion] レベルアップが1つ無償でもたらされる。" ),
  
+ -----------------------------------------------
+-- GOBUSTAN
+-----------------------------------------------
+
+	("ja_JP",	"LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION",			"Three tile natural wonder. Yields +3 [ICON_CULTURE] Culture, +1 [ICON_PRODUCTION] Production, and +1 [ICON_SCIENCE] Science."	),
+	("ja_JP",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT",				"Improved sources of [ICON_RESOURCE_OIL] Oil accumulate 2 more resources per turn for any Civilization that owns at least one of these tiles."	),
+
 -----------------------------------------------
 -- GRAND MESA
 -----------------------------------------------
@@ -176,6 +185,14 @@ VALUES
     ("ja_JP",   "LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",   "2タイルの自然遺産。 [ICON_Culture] 文化力+2、 [ICON_Food] 食料+2、 [ICON_Production] 生産力+1。"   ),
     ("ja_JP",   "LOC_TM_FEATURE_HA_LONG_BAY_EFFECT",        "このタイルを1つ以上領有する文明は、港区域から [ICON_Housing] 住宅+2を得る。"   ),
  
+-----------------------------------------------
+-- IK-KIL
+-----------------------------------------------
+
+	("ja_JP",	"LOC_TM_FEATURE_IK_KIL_DESCRIPTION",			"One tile impassable natural wonder. Provides Fresh Water. Adjacent plots yield +1 [ICON_SCIENCE] Science, and +1 [ICON_FAITH] Faith."	),
+	("ja_JP",	"LOC_TM_FEATURE_IK_KIL_EFFECT",					"+15% [ICON_PRODUCTION] Production toward Wonders for any Civilization that owns this tile."	),
+	("ja_JP",	"LOC_TM_FEATURE_IK_KIL_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_IK_KIL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_IK_KIL_EFFECT}"	),
+
 -----------------------------------------------
 -- KAILASH
 -----------------------------------------------
@@ -203,6 +220,7 @@ VALUES
  
     ("ja_JP",   "LOC_FEATURE_KRAKATOA_NAME",                "クラカタウ" ),
     ("ja_JP",   "LOC_TM_FEATURE_KRAKATOA_DESCRIPTION",      "1タイルの自然遺産。通行不可。山岳。隣接するタイルに [ICON_Science] 科学力+1、 [ICON_Culture] 文化力+1。"    ),
+	("ja_JP",	"LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_SCIENCE] Science. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
     ("ja_JP",   "LOC_TM_FEATURE_KRAKATOA_EFFECT",           "このタイルを領有する都市は、その都市にある専門区域1つにつき [ICON_Science] 科学力+2を得る (その都市に国立公園がある場合は+3)。"   ),
     ("ja_JP",   "LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",       "このタイルを領有する文明は、 [ICON_GreatAdmiral] 大提督を得るたびに [ICON_TechBoosted] ひらめきが1回発動する。"  ),
      
@@ -249,6 +267,13 @@ VALUES
  
     ("ja_JP",   "LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",    "丘陵で+{1_Amount} (マッターホルン)"  ),
  
+ -----------------------------------------------
+-- MATO TIPILA
+-----------------------------------------------
+
+	("ja_JP",	"LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_PRODUCTION] Production."	),
+	("ja_JP",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT",				"Naturalists are 50% cheaper to purchase for any Civilization that owns this tile."	),
+
 -----------------------------------------------
 -- MOSI_OA_TUNYA
 -----------------------------------------------
@@ -334,6 +359,13 @@ VALUES
 	"ウニアンガ湖群は、サハラ砂漠のエネディ地域にある18の湖である。ティベスティ山地西部からエネディ地域東部に位置しており、際立つ色と形をした美しい景観をたたえている。この塩湖、過塩湖、淡水湖は地下水から供給されたもので、40キロメートル離れた2つのグループとして構成されている。1つ目のグループ、ウニアンガ・ケビル群は4つの湖からなる。その中で最も大きいヨアン湖は358ヘクタールの広さと27メートルの深さを備えている。ここは塩分濃度が高いため、藻類と少数の微生物しか生息していない。2つ目のグループ、ウニアンガ・セリル群は14の湖からなり、砂丘で隔てられている。これらの湖面の約半分は浮き葦で覆われていて、水の蒸発が防がれている。テリ湖は湖面が最も広いが、深さは10メートルにも満たない。これらの湖は純度の高い淡水湖であるため、魚などの水生生物が生息している。"	),
 
 -----------------------------------------------
+-- PAMUKKALE
+-----------------------------------------------
+
+	("ja_JP",	"LOC_TM_FEATURE_PAMUKKALE_DESCRIPTION",				"Two tile impassable natural wonder. Provies Fresh Water. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
+	("ja_JP",	"LOC_TM_FEATURE_PAMUKKALE_EFFECT",					"Regional buildings within Entertainment Complex or Waterpark districts provide +1 [ICON_AMENITIES] Amenity to cities within range for any Civilization that owns at least one of these tiles."	),
+
+-----------------------------------------------
 -- PANTANAL
 -----------------------------------------------
  
@@ -373,7 +405,14 @@ VALUES
  
     ("ja_JP",   "LOC_TM_FEATURE_RORAIMA_DESCRIPTION",   "4タイルの自然遺産。通行不可。山岳。隣接するタイルに [ICON_Faith] 信仰力+1、 [ICON_Science] 科学力+1。"  ),
     ("ja_JP",   "LOC_TM_FEATURE_RORAIMA_EFFECT",        "このタイルを1つ以上領有する文明では、隣接する熱帯雨林によってはアピールが低下しない。"   ),
- 
+
+-----------------------------------------------
+-- SAHARA EL BEYDA
+-----------------------------------------------
+
+	("ja_JP",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION",			"Four tile natural wonder. Yields +3 [ICON_GOLD] Gold, +1 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
+	("ja_JP",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT",				"Cities are immune to damage from Dust Storms for any Civilization that owns at least one of these tiles."	),
+
 -----------------------------------------------
 -- SALAR DE UYUNI
 -----------------------------------------------
@@ -449,6 +488,13 @@ VALUES
     ("ja_JP",   "LOC_TM_FEATURE_ULURU_EFFECT",          "このタイルを領有する文明は、砂漠上に建設する専門区域から [ICON_Food] 食料+1を得る。" ),
 
 -----------------------------------------------
+-- VESUVIUS
+-----------------------------------------------
+
+	("ja_JP",	"LOC_TM_FEATURE_VESUVIUS_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_PRODUCTION] Production. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
+	("ja_JP",	"LOC_TM_FEATURE_VESUVIUS_EFFECT",					"Antiquity Sites yield +4 [ICON_CULTURE] Culture, and [ICON_GREATWORK_ARTIFACT] Artifacts yield +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism for any Civilization that owns this tile."	),
+
+-----------------------------------------------
 -- VREDEFORT DOME
 -----------------------------------------------
 
@@ -504,10 +550,4 @@ VALUES
 -- MISC - Naturlist
 -----------------------------------------------
  
-    ("ja_JP",   "LOC_TM_UNIT_NATURALIST_DESCRIPTION",   "ゲーム終盤に登場する民間人ユニットで、 [ICON_Tourism] 観光客を引き寄せる国立公園を1つ作れる。 [ICON_Gold] ゴールドで購入できる。"   ),
- 
------------------------------------------------
--- MOD SUPPORT
------------------------------------------------
- 
-    ("ja_JP",   "LOC_TM_FEATURE_FUJI_DESCRIPTION",      "1タイルの自然遺産。通行不可。山岳。隣接するタイルに [ICON_Culture] 文化力+1、 [ICON_Faith] 信仰力+1。[NEWLINE][NEWLINE]隣接するタイルに建設する区域に対し、対応する [ICON_GreatPerson] 偉人ポイント+2。"   );
+    ("ja_JP",   "LOC_TM_UNIT_NATURALIST_DESCRIPTION",   "ゲーム終盤に登場する民間人ユニットで、 [ICON_Tourism] 観光客を引き寄せる国立公園を1つ作れる。 [ICON_Gold] ゴールドで購入できる。"   );

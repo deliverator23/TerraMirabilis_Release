@@ -4,6 +4,7 @@
 	Credits: SeelingCat y Ari
 	
 	Guide:
+	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
 	~ Do not change anything in UPPERCASE text, including [ICONS]. These are important references.
 	~ Keep your changes inside the "quotation marks"
 		
@@ -53,14 +54,16 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_BARRIER_REEF_DESCRIPTION",		"Maravilla de la naturaleza de dos casillas que se puede encontrar en terreno costero y proporciona +2 a Alimentos [ICON_FOOD], +1 de Oro [ICON_GOLD], y +2 a Ciencia [ICON_SCIENCE]."	),
 	("es_ES",	"LOC_TM_FEATURE_BARRIER_REEF_EFFECT",			"Recursos marítimos mejorados proporcionan +1 de Oro [ICON_GOLD] por cualquier Civilización que tiene al menos una de estas casillas."	),
-	
+	("es_ES",		"LOC_TM_FEATURE_BARRIER_REEF_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_BARRIER_REEF_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_BARRIER_REEF_EFFECT}"	),
+
 -----------------------------------------------
 -- BARRINGER CRATER
 -----------------------------------------------
 
 	("es_ES",	"LOC_TM_FEATURE_BARRINGER_CRATER_DESCRIPTION",		"Maravilla de la naturaleza de una casilla. Proporciona +3 a Ciencia [ICON_SCIENCE] and +2 de Oro [ICON_GOLD]."	),
 	("es_ES",	"LOC_TM_FEATURE_BARRINGER_CRATER_EFFECT",			"La ciudad que tiene esta casilla recibe +20% a la Producción [ICON_PRODUCTION] para proyectos de Carrera espacial."	),
-	
+	("es_ES",	"LOC_TM_FEATURE_BARRINGER_CRATER_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_BARRINGER_CRATER_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_BARRINGER_CRATER_EFFECT}"	),
+
 	("es_ES",	'LOC_TM_FEATURE_BARRINGER_CRATER_QUOTE',
 	'"De hecho, ahora podemos probar que este cráter se debe a la colisión con la tierra de un cuerpo extraterrestre, posiblemente un pequeño asteroide, que era presumiblemente de naturaleza metálica."[NEWLINE]- Daniel Barringer'	),
 	
@@ -72,8 +75,9 @@ VALUES
 -----------------------------------------------
 
 	("es_ES",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION",		"Maravilla de la naturaleza de una casilla. Proporciona +2 a Ciencia [ICON_SCIENCE], +2 a Cultura [ICON_CULTURE], y +1 de Oro [ICON_GOLD]."	),
-	("es_ES",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT",				"Las mejoras de Barco pesquero proporciona +1 de Oro [ICON_GOLD] por rutas comerciales internationales [ICON_TRADEROUTE] que comienzan en la Civilización que tiene esta casilla."	),
-	
+	("es_ES",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT",				"Las mejoras de Barco pesquero proporciona +1 de Oro [ICON_GOLD] por rutas comerciales internacionales [ICON_TRADEROUTE] que comienzan en la Civilización que tiene esta casilla."	),
+	("es_ES",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT}"	),
+
 	("es_ES",	'LOC_TM_FEATURE_BIOLUMINESCENT_BAY_QUOTE',
 	'"La emisión de luz del fuego, de rayos, de estrellos o de seres vivos atrae la atención de cualquier ser humano. En el caso de la bioluminiscencia, la luz tiene un brillo extraño, algo mágico y misterioso."[NEWLINE]- Cassius Stevani'	),
 	
@@ -88,6 +92,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_DESCRIPTION",	"Maravilla de la naturaleza infranqueable de una casilla. Aparece como Montaña y proporciona +1 a la Producción [ICON_PRODUCTION] +1 de Oro [ICON_GOLD] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT",		"Rutas comerciales internacionales [ICON_TRADEROUTE] que comienzan en la ciudad que tiene esta casilla proporciona +4 de Oro [ICON_GOLD]."	),
+	("es_ES",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_CERRO_DE_POTOSI_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT}"	),
 	
 	("es_ES",	'LOC_TM_FEATURE_CERRO_DE_POTOSI_QUOTE',	
 	'"Soy el rico Potosí, del mundo soy el tesoro, soy el rey de los montes y envidia soy de los reyes."[NEWLINE]- Primera Escudo de Armas de Potosí'	),
@@ -101,6 +106,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_CLIFFS_DOVER_DESCRIPTION",		"Maravilla de la naturaleza de dos casillas. Aparece como Acantilados. Proporciona +3 a Cultura [ICON_CULTURE], +1 a Alimentos [ICON_FOOD], y +1 de Oro [ICON_GOLD]."	),
 	("es_ES",	"LOC_TM_FEATURE_CLIFFS_DOVER_EFFECT",			"Puertos reciben una bonificación menor por casillas con Acantilados adyacentes por cualquier Civilización tiene al menos una de estas casillas."	),
+	("es_ES",	"LOC_TM_FEATURE_CLIFFS_DOVER_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_CLIFFS_DOVER_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_CLIFFS_DOVER_EFFECT}"	),
 
 	("es_ES",	"LOC_MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_DESCRIPTION",	"+{1_num} de Oro [ICON_GOLD] por {1_Num : plural 1?la casilla de Acantilados adyacente; other?las casillas de Acantilados adyacentes;}."	),
 
@@ -110,6 +116,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",	"Maravilla de la naturaleza de una casilla. Aparece como un Lago y proporciona +4 a Fe [ICON_FAITH], +1 a Ciencia [ICON_SCIENCE], y Agua dulce."	),
 	("es_ES",	"LOC_TM_FEATURE_CRATER_LAKE_EFFECT",		"En la ciudad que tiene esta casilla, todos los edificios se pueden comprar con Fe [ICON_FAITH]."	),
+	("es_ES",	"LOC_TM_FEATURE_CRATER_LAKE_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_CRATER_LAKE_EFFECT}"	),
 
 -----------------------------------------------
 -- DALLOL
@@ -117,6 +124,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_DALLOL_DESCRIPTION",		"Maravilla de la naturaleza de una casilla. Proporciona +2 a Ciencia [ICON_SCIENCE], +2 a la Producción [ICON_PRODUCTION], y +1 de Oro [ICON_GOLD]."	),
 	("es_ES",	"LOC_TM_FEATURE_DALLOL_EFFECT",				"Cualquier Civilización que tiene al menos una de estas casillas recibe 1 de Silvina [ICON_RESOURCE_TM_SYLVITE], un recurso de lujo exclusivo que proporciona +6 a Servicios [ICON_Amenities]."	),
+	("es_ES",	"LOC_TM_FEATURE_DALLOL_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_DALLOL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_DALLOL_EFFECT}"	),
 	
 	("es_ES",	'LOC_TM_FEATURE_DALLOL_QUOTE',	
 	'"Ahí está el infierno, las tinieblas, el pozo sulfúreo, ardiendo, quemando; peste, podredumbre!"[NEWLINE]- William Shakespeare, El Rey Lear'	),
@@ -137,6 +145,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_DEAD_SEA_DESCRIPTION",		"Maravilla de la naturaleza de dos casillas. Aparece como un Lago y proporciona +2 a Fe [ICON_FAITH], +2 a Cultura [ICON_CULTURE], and +1 de Oro [ICON_GOLD]."	),
 	("es_ES",	"LOC_TM_FEATURE_DEAD_SEA_EFFECT",			"Unidades entrenadas en una ciudad que tiene al menos una de estas casillas recibe +10 PG de curación cuando están fortificadas [ICON_Fortified]."	),
+	("es_ES",	"LOC_TM_FEATURE_DEAD_SEA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_DEAD_SEA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_DEAD_SEA_EFFECT}"	),
 
 -----------------------------------------------
 -- DELICATE ARCH
@@ -144,6 +153,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",		"Maravilla de la naturaleza infranqueable de una casilla y proporciona +1 a Cultura [ICON_CULTURE] y and +1 de Oro [ICON_GOLD] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT",			"Reduce el coste de compra de una casilla en un 20% por la Civilización que tiene esta casilla."	),
+	("es_ES",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_DELICATE_ARCH_EFFECT}"	),
 
 -----------------------------------------------
 -- EVEREST
@@ -151,13 +161,15 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_EVEREST_DESCRIPTION",		"Maravilla de la naturaleza de tres casillas. Aparece como Montaña y proporciona +2 a Fe [ICON_FAITH] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_EVEREST_EFFECT",			"Unidades religiosas entrenadas en una ciudad que tiene al menos una de estas casillas ignoran los costes de Movimiento [ICON_MOVEMENT] de las Colinas durante el resto de la partida y recibe +1 carga de propagación adicional."	),
+	("es_ES",	"LOC_TM_FEATURE_EVEREST_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_EVEREST_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EVEREST_EFFECT}"	),
 
 -----------------------------------------------
 -- EYE OF THE SAHARA
 -----------------------------------------------
 
 	("es_ES",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_DESCRIPTION",		"Maravilla de la naturaleza de tres casillas. Proporciona +2 a la Producción [ICON_PRODUCTION], +2 a Ciencia [ICON_SCIENCE], y +1 de Oro [ICON_GOLD]."	),
-	("es_ES",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT",			"Cualquier Civilización que tiene al menos una de estas casillas recibe +2 a la Puntuación de época por Momento histórico obtenido, siempre que ese Momento suela otorgar 4 or más de Puntuación de época."	),
+	("es_ES",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT",			"Cualquier Civilización que tiene al menos una de estas casillas recibe +1 a la Puntuación de época por Momento histórico obtenido, siempre que ese Momento suela otorgar 4 or más de Puntuación de época."	),
+	("es_ES",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_EYE_OF_THE_SAHARA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT}"	),
 
 -----------------------------------------------
 -- EYJAFJALLAJOKULL
@@ -166,12 +178,17 @@ VALUES
 	("es_ES",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",		"Maravilla de la naturaleza infranqueable de dos casillas. Aparece como Montaña y proporciona +1 a Cultura [ICON_CULTURE] y +1 a Alimentos [ICON_FOOD] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",			"Distritos especializados en casillas de Tundra o Nieve proporciona +1 a Alimentos [ICON_FOOD] por cualquier Civilización que tiene al menos una de estas casillas."	),
 
+	("es_ES",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION",			"Maravilla de la naturaleza infranqueable de dos casillas. Aparece como un Volcán y proporciona +1 a Cultura [ICON_CULTURE] a las casillas adyacentes. Cuando entra en erupción otorga rendimientos y dañe mejoras y edificios. Siempre está activo."	),
+	("es_ES",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT}"	),
+	("es_ES",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT_XP2_DESCRIPTION",	"{LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT}"	),
+
 -----------------------------------------------
 -- GALAPAGOS
 -----------------------------------------------
 	
 	("es_ES",	"LOC_TM_FEATURE_GALAPAGOS_DESCRIPTION",		"Maravilla de la naturaleza infranqueable de dos casillas. Proporciona +2 a Ciencia [ICON_SCIENCE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_GALAPAGOS_EFFECT",			"Cualquier Civilización que tiene al menos una de estas casillas recibe 1 de Tortugas Gigantes [ICON_RESOURCE_TM_TORTOISE], un recurso de lujo exclusivo que proporciona +6 a Servicios [ICON_Amenities]."	),
+	("es_ES",	"LOC_TM_FEATURE_GALAPAGOS_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GALAPAGOS_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GALAPAGOS_EFFECT}"	),
 
 	("es_ES",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_TORTOISE_CHAPTER_HISTORY_PARA_1",
 	"Las Tortuga gigante de las Galápagos es la especie más grande de tortuga que aún está viva, con un pesto de hasta 417 kg. Hoy en día, las tortugas gigantes solo existen en dos archipiélagos remotos: Aldabra y las Islas Galápagos. El número de tortugas gigantes ha disminuido de más de 250.000 en el siglo XVI a alrededor de 3.000 en 1970 debido a la sobreexplotación de la especie para carne y aceite. Se cree que la extinción de la mayoría de laos linajes de tortugas gigantes ha sido causada por la depredación de los humanos, ya que las tortugas mismas no tienen depredadores naturales en su archipiélago remoto de los que son originarios."	),
@@ -182,6 +199,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION",	"Maravilla de la naturaleza infranqueable de dos casillas. Proporciona +2 a Cultura [ICON_CULTURE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT",		"Unidades terrestres entrenadas en una ciudad que tiene al menos una de estas casillas comienzan con un ascenso [ICON_PROMOTION] gratis."	),
+	("es_ES",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT}"	),
 
 -----------------------------------------------
 -- GRAND MESA
@@ -189,6 +207,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_GRAND_MESA_DESCRIPTION",	"Maravilla de la naturaleza infranqueable de una casilla. Proporciona +1 a Alimentos [ICON_FOOD] y +1 a Cultura [ICON_CULTURE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_GRAND_MESA_EFFECT",			"Unidades entrenadas en la ciudad que tiene esta casilla ignoran los costes de Movimiento [ICON_MOVEMENT] de Bosques y Selvas tropicales."	),
+	("es_ES",	"LOC_TM_FEATURE_GRAND_MESA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GRAND_MESA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GRAND_MESA_EFFECT}"	),
 	
 	("es_ES",	'LOC_TM_FEATURE_GRAND_MESA_QUOTE',	
 	'"La conservación significa que el uso inteligente de la tierra y sus recursos para el bien duradero de humanidad."[NEWLINE]- Gifford Pinchot'	),
@@ -202,6 +221,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",	"Maravilla de la naturaleza de dos casillas. Proporciona +2 a Cultura [ICON_CULTURE], +2 a Alimentos [ICON_FOOD], y +1 a la Producción [ICON_PRODUCTION]."	),
 	("es_ES",	"LOC_TM_FEATURE_HA_LONG_BAY_EFFECT",		"Puertos proporcionan +2 a Alojamiento [ICON_HOUSING] en cualquier Civilización que tiene al menos una de estas casillas."	),
+	("es_ES",	"LOC_TM_FEATURE_HA_LONG_BAY_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_HA_LONG_BAY_EFFECT}"	),
 
 -----------------------------------------------
 -- KAILASH
@@ -209,6 +229,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_KAILASH_DESCRIPTION",	"Maravilla de la naturaleza de una collina. Aparece como Montaña y proporciona +1 a Fe [ICON_FAITH] y +1 a Cultura [ICON_CULTURE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_KAILASH_EFFECT",		"Recibe +1 a Cultura [ICON_CULTURE] por cada ciudad extranjera que siga la religión [ICON_RELIGION] de la Civilización que tiene esta casilla."	),
+	("es_ES",	"LOC_TM_FEATURE_KAILASH_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_KAILASH_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KAILASH_EFFECT}"	),
 		
 	("es_ES",	'LOC_TM_FEATURE_KAILASH_QUOTE',	
 	'"Después de instruir a los piadosos, el Señor Brahma se fue con los antepasados y los líderes del pueblo as su paso, a quien llevó de su propio lugar a la morada del Señor Shiva, Kailash, la mejor de las montañas que es tan querida por el maestro."[NEWLINE]- The Bhagavata Purana'	),
@@ -222,20 +243,37 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION",	"Maravilla de la naturaleza infranqueable de una casilla. Aparece como Montaña y proporciona +2 a Alimentos [ICON_Food] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT",		"Recibe +1 a Población [ICON_Citizen] en la ciudad que tiene esta casilla cuando se construye un distrito especializado en esa ciudad."	),
+	("es_ES",	"LOC_TM_FEATURE_KILIMANJARO_XP2_DESCRIPTION",			"Maravilla de la naturaleza infranqueable de una casilla. Aparece como un Volcán y proporciona +1 a Alimentos [ICON_Food] a las casillas adyacentes. Cuando entra en erupción otorga rendimientos y dañe mejoras y edificios. Siempre está activo."	),
+	("es_ES",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KILIMANJARO_EFFECT}"	),
+	("es_ES",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT_XP2_DESCRIPTION",	"{LOC_TM_FEATURE_KILIMANJARO_XP2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KILIMANJARO_EFFECT}"	),
+
 
 -----------------------------------------------
 -- KRAKATOA
 -----------------------------------------------
 
 	("es_ES",	"LOC_TM_FEATURE_KRAKATOA_DESCRIPTION",		"Maravilla de naturaleza infranqueable de una casilla. Apare como Montaña y proporciona +1 a Ciencia [ICON_SCIENCE] y +1 a Cultura [ICON_CULTURE] a las casillas adyacentes."	),
-	("es_ES",	"LOC_TM_FEATURE_KRAKATOA_EFFECT",			"La ciudad que tiene esta casilla recibe +2 a Ciencia [ICON_SCIENCE] por cada distrito especializado en la ciudad. Si la ciudad tiene un Parque nacional, recibe +2 a Ciencia [ICON_SCIENCE] en su lugar."	),
+	("es_ES",	"LOC_TM_FEATURE_KRAKATOA_EFFECT",			"La ciudad que tiene esta casilla recibe +2 a Ciencia [ICON_SCIENCE] por cada distrito especializado en la ciudad. Si la ciudad tiene un Parque nacional, recibe +3 a Ciencia [ICON_SCIENCE] en su lugar."	),
 	("es_ES",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",		"La Civilización que tiene esta casilla consigue 1 Eureka [ICON_TechBoosted] cuando obtene un Gran almirante [ICON_GREATADMIRAL]."	),
 	
+	("es_ES",	"LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION",			"Maravilla de la naturaleza infranqueable de una casilla. Aparece como un Volcán y proporciona +1 a Ciencia [ICON_SCIENCE] a las casillas adyacentes. Cuando entra en erupción otorga rendimientos y dañe mejoras y edificios. Siempre está activo."	),
+
+	("es_ES",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_KRAKATOA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT}"	),
+	("es_ES",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1_DESCRIPTION",	"{LOC_TM_FEATURE_KRAKATOA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1}"	),
+	("es_ES",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP2_DESCRIPTION",	"{LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1}"	),
+
 	("es_ES",	'LOC_TM_FEATURE_KRAKATOA_QUOTE',	
 	'"Vi con asombro que la isla de Krakatoa yacía completamente quemada y estéril frente a nuestros ojos y que en cuatro lugares estaba arrojando grandes trozos de fuego."[NEWLINE]- Johann Wilhelm Vogel'	),
 	
 	("es_ES",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_KRAKATOA_CHAPTER_HISTORY_PARA_1",	
 	"Krakatoa es una isla volcánica en Indonesia, entre las islas de Java y Sumatra. El volcán explotó violentamente en agosto de 1883 con una fuerza equivalente a 13.000 veces el poder de la bomba nuclear de Hiroshima. La explosión se considera el sonido más fuerte jamás registrado. La erupción destruyó más de la mitad de la isla y se escuchó en partes de Australia, 3.200 kilómetros de distancia. Aproximadamente 37.000 personas murieron por la erupción y los tsunamis posteriores. El volcán ha estado emitiendo lava constantemente durante los últimos ochenta años, reconstruyendo el cono volcánico a una velocidad de aproximadamente 5 metros por año."	),
+
+	("es_ES",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_NAME",				"Erupción leve"	),
+	("es_ES",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_DESCRIPTION",			"El humo brota de la montaña de fuego que la gente llama Krakatoa. ¿Podría ser esto un signo de lo que vendrá?"	),
+	("es_ES",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_NAME",			"Erupción catastrófica"	),
+	("es_ES",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_DESCRIPTION",	"Debemos haber sido abandonados por nuestros dioses, porque cuando miramos hacia el cielo azul y pedimos lluvia, Krakatoa respondió con fuego en lugar."	),
+	("es_ES",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_NAME",			"Erupción apocalíptica"	),
+	("es_ES",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_DESCRIPTION",	"Maldito es el terreno donde Krakatoa proyecta su poderosa sombra. Tanto el fuego como la roca nos ha forjado. Hace mucho tiempo, nos levantamos de las cenizas... y ahora regresamos a las cenizas."	),
 
 -----------------------------------------------
 -- LAKE RETBA
@@ -243,6 +281,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_LAKE_RETBA_DESCRIPTION",	"Maravilla de naturaleza de dos casillas. Aparece como Lago y proporciona +2 a Cultura [ICON_CULTURE], +2 de Oro [ICON_GOLD], y +1 a la Producción [ICON_PRODUCTION]."	),
 	("es_ES",	"LOC_TM_FEATURE_LAKE_RETBA_EFFECT",			"Cualquier Civilización que tiene al menos una de estas casillas recibe +2 de Oro [ICON_GOLD] por cada recurso de lujo diferente propiedad de esa Civilización."	),
+	("es_ES",	"LOC_TM_FEATURE_LAKE_RETBA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_LAKE_RETBA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_LAKE_RETBA_EFFECT}"	),
 
 -----------------------------------------------
 -- LAKE VICTORIA
@@ -250,6 +289,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION",		"Maravilla de naturaleza de cuatro casillas. Aparece como Lago y proporciona +3 a Alimentos [ICON_FOOD], +1 a Cultura [ICON_CULTURE], +1 de Oro [ICON_GOLD], y Agua dulce."	),
 	("es_ES",	"LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT",			"Aumenta el crecimiento [ICON_FOODSURPLUS] en un 15% en todas las ciudades que no estén en el continent original de la capital [ICON_CAPITAL] de cualquier Civilización que tiene al menos una de estas casillas."	),
+	("es_ES",	"LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT}"	),
 	
 	("es_ES",	'LOC_TM_FEATURE_LAKE_VICTORIA_QUOTE',	
 	'"Vi que el viejo padre Nilo, sin ninguna duda, aflora en la Victora Nyanza, y como había predicho, ese lago es la gran fuente del río sagrado que acunó al primer expositor de nuestra creencia religiosa."[NEWLINE]- John Hanning Speke'	),
@@ -263,6 +303,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",	"Maravilla de naturaleza de tres casillas. Proporciona +1 a Cultura [ICON_CULTURE] y +1 a Ciencia [ICON_SCIENCE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",		"Unidades navales entrenadas en una ciudad que tiene al menos una de estas casillas comienzan con un ascenso [ICON_PROMOTION] gratis."	),
+	("es_ES",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_LYSEFJORDEN_EFFECT}"	),
 
 -----------------------------------------------
 -- MATTERHORN
@@ -270,6 +311,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",	"Maravilla de naturaleza infranqueable de una casilla. Aparece como Montaña y proporciona +2 a Cultura [ICON_CULTURE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",			"Unidades terrestres entrenadas en la ciudad que tiene esta casilla ignoran los costes de Movimiento [ICON_MOVEMENT] de las Colinas y reciben +3 a la Fuerza de combate [ICON_STRENGTH] cuando luchan en casillas de Colinas."	),
+	("es_ES",	"LOC_TM_FEATURE_MATTERHORN_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_MATTERHORN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MATTERHORN_EFFECT}"	),
 
 	("es_ES",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",	"+{1_Amount} a la Fuerza de combate [ICON_Strength] en casillas de Colinas (Cervino)"	),
 
@@ -292,14 +334,9 @@ VALUES
 -----------------------------------------------
 
 	("es_ES",	"LOC_TM_FEATURE_MOTLATSE_CANYON_DESCRIPTION",	"Maravilla de naturaleza infranqueable de cuatro casillas. Proporciona +1 a Cultura [ICON_CULTURE] y +1 a Ciencia [ICON_SCIENCE] a las casillas adyacentes."	),
-	("es_ES",	"LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT",		"En cualquier Civilización que tiene al menos una de estas casillas, distritos especializados reciben +1 a sus rendimientos respectivos cuando construido en casillas con un Atractivo Impresionante."	),
+	("es_ES",	"LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT",		"En cualquier Civilización que tiene al menos una de estas casillas, casillas con un Atractivo Impresionante que son adyacentes a los Ríos proporcionan +1 de Oro [ICON_GOLD]."	),
+	("es_ES",	"LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_MOTLATSE_CANYON_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT}"	),
 	
-	("es_ES",	"LOC_ADJ_MOTLATSE_FAITH_DESCRIPTION",			"+{1_num} a Fe [ICON_FAITH] del Atractivo de la casilla. (Cañón de Motlatse)"	),
-	("es_ES",	"LOC_ADJ_MOTLATSE_SCIENCE_DESCRIPTION",			"+{1_num} a Ciencia [ICON_SCIENCE]  del Atractivo de la casilla. (Cañón de Motlatse)"	),
-	("es_ES",	"LOC_ADJ_MOTLATSE_CULTURE_DESCRIPTION",			"+{1_num} a Cultura [ICON_CULTURE]  del Atractivo de la casilla. (Cañón de Motlatse)"	),
-	("es_ES",	"LOC_ADJ_MOTLATSE_PRODUCTION_DESCRIPTION",		"+{1_num} a la Producción [ICON_PRODUCTION]  del Atractivo de la casilla. (Cañón de Motlatse)"	),
-	("es_ES",	"LOC_ADJ_MOTLATSE_GOLD_DESCRIPTION",			"+{1_num} de Oro [ICON_GOLD] del Atractivo de la casilla. (Cañón de Motlatse)"	),
-
 	("es_ES",	'LOC_TM_FEATURE_MOTLATSE_CANYON_QUOTE',	
 	'"Creo que Sudáfrica es el lugar más hermoso del mundo. Es cierto que soy parcial, pero creo que incluso el crítico más escrupuloso estaría de acuerdo en que hemos sido bendecidos con una tierra verdaderamente maravillosa."[NEWLINE]- Nelson Mandela'	),
 	
@@ -328,6 +365,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_OLD_FAITHFUL_DESCRIPTION",		"Maravilla de naturaleza de una casilla. Proporciona +3 a Ciencia [ICON_SCIENCE], +1 a Fe [ICON_FAITH], y +1 de Oro [ICON_GOLD]."	),
 	("es_ES",	"LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT",			"En la Civilización que tiene esta casilla, Distritos de Campus Bombardea culturalmente las casillas adyacentes cuando están construidos y reciben el doble de la Bonificación de adyacencia en ciudades con un Parque Nacional."	),
+	("es_ES",	"LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_OLD_FAITHFUL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT}"	),
 	
 	("es_ES",	'LOC_TM_FEATURE_OLD_FAITHFUL_QUOTE',	
 	'"Brotó a intervalos regulares nueve veces durante nuestra estancia, arrojando las columnas de agua hirviendo de noventa a ciento veinticinco pies en cada descarga, que duró de quince a veinte minutos. Le dimos el nombre de Biejo Fiel."[NEWLINE]- Nathaniel P. Langford'	),
@@ -362,6 +400,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_PANTANAL_DESCRIPTION",			"Maravilla de naturaleza de cuatro casillas. Aparece como Ciénagas y proporciona +3 a Alimentos [ICON_FOOD] y +2 a Cultura [ICON_CULTURE]."	),
 	("es_ES",	"LOC_TM_FEATURE_PANTANAL_EFFECT",				"En cualquier Civilización que tiene al menos una de estas casillas, Distritos especializados reciben una Bonificación normal por casillas de Ciénagas."	),
+	("es_ES",	"LOC_TM_FEATURE_PANTANAL_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_PANTANAL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_PANTANAL_EFFECT}"	),
 	
 	("es_ES",	"LOC_ADJ_PANTANAL_FAITH_DESCRIPTION",			"+{1_num} a Fe [ICON_FAITH] por {1_Num : plural 1?la casilla de Ciénagas adyacente; other?las casillas de Ciénagas adyacentes;} (Pantanal)."	),
 	("es_ES",	"LOC_ADJ_PANTANAL_SCIENCE_DESCRIPTION",			"+{1_num} a Ciencia [ICON_SCIENCE] from adjacent {1_Num : plural 1?la casilla de Ciénagas adyacente; other?las casillas de Ciénagas adyacentes;} (Pantanal)."	),
@@ -375,6 +414,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION",	"Maravilla de naturaleza de tres casillas. Proporciona +1 a Cultura [ICON_CULTURE] y +1 de Oro [ICON_GOLD] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_PIOPIOTAHI_EFFECT",			"En cualquier Civilización que tiene al menos una de estas casillas, el alcance de los edificios regionales que otorgan Servicios [ICON_AMENITIES] aumenta +3 casillas."	),
+	("es_ES",	"LOC_TM_FEATURE_PIOPIOTAHI_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_PIOPIOTAHI_EFFECT}"	),
 	
 -----------------------------------------------
 -- ROCK OF GIBRALTAR
@@ -382,6 +422,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_GIBRALTAR_DESCRIPTION",		"Maravilla de naturaleza infranqueable de una casilla. Proporciona +1 a Alimentos [ICON_FOOD] y +1 de Oro [ICON_GOLD] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_GIBRALTAR_EFFECT",			"Los Campamentos y los Puertos en la ciudad que tiene esta casilla proporcionan +2 puntos de gran personaje [ICON_GREATPERSON] de su tipo."	),
+	("es_ES",	"LOC_TM_FEATURE_GIBRALTAR_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GIBRALTAR_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GIBRALTAR_EFFECT}"	),
 
 	("es_ES",	'LOC_TM_FEATURE_GIBRALTAR_QUOTE',	
 	'"Mire a su alrededor, mis muchachos, y vea cuán hermoso aparece el Peñón a la luz del incendio glorioso."[NEWLINE]- George Augustus Eliott'	),
@@ -395,6 +436,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_RORAIMA_DESCRIPTION",	"Maravilla de naturaleza infranqueable de cuatro casillas. Aparece como Montaña y proporciona +1 a Fe [ICON_FAITH] y +1 a Ciencia [ICON_SCIENCE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_RORAIMA_EFFECT",		"En cualquier Civilización que tiene al menos una de estas casillas, casillas de Selva tropical no reducen el Atractivo de las casillas adyacentes."	),
+	("es_ES",	"LOC_TM_FEATURE_RORAIMA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_RORAIMA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_RORAIMA_EFFECT}"	),
 
 -----------------------------------------------
 -- SALAR DE UYUNI
@@ -402,6 +444,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_SALAR_DE_UYUNI_DESCRIPTION",	"Maravilla de naturaleza de cuatro casillas. Proporciona +2 a Ciencia [ICON_SCIENCE], +1 a la Producción [ICON_PRODUCTION], y +2 de Oro [ICON_GOLD]."	),
 	("es_ES",	"LOC_TM_FEATURE_SALAR_DE_UYUNI_EFFECT",			"Cualquier Civilización que tiene al menos una de estas casillas recibe 1 de Litio [ICON_RESOURCE_TM_LITHIUM], un recurso de lujo exclusivo que proporciona +6 a Servicios [ICON_Amenities]."	),
+	("es_ES",	"LOC_TM_FEATURE_SALAR_DE_UYUNI_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SALAR_DE_UYUNI_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SALAR_DE_UYUNI_EFFECT}"	),
 
 	("es_ES",	'LOC_TM_FEATURE_SALAR_DE_UYUNI_QUOTE',	
 	'"Me estremecí en aquellas soledades cuando escuché la voz de la sal en el desierto."[NEWLINE]- Pablo Neruda'	),
@@ -418,6 +461,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_SINAI_DESCRIPTION",		"Maravilla de naturaleza infranqueable de una casilla. Aparece como Montaña y proporciona +2 a Fe [ICON_FAITH] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_SINAI_EFFECT",			"Los Lugares sagrados en la Civilización que tiene esta casilla proporciona +1 puntos de Gran profeta [ICON_GREATPROPHET] por turno. Unidades religiosas entrenadas en la ciudad que tiene esta casilla reciben +10 a la Fuerza religiosa [ICON_Religion] en Combate teológico."	),
+	("es_ES",	"LOC_TM_FEATURE_SINAI_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SINAI_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SINAI_EFFECT}"	),
 	
 	("es_ES",	'LOC_TM_FEATURE_SINAI_QUOTE',	
 	'"Y cuando terminó de hablar con Moisés seobre el monte Sinaí, le dio las dos tablas del testimonio, tablas de piedra, escritas por el dedo de Dios."[NEWLINE]- Éxodo 31:18'	),
@@ -431,6 +475,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_SRI_PADA_DESCRIPTION",		"Maravilla de naturaleza infranqueable de una casilla. Aparece como Montaña y proporciona +1 a Alimentos [ICON_FOOD] y +1 a Fe [ICON_FAITH] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_SRI_PADA_EFFECT",			"Unidades religiosas entrenadas en la ciudad que tiene esta casilla proporcionan Cultura [ICON_CULTURE] cuando convierten a una ciudad al su religión [ICON_RELIGION] por primera vez."	),
+	("es_ES",	"LOC_TM_FEATURE_SRI_PADA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SRI_PADA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SRI_PADA_EFFECT}"	),
 	
 	("es_ES",	'LOC_TM_FEATURE_SRI_PADA_QUOTE',	
 	'"Una vista extremadamente maravillosa, que está dotada de un esplendor supremo."[NEWLINE]- El Mahabharata'	),
@@ -444,6 +489,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_TORRES_DEL_PAINE_DESCRIPTION",		"Maravilla de la naturaleza infranqueable de dos casillas. Duplica el rendimiento del terreno de todas las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_TORRES_DEL_PAINE_EFFECT",			"Cualquier ciudad que tiene al menos una de estas casillas puede construir un distrito más del que permite el límite de población [ICON_Citizen]."	),
+	("es_ES",	"LOC_TM_FEATURE_TORRES_DEL_PAINE_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_TORRES_DEL_PAINE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_TORRES_DEL_PAINE_EFFECT}"	),
 
 -----------------------------------------------
 -- TSINGY
@@ -451,6 +497,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_TSINGY_DESCRIPTION",	"Maravilla de naturaleza infranqueable de una casilla. Proporciona +1 a Cultura [ICON_CULTURE] y +1 a Ciencia [ICON_SCIENCE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_TSINGY_EFFECT",			"En la Civilización que tiene esta casilla, Distritos de Teatro Bombardea culturalmente las casillas adyacentes cuando están construidos y reciben el doble de la Bonificación de adyacencia en ciudades con un Parque Nacional."	),
+	("es_ES",	"LOC_TM_FEATURE_TSINGY_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_TSINGY_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_TSINGY_EFFECT}"	),
 
 -----------------------------------------------
 -- UBSUNUR HOLLOW
@@ -458,6 +505,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION",	"Maravilla de naturaleza de cuatro casillas. Aparece como Ciénagas y proporciona +2 a Fe [ICON_FAITH], +1 a Alimentos [ICON_FOOD], y +2 a la Producción [ICON_PRODUCTION]."	),
 	("es_ES",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT",			"Cualquier Civilización que tiene al menos una de estas casillas consigue 1 Inspiración [ICON_CivicBoosted] cuando obtene un Gran general [ICON_GREATGENERAL]."	),
+	("es_ES",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT}"	),
 
 -----------------------------------------------
 -- ULURU
@@ -465,6 +513,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",		"Maravilla de naturaleza infranqueable de una casilla. Proporciona +1 a Cultura [ICON_CULTURE] y +1 a Fe [ICON_FAITH] a casill adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_ULURU_EFFECT",			"Distritos especializados en casillas de Desierto proporciona +1 a Alimentos [ICON_FOOD] por cualquier Civilización que tiene al menos una de estas casillas."	),
+	("es_ES",	"LOC_TM_FEATURE_ULURU_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_ULURU_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_ULURU_EFFECT}"	),
 
 -----------------------------------------------
 -- VREDEFORT DOME
@@ -485,7 +534,8 @@ VALUES
 -----------------------------------------------
 	
 	("es_ES",	"LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",	"Maravilla de naturaleza infranqueable de dos casillas. Proporciona +2 a Cultura [ICON_CULTURE] a las casillas adyacentes."	),
-	("es_ES",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",			"Grandes obras [ICON_GreatWork_Writing] de la literatura proporcionan +2 a cultura [ICON_CULTURE] y generan el 150% de su Turismo [ICON_TOURISM] habitual por calquier Civilización que tiene al menos una de estas casillas."	),
+	("es_ES",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",			"Grandes obras [ICON_GreatWork_Writing] de la literatura proporcionan +2 a cultura [ICON_CULTURE] y generan el +2 de su Turismo [ICON_TOURISM] habitual por calquier Civilización que tiene al menos una de estas casillas."	),
+	("es_ES",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_WULINGYUAN_EFFECT}"	),
 	
 	("es_ES",	'LOC_TM_FEATURE_WULINGYUAN_QUOTE',	
 	'"De diez miles valles, los árboles tocan el cielo; en mil picos, cucos llaman; y, después de una noche de lluvia de la montaña, de cada cumbre surgen cientos d cascadas de seda."[NEWLINE]- Wang Wei'	),
@@ -499,6 +549,7 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_YOSEMITE_DESCRIPTION",		"Maravilla de naturaleza infranqueable de dos casillas. Proporciona +1 de Oro [ICON_GOLD] y +1 a Ciencia [ICON_SCIENCE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_YOSEMITE_EFFECT",			"En cualquier Civilización que tiene al menos una de estas casillas, casillas de Bosque proporcionan +1 de Atractivo adicional a las casillas adyacentes."	),
+	("es_ES",	"LOC_TM_FEATURE_YOSEMITE_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_YOSEMITE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_YOSEMITE_EFFECT}"	),
 
 -----------------------------------------------
 -- ZHANGYE DANXIA
@@ -506,6 +557,69 @@ VALUES
 
 	("es_ES",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_DESCRIPTION",	"Maravilla de naturaleza infranqueable de tres casillas. Aparece como Montaña y proporciona +2 a Ciencia [ICON_SCIENCE] a las casillas adyacentes."	),
 	("es_ES",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT",			"En cualquier ciudad que tiene al menos una de estas casillas, los Centros comerciales y los Distritos de Campus proporcionan +2 puntos de gran personaje [ICON_GREATPERSON] de su tipo."	),
+	("es_ES",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_ZHANGYE_DANXIA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT}"	),
+
+-----------------------------------------------
+-----------------------------------------------
+-- GATHERING STORM
+-----------------------------------------------
+-----------------------------------------------
+
+-----------------------------------------------
+-- CHOCOLATE HILLS
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_DESCRIPTION",			"Maravilla de naturaleza de cuatro casillas. Proporciona +2 a Cultura [ICON_CULTURE], +2 a la Producción [ICON_PRODUCTION], y +1 a Alimentos [ICON_FOOD]."	),
+	("es_ES",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_EFFECT",				"Cualquier ciudad que tiene al menos una de estas casillas recibe +150% a turismo [ICON_TOURISM] hacia otras civilizaciones con las que tiene una ruta comercial internacional."	),
+	("es_ES",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_CHOCOLATE_HILLS_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_CHOCOLATE_HILLS_EFFECT}"	),
+
+-----------------------------------------------
+-- GOBUSTAN
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION",			"Maravilla de naturaleza de tres casillas. Proporciona +3 a Cultura [ICON_CULTURE], +1 a la Producción [ICON_PRODUCTION], y +1 a Ciencia [ICON_SCIENCE]."	),
+	("es_ES",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT",				"En cualquier Civilización que tiene al menos una de estas casillas, casillas con recursos mejorados de Petróleo [ICON_RESOURCE_OIL] proporcionan +2 recursos adicionales por turno."	),
+	("es_ES",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_GOBUSTAN_EFFECT}"	),
+
+-----------------------------------------------
+-- IK-KIL
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_IK_KIL_DESCRIPTION",			"Maravilla de naturaleza infranqueable de una casilla. Proporciona Agua dulce y +1 a Ciencia [ICON_SCIENCE] y +1 a Fe [ICON_FAITH] a las casillas adyacentes."	),
+	("es_ES",	"LOC_TM_FEATURE_IK_KIL_EFFECT",					"Ciudades en cualquier Civilización que tiene esta casilla recibe +115% a la Producción [ICON_PRODUCTION] cuando construyendo Maravillas."	),
+	("es_ES",	"LOC_TM_FEATURE_IK_KIL_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_IK_KIL_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_IK_KIL_EFFECT}"	),
+
+-----------------------------------------------
+-- MATO TIPILA
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION",			"Maravilla de naturaleza infranqueable de una casilla. Proporciona +1 a Fe [ICON_FAITH] y +1 a la Producción [ICON_PRODUCTION] a las casillas adyacentes."	),
+	("es_ES",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT",				"Por cualquier Civilización que tiene esta casilla, naturalistas son un 50% más baratos que comprar."	),
+	("es_ES",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_DEVILSTOWER_EFFECT}"	),
+
+-----------------------------------------------
+-- PAMUKKALE
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_PAMUKKALE_DESCRIPTION",				"Maravilla de naturaleza infranqueable de dos casillas. Proporciona Agua dulce y +1 a Cultura [ICON_CULTURE] Culture and +1 de Oro [ICON_GOLD] a las casillas adyacentes."	),
+	("es_ES",	"LOC_TM_FEATURE_PAMUKKALE_EFFECT",					"En cualquier Civilización que tiene al menos una de estas casillas, edificios regionales en los Complejos de Entretenimiento y Parques Acuáticos proporcionan un adicional +1 a las Servicios [ICON_AMENITIES]."	),
+	("es_ES",	"LOC_TM_FEATURE_PAMUKKALE_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_PAMUKKALE_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_PAMUKKALE_EFFECT}"	),
+
+-----------------------------------------------
+-- SAHARA EL BEYDA
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION",			"Maravilla de naturaleza de cuatro casillas. Proporciona +3 de Oro [ICON_GOLD], +1 a Ciencia [ICON_SCIENCE], and +1 a Cultura [ICON_CULTURE]."	),
+	("es_ES",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT",				"En cualquier Civilización que tiene al menos una de estas casillas, Ciudades son inmunes al daño de las Tormentos de polvo."	),
+	("es_ES",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT}"	),
+
+-----------------------------------------------
+-- VESUVIUS
+-----------------------------------------------
+
+	("es_ES",	"LOC_TM_FEATURE_VESUVIUS_DESCRIPTION",				"Maravilla de naturaleza infranqueable de una casilla. Aparece como un Volcán. Proporciona +1 la Producción [ICON_PRODUCTION] a las casillas adyacentes. Cuando entra en erupción otorga rendimientos y dañe mejoras y edificios. Siempre está activo."	),
+	("es_ES",	"LOC_TM_FEATURE_VESUVIUS_EFFECT",					"En cualquier Civilización quen tiene esta casilla, Sitios de antigüedad proporcionan +4 a Cultura [ICON_CULTURE], y [ICON_GREATWORK_ARTIFACT] Artifacts proporcionan +2 a Cultura [ICON_CULTURE] y +2 a Turismo [ICON_TOURISM]."	),
+	("es_ES",	"LOC_TM_FEATURE_VESUVIUS_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_VESUVIUS_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_VESUVIUS_EFFECT}"	),
 
 -----------------------------------------------
 -- MISC - District Adjacency
@@ -521,10 +635,4 @@ VALUES
 -- MISC - Naturlist
 -----------------------------------------------
 
-	("es_ES",	"LOC_TM_UNIT_NATURALIST_DESCRIPTION",	"Un civil del final del juego que puede crear un Parque nacional para atraer a los Turistas [ICON_Tourism]. Debe adquirirse con Oro [ICON_GOLD]."	),
-
------------------------------------------------
--- MOD SUPPORT
------------------------------------------------
-
-	("es_ES",	"LOC_TM_FEATURE_FUJI_DESCRIPTION",		"Maravilla de naturaleza infranqueable de una casilla. Aparece como Montaña y proporciona +1 a Cultura [ICON_CULTURE] y +1 a Fe [ICON_FAITH]. Districts en casillas adyacentes a esta casilla proporcionan +2 puntos de gran personaje [ICON_GREATPERSON] de su tipo."	);
+	("es_ES",	"LOC_TM_UNIT_NATURALIST_DESCRIPTION",	"Un civil del final del juego que puede crear un Parque nacional para atraer a los Turistas [ICON_Tourism]. Debe adquirirse con Oro [ICON_GOLD] o Fe [ICON_FAITH."	);
