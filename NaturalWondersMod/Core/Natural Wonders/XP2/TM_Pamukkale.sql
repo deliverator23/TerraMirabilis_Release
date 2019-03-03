@@ -22,6 +22,10 @@ WHERE	FeatureType = 'FEATURE_PAMUKKALE';
 	WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_PAMUKKALE')
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
+	DELETE FROM GameModifiers
+	WHERE ModifierId IN ('PAMUKKALE_AMENITY', 'PAMUKKALE_AMENITY_ENTERTAINMENT_COMPLEX')
+	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
+
 -----------------------------------------------
 -- Modifiers
 -----------------------------------------------

@@ -143,7 +143,7 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_EVEREST_DESCRIPTION",			"Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Faith] Faith."	),
-	("en_US",	"LOC_TM_FEATURE_EVEREST_EFFECT",				"Religious units ignore [ICON_Movement] Movement penalties on Hills and receive +1 additional spread charge for any Civilization that owns at least one of these tiles."	),
+	("en_US",	"LOC_TM_FEATURE_EVEREST_EFFECT",				"Religious units receive +1 additional spread charge for any Civilization that owns at least one of these tiles."	),
 	("en_US",	"LOC_TM_FEATURE_EVEREST_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_EVEREST_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_EVEREST_EFFECT}"	),
 
 -----------------------------------------------
@@ -316,7 +316,7 @@ VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_CULTURE] Culture."	),
-	("en_US",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",					"Units ignore [ICON_Movement] Movement penalties on Hills, and receive +3 [ICON_Strength] Combat Strength when fighting on them for any Civilization that owns this tile."	),
+	("en_US",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",					"Units ignore [ICON_Movement] Movement penalties on Hills for any Civilization that owns this tile."	),
 	("en_US",	"LOC_TM_FEATURE_MATTERHORN_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_MATTERHORN_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_MATTERHORN_EFFECT}"	),
 
 	("en_US",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",		"+{1_Amount} Combat Bonus on Hills (Matterhorn)"	),
@@ -490,7 +490,7 @@ VALUES
 
 	("en_US",	"LOC_FEATURE_SINAI_NAME",					"Mount Sinai"	),
 	("en_US",	"LOC_TM_FEATURE_SINAI_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Faith] Faith."	),
-	("en_US",	"LOC_TM_FEATURE_SINAI_EFFECT",				"Holy Sites provide +1 [ICON_GreatPerson] Great Person Points toward [ICON_GreatProphet] Great Prophets for the player that owns this tile. Religious receive +10 Theological [ICON_Strength] Combat Strength."	),
+	("en_US",	"LOC_TM_FEATURE_SINAI_EFFECT",				"Holy Sites provide +1 [ICON_GREATPERSON] Great Person Points toward [ICON_GREATPROPHET] Great Prophets for the player that owns this tile. Religious units may be purchased for half the amount of [ICON_FAITH] Faith."	),
 	("en_US",	"LOC_TM_FEATURE_SINAI_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_SINAI_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_SINAI_EFFECT}"	),
 	
 	("en_US",	'LOC_TM_FEATURE_SINAI_QUOTE',	

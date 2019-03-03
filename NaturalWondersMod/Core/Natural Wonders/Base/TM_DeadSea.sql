@@ -25,7 +25,6 @@ WHERE	FeatureType = 'FEATURE_DEAD_SEA';
 
 	DELETE FROM GameModifiers
 	WHERE ModifierId = 'DEAD_SEA_ADJACENT_UNITS_ADJUST_HEAL_PER_TURN'
-	AND EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_DEAD_SEA')
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
 -----------------------------------------------

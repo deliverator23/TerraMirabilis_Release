@@ -22,6 +22,14 @@ WHERE	FeatureType = 'FEATURE_IKKIL';
 	WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_IKKIL')
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
+	DELETE FROM GameModifiers
+	WHERE ModifierId = 'IKKIL_PRODUCTION_WONDER'
+	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
+
+	DELETE FROM GameModifiers
+	WHERE ModifierId = 'IKKIL_PRODUCTION_DISTRICT'
+	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
+
 -----------------------------------------------
 -- Modifiers
 -----------------------------------------------
