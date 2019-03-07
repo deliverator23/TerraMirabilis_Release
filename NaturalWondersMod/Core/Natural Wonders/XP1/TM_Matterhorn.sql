@@ -31,16 +31,24 @@ WHERE	FeatureType = 'FEATURE_MATTERHORN';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,										ModifierType,								SubjectRequirementSetId						)
-VALUES	('MODIFIER_TM_FEATURE_MATTERHORN_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',			'REQSET_TM_PLAYER_HAS_FEATURE_MATTERHORN'	),
-		('MODIFIER_TM_FEATURE_MATTERHORN_MOVEMENT',			'MODTYPE_TM_ADJUST_UNIT_IGNORE_TERRAIN',	NULL										);
+		(ModifierId,										ModifierType,						SubjectRequirementSetId	)
+SELECT	'MODIFIER_TM_FEATURE_MATTERHORN_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_MATTERHORN'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_MATTERHORN');
+
+INSERT INTO Modifiers
+		(ModifierId,										ModifierType,								SubjectRequirementSetId	)
+VALUES	('MODIFIER_TM_FEATURE_MATTERHORN_MOVEMENT',			'MODTYPE_TM_ADJUST_UNIT_IGNORE_TERRAIN',	NULL					);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
 INSERT INTO ModifierArguments
+		(ModifierId,										Name,			Value	)
+SELECT	'MODIFIER_TM_FEATURE_MATTERHORN_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_MATTERHORN_MOVEMENT'
+WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_MATTERHORN');
+		
+INSERT INTO ModifierArguments
 		(ModifierId,										Name,			Value										)
-VALUES	('MODIFIER_TM_FEATURE_MATTERHORN_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_MATTERHORN_MOVEMENT'	),
-		('MODIFIER_TM_FEATURE_MATTERHORN_MOVEMENT',			'Ignore',		1											),
+VALUES	('MODIFIER_TM_FEATURE_MATTERHORN_MOVEMENT',			'Ignore',		1											),
 		('MODIFIER_TM_FEATURE_MATTERHORN_MOVEMENT',			'Type',			'HILLS'										);

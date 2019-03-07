@@ -48,8 +48,12 @@
       </Properties>
       <Criteria>XP2</Criteria>
     </UpdateDatabase>
-    <ImportFiles id="TM_Utilities">
+    <ImportFiles id="TM_Import">
+      <Properties>
+        <LoadOrder>5</LoadOrder>
+      </Properties>
       <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
+      <File>Core/Utilities/Interface/NaturalDisasterPopup.lua</File>
     </ImportFiles>
     <UpdateText id="TM_Localisation">
       <Properties>
@@ -206,6 +210,21 @@
       <File>Core/Natural Wonders/Terra Mirabilis/TM_SriPada.sql</File>
       <File>Core/Natural Wonders/Terra Mirabilis/TM_VredefortDome.sql</File>
     </UpdateDatabase>
+    <UpdateDatabase id="TM_Disasters_XP2">
+      <Properties>
+        <LoadOrder>50</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+      <File>Core/Natural Disasters/TM_NaturalDisasters.sql</File>
+    </UpdateDatabase>
+    <ReplaceUIScript id="TM_NaturalDisasterPopup">
+      <Properties>
+        <LuaReplace>Core/Utilities/Interface/NaturalDisasterPopup.lua</LuaReplace>
+        <LuaContext>NaturalDisasterPopup</LuaContext>
+        <LoadOrder>5</LoadOrder>
+      </Properties>
+      <Criteria>XP2</Criteria>
+    </ReplaceUIScript>
   </InGameActions>
   <Files>
     <File>ArtDefs/Clutter.artdef</File>
@@ -213,7 +232,6 @@
     <File>ArtDefs/StrategicView.artdef</File>
     <File>ArtDefs/Terrains.artdef</File>
     <File>ArtDefs/TerrainStyle.artdef</File>
-    <File>Change Log.txt</File>
     <File>Core/Framework/TM_Master.sql</File>
     <File>Core/Framework/TM_Schema.sql</File>
     <File>Core/Framework/TM_Setup.sql</File>
@@ -230,6 +248,7 @@
     <File>Core/Localisation/TM_Localisation_ru_RU.sql</File>
     <File>Core/Localisation/TM_Localisation_zh_Hans_CN.sql</File>
     <File>Core/Localisation/TM_Localisation_zh_Hans_HK.sql</File>
+    <File>Core/Natural Disasters/TM_NaturalDisasters.sql</File>
     <File>Core/Natural Wonders/Base/TM_BarrierReef.sql</File>
     <File>Core/Natural Wonders/Base/TM_CliffsDover.sql</File>
     <File>Core/Natural Wonders/Base/TM_CraterLake.sql</File>
@@ -293,6 +312,7 @@
     <File>Core/Natural Wonders/XP2/TM_SaharaElBeyda.sql</File>
     <File>Core/Natural Wonders/XP2/TM_Vesuvius.sql</File>
     <File>Core/User Settings/TM_UserSettings.sql</File>
+    <File>Core/Utilities/Interface/NaturalDisasterPopup.lua</File>
     <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
     <File>NaturalWondersMod.dep</File>
     <File>Platforms/MacOS/BLPs/environment/clutter.blp</File>
