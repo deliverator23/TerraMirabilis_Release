@@ -54,6 +54,7 @@
       </Properties>
       <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
       <File>Core/Utilities/Interface/NaturalDisasterPopup.lua</File>
+      <File>Core/Utilities/Interface/TM_UnitPanel.lua</File>
     </ImportFiles>
     <UpdateText id="TM_Localisation">
       <Properties>
@@ -313,6 +314,7 @@
     <File>Core/Natural Wonders/XP2/TM_Vesuvius.sql</File>
     <File>Core/User Settings/TM_UserSettings.sql</File>
     <File>Core/Utilities/Interface/NaturalDisasterPopup.lua</File>
+    <File>Core/Utilities/Interface/TM_UnitPanel.lua</File>
     <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
     <File>NaturalWondersMod.dep</File>
     <File>Platforms/MacOS/BLPs/environment/clutter.blp</File>
