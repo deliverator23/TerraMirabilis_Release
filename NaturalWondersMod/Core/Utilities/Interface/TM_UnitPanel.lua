@@ -1,5 +1,3 @@
-include("UnitPanel_Expansion2");
-
 -- ===========================================================================
 --	Refresh unit actions
 --	Returns a table of unit actions.

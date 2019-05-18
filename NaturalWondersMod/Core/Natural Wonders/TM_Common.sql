@@ -261,6 +261,11 @@ VALUES	('REQSET_TM_CITY_FOREIGN_CONTINENT',		'REQ_TM_CITY_FOREIGN_CONTINENT'			)
 
 INSERT INTO RequirementSetRequirements
 		(RequirementSetId,						RequirementId)
+SELECT	'REQSET_TM_PLAYER_HAS_'||FeatureType,	'REQ_TM_MAP_HAS_'||FeatureType
+FROM	Features WHERE NaturalWonder = 1;
+
+INSERT INTO RequirementSetRequirements
+		(RequirementSetId,						RequirementId)
 SELECT	'REQSET_TM_PLAYER_HAS_'||FeatureType,	'REQ_TM_PLAYER_HAS_'||FeatureType
 FROM	Features WHERE NaturalWonder = 1;
 
@@ -343,6 +348,11 @@ VALUES	('REQ_TM_CITY_HAS_PARK',				'REQUIREMENT_CITY_HAS_NATIONAL_PARK',					0		
 
 INSERT INTO Requirements
 		(RequirementId, 					RequirementType	)
+SELECT	'REQ_TM_MAP_HAS_'||FeatureType,		'REQUIREMENT_MAP_HAS_FEATURE' 
+FROM	Features WHERE NaturalWonder = 1;
+
+INSERT INTO Requirements
+		(RequirementId, 					RequirementType	)
 SELECT	'REQ_TM_PLAYER_HAS_'||FeatureType,	'REQUIREMENT_COLLECTION_COUNT_ATLEAST' 
 FROM	Features WHERE NaturalWonder = 1;
 
@@ -408,6 +418,11 @@ VALUES	('REQ_TM_PLOT_IS_COAST',				'TerrainType',			'TERRAIN_COAST'						),
 		('REQ_TM_DISTRICT_IS_HARBOR',			'DistrictType',			'DISTRICT_HARBOR'					),
 		('REQ_TM_DISTRICT_IS_ENCAMPMENT',		'DistrictType',			'DISTRICT_ENCAMPMENT'				),
 		('REQ_TM_DISTRICT_IS_ENTERTAINMENT',	'DistrictType',			'DISTRICT_ENTERTAINMENT_COMPLEX'	);
+
+INSERT INTO RequirementArguments
+		(RequirementId, 					Name,			Value	)
+SELECT	'REQ_TM_MAP_HAS_'||FeatureType,		'FeatureType',	FeatureType
+FROM	Features WHERE NaturalWonder = 1;
 
 INSERT INTO RequirementArguments
 		(RequirementId, 					Name,				Value	)

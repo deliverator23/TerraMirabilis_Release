@@ -1,7 +1,7 @@
 /*
 	Localisation
 	Language: Russian ("ru_RU")
-	Credits: Your Name Here
+	Credits: Portland Trail Blazers
 
 	Guide:
 	~ Make a copy of this file on your local drive. This is to ensure that your work isn't overwritten when the mod gets updated on Steam.
@@ -19,543 +19,543 @@ VALUES
 -- BARRIER REEF
 -----------------------------------------------
 
-	("ru_RU",		"LOC_TM_FEATURE_BARRIER_REEF_DESCRIPTION",			"Two tile natural wonder. Yields +2 [ICON_Food] Food, +1 [ICON_Gold] Gold, and +2 [ICON_Science] Science."	),
-	("ru_RU",		"LOC_TM_FEATURE_BARRIER_REEF_EFFECT",				"Improved sea resources yield +1 [ICON_Gold] Gold for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",		"LOC_TM_FEATURE_BARRIER_REEF_DESCRIPTION",			"Чудо природы занимает две клетки. Дает +2 [ICON_Food] Еды, +1 [ICON_Gold] Золота и +2 [ICON_Science] Науки."	),
+	("ru_RU",		"LOC_TM_FEATURE_BARRIER_REEF_EFFECT",				"Обработка морских ресурсов дает +1 [ICON_Gold] золота каждой цивилизации, которые владеют этим чудом."	),
 
 -----------------------------------------------
 -- BARRINGER CRATER
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_BARRINGER_CRATER_NAME",					"Barringer Crater"	),
-	("ru_RU",	"LOC_TM_FEATURE_BARRINGER_CRATER_DESCRIPTION",			"One tile natural wonder. Yields +3 [ICON_Science] Science and +2 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_BARRINGER_CRATER_EFFECT",				"Receive +20% [ICON_Production] Production toward Space Race projects in the City that owns this tile."	),
+	("ru_RU",	"LOC_FEATURE_BARRINGER_CRATER_NAME",					"Кратер Барринджера"	),
+	("ru_RU",	"LOC_TM_FEATURE_BARRINGER_CRATER_DESCRIPTION",			"Чудо природы занимает одну клетку. Дает +3 [ICON_Science] Науки и +2 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_BARRINGER_CRATER_EFFECT",				"Увеличивает на 20% [ICON_Production] Производство проектов Космической Гонки в Городе, которому принадлежит это чудо."	),
 		
 	("ru_RU",	'LOC_TM_FEATURE_BARRINGER_CRATER_QUOTE',
-	'"In fact we can now prove that this crater is due to the collision with the earth of an extra-terrestrial body, possibly a small asteroid, which was presumably metallic in nature."[NEWLINE]- Daniel Barringer'	),
+	'"Шум ничего не доказывает. Часто курица, которая только снесла яйцо, кудахчет, как если бы она снесла астероид."[NEWLINE]- Марк Твен'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BARRINGER_CRATER_CHAPTER_HISTORY_PARA_1",	
-	"The Barringer Crater is a huge meteorite crater located in Arizona, in the United States of America. The crater is 1,200 meters (4,000 feet) in diameter, and scientists believe that it was created some 50,000 years ago when the site was hit by a large nickel-iron meteorite weighing, at time of impact, 160,000 tons and moving at perhaps 44,000 kilometers per hour (27,000 mph)."	),
+	"Кратер Бэрринджера - огромный метеоритный кратер в американском штате Аризона. Его диаметр - более 120 километров, и ученые полагают, что он возник 50 000 лет назад в результате столкновения с Землей крупного метеорита из железа и никеля весом в 160 тысяч тонн. На момент столкновения метеорит двигался со скоростью около 43 тысяч километров в час." ),
 
 -----------------------------------------------
 -- BIOLUMINESCENT BAY
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_BIOLUMINESCENT_BAY_NAME",					"Bioluminescent Bay"	),
-	("ru_RU",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION",		"One tile natural wonder. Yields +2 [ICON_SCIENCE] Science, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT",				"Fishing Boats provide +1 [ICON_GOLD] Gold on outgoing international [ICON_TRADEROUTE] Trade Routes from their cities for any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_FEATURE_BIOLUMINESCENT_BAY_NAME",					"Светящейся Залив"	),
+	("ru_RU",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_DESCRIPTION",		"Чудо природы занимает одну клетку. Дает +2 [ICON_SCIENCE] Науки, +2 [ICON_CULTURE] Культуры и +1 [ICON_GOLD] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_BIOLUMINESCENT_BAY_EFFECT",				"Рыбацкие Лодки дают +1 [ICON GOLD] Золота где есть исходящий международный [ICON TRADE ROUTE] Торговый Путь в городах, которому принадлежит это чудо"	),
 		
 	("ru_RU",	'LOC_TM_FEATURE_BIOLUMINESCENT_BAY_QUOTE',
-	'"The emission of light from fire, lightning bolts, stars or living beings attracts the attention of any human being. In the case of bioluminescence the light has a strange glow, something magic and mysterious."[NEWLINE]- Cassius Stevani'	),
+	'"Свечение моря - предвестник шторма."[NEWLINE]- Жан Поль Рихтер'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_1",	
-	"The Bioluminescent Bay (also known as Puerto Mosquito, or Mosquito Bay), is considered the best example of a bioluminescent bay in the United States and is listed as a national natural landmark, one of five in Puerto Rico. The luminescence in the bay is caused by a micro-organism, the dinoflagellate Pyrodinium bahamense, which glows whenever the water is disturbed, leaving a trail of neon blue."	),
+	"Свечение моря (океана) — естественное явление биологического происхождения, возникающее, когда поверхностные слои моря или океана наполнены микроорганизмами, способными к биолюминесценции, в результате чего в ночное время суток складывается впечатление, что водоем светится изнутри. Свечение моря наблюдается повсеместно, иногда охватывает огромные пространства водной глади до сотен и тысяч квадратных километров. Свечения бывают в виде пятен, цепей, кластеров. Чаще всего наблюдается в Бискайском и Аденском заливах, у берегов Индии, Южной Африки, Чёрном и Охотском морях и ряде других мест. "	),
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_BIOLUMINESCENT_BAY_CHAPTER_HISTORY_PARA_2",	
-	"A combination of factors creates the necessary conditions for bioluminescence: red mangrove trees surround the water, a complete lack of modern development around the bay, the water is cool enough and deep enough, and a small channel to the ocean keeps the dinoflagellates in the bay. This small channel was created artificially, being the result of attempts by the occupants of Spanish ships to choke off the bay from the ocean. The Spanish believed that the bioluminescence they encountered there while first exploring the area, was the work of the devil and tried to block ocean water from entering the bay by dropping huge boulders in the channel. The Spanish only succeeded in preserving and increasing the luminescence in the now isolated bay."	),
+	"Существует несколько разновидностей свечения. Искрящееся свечение излучает планктон размером до 5 мм, свечение вспышками — существа более 1 см. Живые организмы излучают свет обычно под влиянием внешних раздражителей — движения воды в морских течениях или зоне прибоя, возмущения от хода кораблей и тому подобное. Распространено также «разлитое», равномерное, «молочное» свечение, которое обусловлено жизнедеятельностью бактерий, способных к люминесценции, такое свечение не зависит от внешних раздражителей."	),
 
 -----------------------------------------------
 -- CERRO DE POTOSI
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_CERRO_DE_POTOSI_NAME",						"Cerro de Potosi"	),
-	("ru_RU",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Production] Production and +1 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT",				"International [ICON_TradeRoute] Trade Routes from the City that owns this tile yield +4 [ICON_Gold] Gold."	),
+	("ru_RU",	"LOC_FEATURE_CERRO_DE_POTOSI_NAME",						"Врата ада"	),
+	("ru_RU",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_DESCRIPTION",			"Чудо природы занимает одну клетку. Появляется как Гора. Соседние участки дают +1 [ICON_Production] Производства и +1 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_CERRO_DE_POTOSI_EFFECT",				"Международные [ICON_TradeRoute] Торговые Пути из города, которому принадлежит это чудо, дают +4 [ICON_Gold] Золота."	),
 		
 	("ru_RU",	'LOC_TM_FEATURE_CERRO_DE_POTOSI_QUOTE',	
-	'"I am rich Potosi, treasure of the world, king of all mountains and envy of kings."[NEWLINE]- First Coat of Arms of Potosi'	),
+	'"Я богатый Потоси, сокровище мира, король всех гор и зависть королей."[NEWLINE]- Первый герб Потоси'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_CERRO_DE_POTOSI_CHAPTER_HISTORY_PARA_1",	
-	"Located in southern Bolivia, the mountain of Potosi produced nearly all of the silver mined by the Spanish during their imperial days. Once removed from the mountain, it was taken by llama and mule to the coast where it was then loaded onto treasure ships sailing back to Europe. Nearly 41,000 tons of pure silver were mined over the course of 200 years, 8,200 of which went directly to the Spanish crown. After 1800, the main silver mines were depleted, but the mining of Potosi still continues today - some for silver but now mostly for tin."	),
+	"Гора Потоси, расположенная в южной Боливии, являлась крупнейшим месторождением серебра в Южной Америке. Именно в этом месте, которое называли как Врата ада, добывалось почти все испанское серебро, которое затем ламами и мулами перевозили на побережье, откуда на кораблях доставляли в Европу. За двести лет из горы было извлечено около 41 тысячи тонн чистого серебра, из которых 8200 тонн напрямую принадлежало испанской короне. К 1800 году большинство шахт было истощено, но даже в наше время в Потоси все еще ведутся работы, правда, сегодня там добывают в основном олово."	),
 
 -----------------------------------------------
 -- CHOCOLATE HILLS
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_DESCRIPTION",			"Four tile natural wonder. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_PRODUCTION] Production and +1 [ICON_FOOD] Food."	),
-	("ru_RU",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_EFFECT",				"Any Civilization that owns at least one of these tiles exerts +25% [ICON_TOURISM] Tourism toward other Civilizations with whom they have a [ICON_TRADEROUTE] Trade Route."	),
+	("ru_RU",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_DESCRIPTION",			"Чудо природы занимает четыре клетки. Дает +2 [ICON_CULTURE] Культуры, +2 [ICON_PRODUCTION] Производства и +1 [ICON_FOOD] Еды."	),
+	("ru_RU",	"LOC_TM_FEATURE_CHOCOLATE_HILLS_EFFECT",				"Каждая Цивилизация, владеющая хотя бы одной клеткой, увеличивает на 25% [ICON_TOURISM] Туризм в другие Цивилизации, с которыми у них есть [ICON_TRADEROUTE] Торговый Путь."	),
 	
 -----------------------------------------------
 -- CLIFFS OF DOVER
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_CLIFFS_DOVER_DESCRIPTION",				"Two tile natural wonder. Appears as Cliffs. Yields +3 [ICON_Culture] Culture, +1 [ICON_Food] Food, and +1 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_CLIFFS_DOVER_EFFECT",					"Harbors receive minor adjacency bonuses from Cliffs for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_CLIFFS_DOVER_DESCRIPTION",				"Чудо природы занимает четыре клетки. Появляется как скалы на побережье. Дает +3 [ICON_Culture] Культуре, +1 [ICON_Food] Еде и +1 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_CLIFFS_DOVER_EFFECT",					"Гавани получают небольшие бонусы от соседства со скалами в каждой цивилизации, которые владеют этим чудом."	),
 	
-	("ru_RU",	"LOC_MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_DESCRIPTION",	"+{1_num} [ICON_Gold] Gold from adjacent {1_Num : plural 1?cliff; other?cliffs;}."	),
+	("ru_RU",	"LOC_MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_DESCRIPTION",	"+{1_num} [ICON_Gold] Золота от соседства {1_Num : plural 1?cliff; other?cliffs;}."	),
 
 -----------------------------------------------
 -- CRATER LAKE
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",			"One tile natural wonder. Appears as a Lake and provides fresh water. Yields +4 [ICON_Faith] Faith and +1 [ICON_Science] Science."	),
-	("ru_RU",	"LOC_TM_FEATURE_CRATER_LAKE_EFFECT",				"May purchase any Building with [ICON_Faith] Faith in the City that owns this tile."	),
+	("ru_RU",	"LOC_TM_FEATURE_CRATER_LAKE_DESCRIPTION",			"Чудо природы занимает одну клетку. Появляется как озеро и снабжает пресной водой. Дает +4 [ICON_Faith] Веры и +1 [ICON_Science] Науки."	),
+	("ru_RU",	"LOC_TM_FEATURE_CRATER_LAKE_EFFECT",				"Можно купить любое Здание за [ICON_Faith] Веру в городе, которому принадлежит это чудо."	),
 	
 -----------------------------------------------
 -- DALLOL
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_DALLOL_NAME",					"Dallol"	),
-	("ru_RU",	"LOC_TM_FEATURE_DALLOL_DESCRIPTION",		"One tile natural wonder. Provides +2 [ICON_SCIENCE] Science, +2 [ICON_PRODUCTION] Production and +1 [ICON_GOLD] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_DALLOL_EFFECT",				"Grants a free copy of the [ICON_RESOURCE_TM_SYLVITE] Sylvite luxury resource (not tradeable), which provides +6 [ICON_Amenities] Amenities, to any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_FEATURE_DALLOL_NAME",					"Даллол"	),
+	("ru_RU",	"LOC_TM_FEATURE_DALLOL_DESCRIPTION",		"Чудо природы занимает одну клетку. Дает +2 [ICON_SCIENCE] Науки, +2 [ICON_PRODUCTION] Производства и +1 [ICON_GOLD] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_DALLOL_EFFECT",				"Дает бесплатный ресурс роскоши [ICON_RESOURCE_TM_SYLVITE] Сильвин (нельзя обменять), который предоставляет +6 [ICON_Aferences] Счастья для цивилизации владеющая этом чудом."	),
 		
 	("ru_RU",	'LOC_TM_FEATURE_DALLOL_QUOTE',	
-	'"There is hell, there is darkness, there is the sulfurous pit— burning, scalding, stench, consumption!"[NEWLINE]- William Shakespeare, King Lear'	),
+	'"О преисподней я не могу судить объективно — у меня там слишком много друзей."[NEWLINE]- Джордж Бернард Шоу'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_1",	
-	"Dallol is a cinder cone volcano in the Danakil Depression, northeast of the Erta Ale Range in Ethiopia. It has been formed by the intrusion of basaltic magma into Miocene salt deposits and subsequent hydrothermal activity. Phreatic eruptions took place in 1926, forming Dallol Volcano while numerous other eruption craters dot the salt flats nearby. These craters are the lowest known subaerial volcanic vents in the world, at 45 m (150 ft) or more below sea level."	),
+	"Даллол — сохраняющий активность вулканический кратер во впадине Данакиль, Эфиопия. Вулкан известен своими внеземными пейзажами, напоминающими поверхность Ио, спутника планеты Юпитер. Его состав — лава из серы и андезита."	),
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_DALLOL_CHAPTER_HISTORY_PARA_2",	
-	"Numerous hot springs are discharging brine and acidic liquid here. Small, widespread, temporary geysers produce cones of salt. The Dallol deposits include significant bodies of potash found directly at the surface. The term 'Dallol' was coined by the Afar people and means 'dissolution' or 'disintegration', describing a landscape of green acid ponds (pH-values less than 1) and iron oxide, sulfur and salt desert plains."	),
+	"В 1926 году при сильном взрыве образовалось крупное озеро, расположенное на высоте 48 метров ниже уровня моря. Окраска озера фиолетово-жёлтого цвета. На краю кратера находится село Даллол."	),
 
-	("ru_RU",	"LOC_RESOURCE_TM_SYLVITE_NAME",	"Sylvite"	),
+	("ru_RU",	"LOC_RESOURCE_TM_SYLVITE_NAME",	"Сильвин"	),
 	("ru_RU",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_1",
-	"In Dallol, Ethiopia, Potash production is said to have reached 51,000 metric tons after 1917, and between the years 1925-29, an Italian company mined 25,000 tons of Sylvite. By 1965, about 10,000 holes had been drilled at 65 locations across Dallol."	),
+	"Сильви́н — минерал, хлорид калия. Впервые найден и описан в 1832 году на горе Везувий (Неаполь, Италия). Назван в честь химика Франциска Сильвия (1614—1672)."	),
 	("ru_RU",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_SYLVITE_CHAPTER_HISTORY_PARA_2",
-	"Named for the Dutch chemist, Francois Sylvius de le Boe, Sylvite was first described at Mt. Vesuvius near Napoli in Italy. Found in many evaporite deposits around the world, Sylvite is one of the last evaporite minerals to precipitate out of solution and as such, is only found in very dry saline areas. It is used for spectroscopic prisms and lenses, but its principal use is as a potassium fertilizer."	),
+	"Вместе с галитом сильвин широко применяется в сельском хозяйстве как калийное минеральное удобрение и частично в химической, медицинской, легкой и стекольной промышленностях."	),
 
 -----------------------------------------------
 -- DEAD SEA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_DEAD_SEA_DESCRIPTION",				"Two tile natural wonder. Appears as a Lake. Yields +2 [ICON_Faith] Faith, +2 [ICON_Culture] Culture, and +1 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_DEAD_SEA_EFFECT",					"Units may heal an additional 10 HP when [ICON_Fortified] Fortified for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_DEAD_SEA_DESCRIPTION",				"Чудо природы занимает две клетки. Появляется как озеро Дает +2 [ICON_Faith] Веры, +2 [ICON_Culture] Культуры и +1 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_DEAD_SEA_EFFECT",					"Юниты могут дополнительно лечить 10 HP, когда [ICON_Fortified] Укрепляется в каждой Цивилизации, которая владеет этим чудом."	),
 	
 -----------------------------------------------
 -- DELICATE ARCH
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT",				"Plots are 20% cheaper to purchase for any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_TM_FEATURE_DELICATE_ARCH_DESCRIPTION",			"Чудо природы занимает одну клетку. Соедние клетки дают +1 [ICON_Culture] Культуры и +1 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_DELICATE_ARCH_EFFECT",				"Покупка клеток станавится на 20% дешевле к которому принадлежит это чудо."	),
 	
 -----------------------------------------------
 -- EVEREST
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_EVEREST_DESCRIPTION",			"Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Faith] Faith."	),
-	("ru_RU",	"LOC_TM_FEATURE_EVEREST_EFFECT",				"Religious units ignore [ICON_Movement] Movement penalties on Hills and receive +1 additional spread charge for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_EVEREST_DESCRIPTION",			"Чудо природы занимает три клетки. Появляется как Горы. Соседние клетки дают +2 [ICON_Faith] Веры."	),
+	("ru_RU",	"LOC_TM_FEATURE_EVEREST_EFFECT",				"Религиозные юниты игнорируют штрафы [ICON_Movement] передвижения на холмах. Получают +1 дополнительный заряд распространения для каждой Цивилизации, коротрые владеют этим чудом."	),
 	
 -----------------------------------------------
 -- EYE OF THE SAHARA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_DESCRIPTION",			"Three tile natural wonder. Yields +2 [ICON_PRODUCTION] Production, +2 [ICON_Science] Science, and +1 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT",				"Any Civilization that owns at least one of these tiles receives +1 Era Score from Historic Moments if that Moment is usually worth at least +4 Era Score."	),
+	("ru_RU",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_DESCRIPTION",			"Чудо природы занимает три клетки. Дает +2 [ICON_PRODUCTION] Производства, +2 [ICON_Science] Науки и +1 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_EYE_OF_THE_SAHARA_EFFECT",				"Цивилизации владеющие этим чудом, получают +1 Очков Эры для Исторических Моментов, если они стоят как минимум +4 Очка Эры."	),
 	
 -----------------------------------------------
 -- EYJAFJALLAJOKULL
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",				"Two tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Food] Food."	),
-	("ru_RU",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION",			"Two tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_CULTURE] Culture. Provides additional yields on eruption at the cost of [ICON_CITIZEN] Population and damage to infrastructure. Always active."	),
-	("ru_RU",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",					"Specialty Districts constructed on Tundra or Snow terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_DESCRIPTION",				"Чудо природы занимает две клетки. Появляется как Горы. Дает соседним клеткам +1 [ICON_Culture] Культуры и +1 [ICON_Food] Еды."	),
+	("ru_RU",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_XP2_DESCRIPTION",			"Чудо природы занимает две клетки. Появляется как Вулкан. Дает соседним клеткам +1 [ICON_CULTURE] Культуры. Обеспечивает дополнительную доходность при извержении за счет ущерба [ICON_CITIZEN] Населению и инфраструктуре. Всегда активный."	),
+	("ru_RU",	"LOC_TM_FEATURE_EYJAFJALLAJOKULL_EFFECT",					"Районы, построенные в Тундре или Снегах, дают +1 [ICON_Food] Еду для Цивилизации, которая владеет этим чудом."	),
 
 -----------------------------------------------
 -- GALAPAGOS
 -----------------------------------------------
 	
-	("ru_RU",	"LOC_TM_FEATURE_GALAPAGOS_DESCRIPTION",		"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Science] Science."	),
-	("ru_RU",	"LOC_TM_FEATURE_GALAPAGOS_EFFECT",				"Grants a free copy of the [ICON_RESOURCE_TM_TORTOISE] Tortoise luxury resource (not tradeable), which provides +6 [ICON_Amenities] Amenities, to any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_GALAPAGOS_DESCRIPTION",			"Чудо природы занимает две клетки. Дает соседним клеткам +2 [ICON_Science] Науки."	),
+	("ru_RU",	"LOC_TM_FEATURE_GALAPAGOS_EFFECT",				"Дает бесплатный ресурс роскоши [ICON_RESOURCE_TM_TORTOISE] Черепаха (нельзя обменять), который предоставляет +6 [ICON_Amenities] Счастья для Цивилизации которые владеют этим чудом."	),
 
-	("ru_RU",	"LOC_RESOURCE_TM_TORTOISE_NAME",	"Tortoise"	),
+	("ru_RU",	"LOC_RESOURCE_TM_TORTOISE_NAME",	"Черепаха"	),
 	("ru_RU",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_TORTOISE_CHAPTER_HISTORY_PARA_1",
-	"The Galapagos giant tortoise is the largest living species of tortoise, weighing up to 417kg. Today, giant tortoises exist on only two remote archipelagos, the Galapagos Islands, and Aldabra. Their numbers declined from over 250,000 in the 16th century to around 3,000 in 1970 due to overexploitation of the species for meat and oil. The extinction of most giant tortoise lineages is thought to have been caused by predation by humans as the tortoises themselves have no natural predators on the remote Galapagos archipelago that they are native to."	),
+	"Галапагосская черепаха — самая большая черепаха на планете. Это красивое животное можно найти только на острове Галапагос. Из 15 известных подвидов галапагосских черепах только 11 остались в дикой природе. Они могут выживать в разных местах обитания, от сухих низменностей до влажных гор. На галапагосских черепах широко охотились в течение 17, 18 и 19 веков моряки и китобои из-за их вкусного мяса. В результате несколько подвидов этой черепахи полностью вымерли, а количество оставшихся подвидов резко сократилось. Все оставшиеся галапагосские черепахи классифицированы как находящиеся под угрозой исчезновения."	),
 
 -----------------------------------------------
 -- GIANTS CAUSEWAY
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION",			"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Culture] Culture."	),
-	("ru_RU",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT",				"Land units trained in a City that owns at least one of these tiles start with a free [ICON_Promotion] Promotion."	),
+	("ru_RU",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_DESCRIPTION",			"Чудо природы занимает две клетки. Дает соседним клеткам +2 [ICON_Culture] Культуры."	),
+	("ru_RU",	"LOC_TM_FEATURE_GIANTS_CAUSEWAY_EFFECT",				"Сухопутные юниты, обученные в Городе владеющий этим чудом, появляются с бесплатным [ICON_Promotion] Повышением."	),
 
 -----------------------------------------------
 -- GOBUSTAN
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION",			"Three tile natural wonder. Yields +3 [ICON_CULTURE] Culture, +1 [ICON_PRODUCTION] Production, and +1 [ICON_SCIENCE] Science."	),
-	("ru_RU",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT",				"Improved sources of [ICON_RESOURCE_OIL] Oil accumulate 2 more resources per turn for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_GOBUSTAN_DESCRIPTION",			"Чудо природы занимает две клетки. Дает +3 [ICON_CULTURE] Культуры, +1 [ICON_PRODUCTION] Производства и +1 [ICON_SCIENCE] Науки."	),
+	("ru_RU",	"LOC_TM_FEATURE_GOBUSTAN_EFFECT",				"Улучшенные источники [ICON_RESOURCE_OIL] Нефти дают дополнительные 2 ресурса за ход для Цивилизации, которые владеют этим чудом."	),
 
 -----------------------------------------------
 -- GRAND MESA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_GRAND_MESA_NAME",					"Grand Mesa"	),
-	("ru_RU",	"LOC_TM_FEATURE_GRAND_MESA_DESCRIPTION",		"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Food] Food and +1 [ICON_Culture] Culture."	),
-	("ru_RU",	"LOC_TM_FEATURE_GRAND_MESA_EFFECT",				"Units ignore [ICON_Movement] Movement penalties in Forest or Jungle for any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_FEATURE_GRAND_MESA_NAME",					"Гранд-Меса"	),
+	("ru_RU",	"LOC_TM_FEATURE_GRAND_MESA_DESCRIPTION",		"Чудо природы занимает одну клетку. Дает соседним клеткам +1 [ICON_Food] Еды и +1 [ICON_Culture] Культуры."	),
+	("ru_RU",	"LOC_TM_FEATURE_GRAND_MESA_EFFECT",				"Юниты игнорируют штрафы [ICON_Movement] Передвижения в Лесах и Джунглях для любой цивилизации, которая владеет этим чудом."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_GRAND_MESA_QUOTE',	
-	'"Conservation means the wise use of the earth and its resources for the lasting good of men."[NEWLINE]- Gifford Pinchot'	),
+	'"Великие дела делаются когда мужчины и горы встречаются…"[NEWLINE]- Уильям Блейк'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_GRAND_MESA_CHAPTER_HISTORY_PARA_1",	
-	"The Grand Mesa is a large geologic formation in Colorado, the United States of America. Rising some 1,500 meters (5,000 feet) above the surrounding territory and with an area of 1300 square kilometers (500 square miles), it is the largest mesa in the world. The Grand Mesa has a layer of volcanic basalt on top, which resists erosion. It did not so much rise into the air, as it remained at its original height, as the surrounding terrain was eroded by the action of the Colorado and Gunnison rivers.  The Grand Mesa National Forest (originally called Battlement Mesa Forest Reserve) was created by Benjamin Harrison on December 24, 1892. It was the third forest reserve created in United States."	),
+	"Гранд-Ме́са — национальный лес на западе штата Колорадо, США. Площадь леса составляет 1402,46 км². На севере граничит с национальным лесом Уайт-Ривер, на востоке — с национальным лесом Ганнисон. Флора этого горного национального леса разнообразна, большая часть леса представлена елью Энгельмана и пихтой шершавоплодной на высоте свыше 3000 м, псевдотсугой Мензиса и тополем осинообразным на высоте 2500—3000 м, дубом Гамбеля и многочисленными кустарниками (ирга ольхолистная, церкокарпус) на высоте 2000—2500 м, и сосной съедобной и можжевельником на высоте до 2000 м."	),
 
 -----------------------------------------------
 -- HA LONG BAY
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",			"Two tile natural wonder. Yields +2 [ICON_Culture] Culture, +2 [ICON_Food] Food and +1 [ICON_Production] Production."	),
-	("ru_RU",	"LOC_TM_FEATURE_HA_LONG_BAY_EFFECT",				"Harbors provide +2 [ICON_Housing] Housing for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_HA_LONG_BAY_DESCRIPTION",			"Чудо природы занимает две клетки. Дает +2 [ICON_Culture] Культуры, +2 [ICON_Food] Еды и +1 [ICON_Production] Производства."	),
+	("ru_RU",	"LOC_TM_FEATURE_HA_LONG_BAY_EFFECT",				"Гавани предоставляют +2 [ICON_Housing] Жилья для  Цивилизации, которые владеют этим чудом."	),
 
 -----------------------------------------------
 -- IK-KIL
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_IK_KIL_DESCRIPTION",			"One tile impassable natural wonder. Provides Fresh Water. Adjacent plots yield +1 [ICON_SCIENCE] Science, and +1 [ICON_FAITH] Faith."	),
-	("ru_RU",	"LOC_TM_FEATURE_IK_KIL_EFFECT",					"+15% [ICON_PRODUCTION] Production toward Wonders for any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_TM_FEATURE_IK_KIL_DESCRIPTION",			"Чудо природы занимает одну клетку. Обеспечивает пресной водой. Соседние клетки дают +1 [ICON_SCIENCE] Науки и +1 [ICON_FAITH] Веры."	),
+	("ru_RU",	"LOC_TM_FEATURE_IK_KIL_EFFECT",					"+15% [ICON_PRODUCTION] Производства Чудес в Цивилизации, которая владеет этом чудом."	),
 
 -----------------------------------------------
 -- KAILASH
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_KAILASH_NAME",						"Mount Kailash"	),
-	("ru_RU",	"LOC_TM_FEATURE_KAILASH_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Faith] Faith and +1 [ICON_Culture] Culture."	),
-	("ru_RU",	"LOC_TM_FEATURE_KAILASH_EFFECT",				"Receive +1 [ICON_Culture] Culture for every foreign City that follows the [ICON_Religion] Religion of the Civilization that owns this tile."	),
+	("ru_RU",	"LOC_FEATURE_KAILASH_NAME",						"Кайлас"	),
+	("ru_RU",	"LOC_TM_FEATURE_KAILASH_DESCRIPTION",			"Чудо природы занимает одну клетку. Появляется как Гора. Соседние клетки дают +1 [ICON_Faith] Веры и +1 [ICON_Culture] Культуры."	),
+	("ru_RU",	"LOC_TM_FEATURE_KAILASH_EFFECT",				"Получает +1 [ICON_Culture] Культуры за каждый иностранный Город, который придерживается такой же [ICON_Religion] Религии, для Цивилизации которому принадлежит это чудо."	),
 		
 	("ru_RU",	'LOC_TM_FEATURE_KAILASH_QUOTE',	
-	'"After thus having instructed the godly ones Lord Brahma went away with in his wake the forefathers and the leaders of the people whom he took from his own place to the abode of Lord Shiva, Kailash, the best of all mountains that is so dear to the master."[NEWLINE]- The Bhagavata Purana'	),
+	'"Мы полетим с тобой на Джомолунгму, Иль на Кайлас чудной, за Шамбалой."[NEWLINE]- Маркиза де Помпадур'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_KAILASH_CHAPTER_HISTORY_PARA_1",	
-	"The sacred peak of Mount Kailash, found in the Himalayas of Tibet, is cherished by a number of religions, particularly the followers of Hinduism. It is believed to be the home of Lord Shiva, who dwells on the mountain in a state of eternal bliss. Mount Kailash is said to be among the most difficult of all religious pilgrimages, as the harsh conditions dissuade many would-be pilgrims, and the mountain is not accessible by any forms of modern transportation."	),
+	"Кайла́с — гора в хребте Кайлас горной системы Гангдисе на юге Тибетского нагорья в Китае. Это самая высокая гора в своём районе, её выделяет среди других четырёхгранная пирамидальная форма со снежной шапкой и гранями, ориентированными почти точно по сторонам света. Высота Кайласа остаётся спорным вопросом — так, широко распространено утверждение, что Кайлас имеет высоту 6666 м; учёные расходятся во мнениях от 6638 до 6890 м, что обусловлено способом измерения высот гор. К тому же, Гималаи считаются молодыми, так что высота их увеличивается в среднем с учётом обветривания породы на 0,5—0,6 см в год."	),
 
 -----------------------------------------------
 -- KILIMANJARO
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Food] Food."	),
-	("ru_RU",	"LOC_TM_FEATURE_KILIMANJARO_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_FOOD] Food. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
-	("ru_RU",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT",					"Receive +1 [ICON_Citizen] Population in the City that owns this tile when a Specialty District is constructed."	),
+	("ru_RU",	"LOC_TM_FEATURE_KILIMANJARO_DESCRIPTION",				"Чудо природы занимает одну клетку. Появляется как Гора. Соседние клетки дают +2 [ICON_Food] Еды."	),
+	("ru_RU",	"LOC_TM_FEATURE_KILIMANJARO_XP2_DESCRIPTION",			"Чудо природы занимает одну клетку. Появляется как Вулкан. Соседние клетки дают +1 [ICON_FOOD] Еды. Обеспечивает дополнительную доходность при извержении за счет ущерба [ICON_CITIZEN] Населению и инфраструктуре. Всегда активный."	),
+	("ru_RU",	"LOC_TM_FEATURE_KILIMANJARO_EFFECT",					"Город, которому принадлежит это чудо, получает +1 [ICON_Citizen] Населения когда построится Специальный Район."	),
 
 -----------------------------------------------
 -- KRAKATOA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_KRAKATOA_NAME",						"Krakatoa"	),
-	("ru_RU",	"LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_SCIENCE] Science. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
-	("ru_RU",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",				"Any Civilization that owns this tile receives a free [ICON_TechBoosted] Eureka upon earning a [ICON_GreatAdmiral] Great Admiral."	),
+	("ru_RU",	"LOC_FEATURE_KRAKATOA_NAME",						"Кракатау"	),
+	("ru_RU",	"LOC_TM_FEATURE_KRAKATOA_XP2_DESCRIPTION",			"Чудо природы занимает одну клетку. Появляется как Вулкан. Дает соседним клеткам +1 [ICON_SCIENCE] Науки. Обеспечивает дополнительную доходность при извержении за счет ущерба [ICON_CITIZEN] Населению и инфраструктуре. Всегда активный."	),
+	("ru_RU",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_XP1",				"Цивилизация владеющая этим чудом, получает бесплатную [ICON_TechBoosted] Эврику после получения [ICON_GreatAdmiral] Великого Адмирала."	),
 	("ru_RU",	"LOC_TM_FEATURE_KRAKATOA_EFFECT_DESCRIPTION",		"{LOC_TM_FEATURE_KRAKATOA_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_KRAKATOA_EFFECT}"	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_KRAKATOA_QUOTE',	
-	'"I saw with amazement that the island of Krakatoa lay completely burnt and barren in front of our eyes and that at four locations was throwing up large chunks of fire."[NEWLINE]- Johann Wilhelm Vogel'	),
+	'"Странно! Когда проносится ураган или происходит извержение вулкана и губит тысячи людей, никому не приходит в голову обвинять вулкан."[NEWLINE]- Александр Беляев'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_KRAKATOA_CHAPTER_HISTORY_PARA_1",	
-	"Krakatoa is a volcanic island located in Indonesia, between the islands of Java and Sumatra. The volcano exploded violently in August, 1883 with a force equivalent to 13,000 times the power of the Hiroshima nuclear bomb. The blast is widely regarded as the loudest sound ever recorded. The eruption destroyed over half of the island, and was heard in parts of Australia, some 3,200 kilometers (2,000 miles) away. Some 37,000 people were killed by the eruption and subsequent tsunamis. The volcano has been emitting lava steadily for the past eighty years, rebuilding the cone at a rate of about 5 meters per year (15 feet per year)."	),
+	"Кракатау - вулканический остров, расположенный между островами Ява и Суматра. В августе 1883 года здесь произошло извержение, мощность которого в 13 000 раз превышала мощность атомной бомбы, сброшенной на Хиросиму. Извержение разрушило половину острова, а звук его слышали в некоторых районах Австралии, расположенных в трех тысячах километрах от вулкана. Всего от извержения и последующего цунами погибло около 37 000 человек. В последние 70 лет новый вулкан, возникший на месте старого, постоянно извергает лаву, а его вершина растет со скоростью около 6 метров в год."	),
 
-	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_NAME",				"Gentle Eruption"	),
-	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_DESCRIPTION",			"Smoke billows from the mountain of fire that people call Krakatoa. Could this be a foreboding sign of things to come?"	),
-	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_NAME",			"Catastrophic Eruption"	),
-	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_DESCRIPTION",	"Must we have forsaken our gods, for when we looked toward the blue sky and asked for rain, it was Krakatoa that answered with fire."	),
-	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_NAME",			"Megacolossal Eruption"	),
-	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_DESCRIPTION",	"Cursed be the ground on which Krakatoa casts its mighty shadow. Both fire and rock it wrought upon us. For out of the ground we were taken for the ashes we are... and to the ashes we returned."	),
+	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_NAME",				"Легкое Извержение"	),
+	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_GENTLE_DESCRIPTION",			"Дым поднимается с горы, которую люди называют Кракатау. Может ли это быть предвестником беды?"	),
+	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_NAME",			"Катастрофическое Извержение"	),
+	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_CATASTROPHIC_DESCRIPTION",	"Нужно ли нам отвернуться от наших богов? Когда мы смотрели на голубое небо и просили дождя, Кракатау ответил огнем."	),
+	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_NAME",			"Мегаколоссальное Извержение"	),
+	("ru_RU",	"LOC_RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL_DESCRIPTION",	"Проклята земля, на которой Кракатау отбрасывает свое могучее облако. Огонь и камень обрушились на нас. На землю посыпался пепел... которым мы вскоре мы станем."	),
 
 -----------------------------------------------
 -- LAKE RETBA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_LAKE_RETBA_DESCRIPTION",			"Two tile natural wonder. Appears as a Lake. Yields +2 [ICON_CULTURE] Culture, +2 [ICON_GOLD] Gold, +1 [ICON_PRODUCTION] Production."	),
-	("ru_RU",	"LOC_TM_FEATURE_LAKE_RETBA_EFFECT",					"Any Civilization that owns at least one of these tiles receives +2 [ICON_Gold] Gold for each unique copy of a Luxury resource that they own."	),
+	("ru_RU",	"LOC_TM_FEATURE_LAKE_RETBA_DESCRIPTION",			"Чудо природы занимает две клетки. Появляется как озеро. Дает +2 [ICON_CULTURE] Культуры, +2 [ICON_GOLD] Золота и +1 [ICON_PRODUCTION] Производства."	),
+	("ru_RU",	"LOC_TM_FEATURE_LAKE_RETBA_EFFECT",					"Цивилизации владеющие этим чудом, получают +2 [ICON_Gold] Золота за каждый Ресурс Роскоши, которым они владеют."	),
 
 -----------------------------------------------
 -- LAKE VICTORIA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_LAKE_VICTORIA_NAME",						"Lake Victoria"	),
-	("ru_RU",	"LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION",				"Four tile natural wonder. Appears as a Lake and provides Fresh Water. Yields +3 [ICON_Food] Food, +1 [ICON_Culture] Culture, and +1 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT",					"Any Civilization that owns at least one of these tiles receives +15% [ICON_FoodSurplus] Growth in Cities not on their original [ICON_Capital] Capital's continent."	),
+	("ru_RU",	"LOC_FEATURE_LAKE_VICTORIA_NAME",						"Озеро Виктория"	),
+	("ru_RU",	"LOC_TM_FEATURE_LAKE_VICTORIA_DESCRIPTION",				"Чудо природы занимает две клетки. Появляется как озеро и является источником пресной воды. ДАет +3 [ICON_Food] Еды, +1 [ICON_Culture] Культуры и +1 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_LAKE_VICTORIA_EFFECT",					"Цивилизации владеющие этим чудом, получают + 15% [ICON_FoodSurplus] Городского Роста за пределами своего [ICON_Capital] Столичного континента."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_LAKE_VICTORIA_QUOTE',	
-	'"I saw that old father Nile without any doubt rises in the Victoria Nyanza, and as I had foretold, that lake is the great source of the holy river which cradled the first expounder of our religious belief."[NEWLINE]- John Hanning Speke'	),
+	'"Капля к капле - озеро, без них - пустыня."[NEWLINE]- Турецкая пословица'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_LAKE_VICTORIA_CHAPTER_HISTORY_PARA_1",	
-	"With a surface area over 26,000 square miles (68,800 km²), Lake Victoria is the largest lake in Africa, the second largest freshwater lake on Earth, and the largest tropical lake in the world. Two large rivers leave the lake, the White Nile and the Katonga. The first historical records of the lake come from Arab traders seeking gold, ivory and other commodities from the natives as they pushed inland from the coast. The search by European explorers for the source of the Nile led to the discovery of the lake by the Englishman John Speke in 1858 AD, who named it after the then British monarch."	),
+	"Озеро Виктория, площадь которого составляет около 68 тысяч квадратных километров, является крупнейшим озером в Африке, вторым по величине пресноводным озером в мире и крупнейшим в мире тропическим озером. Из озера вытекают две реки - Белый Нил и Катонга. Первые сообщения об этом озере поступали от арабских торговцев, которые скупали золото и слоновую кость у местных жителей и в поисках новых товаров уходили вглубь материка. Поиски истоков Нила привели к открытию озера англичанином Джоном Спиком в 1858 году. Спик назвал его в честь британской королевы."	),
 
 -----------------------------------------------
 -- LYSEFJORDEN
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",			"Three tile natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science"	),
-	("ru_RU",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",				"Naval units trained in a City that owns at least one of these tiles start with a free [ICON_Promotion] Promotion."	),
+	("ru_RU",	"LOC_TM_FEATURE_LYSEFJORDEN_DESCRIPTION",			"Чудо природы занимает две клетки. Дает соседним клеткам +1 [ICON_Culture] Культуры и +1 [ICON_Science] Науки"	),
+	("ru_RU",	"LOC_TM_FEATURE_LYSEFJORDEN_EFFECT",				"Военно-морские юниты, обученные в городе, который владеет этим чудом, появляются с бесплатным [ICON_Promotion] Повышением."	),
 
 -----------------------------------------------
 -- MATO TIPILA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_PRODUCTION] Production."	),
-	("ru_RU",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT",				"Naturalists are 50% cheaper to purchase for any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_TM_FEATURE_DEVILSTOWER_DESCRIPTION",			"Чудо природы занимает одну клетку. Дает соседним клеткам +1 [ICON_FAITH] Веры и +1 [ICON_PRODUCTION] Производства."	),
+	("ru_RU",	"LOC_TM_FEATURE_DEVILSTOWER_EFFECT",				"Натуралисты стоят на 50% дешевле для Цивилизации, которая владеет этим чудом."	),
 
 -----------------------------------------------
 -- MATTERHORN
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_CULTURE] Culture."	),
-	("ru_RU",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",					"Units ignore [ICON_Movement] Movement penalties on Hills, and receive +3 [ICON_Strength] Combat Strength when fighting on them for any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_TM_FEATURE_MATTERHORN_DESCRIPTION",			"Чудо природы занимает одну клетку. Появляется как гора. Дает соседним клеткам +2 [ICON_CULTURE] Культуры."	),
+	("ru_RU",	"LOC_TM_FEATURE_MATTERHORN_EFFECT",					"Юниты игнорируют штрафы [ICON_Movement] Передвижения на холмах и получают на них +3 [ICON_Strength] Боевой Силы, для Цивилизации, которая владеет этим чудом."	),
 
-	("ru_RU",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",		"+{1_Amount} Combat Bonus on Hills (Matterhorn)"	),
+	("ru_RU",	"LOC_MODIFIER_TM_FEATURE_MATTERHORN_COMBAT_DESCRIPTION",		"+{1_Amount} Боевой Бонус на холмах (от Маттерхорна)"	),
 
 -----------------------------------------------
 -- MOSI_OA_TUNYA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_MOSI_OA_TUNYA_NAME",					"Mosi-oa-Tunya"	),
-	("ru_RU",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",			"One tile impassable natural wonder. Provides fresh water. Adjacent plots yield +2 [ICON_FOOD] Food."	),
-	("ru_RU",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",				"Improved bonus resources adjacent to a river provide +1 [ICON_FOOD] Food for the Civilization that owns this tile."	),
+	("ru_RU",	"LOC_FEATURE_MOSI_OA_TUNYA_NAME",					"Моси-оа-Тунья"	),
+	("ru_RU",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_DESCRIPTION",			"Чудо природы занимает одну клетку. Обеспечивает пресной водой. Дает соседним клеткам +2 [ICON_FOOD] Еды."	),
+	("ru_RU",	"LOC_TM_FEATURE_MOSI_OA_TUNYA_EFFECT",				"Улучшенные бонусные ресурсы рядом с рекой дают +1 [ICON_FOOD] Еды для Цивилизации, которой принадлежит это чудо."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_MOSI_OA_TUNYA_QUOTE',	
-	'"Creeping with awe to the verge, I peered down into a large rent and saw that a stream of a thousand yards broad leaped down a hundred feet, and then became suddenly compressed into a space of fifteen or twenty yards, the most wonderful sight I had witnessed in Africa."[NEWLINE]- David Livingstone'	),
+	'"Никто не может вообразить себе красоту зрелища в сравнении с чем-либо виденным в Англии. Глаза европейца никогда прежде не видели такого, но зрелищем столь прекрасным любовались, должно быть, ангелы в своем полете!."[NEWLINE]- Дэвид Ливингстон'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOSI_OA_TUNYA_CHAPTER_HISTORY_PARA_1",	
-	"The Mosi-oa-Tunya, otherwise known as Victoria Falls, is among the most spectacular waterfalls in the world. The Zambezi River, which is more than 2 kilometers wide at this point, plunges noisily down a series of basalt gorges and raises an iridescent mist that can be seen more than 50 km away. Its name, which translates to 'The Smoke Which Thunders', comes from the Kololo or Lozi language used throughout Zambia and in parts of Zimbabwe, though it is more commonly known worldwide as Victoria Falls due to Scottish missionary and explorer, David Livingstone, who is perhaps most famous for giving a name to a waterfall that already had one."	),
+	"Национальный парк Моси-Оа-Тунья – это небольшой охраняемый район, находящийся в Замбии. Он расположен в 11 км от города Ливингстон рядом с известнейшим водопадом под названием Виктория. Моси-Оа-Тунья с местного переводится как «гремящий дым». Благодаря водопаду на всей территории резервата наблюдается водяная дымка, которая образует настоящий зелёный оазис посреди суровой пустыни. Местная экосистема значительно отличается от сухого климата граничащих с ней саванн. Данный заказник носит гордое звание – объект всемирного наследия ЮНЕСКО."	),
 
 -----------------------------------------------
 -- MOTLATSE CANYON
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_MOTLATSE_CANYON_NAME",						"Motlatse Canyon"	),
-	("ru_RU",	"LOC_TM_FEATURE_MOTLATSE_CANYON_DESCRIPTION",			"Four tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science."	),
-	("ru_RU",	"LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT",				"River tiles with Breathtaking appeal yield +1 [ICON_GOLD] Gold for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_FEATURE_MOTLATSE_CANYON_NAME",						"Каньон Мотлетс"	),
+	("ru_RU",	"LOC_TM_FEATURE_MOTLATSE_CANYON_DESCRIPTION",			"Чудо природы занимает четыре клетки. Дает соседним клеткам +1 [ICON_Culture] Культуры и +1 [ICON_Science] Науки."	),
+	("ru_RU",	"LOC_TM_FEATURE_MOTLATSE_CANYON_EFFECT",				"Речные клетки с Захватывающим привлекательностью приносят +1 [ICON_GOLD] Золота для Цивилизаций, которые владеют этим чудом."	),
 
 	("ru_RU",	'LOC_TM_FEATURE_MOTLATSE_CANYON_QUOTE',	
-	'"I believe that South Africa is the most beautiful place on earth. Admittedly, I am biased, but I think even the most scrupulous critic would agree that we have been blessed with a truly wonderful land."[NEWLINE]- Nelson Mandela'	),
+	'"Когда взберёшься на высокую гору, перед тобой открывается огромное множество гор, на которые ещё только предстоит взобраться."[NEWLINE]- Нельсон Мандела'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOTLATSE_CANYON_CHAPTER_HISTORY_PARA_1",	
-	"The Motlatse Canyon is a significant natural feature of South Africa, located in Mpumalanga, and forming the northern part of the Drakensberg escarpment. Located in the Blyde River Canyon Nature Reserve, it is 25 kilometers in length and is, on average, around 750 meters deep, sporting some of the deepest precipitous cliffs of any canyon on the planet."	),
+	"Каньон Блайд Ривер, также известный как Каньон Мотлетс является уникальным природным заповедником, являющийся частью Драконовых гор. Он расположен в провинции Мпумаланга в 60 км к северу от маленького городка Граскоп. С его вершин, высотой почти 2000 метров над уровнем моря, открываются одни из самых захватывающих видов в Южной Африке. Со смотровой площадки Окно Бога в ясный день можно увидеть парк Крюгера и территорию соседнего государства Мозамбик."	),
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_MOTLATSE_CANYON_CHAPTER_HISTORY_PARA_2",	
-	"While it is difficult to compare canyons world-wide, Blyde River Canyon is one of the largest canyons on Earth, and it may be the largest green canyon due to its lush subtropical foliage. It supports a large diversity of flora and fauna, including numerous fish and antelope species as well as hippos, crocodiles and every primate species that may be seen in south Africa, making it a very popular region for tourism."	),
+	"Каньон, высеченный в красном песчанике водами реки Блайд, является третьим по величине в мире и занимает территорию 29 000 га. Его глубина местами достигает 1380 м, а длина составляет более 25 км. Это уникальное место является одним из самых впечатляющих геологических особенностей Южной Африки."	),
 
 -----------------------------------------------
 -- NAMIB
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_NAMIB_NAME",					"Namib Sand Sea"	),
-	("ru_RU",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Three tile natural wonder. Yields +3 [ICON_CULTURE] Culture and +2 [ICON_GOLD] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"Foreign [ICON_TRADEROUTE] Trade Routes that pass through your cities provide +1 [ICON_CULTURE] Culture for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_FEATURE_NAMIB_NAME",					"Песчнаное море Намиб"	),
+	("ru_RU",	"LOC_TM_FEATURE_NAMIB_DESCRIPTION",			"Чудо природы занимает три клетки. Дает +3 [ICON_CULTURE] Культуры и +2 [ICON_GOLD] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_NAMIB_EFFECT",				"Внешние [ICON_TRADEROUTE] Торговые Пути, проходящие через ваши города, дают +1 [ICON_CULTURE] Культуры для Цивилизаций, которые владеют этим чудом."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_NAMIB_QUOTE',	
-	'"I love to hear the sound made by sand dunes, I am one of those who perceive the rhythm of a landscape as recorded in many paintings, I am one of thousands who know I am finally home."[NEWLINE]- Mvula Ya Nangolo'	),
+	'"В пустыне есть красота, которую не смог бы забыть, прожив я даже тысячу жизней."[NEWLINE]- Брайан Герберт'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_NAMIB_CHAPTER_HISTORY_PARA_1",	
-	"The Namib is a coastal desert in southern Africa, whose name is of Nama origin and means 'vast place'. The Namib stretches for more than 2,000km along the Atlantic coasts of Angola, Namibia, and South Africa. Having endured arid, or semi-arid conditions for roughly 55-80 million years, the Namib may be the oldest desert in the world, containing some of the world's driest regions. Owing to its aridity, the Namib is almost totally uninhabited except for a small number of scattered settlements, which have historically served as trading posts for the routes of traders and missionaries that cross the desert."	),
+	"Пустыня Намиб — старейшая пустыня на Земле, расположена в парке Намиб Науклуфт, четвертом по величине заповеднике мира, занимающем площадь 49 768 кв. км. Название «Намиб» на языке народа нама означает «место, где ничего нет». Намиб простирается на 1900 км вдоль побережья Атлантического океана через всю Намибию до устья реки Олифантс в ЮАР. От океана пустыня уходит вглубь континента на расстояние от 50 до 160 км к подножию внутриконтинентального плато; на юге она соединяется с юго-западной частью Калахари."	),
 
 -----------------------------------------------
 -- OLD FAITHFUL
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_OLD_FAITHFUL_NAME",					"Old Faithful"	),
-	("ru_RU",	"LOC_TM_FEATURE_OLD_FAITHFUL_DESCRIPTION",			"One tile natural wonder. Yields +3 [ICON_Science] Science, +1 [ICON_Faith] Faith, and +1 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT",				"Campus districts trigger a culture bomb in any City. Double adjacency bonuses for Campus districts if their City has a National Park."	),
+	("ru_RU",	"LOC_FEATURE_OLD_FAITHFUL_NAME",					"Старый Служака"	),
+	("ru_RU",	"LOC_TM_FEATURE_OLD_FAITHFUL_DESCRIPTION",			"Чудо природы занимает одну клетку. Дает +3 [ICON_Science] Науки, +1 [ICON_Faith] Веры и +1 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_OLD_FAITHFUL_EFFECT",				"Кампусы усиливают культурное влияние в каждом Городе. Двойные бонусы соседства для Кампусов, если в их Городе есть Национальный Парк."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_OLD_FAITHFUL_QUOTE',	
-	'"It spouted at regular intervals nine times during our stay, the columns of boiling water being thrown from ninety to one hundred and twenty-five feet at each discharge, which lasted from fifteen to twenty minutes. We gave it the name of Old Faithful."[NEWLINE]- Nathaniel P. Langford'	),
+	' "В жизни человека вулкан любви извергается лишь однажды, всё остальное — выбросы небольших гейзеров."[NEWLINE]- Ашот Наданян'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OLD_FAITHFUL_CHAPTER_HISTORY_PARA_1",	
-	"Old Faithful is a geyser found in Yellowstone National Park, in Wyoming, US. First seen by Europeans in 1870 (and by natives some 10,000 years before that), Old Faithful was thus named because of the regularity of its eruption. The geyser shoots a column of boiling water to a height of some 30-50 meters (100-175 feet) every 60-90 minutes (the interval determined by the ferocity of the previous eruption). Geysers occur when subterranean water hits magma (molten rock). The water is instantly turned to steam, which rushes out the nearest available opening at tremendously high pressure. Old Faithful and the other 250 geysers in Yellowstone are enjoyed by some three million visitors each year."	),
+	'"Старый служака" - это гейзер в Йеллоустонском парке в США. Коренные народы узнали о нем более 10 тысяч лет назад, а европейцы увидели его только в 1870 году. Свое прозвище он получил за регулярность извержений. Гейзер извергает столб кипящей воды на высоту до 30-50 метров каждые 60-90 минут (интервал зависит от мощи предыдущего выброса). Гейзеры образуются там, где подземные воды попадают в магму (расплавленную горную породу). Вода при этом обычно превращается в пар, который под большим давлением устремляется в ближайшее доступное отверстие. "Старого служаку" и еще более 250 гейзеров в Йеллоустоне ежегодно посещают более трех миллионов туристов.'	),
 
 -----------------------------------------------
 -- OUNIANGA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_OUNIANGA_NAME",					"Lakes of Ounianga"	),
-	("ru_RU",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Two tile natural wonder. Provides fresh water. Yields +2 [ICON_FOOD] Food, +2 [ICON_CULTURE] Culture, and +1 [ICON_GOLD] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Oases provide major adjacency bonuses to Specialty Districts for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_FEATURE_OUNIANGA_NAME",					"Озеро Унианга"	),
+	("ru_RU",	"LOC_TM_FEATURE_OUNIANGA_DESCRIPTION",			"Чудо природы занимает две клетки. Обеспечивает пресной водой. Дает +2 [ICON_FOOD] Еды, +2 [ICON_CULTURE] Культуры и +1 [ICON_GOLD] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_OUNIANGA_EFFECT",				"Оазисы дают больше бонусов от соседства к Специальным Районам для Цивилизаций, которые владеют этим чудом."	),
 
-	("ru_RU",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Faith from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("ru_RU",	"LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_SCIENCE] Science from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("ru_RU",	"LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",			"+{1_num} [ICON_CULTURE] Culture from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("ru_RU",	"LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Gold from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
-	("ru_RU",	"LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Production from adjacent {1_Num : plural 1?Oasis; other?Oases;} (Ounianga)."	),
+	("ru_RU",	"LOC_ADJ_OUNIANGA_FAITH_DESCRIPTION",			"+{1_num} [ICON_FAITH] Веры от соседней {1_Num : plural 1?Oasis; other?Oases;} (Унианги)."	),
+	("ru_RU",	"LOC_ADJ_OUNIANGA_SCIENCE_DESCRIPTION",			"+{1_num} [ICON_SCIENCE] Науки от соседней {1_Num : plural 1?Oasis; other?Oases;} (Унианги)."	),
+	("ru_RU",	"LOC_ADJ_OUNIANGA_CULTURE_DESCRIPTION",			"+{1_num} [ICON_CULTURE] Культуры от соседней {1_Num : plural 1?Oasis; other?Oases;} (Унианги)."	),
+	("ru_RU",	"LOC_ADJ_OUNIANGA_GOLD_DESCRIPTION",			"+{1_num} [ICON_GOLD] Золота от соседней {1_Num : plural 1?Oasis; other?Oases;} (Унианги)."	),
+	("ru_RU",	"LOC_ADJ_OUNIANGA_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_PRODUCTION] Производства от соседней {1_Num : plural 1?Oasis; other?Oases;} (Унианги)."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_OUNIANGA_QUOTE',	
-	'"At the beginning, the language of the desert was grass blooming against the wall of wind, tall palms swaying in the season of seeding and cinders carried by air to the blue welcome of warm sand. She was our first fountain, our mother, who held us, then gave us away to the age of waiting cities."[NEWLINE]- Al-Munsif al-Wahaybi'	),
+	'"Оазис - это каждодневная победа над пустыней."[NEWLINE]- Антуан де Сент-Экзюпери'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_OUNIANGA_CHAPTER_HISTORY_PARA_1",	
-	"Lakes of Ounianga are a series of eighteen interconnected lakes in the hyper arid Ennedi region of the Sahara desert, occupying a basin in the mountains of West Tibesti and Ennedi East. It constitutes an exceptional natural landscape of great beauty with striking colours and shapes. The saline, hyper saline and freshwater lakes are supplied by groundwater and are found in two groups 40 km apart. Ounianga Kebir comprises four lakes, the largest of which, Yoan, covers an area of 358 ha and is 27 m deep. Its highly saline waters only sustain algae and some microorganisms. The second group, Ounianga Serir, comprises fourteen lakes separated by sand dunes. Floating reeds cover almost half the surface of these lakes reducing evaporation. Lake Teli has the largest surface area but is less than 10 m deep. With their high quality freshwater, some of these lakes are home to aquatic fauna, particularly fish."	),
+	"Унианга — группа озёр в северо-восточном Чаде, на территории пустыни Сахара. Природный ландшафт отличается исключительной живописностью, особенно благодаря своим поразительным краскам и формам. Соленые, сверхсоленые и пресные озера, питающиеся за счет грунтовых вод, образуют две группы, лежащие в 40 км друг от друга. Первая группа, Унианга-Кебир, состоит из 4 озер, из которых самое крупное – Йоан – имеет площадь 358 га и глубину до 27 м. В его высокоминерализованных водах выживают только водоросли и некоторые микроорганизмы. Вторая группа, Унианга-Серир, включает 14 водоемов, разделенных песчаными дюнами. Плавающий тростник, покрывая почти половину этих озер, препятствует испарению воды. Озеро Тели, площадью 436 га, является здесь крупнейшим, однако его глубина не превышает 10 м. В некоторых озерах, благодаря их чистой пресной воде, обитает различная водная фауна, в частности, рыбы."	),
 
 -----------------------------------------------
 -- PAMUKKALE
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_PAMUKKALE_DESCRIPTION",				"Two tile impassable natural wonder. Provies Fresh Water. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_GOLD] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_PAMUKKALE_EFFECT",					"Regional buildings within Entertainment Complex or Waterpark districts provide +1 [ICON_AMENITIES] Amenity to cities within range for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_PAMUKKALE_DESCRIPTION",				"Чудо природы занимает две клетки. Обеспечивает пресной водой. Дает соседним клеткам +1 [ICON_CULTURE] Культуры и +1 [ICON_GOLD] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_PAMUKKALE_EFFECT",					"Районные здания Развлекательного Комплекса или Аквапарка дают +1 [ICON_AMENITIES] Счастья городам в пределах своего действия для Цивилизаций, которые владеют этим чудом."	),
 
 -----------------------------------------------
 -- PANTANAL
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_PANTANAL_DESCRIPTION",				"Four tile natural wonder. Appears as Marsh. Provides +3 [ICON_Food] Food and +2 [ICON_Culture] Culture."	),
-	("ru_RU",	"LOC_TM_FEATURE_PANTANAL_EFFECT",					"Marsh tiles provide standard adjacency bonuses for Specialty Districts for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_PANTANAL_DESCRIPTION",				"Чудо природы занимает четыре клетки. Появляется как Болото. Дает +3 [ICON_Food] Еды и +2 [ICON_Culture] Культуры."	),
+	("ru_RU",	"LOC_TM_FEATURE_PANTANAL_EFFECT",					"Болота обеспечивают стандартным бонусом соседства для Специализированных Районов для Цивилизаций, которые владеют этим чудом."	),
 	
-	("ru_RU",	"LOC_ADJ_PANTANAL_FAITH_DESCRIPTION",				"+{1_num} [ICON_Faith] Faith from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-	("ru_RU",	"LOC_ADJ_PANTANAL_SCIENCE_DESCRIPTION",				"+{1_num} [ICON_Science] Science from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-	("ru_RU",	"LOC_ADJ_PANTANAL_CULTURE_DESCRIPTION",				"+{1_num} [ICON_Culture] Culture from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-	("ru_RU",	"LOC_ADJ_PANTANAL_GOLD_DESCRIPTION",				"+{1_num} [ICON_Gold] Gold from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
-	("ru_RU",	"LOC_ADJ_PANTANAL_PRODUCTION_DESCRIPTION",			"+{1_num} [ICON_Production] Production from adjacent {1_Num : plural 1?Marsh; other?Marsh;} (Pantanal)."	),
+	("ru_RU",	"LOC_ADJ_PANTANAL_FAITH_DESCRIPTION",				"+{1_num} [ICON_Faith] Веры от соседнего   {1_Num : plural 1?Marsh; other?Marsh;} (Пантанала)."	),
+	("ru_RU",	"LOC_ADJ_PANTANAL_SCIENCE_DESCRIPTION",				"+{1_num} [ICON_Science] Науки от соседнего  {1_Num : plural 1?Marsh; other?Marsh;} (Пантанала)."	),
+	("ru_RU",	"LOC_ADJ_PANTANAL_CULTURE_DESCRIPTION",				"+{1_num} [ICON_Culture] Культуры от соседнего  {1_Num : plural 1?Marsh; other?Marsh;} (Пантанала)."	),
+	("ru_RU",	"LOC_ADJ_PANTANAL_GOLD_DESCRIPTION",				"+{1_num} [ICON_Gold] Золота от соседнего  {1_Num : plural 1?Marsh; other?Marsh;} (Пантанала)."	),
+	("ru_RU",	"LOC_ADJ_PANTANAL_PRODUCTION_DESCRIPTION",			"+{1_num} [ICON_Production] Производства от соседнего  {1_Num : plural 1?Marsh; other?Marsh;} (Пантанала)."	),
 
 -----------------------------------------------
 -- PIOPIOTAHI
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION",		"Three tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_PIOPIOTAHI_EFFECT",				"[ICON_Amenities] Amenities provided by regional buildings extend 3 tiles further for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_PIOPIOTAHI_DESCRIPTION",		"Чудо природы занимает три клетки. Дает соседним клеткам +1 [ICON_Culture] Культуры и +1 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_PIOPIOTAHI_EFFECT",				"[ICON_Amenities] Счастье распространяемое Районными Зданиями, увеличивают радиус на 3 клетки для Цивилизаций, которые владеют этим чудом."	),
 	
 -----------------------------------------------
 -- ROCK OF GIBRALTAR
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_GIBRALTAR_NAME",					"Rock of Gibraltar"	),
-	("ru_RU",	"LOC_TM_FEATURE_GIBRALTAR_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Food] Food and +1 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_GIBRALTAR_EFFECT",				"Encampments and Harbors receive +2 [ICON_GreatPerson] Great Person Points of their respective type in the City that owns this tile."	),
+	("ru_RU",	"LOC_FEATURE_GIBRALTAR_NAME",					"Гибралтарская Скала"	),
+	("ru_RU",	"LOC_TM_FEATURE_GIBRALTAR_DESCRIPTION",			"Чудо природы занимает одну клетку. Дает соседним клеткам +1 [ICON_Food] Еды и +1 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_GIBRALTAR_EFFECT",				"Военные Лагеря и Гавани получают +2 [ICON_GreatPerson] Очков Великого Человека их соответствующего типа в Городе, которому принадлежит это чудо."	),
 
 	("ru_RU",	'LOC_TM_FEATURE_GIBRALTAR_QUOTE',	
-	'"Look round, my boys, and view how beautiful the Rock appears by the light of the glorious fire."[NEWLINE]- George Augustus Eliott'	),
+	'"Гибралтар нужен для нашей выгодной торговли и чтобы злить испанцев."[NEWLINE]- Оливер Кромвель'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_GIBRALTAR_CHAPTER_HISTORY_PARA_1",	
-	"Gibraltar is a peninsula containing a remarkable rock formation at the mouth of the Mediterranean Sea. Captured from Spain by the English and Dutch in 1704 and ceded to England in 1713, Gibraltar has been a British possession ever since (much to the annoyance of Spain, which wants it back). Commanding the entrance to the Atlantic from the Mediterranean, Gibraltar has been a major British naval base for three hundred years. Most of Gibraltar is covered by the 'Rock', a huge formation of shale, sandstone and limestone thrust up by the unimaginable power of plate tectonics. The Rock stands some 430 meters (1400 feet) in height. At one time Gibraltar was a massive fortification allowing Britain to dominate the narrow Mediterranean-Atlantic passage, but today the island is more of a nature preserve and tourist destination than it is a military base."	),
+	"Гибралтар - это полуостров у входа в Средиземное море. В 1704 году англичане и голландцы отобрали его у испанцев, а в 1713 году Гибралтар стал владением Великобритании, причем Испания до сих пор не может его вернуть. На Гибралтаре, контролирующем выход в Атлантику из Средиземного моря, триста лет существует английская морская база. Большую часть полуострова занимает Гибралтарская скала - огромное образование из сланца, песчаника и известняка, вытолкнутое на поверхность невероятным давлением тектонических плит. Высота скалы около 425 метров. Многие годы Гибралтар укреплялся крепостными стенами, выдерживал осады и участвовал в войнах. Сегодня же он стал скорее природным заповедником и излюбленным местом для туристов."	),
 
 -----------------------------------------------
 -- RORAIMA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_RORAIMA_DESCRIPTION",			"Four tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_FAITH] Faith and +1 [ICON_SCIENCE] Science."	),
-	("ru_RU",	"LOC_TM_FEATURE_RORAIMA_EFFECT",				"Onwed Jungle tiles do not reduce the appeal of adjacent plots for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_RORAIMA_DESCRIPTION",			"Чудо природы занимает три клетки. Появляется как Горы. Дает соседним клеткам +1 [ICON_FAITH] Веры и +1 [ICON_SCIENCE] Науки."	),
+	("ru_RU",	"LOC_TM_FEATURE_RORAIMA_EFFECT",				"Джунгли не уменьшают привлекательность соседних клеток для Цивилизаций, которые владеют этим чудом."	),
 
 -----------------------------------------------
 -- SAHARA EL BEYDA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION",			"Four tile natural wonder. Yields +3 [ICON_GOLD] Gold, +1 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
-	("ru_RU",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT",				"Cities are immune to damage from Dust Storms for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_DESCRIPTION",			"Чудо природы занимает четыре клетки. Дает +3 [ICON_GOLD] Золота, +1 [ICON_SCIENCE] Науки и +1 [ICON_CULTURE] Культуры."	),
+	("ru_RU",	"LOC_TM_FEATURE_SAHARA_EL_BEYDA_EFFECT",				"Города невосприимчивы к урону от Пыльных Бурь для Цивилизаций, которые владеют этим чудом."	),
 
 -----------------------------------------------
 -- SALAR DE UYUNI
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_SALAR_DE_UYUNI_NAME",					"Salar de Uyuni"	),
-	("ru_RU",	"LOC_TM_FEATURE_SALAR_DE_UYUNI_DESCRIPTION",		"Four tile natural wonder. Yields +2 [ICON_Science] Science, +1 [ICON_Production] Production, and +2 [ICON_Gold] Gold."	),
-	("ru_RU",	"LOC_TM_FEATURE_SALAR_DE_UYUNI_EFFECT",				"Grants a free copy of the [ICON_RESOURCE_TM_LITHIUM] Lithium luxury resource (not tradeable), which provides +6 [ICON_Amenities] Amenities, to any player that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_FEATURE_SALAR_DE_UYUNI_NAME",					"Солончак Уюни"	),
+	("ru_RU",	"LOC_TM_FEATURE_SALAR_DE_UYUNI_DESCRIPTION",		"Чудо природы занимает четыре клетки. Дает +2 [ICON_Science] Науки, +1 [ICON_Production] Прозводства и +2 [ICON_Gold] Золота."	),
+	("ru_RU",	"LOC_TM_FEATURE_SALAR_DE_UYUNI_EFFECT",				"Дает бесплатный ресурс роскоши [ICON_RESOURCE_TM_LITHIUM] Литий (нельзя обменять), который предоставляет +6 [ICON_Amenities] Счастья ддля Цивилизаций, которые владеют этим чудом."	),
 
 	("ru_RU",	'LOC_TM_FEATURE_SALAR_DE_UYUNI_QUOTE',	
-	'"I shivered in those solitudes when I heard the voice of the salt in the desert."[NEWLINE]- Pablo Neruda'	),
+	'"Здесь царство снов. На сотни вёрст безлюдны[NEWLINE]Солончаков нагие берега.[NEWLINE]Но воды в них — небесно-изумрудны[NEWLINE]И шёлк песков белее, чем снега..."[NEWLINE]- Иван Бунин'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_SALAR_DE_UYUNI_CHAPTER_HISTORY_PARA_1",	
-	"Situated in southwest Bolivia, near the Chilean border and the Atacama Desert, lies Salar de Uyuni; the largest salt flat on Earth at 10,582 square kilometers, roughly 100 times the size of the Bonneville Salt Flats in the United States. The Salar was formed a result of transformations between several prehistoric lakes. Covered by a few meters of salt crust, it has an extraordinary flatness with the average elevation variations within one meter over the entire area of the Salar. The large area, clear skies, and exceptional flatness of the surface make it an ideal object for calibrating the altimeters of Earth observation satellites."	),
+	"Солончак Ую́ни — высохшее солёное озеро на юге пустынной равнины Альтиплано, Боливия на высоте около 3650 м над уровнем моря. Имеет площадь 10 588 км²[2] и является крупнейшим солончаком в мире. Располагается в окрестностях города Уюни на территории департаментов Оруро и Потоси на юго-западе страны. Основные минералы — галит и гипс. Внутренняя часть покрыта слоем поваренной соли толщиной 2—8 м. Во время сезона дождей солончак покрывается тонким слоем воды и превращается в самую большую в мире зеркальную поверхность. При высыхании покрывается шестиугольными корками."	),
 
-	("ru_RU",	"LOC_RESOURCE_TM_LITHIUM_NAME",	"Lithium"	),
+	("ru_RU",	"LOC_RESOURCE_TM_LITHIUM_NAME",	"Литий"	),
 	("ru_RU",	"LOC_PEDIA_RESOURCES_PAGE_RESOURCE_TM_LITHIUM_CHAPTER_HISTORY_PARA_1",
-	"Lithium, from Greek lithos stone, is a soft, silver-white metal that has highly reactive properties. Lithium and its compounds have several industrial applications, including heat-resistant glass and ceramics, lithium grease lubricants, flux additives for iron, steel and aluminium production, lithium batteries, and lithium-ion batteries. Salar de Uyuni, in southwest Bolivia, contains 50% to 70% of the world's known lithium reserves, which is in the process of being extracted."	),
+	"Литий — химический элемент. Литий встречается в природе в виде двух стабильных нуклидов. В периодической таблице Менделеева литий расположен во втором периоде, первой группе. Элемент принадлежит к щелочным металлам. Известны около 30 минералов лития, но главные его запасы содержаться в воде соляных озер. Щелочные металлы и их соединения широко используются в технике. Литий применяется в ядерной энергетике."	),
 
 -----------------------------------------------
 -- SINAI
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_SINAI_NAME",					"Mount Sinai"	),
-	("ru_RU",	"LOC_TM_FEATURE_SINAI_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Faith] Faith."	),
-	("ru_RU",	"LOC_TM_FEATURE_SINAI_EFFECT",				"Holy Sites provide +1 [ICON_GreatPerson] Great Person Points toward [ICON_GreatProphet] Great Prophets for the player that owns this tile. Religious receive +10 Theological [ICON_Strength] Combat Strength."	),
+	("ru_RU",	"LOC_FEATURE_SINAI_NAME",					"Гора Синай"	),
+	("ru_RU",	"LOC_TM_FEATURE_SINAI_DESCRIPTION",			"Чудо природы занимает одну клетку. Появляется как Гора. Дает соседним клеткам +2 [ICON_Faith] Веры."	),
+	("ru_RU",	"LOC_TM_FEATURE_SINAI_EFFECT",				"Священные Места дают +1 очко [ICON_GreatPerson] Великих Людей для [ICON_GreatProphet] Великих Пророков, для Цивилизации, которому принадлежит это чудо. Религиозные юниты получают +10 [ICON_Strength] Боевой Силы."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_SINAI_QUOTE',	
-	'"When the Lord finished speaking to Moses on Mount Sinai, he gave him the two tablets of the covenant law, the tablets of stone inscribed by the finger of God."[NEWLINE]- Exodus 31:18'	),
+	'"Мы вырастили дерево, которое растет на горе Синай и дает масло и приправу для вкушающих."[NEWLINE]- Аль-Муминун'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_SINAI_CHAPTER_HISTORY_PARA_1",	
-	"Found on the Sinai Peninsula of Egypt, Mount Sinai is among the most revered holy sites recognized by the followers of Judaism, Christianity, and Islam. Mount Sinai is believed to be the location where Moses first received the Ten Commandments from God during the Israelites' exodus from Egypt, making the peak an important site for religious pilgrims from around the world."	),
+	"Гора Сина́й — гора на Синайском полуострове в Египте. Согласно Библии, на этой горе Бог являлся Моисею и дал Десять заповедей. Еврейская традиция не сохранила точного местонахождения горы Синай. Почитание нынешней горы Моисея (араб. Джабал-Муса) как горы Синай является древней христианской традицией, восходящей к началу IV века (Евсевий Кесарийский)."	),
 
 -----------------------------------------------
 -- SRI PADA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_SRI_PADA_NAME",					"Sri Pada"	),
-	("ru_RU",	"LOC_TM_FEATURE_SRI_PADA_DESCRIPTION",			"One tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +1 [ICON_Food] Food and +1 [ICON_Faith] Faith."	),
-	("ru_RU",	"LOC_TM_FEATURE_SRI_PADA_EFFECT",				"Religious units from any Civilization that owns this tile receive [ICON_Culture] Culture upon converting a City to their [ICON_Religion] Religion for the first time."	),
+	("ru_RU",	"LOC_FEATURE_SRI_PADA_NAME",					"Шри Пада"	),
+	("ru_RU",	"LOC_TM_FEATURE_SRI_PADA_DESCRIPTION",			"Чудо природы занимает одну клетку. Появляется как Гора. Дает соседним клеткам +1 [ICON_Food] Еды и +1 [ICON_Faith] Веры."	),
+	("ru_RU",	"LOC_TM_FEATURE_SRI_PADA_EFFECT",				"Религиозные юниты Цивилизации, владеющая этим чудом, получают очки [ICON_Culture] Культуры после первого обращения города в свою [ICON_Religion] Религию."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_SRI_PADA_QUOTE',	
-	'"An exceedingly wondrous sight, which is endowed with supreme splendour."[NEWLINE]- The Mahabharata'	),
+	'"Чудесное зрелище, наделенное высочайшим великолепием."[NEWLINE]- Махабхарата'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_SRI_PADA_CHAPTER_HISTORY_PARA_1",	
-	"Towering above Sri Lanka, Sri Pada is a large mountain peak with an unusually conical shape that is held sacred by a number of religions for the footprint found at its peak. The footprint, a large depression found in a rock formation on the summit, has been attributed to Buddha, Shiva, and the biblical figure Adam, leading to a reverence among followers of Buddhism, Hinduism, and Islam. Each year, thousands of pilgrims trek for hours up the mountain to pay their respects at the holy site."	),
+	"Адамова Вершина - гора необычной конической формы на островном государстве Шри-Ланка. Гора считается священной из-за окаменевшего следа на ее верхушке, который, в трактовках разных конфессий, оставил библейский Адам, либо Шива, либо Будда (отсюда местное название горы - Шри-Пада). Каждый год тысячи буддистов, индуистов и мусульман совершают многочасовое восхождение на Адамову Вершину, чтобы посетить это святое место."	),
 
 -----------------------------------------------
 -- TORRES DEL PAINE
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_TORRES_DEL_PAINE_DESCRIPTION",			"Two tile impassable natural wonder. Doubles the terrain yields of adjacent tiles."	),
-	("ru_RU",	"LOC_TM_FEATURE_TORRES_DEL_PAINE_EFFECT",				"Any City that owns at least one of these tiles may build one extra District than the [ICON_Citizen] Population would normally allow."	),
+	("ru_RU",	"LOC_TM_FEATURE_TORRES_DEL_PAINE_DESCRIPTION",			"Чудо природы занимает две клетки. Удваивает урожайность соседних клеток."	),
+	("ru_RU",	"LOC_TM_FEATURE_TORRES_DEL_PAINE_EFFECT",				"Городу, которому принадлежит это чудо, может построить один дополнительный Район, нежели позволяет текущее [ICON_Citizen] Население."	),
 
 -----------------------------------------------
 -- TSINGY
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_TSINGY_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_Culture] Culture and +1 [ICON_Science] Science."	),
-	("ru_RU",	"LOC_TM_FEATURE_TSINGY_EFFECT",					"Theater districts trigger a culture bomb in any City. Double adjacency bonuses for Theater districts if their City has a National Park."	),
+	("ru_RU",	"LOC_TM_FEATURE_TSINGY_DESCRIPTION",			"Чудо природы занимает одну клетку. Дает соседним клеткам +1 [ICON_Culture] Культуры и +1 [ICON_Science] Науки."	),
+	("ru_RU",	"LOC_TM_FEATURE_TSINGY_EFFECT",					"Театральные районы увеличивают культурное влияние в каждом Городе. Двойной бонус Театральных Районов для соседних клеток, если в их городе есть Национальный Парк."	),
 
 -----------------------------------------------
 -- UBSUNUR HOLLOW
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION",		"Four tile natural wonder. Appears as Marsh. Yields +2 [ICON_FAITH] Faith, +1 [ICON_FOOD] Food, and +2 [ICON_PRODUCTION] Production."	),
-	("ru_RU",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT",				"Any Civilization that owns at least one of these tiles receives a free [ICON_CivicBoosted] Inspiration upon earning a [ICON_GreatGeneral] Great General."	),
+	("ru_RU",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_DESCRIPTION",		"Чудо природы занимает четыре клетки. Появляется как Болото. Дает +2 [ICON_FAITH] Веры, +1 [ICON_FOOD] Еды и +2 [ICON_PRODUCTION] Производства."	),
+	("ru_RU",	"LOC_TM_FEATURE_UBSUNUR_HOLLOW_EFFECT",				"Каждая Цивилизация, которая владеет этим чудом, получает бесплатно [ICON_CivicBoosted] Вдохновение когда плучает [ICON_GreatGeneral] Великого Генерала."	),
 
 -----------------------------------------------
 -- ULURU
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",			"One tile impassable natural wonder. Adjacent plots yield +1 [ICON_CULTURE] Culture and +1 [ICON_FAITH] Faith."	),
-	("ru_RU",	"LOC_TM_FEATURE_ULURU_EFFECT",				"Specialty Districts constructed on desert terrain yield +1 [ICON_Food] Food for any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_TM_FEATURE_ULURU_DESCRIPTION",			"Чудо природы занимает одну клетку. Дает соседним клеткам +1 [ICON_CULTURE] Культуры и +1 [ICON_FAITH] Веры."	),
+	("ru_RU",	"LOC_TM_FEATURE_ULURU_EFFECT",				"Специальные Районы, построенные в Пустыне, дают +1 [ICON_Food] Еды Цивилизации, владеющая этим чудом."	),
 
 -----------------------------------------------
 -- VESUVIUS
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_VESUVIUS_DESCRIPTION",				"One tile impassable natural wonder. Appears as a Volcano. Adjacent plots yield +1 [ICON_PRODUCTION] Production. Provides additional yields on eruption at the cost of [ICON_Citizen] Population and damage to infrastructure. Always active."	),
-	("ru_RU",	"LOC_TM_FEATURE_VESUVIUS_EFFECT",					"Antiquity Sites yield +4 [ICON_CULTURE] Culture, and [ICON_GREATWORK_ARTIFACT] Artifacts yield +2 [ICON_CULTURE] Culture and +2 [ICON_TOURISM] Tourism for any Civilization that owns this tile."	),
+	("ru_RU",	"LOC_TM_FEATURE_VESUVIUS_DESCRIPTION",				"Чудо природы занимает одну клетку. Появляется как Вулкан. Дает соседним клеткам +1 [ICON_PRODUCTION] Производства. Обеспечивает дополнительный доход при извержении за счет [ICON_Citizen] Населения и ущерба постройкам. Всегда активный."	),
+	("ru_RU",	"LOC_TM_FEATURE_VESUVIUS_EFFECT",					"Античные архиолгические места дают +4 [ICON_CULTURE] Культуре. [ICON_GREATWORK_ARTIFACT] Артифакты дают +2 [ICON_CULTURE] Культуры и +2 [ICON_TOURISM] Туризма для Цивилизации владеющая этим чудом."	),
 
 -----------------------------------------------
 -- VREDEFORT DOME
 -----------------------------------------------
 
-	("ru_RU",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"Vredefort Dome"	),
-	("ru_RU",	"LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",		"Two tile natural wonder. Yields +2 [ICON_FOOD] Food, +2 [ICON_SCIENCE] Science, and +1 [ICON_CULTURE] Culture."	),
-	("ru_RU",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",				"Farms provide +1 [ICON_FOOD] Food when adjacent to another Farm for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_FEATURE_VREDEFORT_DOME_NAME",					"Кратер Вредефорт"	),
+	("ru_RU",	"LOC_TM_FEATURE_VREDEFORT_DOME_DESCRIPTION",		"Чудо природы занимает две клетки. Дает +2 [ICON_FOOD] Еды, +2 [ICON_SCIENCE] Науки и +1 [ICON_CULTURE] Культуры."	),
+	("ru_RU",	"LOC_TM_FEATURE_VREDEFORT_DOME_EFFECT",				"Фермы дают +1 [ICON_FOOD] Еды, когда находятся рядом с другой фермой, для Цивилизаций, которые владеют этим чудом."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_VREDEFORT_DOME_QUOTE',	
-	'"When geologists first wandered the spectacular ring of hills straddling the Vaal River north of Vredefort nearly 150 years ago, they immediately recognised that the unusually shattered and uptilted rocks bore witness to an exceptionally violent event in the distant past."[NEWLINE]- Wolf Uwe Reimold'	),
+	'"А что, если наша земля — ад какой-то другой планеты?"[NEWLINE]- Олдос Хаксли'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_VREDEFORT_DOME_CHAPTER_HISTORY_PARA_1",	
-	"The Vredefort Dome is the largest verified impact crater on Earth, more than 300km across when it was formed. What remains of it is located in the present-day Free State province of South Africa where cultivated agriculture dominates the landscape. The crater is estimated to be over 2 billion years old, with impact taking place in the Paleoproterozoic Era, making it the second-oldest known crater on Earth."	),
+	"Кратер Вредефорт  — ударный кратер на Земле, расположен в 120 километрах от центра города Йоханнесбург, ЮАР. Диаметр кратера составляет 250—300 километров, что делает его крупнейшим на планете (не считая неизученного вероятного кратера Земли Уилкса диаметром 500 километров в Антарктиде). Назван в честь расположенного внутри кратера города Вредефорт. В 2005 году был зачислен в перечень объектов Всемирного Наследия ЮНЕСКО."	),
 
 -----------------------------------------------
 -- WULINGYUAN
 -----------------------------------------------
 	
-	("ru_RU",	"LOC_FEATURE_WULINGYUAN_NAME",					"Wulingyuan"	),
-	("ru_RU",	"LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",		"Two tile impassable natural wonder. Adjacent plots yield +2 [ICON_Culture] Culture"	),
-	("ru_RU",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",				"Great Works of [ICON_GreatWork_Writing] Writing yield +2 [ICON_Culture] Culture and +2 [ICON_Tourism] Tourism for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_FEATURE_WULINGYUAN_NAME",					"Улинъюань"	),
+	("ru_RU",	"LOC_TM_FEATURE_WULINGYUAN_DESCRIPTION",		"Чудо природы занимает две клетки. Дает соседним клеткам +2 [ICON_CULTURE] Культуры."	),
+	("ru_RU",	"LOC_TM_FEATURE_WULINGYUAN_EFFECT",				"Великие Произведения [ICON_GreatWork_Writing] Писателей дают +2 [ICON_Culture] Культуры и +2 [ICON_Tourism] Туризма, для Цивилизаций, которые владеют этим чудом."	),
 	
 	("ru_RU",	'LOC_TM_FEATURE_WULINGYUAN_QUOTE',	
-	'"From ten thousand valleys the trees touch heaven, on a thousand peaks cuckoos are calling, and, after a night of mountain rain, from each summit come hundreds of silken cascades."[NEWLINE]- Wang Wei'	),
+	'"Для большинства людей горы – что-то величественное, но далекое от повседневной жизни, то есть идеальная гармония."[NEWLINE]- Ули Штек'	),
 	
 	("ru_RU",	"LOC_PEDIA_FEATURES_PAGE_FEATURE_WULINGYUAN_CHAPTER_HISTORY_PARA_1",	
-	"Wulingyuan is a scenic and historical site in south-central China. It is noted for more than 3,000 quartzite sandstone pillars and peaks, many over 200 meters in height, along with ravines, gorges, pools, lakes, rivers and waterfalls. It features 40 caves and two natural bridges, Xianrenqiao (Bridge of the Immortals) and Tianqiashengkong (Bridge Across the Sky)."	),
+	"Улинъюань  — часть горной системы Улиншань, расположенная на северо-западе провинции Хунань в Китае. Объект Всемирного культурного и природного наследия ЮНЕСКО. В результате выветривания песчаников и известняков сформировалось около 3000 пиков и утёсов самых причудливых очертаний. Их разделяют глубокие ущелья с реками, озёрами и водопадами; имеются два природных моста и около 40 пещер. Горы служат местом обитания для ряда исчезающих видов растений и животных. Для туристов открыты 5 маршрутов, в том числе канатные дороги. Заповедник является местом обитания ряда исчезающих видов растений и животных. Более 30 эндемичных видов флоры и фауны обитают в парке, а всего растет около 3000 редких видов растений."	),
 
 -----------------------------------------------
 -- YOSEMITE
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_YOSEMITE_DESCRIPTION",			"Two tile impassable natural wonder. Adjacent plots yield +1 [ICON_Gold] Gold and +1 [ICON_Science] Science."	),
-	("ru_RU",	"LOC_TM_FEATURE_YOSEMITE_EFFECT",				"Owned Forest tiles provide an additional +1 Appeal to adjacent plots for any Civilization that owns at least one of these tiles."	),
+	("ru_RU",	"LOC_TM_FEATURE_YOSEMITE_DESCRIPTION",			"Чудо природы занимает две клетки. Дает соседним клеткам  +1 [ICON_Gold] Золота и +1 [ICON_Science] Науки."	),
+	("ru_RU",	"LOC_TM_FEATURE_YOSEMITE_EFFECT",				"Леса дают дополнительные +1 Влияния на соседние участки, для Цивилизаций, которые владеют этим чудом."	),
 
 -----------------------------------------------
 -- ZHANGYE DANXIA
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_DESCRIPTION",		"Three tile impassable natural wonder. Appears as a Mountain. Adjacent plots yield +2 [ICON_Science] Science."	),
-	("ru_RU",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT",				"Commercial Hubs and Campus districts in a City that owns at least one of these tiles receive +2 [ICON_GreatPerson] Great Person Points of their respective type."	),
+	("ru_RU",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_DESCRIPTION",		"Чудо природы занимает две клетки. Появляется как Гора. Дает соседним клеткам +2 [ICON_Science] Науки."	),
+	("ru_RU",	"LOC_TM_FEATURE_ZHANGYE_DANXIA_EFFECT",				"Коммерческие Центры и Кампусы получают +2 [ICON_GreatPerson] Очков Великого Человека, в городах которые владеют этим чудом."	),
 
 -----------------------------------------------
 -- MISC - District Adjacency
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_ADJ_NW_FAITH_DESCRIPTION",			"+{1_num} [ICON_Faith] Faith from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-	("ru_RU",	"LOC_TM_ADJ_NW_SCIENCE_DESCRIPTION",		"+{1_num} [ICON_Science] Science from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-	("ru_RU",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} [ICON_Culture] Culture from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-	("ru_RU",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_Production] Production from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
-	("ru_RU",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} [ICON_Gold] Gold from the adjacent {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("ru_RU",	"LOC_TM_ADJ_NW_FAITH_DESCRIPTION",			"+{1_num} [ICON_Faith] Веры от соседства {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("ru_RU",	"LOC_TM_ADJ_NW_SCIENCE_DESCRIPTION",		"+{1_num} [ICON_Science] Науки от соседства {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("ru_RU",	"LOC_TM_ADJ_NW_CULTURE_DESCRIPTION",		"+{1_num} [ICON_Culture] Культуры от соседства {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("ru_RU",	"LOC_TM_ADJ_NW_PRODUCTION_DESCRIPTION",		"+{1_num} [ICON_Production] Производства от соседства {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
+	("ru_RU",	"LOC_TM_ADJ_NW_GOLD_DESCRIPTION",			"+{1_num} [ICON_Gold] Золота от соседства {1_Num : plural 1?Natural Wonder; other?Natural Wonder plots;}."	),
 
 -----------------------------------------------
 -- MISC - Naturlist
 -----------------------------------------------
 
-	("ru_RU",	"LOC_TM_UNIT_NATURALIST_DESCRIPTION",			"A late-game civilian who can create a single National Park to attract [ICON_Tourism] Tourists. Must be purchased with [ICON_GOLD] Gold or [ICON_FAITH] Faith."	);
+	("ru_RU",	"LOC_TM_UNIT_NATURALIST_DESCRIPTION",			"В поздней игре, цивилизации могут создать единый Национальный Парк для привлечения туристов. Приобретается за [ICON GOLD] Золото или [ICON_FAITH] Веру."	);

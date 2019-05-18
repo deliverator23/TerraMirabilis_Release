@@ -6,7 +6,7 @@
     <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
     <Teaser>A mod that reworks Natural Wonders in Civilization VI, and adds new ones that include some old fan-favourites.</Teaser>
     <Authors>Deliverator, ChimpanG</Authors>
-    <SpecialThanks>SeelingCat, Sub6, Ari, boynextdoor, YamiNick</SpecialThanks>
+    <SpecialThanks>SeelingCat, Sub6, Ari, boynextdoor, YamiNick, Gabriel, nut9931</SpecialThanks>
   </Properties>
   <ActionCriteria>
     <Criteria id="XP1">
@@ -21,6 +21,9 @@
   </ActionCriteria>
   <InGameActions>
     <UpdateArt id="ArtDep">
+      <Properties>
+        <LoadOrder>10</LoadOrder>
+      </Properties>
       <File>NaturalWondersMod.dep</File>
     </UpdateArt>
     <UpdateDatabase id="TM_Schema">
@@ -37,7 +40,7 @@
     </UpdateDatabase>
     <UpdateDatabase id="TM_Preliminaries_XP1">
       <Properties>
-        <LoadOrder>10</LoadOrder>
+        <LoadOrder>101</LoadOrder>
       </Properties>
       <Criteria>XP1 or XP2</Criteria>
       <File priority="1">Core/Natural Wonders/TM_Features_XP1.sql</File>
@@ -326,7 +329,6 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_BioBayBlue_OPAC5</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
-    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Burn_M</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Dallol_01_b</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Dallol_01_fow</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Dallol_01_g</File>
@@ -362,6 +364,7 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_02</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_B</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_FOW</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_FOWSprite</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_H</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_B</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_FOW</File>
@@ -414,7 +417,6 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_BioBayBlue_OPAC5</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_BaseColor</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_G</File>
-    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Burn_M</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Dallol_01_b</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Dallol_01_fow</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Dallol_01_g</File>
@@ -450,6 +452,7 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_FX_Rock1_a_02</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_B</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_FOW</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_FOWSprite</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_BarrierReef_Decal_H</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_B</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_NWON_Crater_Decal4_FOW</File>

@@ -62,13 +62,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -958,13 +954,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -1671,13 +1663,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -2140,13 +2128,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -2853,13 +2837,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -3688,13 +3668,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -4523,13 +4499,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -4788,13 +4760,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -5013,13 +4981,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
@@ -5726,13 +5690,9 @@
 							<m_TemplateName text=""/>
 							<m_ParamName text="Lowend Substitute"/>
 						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>true</m_bValue>
-							<m_ParamName text="OldAsset"/>
-						</Element>
-						<Element class="AssetObjects..BoolValue">
-							<m_bValue>false</m_bValue>
-							<m_ParamName text="ClampToHexCenter"/>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Default"/>
+							<m_ParamName text="Mode"/>
 						</Element>
 					</m_Values>
 				</m_Fields>
