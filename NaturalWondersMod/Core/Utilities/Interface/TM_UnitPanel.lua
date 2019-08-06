@@ -42,11 +42,7 @@ function GetUnitActionsTable( pUnit )
 			if (actionHash == UnitCommandTypes.ENTER_FORMATION) then
 				--Check if there are any units in the same tile that this unit can create a formation with
 				--Call CanStartCommand asking for results
-
-				-- Terra Mirabilis - change this next line to overcome massive Builder lag when
-				local bCanStart, tResults = UnitManager.CanStartCommand( pUnit, actionHash, nil, false, false);
-				-- Terra Mirabilis - end
-
+				local bCanStart, tResults = UnitManager.CanStartCommand( pUnit, actionHash, nil, true);
 				if (bCanStart and tResults) then
 					if (tResults[UnitCommandResults.UNITS] ~= nil and #tResults[UnitCommandResults.UNITS] ~= 0) then
 						local tUnits = tResults[UnitCommandResults.UNITS];
@@ -157,3 +153,179 @@ function GetUnitActionsTable( pUnit )
 			end
 		end
 	end
+
+
+	-- Loop over the UnitOperations (like commands but may take 1 to N turns to complete)
+
+	-- Only show the operations if the unit has moves left.
+	local isHasMovesLeft = pUnit:GetMovesRemaining() > 0;
+	if isHasMovesLeft then
+
+		for operationRow in GameInfo.UnitOperations() do
+
+			local actionHash	:number = operationRow.Hash;
+			local isDisabled	:boolean= IsDisabledByTutorial( unitType, actionHash );
+
+			-- if unit can build an improvement, show all the buildable improvements for that tile
+			if IsBuildingImprovement(actionHash) then
+				local tParameters = GetBuildImprovementParameters(actionHash, pUnit);
+
+				--Call CanStartOperation asking for results
+				local bCanStart, tResults = UnitManager.CanStartOperation( pUnit, actionHash, nil, tParameters, true);
+
+				if (bCanStart and tResults ~= nil) then
+					if (tResults[UnitOperationResults.IMPROVEMENTS] ~= nil and #tResults[UnitOperationResults.IMPROVEMENTS] ~= 0) then
+
+						bestValidImprovement = tResults[UnitOperationResults.BEST_IMPROVEMENT];
+
+						local tImprovements = tResults[UnitOperationResults.IMPROVEMENTS];
+						for i, eImprovement in ipairs(tImprovements) do
+
+							tParameters[UnitOperationTypes.PARAM_IMPROVEMENT_TYPE] = eImprovement;
+
+							local improvement		= GameInfo.Improvements[eImprovement];
+
+							-- TERRA MIRABILIS - change this next line to overcome massive Builder lag
+							bCanStart, tResults = UnitManager.CanStartOperation(pUnit, actionHash, nil, tParameters, false, false);
+							-- TERRA MIRABILIS - end
+
+							local isDisabled		= not bCanStart;
+							local toolTipString		= Locale.Lookup(operationRow.Description) .. ": " .. Locale.Lookup(improvement.Name);
+
+							if tResults ~= nil then
+
+								if (tResults[UnitOperationResults.ADDITIONAL_DESCRIPTION] ~= nil) then
+									for i,v in ipairs(tResults[UnitOperationResults.ADDITIONAL_DESCRIPTION]) do
+										toolTipString = toolTipString .. "[NEWLINE]" .. Locale.Lookup(v);
+									end
+								end
+
+								-- Are there any failure reasons?
+								if isDisabled then
+									if (tResults[UnitOperationResults.FAILURE_REASONS] ~= nil) then
+										-- Add the reason(s) to the tool tip
+										for i,v in ipairs(tResults[UnitOperationResults.FAILURE_REASONS]) do
+											toolTipString = toolTipString .. "[NEWLINE]" .. "[COLOR:Red]" .. Locale.Lookup(v) .. "[ENDCOLOR]";
+										end
+									end
+								end
+							end
+
+							-- If this improvement is the same enum as what the game marked as "the best" for this plot, set this flag for the UI to use.
+							if ( bestValidImprovement ~= nil and bestValidImprovement ~= -1 and bestValidImprovement == eImprovement ) then
+								improvement["IsBestImprovement"] = true;
+							else
+								improvement["IsBestImprovement"] = false;
+							end
+
+							improvement["CategoryInUI"] = "BUILD";	-- TODO: Force improvement to be a type of "BUILD", this can be removed if CategoryInUI is added to "Improvements" in the database schema. ??TRON
+							local callbackFn, isDisabled = GetBuildImprovementCallback( actionHash, isDisabled );
+							AddActionToTable( actionsTable, improvement, isDisabled, toolTipString, actionHash, callbackFn, improvement.Hash );
+						end
+					end
+				end
+			elseif (actionHash == UnitOperationTypes.MOVE_TO) then
+				local bCanStart		:boolean= UnitManager.CanStartOperation( pUnit,  UnitOperationTypes.MOVE_TO, nil, false, false);	-- No exclusion test, no results
+				if (bCanStart) then
+					local toolTipString	:string	= Locale.Lookup(operationRow.Description);
+					AddActionToTable( actionsTable, operationRow, isDisabled, toolTipString, actionHash, OnUnitActionClicked_MoveTo );
+				end
+			elseif (operationRow.CategoryInUI == "OFFENSIVESPY") then
+				local bCanStart		:boolean= UnitManager.CanStartOperation( pUnit, actionHash, nil, false, false);	-- No exclusion test, no result
+				if (bCanStart) then
+					---- We only want a single offensive spy action which opens the EspionageChooser side panel
+					if actionsTable[operationRow.CategoryInUI] ~= nil and table.count(actionsTable[operationRow.CategoryInUI]) == 0 then
+						local toolTipString	:string	= Locale.Lookup("LOC_UNITPANEL_ESPIONAGE_CHOOSE_MISSION");
+						AddActionToTable( actionsTable, operationRow, isDisabled, toolTipString, actionHash, OnUnitActionClicked, UnitOperationTypes.TYPE, actionHash, "ICON_UNITOPERATION_SPY_MISSIONCHOOSER");
+					end
+				end
+			elseif (actionHash == UnitOperationTypes.SPY_COUNTERSPY) then
+				local bCanStart, tResults = UnitManager.CanStartOperation( pUnit, actionHash, nil, true );
+				if (bCanStart) then
+					local toolTipString	= Locale.Lookup(operationRow.Description);
+					AddActionToTable( actionsTable, operationRow, isDisabled, toolTipString, actionHash, OnUnitActionClicked, UnitOperationTypes.TYPE, actionHash, "ICON_UNITOPERATION_SPY_COUNTERSPY_ACTION");
+				end
+			elseif (actionHash == UnitOperationTypes.FOUND_CITY) then
+				local bCanStart		:boolean= UnitManager.CanStartOperation( pUnit,  UnitOperationTypes.FOUND_CITY, nil, false, false);	-- No exclusion test, no results
+				if (bCanStart) then
+					local toolTipString	:string	= Locale.Lookup(operationRow.Description);
+					AddActionToTable( actionsTable, operationRow, isDisabled, toolTipString, actionHash, OnUnitActionClicked_FoundCity );
+				end
+			elseif (actionHash == UnitOperationTypes.WMD_STRIKE) then
+				-- if unit can deploy a WMD, create a unit action for each type
+				-- first check if the unit is capable of deploying a WMD
+				local bCanStart = UnitManager.CanStartOperation( pUnit, UnitOperationTypes.WMD_STRIKE, nil, true);
+				if (bCanStart) then
+					for entry in GameInfo.WMDs() do
+						local tParameters = {};
+						tParameters[UnitOperationTypes.PARAM_WMD_TYPE] = entry.Index;
+						bCanStart, tResults = UnitManager.CanStartOperation(pUnit, actionHash, nil, tParameters, true);
+						local isWMDTypeDisabled:boolean = (not bCanStart) or isDisabled;
+						local toolTipString	:string	= Locale.Lookup(operationRow.Description);
+						local wmd = entry.Index;
+						toolTipString = toolTipString .. "[NEWLINE]" .. Locale.Lookup(entry.Name);
+						local callBack =
+						function(void1,void2,mode)
+							OnUnitActionClicked_WMDStrike(wmd,mode);
+						end
+						-- Are there any failure reasons?
+						if ( not bCanStart ) then
+							if tResults ~= nil and (tResults[UnitOperationResults.FAILURE_REASONS] ~= nil) then
+								-- Add the reason(s) to the tool tip
+								for i,v in ipairs(tResults[UnitOperationResults.FAILURE_REASONS]) do
+									toolTipString = toolTipString .. "[NEWLINE]" .. "[COLOR:Red]" .. Locale.Lookup(v) .. "[ENDCOLOR]";
+								end
+							end
+						end
+
+						AddActionToTable( actionsTable, operationRow, isWMDTypeDisabled, toolTipString, actionHash, callBack );
+					end
+				end
+			else
+				-- Is this operation visible in the UI?
+				-- The UI check of an operation is a loose check where it only fails if the unit could never do the operation.
+				if ( operationRow.VisibleInUI ) then
+					local bCanStart, tResults = UnitManager.CanStartOperation( pUnit, actionHash, nil, true );
+
+					if (bCanStart) then
+						-- Check again if the operation can occur, this time for real.
+						bCanStart, tResults = UnitManager.CanStartOperation(pUnit, actionHash, nil, false, OperationResultsTypes.NO_TARGETS);		-- Hint that we don't require possibly expensive target results.
+						local bDisabled:boolean = not bCanStart;
+						local toolTipString:string = GetUnitOperationTooltip(operationRow);
+
+						if (tResults ~= nil) then
+							if (tResults[UnitOperationResults.ACTION_NAME] ~= nil and tResults[UnitOperationResults.ACTION_NAME] ~= "") then
+								toolTipString = Locale.Lookup(tResults[UnitOperationResults.ACTION_NAME]);
+							end
+
+							if (tResults[UnitOperationResults.FEATURE_TYPE] ~= nil) then
+								local featureName = GameInfo.Features[tResults[UnitOperationResults.FEATURE_TYPE]].Name;
+								toolTipString = toolTipString .. ": " .. Locale.Lookup(featureName);
+							end
+
+							if (tResults[UnitOperationResults.ADDITIONAL_DESCRIPTION] ~= nil) then
+								for i,v in ipairs(tResults[UnitOperationResults.ADDITIONAL_DESCRIPTION]) do
+									toolTipString = toolTipString .. "[NEWLINE]" .. Locale.Lookup(v);
+								end
+							end
+
+							-- Are there any failure reasons?
+							if ( bDisabled ) then
+								if (tResults[UnitOperationResults.FAILURE_REASONS] ~= nil) then
+									-- Add the reason(s) to the tool tip
+									for i,v in ipairs(tResults[UnitOperationResults.FAILURE_REASONS]) do
+										toolTipString = toolTipString .. "[NEWLINE]" .. "[COLOR:Red]" .. Locale.Lookup(v) .. "[ENDCOLOR]";
+									end
+								end
+							end
+						end
+						isDisabled = bDisabled or isDisabled;
+						AddActionToTable( actionsTable, operationRow, isDisabled, toolTipString, actionHash, OnUnitActionClicked, UnitOperationTypes.TYPE, actionHash  );
+					end
+				end
+			end
+		end
+	end
+
+	return actionsTable;
+end
