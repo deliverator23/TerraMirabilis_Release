@@ -59,3 +59,11 @@ VALUES	('RANDOM_EVENT_KRAKATOA_GENTLE',		'KIND_RANDOM_EVENT'	),
 INSERT INTO Features_XP2
 		(FeatureType,			Volcano	)
 VALUES	('FEATURE_KRAKATOA',	1		);
+
+-----------------------------------------------
+-- NamedVolcanoes
+-----------------------------------------------
+
+DELETE FROM NamedVolcanoes WHERE NamedVolcanoType = 'NAMED_VOLCANO_KRAKATOA';
+
+DELETE FROM Types WHERE Type = 'NAMED_VOLCANO_KRAKATOA';
