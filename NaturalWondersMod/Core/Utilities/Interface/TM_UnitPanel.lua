@@ -246,10 +246,10 @@ function GetUnitActionsTable( pUnit )
 					AddActionToTable( actionsTable, operationRow, isDisabled, toolTipString, actionHash, OnUnitActionClicked, UnitOperationTypes.TYPE, actionHash, "ICON_UNITOPERATION_SPY_COUNTERSPY_ACTION");
 				end
 			elseif (actionHash == UnitOperationTypes.FOUND_CITY) then
-				local bCanStart		:boolean= UnitManager.CanStartOperation( pUnit,  UnitOperationTypes.FOUND_CITY, nil, false, false);	-- No exclusion test, no results
+				local bCanStart, tResults = UnitManager.CanStartOperation( pUnit,  UnitOperationTypes.FOUND_CITY, nil, false, OperationResultsTypes.ALL);	-- No exclusion test
 				if (bCanStart) then
 					local toolTipString	:string	= Locale.Lookup(operationRow.Description);
-					AddActionToTable( actionsTable, operationRow, isDisabled, toolTipString, actionHash, OnUnitActionClicked_FoundCity );
+					AddActionToTable( actionsTable, operationRow, isDisabled, toolTipString, actionHash, function() OnUnitActionClicked_FoundCity(tResults); end);
 				end
 			elseif (actionHash == UnitOperationTypes.WMD_STRIKE) then
 				-- if unit can deploy a WMD, create a unit action for each type
