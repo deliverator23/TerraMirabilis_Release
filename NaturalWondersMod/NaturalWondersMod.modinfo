@@ -56,7 +56,6 @@
         <LoadOrder>5</LoadOrder>
       </Properties>
       <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
-      <File>Core/Utilities/Interface/NaturalDisasterPopup.lua</File>
       <File>Core/Utilities/Interface/TM_UnitPanel.lua</File>
     </ImportFiles>
     <UpdateText id="TM_Localisation">
@@ -221,14 +220,6 @@
       <Criteria>XP2</Criteria>
       <File>Core/Natural Disasters/TM_NaturalDisasters.sql</File>
     </UpdateDatabase>
-    <ReplaceUIScript id="TM_NaturalDisasterPopup">
-      <Properties>
-        <LuaReplace>Core/Utilities/Interface/NaturalDisasterPopup.lua</LuaReplace>
-        <LuaContext>NaturalDisasterPopup</LuaContext>
-        <LoadOrder>5</LoadOrder>
-      </Properties>
-      <Criteria>XP2</Criteria>
-    </ReplaceUIScript>
   </InGameActions>
   <Files>
     <File>ArtDefs/Clutter.artdef</File>
@@ -316,7 +307,6 @@
     <File>Core/Natural Wonders/XP2/TM_SaharaElBeyda.sql</File>
     <File>Core/Natural Wonders/XP2/TM_Vesuvius.sql</File>
     <File>Core/User Settings/TM_UserSettings.sql</File>
-    <File>Core/Utilities/Interface/NaturalDisasterPopup.lua</File>
     <File>Core/Utilities/Interface/TM_UnitPanel.lua</File>
     <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
     <File>NaturalWondersMod.dep</File>
