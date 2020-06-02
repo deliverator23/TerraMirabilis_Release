@@ -1,12 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Mod id="74c5c3d9-5408-4315-9e0a-b0c369f82bcd" version="3">
+<Mod id="74c5c3d9-5408-4315-9e0a-b0c369f82bcd" version="1">
   <Properties>
     <Name>Terra Mirabilis</Name>
     <Description>A mod that reworks Natural Wonders in Civilization VI, and adds new ones that include some old fan-favourites.</Description>
     <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
+    <Created>1591103752</Created>
     <Teaser>A mod that reworks Natural Wonders in Civilization VI, and adds new ones that include some old fan-favourites.</Teaser>
     <Authors>Deliverator, ChimpanG</Authors>
-    <SpecialThanks>SeelingCat, Sub6, Ari, boynextdoor, YamiNick, Gabriel, nut9931</SpecialThanks>
+    <SpecialThanks>CIVITAS</SpecialThanks>
   </Properties>
   <ActionCriteria>
     <Criteria id="XP1">
@@ -17,6 +18,24 @@
     </Criteria>
     <Criteria id="XP1 or XP2" any="1">
       <GameCoreInUse>Expansion1,Expansion2</GameCoreInUse>
+    </Criteria>
+    <Criteria id="DLC1" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_JADWIGA,StandardPlayers::LEADER_JADWIGA,Players:Expansion1_Players::LEADER_JADWIGA,Players:Expansion2_Players::LEADER_JADWIGA</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC3" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_JOHN_CURTIN,StandardPlayers::LEADER_JOHN_CURTIN,Players:Expansion1_Players::LEADER_JOHN_CURTIN,Players:Expansion2_Players::LEADER_JOHN_CURTIN</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC4" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_ALEXANDER,Players:StandardPlayers::LEADER_CYRUS,StandardPlayers::LEADER_ALEXANDER,StandardPlayers::LEADER_CYRUS,Players:Expansion1_Players::LEADER_ALEXANDER,Players:Expansion2_Players::LEADER_CYRUS,Players:Expansion2_Players::LEADER_ALEXANDER,Players:Expansion2_Players::LEADER_CYRUS</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC5" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_AMANITORE,StandardPlayers::LEADER_AMANITORE,Players:Expansion1_Players::LEADER_AMANITORE,Players:Expansion2_Players::LEADER_AMANITORE</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC6" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_GITARJA,Players:StandardPlayers::LEADER_JAYAVARMAN,StandardPlayers::LEADER_GITARJA,StandardPlayers::LEADER_JAYAVARMAN,Players:Expansion1_Players::LEADER_GITARJA,Players:Expansion2_Players::LEADER_JAYAVARMAN,Players:Expansion2_Players::LEADER_GITARJA,Players:Expansion2_Players::LEADER_JAYAVARMAN</LeaderPlayable>
+    </Criteria>
+    <Criteria id="DLC7" any="1">
+      <LeaderPlayable>Players:StandardPlayers::LEADER_SIMON_BOLIVAR,Players:StandardPlayers::LEADER_LADY_SIX_SKY,StandardPlayers::LEADER_SIMON_BOLIVAR,StandardPlayers::LEADER_LADY_SIX_SKY,Players:Expansion1_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY,Players:Expansion2_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY</LeaderPlayable>
     </Criteria>
   </ActionCriteria>
   <InGameActions>
@@ -56,30 +75,12 @@
         <LoadOrder>5</LoadOrder>
       </Properties>
       <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
-      <File>Core/Utilities/Interface/NaturalDisasterPopup.lua</File>
-      <File>Core/Utilities/Interface/TM_UnitPanel.lua</File>
     </ImportFiles>
     <UpdateText id="TM_Localisation">
       <Properties>
         <LoadOrder>10</LoadOrder>
       </Properties>
       <File>Core/Localisation/TM_Localisation.sql</File>
-    </UpdateText>
-    <UpdateText id="TM_Translations">
-      <Properties>
-        <LoadOrder>5</LoadOrder>
-      </Properties>
-      <File>Core/Localisation/TM_Localisation_es_ES.sql</File>
-      <File>Core/Localisation/TM_Localisation_it_IT.sql</File>
-      <File>Core/Localisation/TM_Localisation_ja_JP.sql</File>
-      <File>Core/Localisation/TM_Localisation_zh_Hans_CN.sql</File>
-      <File>Core/Localisation/TM_Localisation_de_DE.sql</File>
-      <File>Core/Localisation/TM_Localisation_fr_FR.sql</File>
-      <File>Core/Localisation/TM_Localisation_ko_KR.sql</File>
-      <File>Core/Localisation/TM_Localisation_pl_PL.sql</File>
-      <File>Core/Localisation/TM_Localisation_pt_BR.sql</File>
-      <File>Core/Localisation/TM_Localisation_ru_RU.sql</File>
-      <File>Core/Localisation/TM_Localisation_zh_Hant_HK.sql</File>
     </UpdateText>
     <UpdateIcons id="TM_Icons">
       <Properties>
@@ -108,6 +109,7 @@
       <File priority="3">Core/Framework/TM_Master.sql</File>
       <File priority="2">Core/Framework/TM_Validation.sql</File>
       <File>Core/User Settings/TM_UserSettings.sql</File>
+      <File>Core/Framework/TM_Version.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="TM_Setup">
       <Properties>
@@ -163,6 +165,7 @@
       <File>Core/Natural Wonders/DLC/TM_Lysefjorden.sql</File>
       <File>Core/Natural Wonders/DLC/TM_Uluru.sql</File>
       <File>Core/Natural Wonders/Terra Mirabilis/TM_Wulingyuan_DLC6.sql</File>
+      <File>Core/Natural Wonders/DLC/TM_Paititi.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="TM_Wonders_XP1">
       <Properties>
@@ -213,6 +216,7 @@
       <File>Core/Natural Wonders/Terra Mirabilis/TM_Sinai.sql</File>
       <File>Core/Natural Wonders/Terra Mirabilis/TM_SriPada.sql</File>
       <File>Core/Natural Wonders/Terra Mirabilis/TM_VredefortDome.sql</File>
+      <File>Core/Natural Wonders/Terra Mirabilis/TM_Lencois_Maranhenses.sql</File>
     </UpdateDatabase>
     <UpdateDatabase id="TM_Disasters_XP2">
       <Properties>
@@ -221,14 +225,6 @@
       <Criteria>XP2</Criteria>
       <File>Core/Natural Disasters/TM_NaturalDisasters.sql</File>
     </UpdateDatabase>
-    <ReplaceUIScript id="TM_NaturalDisasterPopup">
-      <Properties>
-        <LuaReplace>Core/Utilities/Interface/NaturalDisasterPopup.lua</LuaReplace>
-        <LuaContext>NaturalDisasterPopup</LuaContext>
-        <LoadOrder>5</LoadOrder>
-      </Properties>
-      <Criteria>XP2</Criteria>
-    </ReplaceUIScript>
   </InGameActions>
   <Files>
     <File>ArtDefs/Clutter.artdef</File>
@@ -240,18 +236,8 @@
     <File>Core/Framework/TM_Schema.sql</File>
     <File>Core/Framework/TM_Setup.sql</File>
     <File>Core/Framework/TM_Validation.sql</File>
+    <File>Core/Framework/TM_Version.sql</File>
     <File>Core/Localisation/TM_Localisation.sql</File>
-    <File>Core/Localisation/TM_Localisation_de_DE.sql</File>
-    <File>Core/Localisation/TM_Localisation_es_ES.sql</File>
-    <File>Core/Localisation/TM_Localisation_fr_FR.sql</File>
-    <File>Core/Localisation/TM_Localisation_it_IT.sql</File>
-    <File>Core/Localisation/TM_Localisation_ja_JP.sql</File>
-    <File>Core/Localisation/TM_Localisation_ko_KR.sql</File>
-    <File>Core/Localisation/TM_Localisation_pl_PL.sql</File>
-    <File>Core/Localisation/TM_Localisation_pt_BR.sql</File>
-    <File>Core/Localisation/TM_Localisation_ru_RU.sql</File>
-    <File>Core/Localisation/TM_Localisation_zh_Hans_CN.sql</File>
-    <File>Core/Localisation/TM_Localisation_zh_Hans_HK.sql</File>
     <File>Core/Natural Disasters/TM_NaturalDisasters.sql</File>
     <File>Core/Natural Wonders/Base/TM_BarrierReef.sql</File>
     <File>Core/Natural Wonders/Base/TM_CliffsDover.sql</File>
@@ -271,6 +257,7 @@
     <File>Core/Natural Wonders/DLC/TM_GiantsCauseway.sql</File>
     <File>Core/Natural Wonders/DLC/TM_HaLongBay.sql</File>
     <File>Core/Natural Wonders/DLC/TM_Lysefjorden.sql</File>
+    <File>Core/Natural Wonders/DLC/TM_Paititi.sql</File>
     <File>Core/Natural Wonders/DLC/TM_Uluru.sql</File>
     <File>Core/Natural Wonders/Terra Mirabilis/TM_BarringerCrater.sql</File>
     <File>Core/Natural Wonders/Terra Mirabilis/TM_BioluminescentBay.sql</File>
@@ -281,6 +268,7 @@
     <File>Core/Natural Wonders/Terra Mirabilis/TM_Kailash.sql</File>
     <File>Core/Natural Wonders/Terra Mirabilis/TM_Krakatoa_XP2.sql</File>
     <File>Core/Natural Wonders/Terra Mirabilis/TM_LakeVictoria.sql</File>
+    <File>Core/Natural Wonders/Terra Mirabilis/TM_Lencois_Maranhenses.sql</File>
     <File>Core/Natural Wonders/Terra Mirabilis/TM_MosiOaTunya.sql</File>
     <File>Core/Natural Wonders/Terra Mirabilis/TM_MotlatseCanyon.sql</File>
     <File>Core/Natural Wonders/Terra Mirabilis/TM_Namib.sql</File>
@@ -316,8 +304,6 @@
     <File>Core/Natural Wonders/XP2/TM_SaharaElBeyda.sql</File>
     <File>Core/Natural Wonders/XP2/TM_Vesuvius.sql</File>
     <File>Core/User Settings/TM_UserSettings.sql</File>
-    <File>Core/Utilities/Interface/NaturalDisasterPopup.lua</File>
-    <File>Core/Utilities/Interface/TM_UnitPanel.lua</File>
     <File>Core/Utilities/Maps/NaturalWonderGenerator.lua</File>
     <File>NaturalWondersMod.dep</File>
     <File>Platforms/MacOS/BLPs/environment/clutter.blp</File>
@@ -388,6 +374,7 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_H</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_2_O4</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Aluminum_Decal_FOW</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Fish_x2_EM</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_B</File>
@@ -397,6 +384,12 @@
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_M</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N0</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N1</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterLake_Density_DarkMap_0x6b28231d</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterLake_Density_ScatterMap_0x6b28231d</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterRiverSource_Density_DarkMap_0x47b164c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_WaterRiverSource_Density_ScatterMap_0x47b164c5</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x9be17165</File>
+    <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x9be17165</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_B2</File>
     <File>Platforms/MacOS/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_G2</File>
@@ -476,6 +469,7 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Okavango_Decal_H</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_2_O4</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Pillaged_Foliage_O</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_ProceduralNoiseTexture2D_0x304656c5</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Aluminum_Decal_FOW</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Fish_x2_EM</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_Decal_B</File>
@@ -485,6 +479,12 @@
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_M</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N0</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_RES_Silver_N1</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterLake_Density_DarkMap_0x6b28231d</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterLake_Density_ScatterMap_0x6b28231d</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterRiverSource_Density_DarkMap_0x47b164c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_WaterRiverSource_Density_ScatterMap_0x47b164c5</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean0_0x9be17165</File>
+    <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_TER_Water_Bumps_Small_Lean1_0x9be17165</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Tree_PIL_Decal_B</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_B2</File>
     <File>Platforms/Windows/BLPs/SHARED_DATA/TEXTURE_Vredefort_Decal_G2</File>

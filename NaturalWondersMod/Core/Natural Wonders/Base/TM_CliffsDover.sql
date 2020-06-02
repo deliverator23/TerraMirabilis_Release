@@ -1,6 +1,6 @@
 /*
 	Cliffs of Dover
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -28,51 +28,60 @@ WHERE	FeatureType = 'FEATURE_CLIFFS_DOVER';
 -- Modifiers
 -----------------------------------------------
 
-INSERT INTO Modifiers
-		(ModifierId,														ModifierType,						SubjectRequirementSetId)
-SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ATTACH_ADJACENCY_'||TerrainType,	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_CLIFFS_DOVER'
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId)
+SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ATTACH_ADJACENCY_'||TerrainType,
+		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',
+		'REQSET_TM_MAP_HAS_FEATURE_CLIFFS_DOVER',
+		'REQSET_TM_PLAYER_HAS_FEATURE_CLIFFS_DOVER'
 FROM	Terrains WHERE Hills = 1;
 		
-INSERT INTO Modifiers
-		(ModifierId,												ModifierType,					SubjectRequirementSetId)
-SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,	'MODTYPE_TM_TERRAIN_ADJACENCY',	NULL
+INSERT INTO Modifiers (ModifierId, ModifierType)
+SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,
+		'MODIFIER_PLAYER_CITIES_TERRAIN_ADJACENCY'
 FROM	Terrains WHERE Hills = 1;
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
-INSERT INTO ModifierArguments
-		(ModifierId,															Name,			Value	)
-SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ATTACH_ADJACENCY_'||TerrainType,		'ModifierId',	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ATTACH_ADJACENCY_'||TerrainType,
+		'ModifierId',
+		'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType
 FROM	Terrains WHERE Hills = 1;
 
-INSERT INTO ModifierArguments
-		(ModifierId,													Name,			Value)
-SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,		'DistrictType',	'DISTRICT_HARBOR'
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,
+		'DistrictType',
+		'DISTRICT_HARBOR'
 FROM	Terrains WHERE Hills = 1;
 
-INSERT INTO ModifierArguments
-		(ModifierId,													Name,		Value)
-SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,		'Amount',	1
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,
+		'Amount',
+		1
 FROM	Terrains WHERE Hills = 1;
 
-INSERT INTO ModifierArguments
-		(ModifierId,													Name,			Value)
-SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,		'YieldType',	'YIELD_GOLD'
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,	
+		'YieldType',
+		'YIELD_GOLD'
 FROM	Terrains WHERE Hills = 1;
 
-INSERT INTO ModifierArguments	
-		(ModifierId,													Name,			Value)
-SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,		'TerrainType',	TerrainType
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,
+		'TerrainType',
+		TerrainType
 FROM	Terrains WHERE Hills = 1;
 
-INSERT INTO ModifierArguments
-		(ModifierId,													Name,				Value)
-SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,		'TilesRequired',	2
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,
+		'TilesRequired',
+		2
 FROM	Terrains WHERE Hills = 1;
 
-INSERT INTO ModifierArguments
-		(ModifierId,													Name,				Value)
-SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,		'Description',		'LOC_MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_DESCRIPTION'
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_'||TerrainType,
+		'Description',
+		'LOC_MODIFIER_TM_FEATURE_CLIFFS_DOVER_ADJACENCY_DESCRIPTION'
 FROM	Terrains WHERE Hills = 1;

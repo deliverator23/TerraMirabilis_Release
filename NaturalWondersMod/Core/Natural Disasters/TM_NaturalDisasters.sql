@@ -1,41 +1,7 @@
 /*
 	Schema
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
-
------------------------------------------------
--- EventMap
------------------------------------------------
-
-INSERT INTO EventMap
-		(RandomEventType,								Animation,						Sound,									CallbackType,		VFX							)
-VALUES	('RANDOM_EVENT_VOLCANO_GENTLE',					'REVEAL_ERUPTION',				'Play_Disaster_Volcano_Movie_Loop',		NULL,				NULL						),
-		('RANDOM_EVENT_VOLCANO_CATASTROPHIC',			'REVEAL_ERUPTION_CATASTROPHIC',	'Play_Disaster_Volcano_Movie_Loop',		NULL,				NULL						),
-		('RANDOM_EVENT_VOLCANO_MEGACOLOSSAL',			'REVEAL_ERUPTION_MEGACOLOSSAL',	'Play_Disaster_Volcano_Movie_Loop',		NULL,				NULL						),
-		('RANDOM_EVENT_VESUVIUS_MEGACOLOSSAL',			'REVEAL_ERUPTION_MEGACOLOSSAL',	'Play_Disaster_Volcano_Movie_Loop',		'NaturalWonder',	NULL						),
-		('RANDOM_EVENT_KILIMANJARO_GENTLE',				'REVEAL_ERUPTION',				'Play_Disaster_Volcano_Movie_Loop',		'NaturalWonder',	NULL						),
-		('RANDOM_EVENT_KILIMANJARO_CATASTROPHIC',		'REVEAL_ERUPTION_CATASTROPHIC',	'Play_Disaster_Volcano_Movie_Loop',		'NaturalWonder',	NULL						),
-		('RANDOM_EVENT_EYJAFJALLAJOKULL_CATASTROPHIC',	'REVEAL_ERUPTION_CATASTROPHIC',	'Play_Disaster_Volcano_Movie_Loop',		'NaturalWonder',	NULL						),
-		('RANDOM_EVENT_EYJAFJALLAJOKULL_MEGACOLOSSAL',	'REVEAL_ERUPTION_MEGACOLOSSAL',	'Play_Disaster_Volcano_Movie_Loop',		'NaturalWonder',	NULL						),
-		('RANDOM_EVENT_FLOOD_MODERATE',					'REVEAL_FLOOD',					'Play_Disaster_Flood_Movie_Loop',		'Flood',			NULL						),
-		('RANDOM_EVENT_FLOOD_MAJOR',					'REVEAL_FLOOD',					'Play_Disaster_Flood_Movie_Loop',		'Flood',			NULL						),
-		('RANDOM_EVENT_FLOOD_1000_YEAR',				'REVEAL_FLOOD',					'Play_Disaster_Flood_Movie_Loop',		'Flood',			NULL						),
-		('RANDOM_EVENT_BLIZZARD_SIGNIFICANT',			'REVEAL_STORM',					'Play_Disaster_Blizzard_Movie_Loop',	'Storm',			NULL						),
-		('RANDOM_EVENT_BLIZZARD_CRIPPLING',				'REVEAL_STORM',					'Play_Disaster_Blizzard_Movie_Loop',	'Storm',			NULL						),
-		('RANDOM_EVENT_DUST_STORM_GRADIENT',			'REVEAL_STORM_SMALL',			'Play_Disaster_Sandstorm_Movie_Loop',	'Storm',			NULL						),
-		('RANDOM_EVENT_DUST_STORM_HABOOB',				'REVEAL_STORM',					'Play_Disaster_Sandstorm_Movie_Loop',	'Storm',			NULL						),
-		('RANDOM_EVENT_TORNADO_FAMILY',					'REVEAL_STORM_SMALL',			'Play_Disaster_Tornado_Movie_Loop',		'Storm',			NULL						),
-		('RANDOM_EVENT_TORNADO_OUTBREAK',				'REVEAL_STORM',					'Play_Disaster_Tornado_Movie_Loop',		'Storm',			NULL						),
-		('RANDOM_EVENT_HURRICANE_CAT_4',				'REVEAL_STORM',					'Play_Disaster_Hurricane_Movie_Loop',	'Storm',			NULL						),
-		('RANDOM_EVENT_HURRICANE_CAT_5',				'REVEAL_STORM',					'Play_Disaster_Hurricane_Movie_Loop',	'Storm',			NULL						),
-		('RANDOM_EVENT_NUCLEAR_ACCIDENT_MINOR',			'REVEAL_FLOOD',					'Play_Disaster_Meltdown_Movie_Loop',	NULL,				'DISASTER_NUCLEAR_MELTDOWN'	),
-		('RANDOM_EVENT_NUCLEAR_ACCIDENT_MAJOR',			'REVEAL_FLOOD',					'Play_Disaster_Meltdown_Movie_Loop',	NULL,				'DISASTER_NUCLEAR_MELTDOWN'	),
-		('RANDOM_EVENT_NUCLEAR_ACCIDENT_CATASTROPHIC',	'REVEAL_FLOOD',					'Play_Disaster_Meltdown_Movie_Loop',	NULL,				'DISASTER_NUCLEAR_MELTDOWN'	),
-		('RANDOM_EVENT_DROUGHT_MAJOR',					'REVEAL_DROUGHT',				'Play_Disaster_Drought_Movie_Loop',		'Drought',			NULL						),
-		('RANDOM_EVENT_DROUGHT_EXTREME',				'REVEAL_DROUGHT',				'Play_Disaster_Drought_Movie_Loop',		'Drought',			NULL						),
-		('RANDOM_EVENT_KRAKATOA_GENTLE',				'REVEAL_ERUPTION',				'Play_Disaster_Volcano_Movie_Loop',		'NaturalWonder',	NULL						),
-		('RANDOM_EVENT_KRAKATOA_CATASTROPHIC',			'REVEAL_ERUPTION_CATASTROPHIC',	'Play_Disaster_Volcano_Movie_Loop',		'NaturalWonder',	NULL						),
-		('RANDOM_EVENT_KRAKATOA_MEGACOLOSSAL',			'REVEAL_ERUPTION_MEGACOLOSSAL',	'Play_Disaster_Volcano_Movie_Loop',		'NaturalWonder',	NULL						);
 
 -----------------------------------------------
 -- RandomEvents

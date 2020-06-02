@@ -1,6 +1,6 @@
 /*
 	Sri Pada
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -22,9 +22,9 @@
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,									ModifierType,						SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_SRI_PADA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_SRI_PADA'	),
-		('MODIFIER_TM_FEATURE_SRI_PADA_INITIATION',		'MODTYPE_TM_INITIATION_YIELD',		NULL									);
+		(ModifierId,									ModifierType,							OwnerRequirementSetId,					SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_SRI_PADA_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',	'REQSET_TM_MAP_HAS_FEATURE_SRI_PADA',	'REQSET_TM_PLAYER_HAS_FEATURE_SRI_PADA'	),
+		('MODIFIER_TM_FEATURE_SRI_PADA_INITIATION',		'MODTYPE_TM_INITIATION_YIELD',			NULL,									NULL									);
 
 -----------------------------------------------
 -- ModifierArguments

@@ -1,6 +1,6 @@
 /*
 	Icons
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -64,6 +64,7 @@ VALUES  ('ICON_FEATURE_BARRINGER_CRATER',		'ICON_ATLAS_TERRA_MIRABILIS',				0		)
 		('ICON_FEATURE_OUNIANGA',				'ICON_ATLAS_TERRA_MIRABILIS',				16		),
 		('ICON_FEATURE_MOSI_OA_TUNYA',			'ICON_ATLAS_TERRA_MIRABILIS',				17		),
 		('ICON_FEATURE_VREDEFORT_DOME',			'ICON_ATLAS_TERRA_MIRABILIS',				18		),
+		('ICON_FEATURE_LENCOIS_MARANHENSES',	'ICON_ATLAS_TERRA_MIRABILIS',				19		),
 		
 		-- RESOURCES
 

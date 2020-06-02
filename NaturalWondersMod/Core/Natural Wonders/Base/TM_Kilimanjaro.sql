@@ -1,6 +1,6 @@
 /*
 	Kilimanjaro
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@ WHERE	FeatureType = 'FEATURE_KILIMANJARO';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,							SubjectRequirementSetId						)
-VALUES	('MODIFIER_TM_FEATURE_KILIMANJARO_ATTACH_CITIES',		'MODTYPE_TM_ATTACH_ALL_CITIES',			'REQSET_TM_CITY_HAS_FEATURE_KILIMANJARO'	),
-		('MODIFIER_TM_FEATURE_KILIMANJARO_ADJUST_POPULATION',	'MODTYPE_TM_DISTRICT_CITY_POPULATION',	'REQSET_TM_DISTRICT_IS_SPECIALTY'			);
+		(ModifierId,											ModifierType,							OwnerRequirementSetId,						SubjectRequirementSetId						)
+VALUES	('MODIFIER_TM_FEATURE_KILIMANJARO_ATTACH_CITIES',		'MODIFIER_ALL_CITIES_ATTACH_MODIFIER',	'REQSET_TM_MAP_HAS_FEATURE_KILIMANJARO',	'REQSET_TM_CITY_HAS_FEATURE_KILIMANJARO'	),
+		('MODIFIER_TM_FEATURE_KILIMANJARO_ADJUST_POPULATION',	'MODTYPE_TM_DISTRICT_CITY_POPULATION',	NULL,										'REQSET_TM_DISTRICT_IS_SPECIALTY'			);
 
 -----------------------------------------------
 -- ModifierArguments

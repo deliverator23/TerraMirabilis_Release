@@ -1,6 +1,6 @@
 /*
 	Lake Victoria
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -22,9 +22,9 @@
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,						SubjectRequirementSetId							)
-VALUES	('MODIFIER_TM_FEATURE_LAKE_VICTORIA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_LAKE_VICTORIA'	),
-		('MODIFIER_TM_FEATURE_LAKE_VICTORIA_FOREIGN_CITY',		'MODTYPE_TM_CITY_GROWTH',			'REQSET_TM_CITY_FOREIGN_CONTINENT'				);
+		(ModifierId,											ModifierType,									OwnerRequirementSetId,						SubjectRequirementSetId							)
+VALUES	('MODIFIER_TM_FEATURE_LAKE_VICTORIA_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',			'REQSET_TM_MAP_HAS_FEATURE_LAKE_VICTORIA',	'REQSET_TM_PLAYER_HAS_FEATURE_LAKE_VICTORIA'	),
+		('MODIFIER_TM_FEATURE_LAKE_VICTORIA_FOREIGN_CITY',		'MODIFIER_PLAYER_CITIES_ADJUST_CITY_GROWTH',	NULL,										'CITY_NOT_OWNER_CAPITAL_CONTINENT_REQUIREMENTS'	);
 
 -----------------------------------------------
 -- ModifierArguments

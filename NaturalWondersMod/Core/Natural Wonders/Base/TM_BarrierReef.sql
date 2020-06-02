@@ -1,6 +1,6 @@
 /*
 	Barrier Reef
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@ WHERE	FeatureType = 'FEATURE_BARRIER_REEF';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,							SubjectRequirementSetId						)
-VALUES	('MODIFIER_TM_FEATURE_BARRIER_REEF_ATTACH_PLAYERS',		'MODTYPE_TM_ATTACH_ALL_PLAYERS',		'REQSET_TM_PLAYER_HAS_FEATURE_BARRIER_REEF'	),
-		('MODIFIER_TM_FEATURE_BARRIER_REEF_SEA_RESOURCE_GOLD',	'MODTYPE_TM_ADJUST_PLAYER_PLOT_YIELD',	'REQSET_TM_PLOT_HAS_SEA_RESOURCE'			);
+		(ModifierId,											ModifierType,								OwnerRequirementSetId,						SubjectRequirementSetId						)
+VALUES	('MODIFIER_TM_FEATURE_BARRIER_REEF_ATTACH_PLAYERS',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',		'REQSET_TM_MAP_HAS_FEATURE_BARRIER_REEF',	'REQSET_TM_PLAYER_HAS_FEATURE_BARRIER_REEF'	),
+		('MODIFIER_TM_FEATURE_BARRIER_REEF_SEA_RESOURCE_GOLD',	'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',		NULL,										'REQSET_TM_PLOT_HAS_SEA_RESOURCE'			);
 
 -----------------------------------------------
 -- ModifierArguments

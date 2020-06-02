@@ -1,6 +1,6 @@
 /*
 	Eye of the Sahara
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -30,22 +30,25 @@ WHERE	FeatureType = 'FEATURE_EYE_OF_THE_SAHARA';
 -- Modifiers
 -----------------------------------------------
 
-INSERT INTO Modifiers
-		(ModifierId,											ModifierType,						SubjectRequirementSetId	)
-SELECT	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_EYE_OF_THE_SAHARA'
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId)
+SELECT	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',
+		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',
+		'REQSET_TM_MAP_HAS_FEATURE_EYE_OF_THE_SAHARA',
+		'REQSET_TM_PLAYER_HAS_FEATURE_EYE_OF_THE_SAHARA'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_EYE_OF_THE_SAHARA');
 
 INSERT INTO Modifiers
-		(ModifierId,												ModifierType,						SubjectRequirementSetId	)
-VALUES	('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',			'MODTYPE_TM_ERA_SCORE',				NULL					);
+		(ModifierId,										ModifierType,			SubjectRequirementSetId	)
+VALUES	('MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE',	'MODTYPE_TM_ERA_SCORE',	NULL					);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
-INSERT INTO ModifierArguments
-		(ModifierId,											Name,			Value	)
-SELECT	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE'
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ATTACH_PLAYERS',
+		'ModifierId',
+		'MODIFIER_TM_FEATURE_EYE_OF_THE_SAHARA_ERA_SCORE'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_EYE_OF_THE_SAHARA');		
 		
 INSERT INTO ModifierArguments

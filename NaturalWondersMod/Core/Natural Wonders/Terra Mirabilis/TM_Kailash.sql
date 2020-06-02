@@ -1,6 +1,6 @@
 /*
 	Kailash
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -22,9 +22,9 @@
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,									ModifierType,						SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_KAILASH_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_KAILASH'	),
-		('MODIFIER_TM_FEATURE_KAILASH_CULTURE_CITIES',	'MODTYPE_TM_PLAYER_BELIEF_YIELD',	NULL									);
+		(ModifierId,									ModifierType,										OwnerRequirementSetId,					SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_KAILASH_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'REQSET_TM_MAP_HAS_FEATURE_KAILASH',	'REQSET_TM_PLAYER_HAS_FEATURE_KAILASH'	),
+		('MODIFIER_TM_FEATURE_KAILASH_CULTURE_CITIES',	'MODIFIER_PLAYER_RELIGION_ADD_PLAYER_BELIEF_YIELD',	NULL,									NULL									);
 
 -----------------------------------------------
 -- ModifierArguments

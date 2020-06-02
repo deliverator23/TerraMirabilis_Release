@@ -1,6 +1,6 @@
 /*
 	Piopiotahi
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@ WHERE	FeatureType = 'FEATURE_PIOPIOTAHI';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,										ModifierType,						SubjectRequirementSetId						)
-VALUES	('MODIFIER_TM_FEATURE_PIOPIOTAHI_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_PIOPIOTAHI'	),
-		('MODIFIER_TM_FEATURE_PIOPIOTAHI_REGIONAL_RANGE',	'MODTYPE_TM_REGIONAL_RANGE',		'REQSET_TM_DISTRICT_IS_ENTERTAINMENT'		);
+		(ModifierId,										ModifierType,												OwnerRequirementSetId,					SubjectRequirementSetId						)
+VALUES	('MODIFIER_TM_FEATURE_PIOPIOTAHI_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',						'REQSET_TM_MAP_HAS_FEATURE_PIOPIOTAHI',	'REQSET_TM_PLAYER_HAS_FEATURE_PIOPIOTAHI'	),
+		('MODIFIER_TM_FEATURE_PIOPIOTAHI_REGIONAL_RANGE',	'MODIFIER_PLAYER_DISTRICTS_ADJUST_EXTRA_REGIONAL_RANGE',	NULL,									'REQSET_TM_DISTRICT_IS_ENTERTAINMENT'		);
 
 -----------------------------------------------
 -- ModifierArguments

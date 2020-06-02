@@ -1,6 +1,6 @@
 /*
 	Barringer Crater
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -22,9 +22,9 @@
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,						SubjectRequirementSetId							)
-VALUES	('MODIFIER_TM_FEATURE_BARRINGER_CRATER_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',		'REQSET_TM_CITY_HAS_FEATURE_BARRINGER_CRATER'	),
-		('MODIFIER_TM_FEATURE_BARRINGER_CRATER_SPACE_PROJECT',	'MODTYPE_TM_ADJUST_SPACE_PROJECT',	NULL											);
+		(ModifierId,											ModifierType,													OwnerRequirementSetId,							SubjectRequirementSetId							)
+VALUES	('MODIFIER_TM_FEATURE_BARRINGER_CRATER_ATTACH_CITIES',	'MODIFIER_ALL_CITIES_ATTACH_MODIFIER',							'REQSET_TM_MAP_HAS_FEATURE_BARRINGER_CRATER',	'REQSET_TM_CITY_HAS_FEATURE_BARRINGER_CRATER'	),
+		('MODIFIER_TM_FEATURE_BARRINGER_CRATER_SPACE_PROJECT',	'MODIFIER_PLAYER_CITIES_ADJUST_SPACE_RACE_PROJECTS_PRODUCTION',	NULL,											NULL											);
 
 -----------------------------------------------
 -- ModifierArguments

@@ -1,6 +1,6 @@
 /*
 	Torres Del Paine
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@ WHERE	FeatureType = 'FEATURE_TORRES_DEL_PAINE';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,						SubjectRequirementSetId							)
-VALUES	('MODIFIER_TM_FEATURE_TORRES_DEL_PAINE_ATTACH_CITIES',	'MODTYPE_TM_ATTACH_ALL_CITIES',		'REQSET_TM_CITY_HAS_FEATURE_TORRES_DEL_PAINE'	),
-		('MODIFIER_TM_FEATURE_TORRES_DEL_PAINE_EXTRA_DISTRICT',	'MODTYPE_TM_CITY_EXTRA_DISTRICTS',	NULL											);
+		(ModifierId,											ModifierType,							OwnerRequirementSetId,							SubjectRequirementSetId							)
+VALUES	('MODIFIER_TM_FEATURE_TORRES_DEL_PAINE_ATTACH_CITIES',	'MODIFIER_ALL_CITIES_ATTACH_MODIFIER',	'REQSET_TM_MAP_HAS_FEATURE_TORRES_DEL_PAINE',	'REQSET_TM_CITY_HAS_FEATURE_TORRES_DEL_PAINE'	),
+		('MODIFIER_TM_FEATURE_TORRES_DEL_PAINE_EXTRA_DISTRICT',	'MODIFIER_SINGLE_CITY_EXTRA_DISTRICT',	NULL,											NULL											);
 
 -----------------------------------------------
 -- ModifierArguments

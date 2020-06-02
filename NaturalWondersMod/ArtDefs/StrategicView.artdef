@@ -767,6 +767,51 @@
 				<m_Fields>
 					<m_Values>
 						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Lencois_Visible"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_Features.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_features"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Visible_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Visible_BottomRight"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Lencois_Revealed"/>
+							<m_XLPClass text="StrategicView_Sprite"/>
+							<m_XLPPath text="StrategicView_Features.xlp"/>
+							<m_BLPPackage text="strategicview/strategicview_features"/>
+							<m_LibraryName text="StrategicView_Sprite"/>
+							<m_ParamName text="Revealed_XLPEntry"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_TopLeft"/>
+						</Element>
+						<Element class="AssetObjects..Coord2DValue">
+							<m_x>0.000000</m_x>
+							<m_y>0.000000</m_y>
+							<m_ParamName text="Revealed_BottomRight"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="Lencois"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
 							<m_EntryName text="Wulingyuan_Visible"/>
 							<m_XLPClass text="StrategicView_Sprite"/>
 							<m_XLPPath text="StrategicView_Features.xlp"/>
@@ -3008,6 +3053,276 @@
 					</Element>
 				</m_ChildCollections>
 				<m_Name text="Salar_de_Uyuni"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="1_Center"/>
+							<m_RootCollectionName text="PositionSets"/>
+							<m_ArtDefPath text="StrategicView.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="StrategicView"/>
+							<m_ParamName text="PositionSet"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="OneEntryPerTile"/>
+							<m_RootCollectionName text="PlacementRules"/>
+							<m_ArtDefPath text="StrategicView.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="StrategicView"/>
+							<m_ParamName text="PlacementRule"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="Render"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="RenderTerrainSprite"/>
+						</Element>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="TerrainTypeOverride"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="TileCount"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="RenderMinimap"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Entries"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Lencois"/>
+										<m_RootCollectionName text="FeatureEntries"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="ArtDefEntry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Entries001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Lencois"/>
+										<m_RootCollectionName text="FeatureEntries"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="ArtDefEntry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Entries002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Assets"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Lencois_Dash"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="1_Center"/>
+							<m_RootCollectionName text="PositionSets"/>
+							<m_ArtDefPath text="StrategicView.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="StrategicView"/>
+							<m_ParamName text="PositionSet"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="OneEntryPerTile"/>
+							<m_RootCollectionName text="PlacementRules"/>
+							<m_ArtDefPath text="StrategicView.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="StrategicView"/>
+							<m_ParamName text="PlacementRule"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="Render"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="RenderTerrainSprite"/>
+						</Element>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="TerrainTypeOverride"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="TileCount"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="RenderMinimap"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Entries"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Lencois"/>
+										<m_RootCollectionName text="FeatureEntries"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="ArtDefEntry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Entries001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Lencois"/>
+										<m_RootCollectionName text="FeatureEntries"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="ArtDefEntry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Entries002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Assets"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Lencois_ForwardSlash"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="1_Center"/>
+							<m_RootCollectionName text="PositionSets"/>
+							<m_ArtDefPath text="StrategicView.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="StrategicView"/>
+							<m_ParamName text="PositionSet"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text="OneEntryPerTile"/>
+							<m_RootCollectionName text="PlacementRules"/>
+							<m_ArtDefPath text="StrategicView.artdef"/>
+							<m_CollectionIsLocked>true</m_CollectionIsLocked>
+							<m_TemplateName text="StrategicView"/>
+							<m_ParamName text="PlacementRule"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="Render"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="RenderTerrainSprite"/>
+						</Element>
+						<Element class="AssetObjects..CollectionValue">
+							<m_eObjectType>INVALID</m_eObjectType>
+							<m_eValueType>ARTDEF_REF</m_eValueType>
+							<m_Values/>
+							<m_ParamName text="TerrainTypeOverride"/>
+						</Element>
+						<Element class="AssetObjects..IntValue">
+							<m_nValue>2</m_nValue>
+							<m_ParamName text="TileCount"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="RenderMinimap"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections>
+					<Element>
+						<m_CollectionName text="Entries"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Lencois"/>
+										<m_RootCollectionName text="FeatureEntries"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="ArtDefEntry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Entries001"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+						<Element>
+							<m_Fields>
+								<m_Values>
+									<Element class="AssetObjects..ArtDefReferenceValue">
+										<m_ElementName text="Lencois"/>
+										<m_RootCollectionName text="FeatureEntries"/>
+										<m_ArtDefPath text="StrategicView.artdef"/>
+										<m_CollectionIsLocked>true</m_CollectionIsLocked>
+										<m_TemplateName text="StrategicView"/>
+										<m_ParamName text="ArtDefEntry"/>
+									</Element>
+								</m_Values>
+							</m_Fields>
+							<m_ChildCollections/>
+							<m_Name text="Entries002"/>
+							<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+						</Element>
+					</Element>
+					<Element>
+						<m_CollectionName text="Assets"/>
+						<m_ReplaceMergedCollectionElements>false</m_ReplaceMergedCollectionElements>
+					</Element>
+				</m_ChildCollections>
+				<m_Name text="Lencois_Backslash"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 			<Element>

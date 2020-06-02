@@ -1289,7 +1289,7 @@
 							<m_BLPPackage text="terrain/TerrainAssetSet_Base"/>
 							<m_LibraryName text="TerrainAsset"/>
 							<m_ParamName text="TerrainAsset"/>
-						</Element>
+						</Element>	
 						<Element class="AssetObjects..BoolValue">
 							<m_bValue>false</m_bValue>
 							<m_ParamName text="BlockingHex1"/>
@@ -2214,6 +2214,111 @@
 				</m_Fields>
 				<m_ChildCollections/>
 				<m_Name text="FEATURE_DALLOL"/>
+				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
+			</Element>
+			<Element>
+				<m_Fields>
+					<m_Values>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="TerrainElement_Lencois"/>
+							<m_XLPClass text="TerrainElement"/>
+							<m_XLPPath text="TerrainElementSet_Base.xlp"/>
+							<m_BLPPackage text="terrain/TerrainElementSet_Base"/>
+							<m_LibraryName text="TerrainElement"/>
+							<m_ParamName text="TerrainElement"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text=""/>
+							<m_XLPClass text="TerrainAsset"/>
+							<m_XLPPath text="TerrainAssetSet_Base.xlp"/>
+							<m_BLPPackage text="terrain/TerrainAssetSet_Base"/>
+							<m_LibraryName text="TerrainAsset"/>
+							<m_ParamName text="TerrainAsset"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="BlockingHex1"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="BlockingHex2"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>true</m_bValue>
+							<m_ParamName text="BlockingHex3"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="BlockingHex4"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="BlockingHex5"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="BlockingHex6"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="DisableRotations"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Flat"/>
+							<m_ParamName text="ForceTerrainType"/>
+						</Element>
+						<Element class="AssetObjects..BLPEntryValue">
+							<m_EntryName text="Water/Galapagos"/>
+							<m_XLPClass text="Water"/>
+							<m_XLPPath text="Water.xlp"/>
+							<m_BLPPackage text="Water"/>
+							<m_LibraryName text="Water"/>
+							<m_ParamName text="WaterType"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Any"/>
+							<m_ParamName text="TerrainType1"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Any"/>
+							<m_ParamName text="TerrainType2"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Any"/>
+							<m_ParamName text="TerrainType3"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Any"/>
+							<m_ParamName text="TerrainType4"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Any"/>
+							<m_ParamName text="TerrainType5"/>
+						</Element>
+						<Element class="AssetObjects..StringValue">
+							<m_Value text="Any"/>
+							<m_ParamName text="TerrainType6"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="RemoveCliffs"/>
+						</Element>
+						<Element class="AssetObjects..BoolValue">
+							<m_bValue>false</m_bValue>
+							<m_ParamName text="ModelHeightFromLocalHex"/>
+						</Element>
+						<Element class="AssetObjects..ArtDefReferenceValue">
+							<m_ElementName text=""/>
+							<m_RootCollectionName text=""/>
+							<m_ArtDefPath text=""/>
+							<m_CollectionIsLocked>false</m_CollectionIsLocked>
+							<m_TemplateName text=""/>
+							<m_ParamName text="ScriptedArt"/>
+						</Element>
+					</m_Values>
+				</m_Fields>
+				<m_ChildCollections/>
+				<m_Name text="FEATURE_LENCOIS_MARANHENSES"/>
 				<m_AppendMergedParameterCollections>false</m_AppendMergedParameterCollections>
 			</Element>
 		</Element>

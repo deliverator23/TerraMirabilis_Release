@@ -1,6 +1,6 @@
 /*
 	Yosemite
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@ WHERE	FeatureType = 'FEATURE_YOSEMITE';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,									ModifierType,						SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_YOSEMITE_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_YOSEMITE'	),
-		('MODIFIER_TM_FEATURE_YOSEMITE_FOREST_APPEAL',	'MODTYPE_TM_ADJUST_FEATURE_APPEAL',	NULL									);
+		(ModifierId,									ModifierType,												OwnerRequirementSetId,					SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_YOSEMITE_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',						'REQSET_TM_MAP_HAS_FEATURE_YOSEMITE',	'REQSET_TM_PLAYER_HAS_FEATURE_YOSEMITE'	),
+		('MODIFIER_TM_FEATURE_YOSEMITE_FOREST_APPEAL',	'MODIFIER_PLAYER_CITIES_ADJUST_FEATURE_APPEAL_MODIFIER',	NULL,									NULL									);
 
 -----------------------------------------------
 -- ModifierArguments

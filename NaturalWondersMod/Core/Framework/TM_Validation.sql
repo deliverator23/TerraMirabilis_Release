@@ -1,6 +1,6 @@
 /*
 	Validation
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -116,4 +116,15 @@ WHERE EXISTS (SELECT Type FROM Types WHERE Type IN
 'LEADER_SULEIMAN',
 'LEADER_KRISTINA',
 'LEADER_ELEANOR'
+));
+
+
+INSERT INTO ModValidation (Version)
+SELECT	'DLC7'
+WHERE EXISTS (SELECT Type FROM Types WHERE Type IN
+(
+'CIVILIZATION_MAYA',
+'CIVILIZATION_GRAN_COLOMBIA',
+'LEADER_LADY_SIX_SKY',
+'LEADER_SIMON_BOLIVAR'
 ));

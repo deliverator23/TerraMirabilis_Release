@@ -1,6 +1,6 @@
 /*
 	Salar de Uyuni
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -22,9 +22,9 @@
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,						SubjectRequirementSetId							)
-VALUES	('MODIFIER_TM_FEATURE_SALAR_DE_UYUNI_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_SALAR_DE_UYUNI'	),
-		('MODIFIER_TM_FEATURE_SALAR_DE_UYUNI_IMPORT_RESOURCE',	'MODTYPE_TM_IMPORT_RESOURCE',		NULL											);
+		(ModifierId,											ModifierType,									OwnerRequirementSetId,						SubjectRequirementSetId							)
+VALUES	('MODIFIER_TM_FEATURE_SALAR_DE_UYUNI_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',			'REQSET_TM_MAP_HAS_FEATURE_SALAR_DE_UYUNI',	'REQSET_TM_PLAYER_HAS_FEATURE_SALAR_DE_UYUNI'	),
+		('MODIFIER_TM_FEATURE_SALAR_DE_UYUNI_IMPORT_RESOURCE',	'MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT',	NULL,										NULL											);
 
 -----------------------------------------------
 -- ModifierArguments

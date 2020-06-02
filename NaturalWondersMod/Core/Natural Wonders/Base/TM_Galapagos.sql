@@ -1,6 +1,6 @@
 /*
 	Galapagos
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@ WHERE	FeatureType = 'FEATURE_GALAPAGOS';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,										ModifierType,						SubjectRequirementSetId						)
-VALUES	('MODIFIER_TM_FEATURE_GALAPAGOS_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_GALAPAGOS'	),
-		('MODIFIER_TM_FEATURE_GALAPAGOS_IMPORT_RESOURCE',	'MODTYPE_TM_IMPORT_RESOURCE',		NULL										);
+		(ModifierId,										ModifierType,										OwnerRequirementSetId,					SubjectRequirementSetId						)
+VALUES	('MODIFIER_TM_FEATURE_GALAPAGOS_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'REQSET_TM_MAP_HAS_FEATURE_GALAPAGOS',	'REQSET_TM_PLAYER_HAS_FEATURE_GALAPAGOS'	),
+		('MODIFIER_TM_FEATURE_GALAPAGOS_IMPORT_RESOURCE',	'MODIFIER_PLAYER_ADJUST_FREE_RESOURCE_IMPORT',		NULL,									NULL										);
 
 -----------------------------------------------
 -- ModifierArguments

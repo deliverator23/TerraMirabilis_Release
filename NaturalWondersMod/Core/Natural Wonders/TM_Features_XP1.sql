@@ -1,6 +1,6 @@
 /*
 	Features XP1
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

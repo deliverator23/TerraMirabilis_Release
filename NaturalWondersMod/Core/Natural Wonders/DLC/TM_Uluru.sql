@@ -1,6 +1,6 @@
 /*
 	Uluru
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -26,25 +26,28 @@ WHERE	FeatureType = 'FEATURE_ULURU';
 -- Modifiers
 -----------------------------------------------
 
-INSERT INTO Modifiers
-		(ModifierId,								ModifierType,						SubjectRequirementSetId	)
-SELECT	'MODIFIER_TM_FEATURE_ULURU_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_ULURU'
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId)
+SELECT	'MODIFIER_TM_FEATURE_ULURU_ATTACH_PLAYERS',
+		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',
+		'REQSET_TM_MAP_HAS_FEATURE_ULURU',	
+		'REQSET_TM_PLAYER_HAS_FEATURE_ULURU'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_ULURU');
 
 INSERT INTO Modifiers
-		(ModifierId,								ModifierType,						SubjectRequirementSetId						)
-VALUES	('MODIFIER_TM_FEATURE_ULURU_DESERT_FOOD',	'MODTYPE_TM_PLAYER_DISTRICT_YIELD',	'REQSET_TM_DISTRICT_IS_SPECIALTY_DESERT'	);
+		(ModifierId,								ModifierType,										SubjectRequirementSetId						)
+VALUES	('MODIFIER_TM_FEATURE_ULURU_DESERT_FOOD',	'MODIFIER_PLAYER_DISTRICTS_ADJUST_YIELD_CHANGE',	'REQSET_TM_DISTRICT_IS_SPECIALTY_DESERT'	);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
-INSERT INTO ModifierArguments
-		(ModifierId,								Name,			Value	)
-SELECT	'MODIFIER_TM_FEATURE_ULURU_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_ULURU_DESERT_FOOD'
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_ULURU_ATTACH_PLAYERS',
+		'ModifierId',
+		'MODIFIER_TM_FEATURE_ULURU_DESERT_FOOD'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_ULURU');
 
 INSERT INTO ModifierArguments
-		(ModifierId,									Name,			Value									)
-VALUES	('MODIFIER_TM_FEATURE_ULURU_DESERT_FOOD',		'YieldType',	'YIELD_FOOD'							),
-		('MODIFIER_TM_FEATURE_ULURU_DESERT_FOOD',		'Amount',		1										);
+		(ModifierId,								Name,			Value			)
+VALUES	('MODIFIER_TM_FEATURE_ULURU_DESERT_FOOD',	'YieldType',	'YIELD_FOOD'	),
+		('MODIFIER_TM_FEATURE_ULURU_DESERT_FOOD',	'Amount',		1				);

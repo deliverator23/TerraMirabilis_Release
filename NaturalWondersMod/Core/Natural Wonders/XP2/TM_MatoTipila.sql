@@ -1,6 +1,6 @@
 /*
 	Mato Tipila
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@ WHERE	FeatureType = 'FEATURE_DEVILSTOWER';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,								SubjectRequirementSetId						)
-VALUES	('MODIFIER_TM_FEATURE_DEVILSTOWER_ATTACH_PLAYERS',		'MODTYPE_TM_ATTACH_ALL_PLAYERS',			'REQSET_TM_PLAYER_HAS_FEATURE_DEVILSTOWER'	),
-		('MODIFIER_TM_FEATURE_DEVILSTOWER_NATURLIST_DISCOUNT',	'MODTYPE_TM_PLAYER_UNIT_PURCHASE_COST',		NULL										);
+		(ModifierId,											ModifierType,										OwnerRequirementSetId,						SubjectRequirementSetId						)
+VALUES	('MODIFIER_TM_FEATURE_DEVILSTOWER_ATTACH_PLAYERS',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'REQSET_TM_MAP_HAS_FEATURE_DEVILSTOWER',	'REQSET_TM_PLAYER_HAS_FEATURE_DEVILSTOWER'	),
+		('MODIFIER_TM_FEATURE_DEVILSTOWER_NATURLIST_DISCOUNT',	'MODIFIER_PLAYER_CITIES_ADJUST_UNIT_PURCHASE_COST',	NULL,										NULL										);
 
 -----------------------------------------------
 -- ModifierArguments

@@ -1,6 +1,6 @@
 /*
 	Mosi Oa Tunya
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -22,9 +22,9 @@
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,							SubjectRequirementSetId							)
-VALUES	('MODIFIER_TM_FEATURE_MOSI_OA_TUNYA_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',		'REQSET_TM_PLAYER_HAS_FEATURE_MOSI_OA_TUNYA'	),
-		('MODIFIER_TM_FEATURE_MOSI_OA_TUNYA_RIVER_BONUS',		'MODTYPE_TM_ADJUST_PLAYER_PLOT_YIELD',	'REQSET_TM_PLOT_HAS_IMPROVED_BONUS'				);
+		(ModifierId,											ModifierType,							OwnerRequirementSetId,						SubjectRequirementSetId							)
+VALUES	('MODIFIER_TM_FEATURE_MOSI_OA_TUNYA_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',	'REQSET_TM_MAP_HAS_FEATURE_MOSI_OA_TUNYA',	'REQSET_TM_PLAYER_HAS_FEATURE_MOSI_OA_TUNYA'	),
+		('MODIFIER_TM_FEATURE_MOSI_OA_TUNYA_RIVER_BONUS',		'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',	NULL,										'REQSET_TM_PLOT_HAS_IMPROVED_BONUS'				);
 
 -----------------------------------------------
 -- ModifierArguments

@@ -1,6 +1,6 @@
 /*
 	Chocolate Hills
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@ WHERE	FeatureType = 'FEATURE_CHOCOLATEHILLS';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,							SubjectRequirementSetId							)
-VALUES	('MODIFIER_TM_FEATURE_CHOCOLATE_HILLS_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',		'REQSET_TM_PLAYER_HAS_FEATURE_CHOCOLATEHILLS'	),
-		('MODIFIER_TM_FEATURE_CHOCOLATE_HILLS_TRADE_TOURISM',	'MODTYPE_TM_PLAYER_TRADE_TOURISM',		NULL											);
+		(ModifierId,											ModifierType,											OwnerRequirementSetId,							SubjectRequirementSetId							)
+VALUES	('MODIFIER_TM_FEATURE_CHOCOLATE_HILLS_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',					'REQSET_TM_MAP_HAS_FEATURE_CHOCOLATEHILLS',		'REQSET_TM_PLAYER_HAS_FEATURE_CHOCOLATEHILLS'	),
+		('MODIFIER_TM_FEATURE_CHOCOLATE_HILLS_TRADE_TOURISM',	'MODIFIER_PLAYER_ADJUST_TRADE_ROUTE_TOURISM_MODIFIER',	NULL,											NULL											);
 
 -----------------------------------------------
 -- ModifierArguments

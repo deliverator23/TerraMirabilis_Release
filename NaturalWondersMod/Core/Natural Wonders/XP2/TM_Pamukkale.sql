@@ -1,6 +1,6 @@
 /*
 	Pamukkale
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -31,9 +31,9 @@ WHERE	FeatureType = 'FEATURE_PAMUKKALE';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,							SubjectRequirementSetId						)
-VALUES	('MODIFIER_TM_FEATURE_PAMUKKALE_ATTACH_PLAYERS',		'MODTYPE_TM_ATTACH_ALL_PLAYERS',		'REQSET_TM_PLAYER_HAS_FEATURE_PAMUKKALE'	),
-		('MODIFIER_TM_FEATURE_PAMUKKALE_REGIONAL_AMENITIES',	'MODTYPE_TM_REGIONAL_AMENITIES',		'REQSET_TM_DISTRICT_IS_ENTERTAINMENT'		);
+		(ModifierId,											ModifierType,							OwnerRequirementSetId,					SubjectRequirementSetId						)
+VALUES	('MODIFIER_TM_FEATURE_PAMUKKALE_ATTACH_PLAYERS',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',	'REQSET_TM_MAP_HAS_FEATURE_PAMUKKALE',	'REQSET_TM_PLAYER_HAS_FEATURE_PAMUKKALE'	),
+		('MODIFIER_TM_FEATURE_PAMUKKALE_REGIONAL_AMENITIES',	'MODTYPE_TM_REGIONAL_AMENITIES',		NULL,									'REQSET_TM_DISTRICT_IS_ENTERTAINMENT'		);
 
 -----------------------------------------------
 -- ModifierArguments

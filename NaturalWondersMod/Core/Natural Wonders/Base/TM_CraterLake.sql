@@ -1,6 +1,6 @@
 /*
 	Crater Lake
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -28,15 +28,19 @@ WHERE	FeatureType = 'FEATURE_CRATER_LAKE';
 -- Modifiers
 -----------------------------------------------
 
-INSERT INTO Modifiers
-		(ModifierId,														ModifierType,					SubjectRequirementSetId	)
-SELECT DISTINCT	'MODIFIER_TM_FEATURE_CRATER_LAKE_ATTACH_'||PrereqDistrict, 'MODTYPE_TM_ATTACH_ALL_CITIES',	'REQSET_TM_CITY_HAS_FEATURE_CRATER_LAKE'
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId)
+SELECT DISTINCT
+		'MODIFIER_TM_FEATURE_CRATER_LAKE_ATTACH_'||PrereqDistrict,
+		'MODIFIER_ALL_CITIES_ATTACH_MODIFIER',
+		'REQSET_TM_MAP_HAS_FEATURE_CRATER_LAKE',
+		'REQSET_TM_CITY_HAS_FEATURE_CRATER_LAKE'
 FROM	Buildings
 WHERE	PrereqDistrict IS NOT NULL;
 		
-INSERT INTO Modifiers
-		(ModifierId,												ModifierType,							SubjectRequirementSetId	)
-SELECT DISTINCT	'MODIFIER_TM_FEATURE_CRATER_LAKE_'||PrereqDistrict,	'MODTYPE_TM_BUILDING_FAITH_PURCHASE',	NULL
+INSERT INTO Modifiers (ModifierId, ModifierType)
+SELECT DISTINCT
+		'MODIFIER_TM_FEATURE_CRATER_LAKE_'||PrereqDistrict,
+		'MODIFIER_CITY_ENABLE_BUILDING_FAITH_PURCHASE'
 FROM	Buildings
 WHERE	PrereqDistrict IS NOT NULL;
 
@@ -44,14 +48,18 @@ WHERE	PrereqDistrict IS NOT NULL;
 -- ModifierArguments
 -----------------------------------------------
 
-INSERT INTO ModifierArguments
-		(ModifierId,														Name,			Value	)
-SELECT DISTINCT	'MODIFIER_TM_FEATURE_CRATER_LAKE_ATTACH_'||PrereqDistrict,	'ModifierId',	'MODIFIER_TM_FEATURE_CRATER_LAKE_'||PrereqDistrict
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT DISTINCT
+		'MODIFIER_TM_FEATURE_CRATER_LAKE_ATTACH_'||PrereqDistrict,
+		'ModifierId',
+		'MODIFIER_TM_FEATURE_CRATER_LAKE_'||PrereqDistrict
 FROM	Buildings
 WHERE	PrereqDistrict IS NOT NULL;
 		
-INSERT INTO ModifierArguments
-		(ModifierId,												Name,			Value	)
-SELECT DISTINCT	'MODIFIER_TM_FEATURE_CRATER_LAKE_'||PrereqDistrict,	'DistrictType',	PrereqDistrict
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT DISTINCT
+		'MODIFIER_TM_FEATURE_CRATER_LAKE_'||PrereqDistrict,
+		'DistrictType',
+		PrereqDistrict
 FROM	Buildings
 WHERE	PrereqDistrict IS NOT NULL;

@@ -1,6 +1,6 @@
 /*
 	Schema
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -82,15 +82,4 @@ CREATE TABLE IF NOT EXISTS TM_UserSettings
 	Value				TEXT		DEFAULT NULL,
 
 	PRIMARY KEY	(Setting)				
-	);
-
-CREATE TABLE IF NOT EXISTS EventMap
-	(
-	RandomEventType		TEXT	NOT NULL,
-	Animation			TEXT	NOT NULL,
-	Sound				TEXT	NOT NULL,
-	CallbackType		TEXT	DEFAULT NULL,
-	VFX					TEXT	DEFAULT NULL,
-
-	PRIMARY KEY (RandomEventType)
 	);

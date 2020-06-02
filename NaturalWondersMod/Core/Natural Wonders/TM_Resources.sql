@@ -1,6 +1,6 @@
 /*
 	Resources
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------

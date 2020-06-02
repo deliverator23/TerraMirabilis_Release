@@ -19,7 +19,7 @@ function NaturalWonderGenerator.Create(args)
 	-- create instance data
 
 	local instance = {
-	
+
 		-- methods
 		__InitNWData		= NaturalWonderGenerator.__InitNWData,
 		__FindValidLocs		= NaturalWonderGenerator.__FindValidLocs,
@@ -39,12 +39,12 @@ function NaturalWonderGenerator.Create(args)
 
 	-- initialize instance data
 	instance:__InitNWData()
-	
+
 	-- scan the map for valid spots
 	instance:__FindValidLocs();
 
 	instance:__PlaceWonders();
-	
+
 	return instance;
 end
 ------------------------------------------------------------------------------
@@ -62,7 +62,7 @@ function NaturalWonderGenerator:__InitNWData()
 
 	self.iNumWondersInDB = iCount;
 	iNonNW = iNonNW - iCount;
-	
+
 	local iJ = 1;
 	for iI = 0, self.iNumWondersInDB - 1 do
 		if(iJ <= #self.aInvalid and iI == self.aInvalid[iJ] - iNonNW) then
@@ -124,7 +124,7 @@ end
 ------------------------------------------------------------------------------
 function NaturalWonderGenerator:__PlaceWonders()
 	local j = 1;
-    for i, selectionRow in ipairs(self.aSelectedWonders) do
+	for i, selectionRow in ipairs(self.aSelectedWonders) do
 		if (j <= self.iNumWondersToPlace) then
 			print (" Selected Wonder = " .. tostring(selectionRow.NWIndex) .. ", Random Score = ", tostring(selectionRow.RandomScore));
 
@@ -172,7 +172,7 @@ end
 function NaturalWonderGenerator:__ScorePlots(NWIndex)
 
 	local MAX_MAP_DIST = 1000000;
-    for i, row in ipairs(self.aaPossibleLocs[NWIndex]) do
+	for i, row in ipairs(self.aaPossibleLocs[NWIndex]) do
 
 		-- Find the plot to score
 		local pPlot = Map.GetPlotByIndex(row.MapIndex);
@@ -232,9 +232,9 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 	-- Which type of custom placement is it?
 	local customPlacement = GameInfo.Features[eFeatureType].CustomPlacement;
 
-		-- 2 tiles inland, east-west facing camera
+	-- 2 tiles inland, east-west facing camera
 	if (customPlacement == "PLACEMENT_TORRES_DEL_PAINE" or
-	    customPlacement == "PLACEMENT_YOSEMITE") then
+			customPlacement == "PLACEMENT_YOSEMITE") then
 
 		-- Assume first tile is the western one, check the one to the east
 		local pAdjacentPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_EAST);
@@ -243,7 +243,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 			return true;
 		end
 
-	-- 2 tiles on coast, roughly facing camera
+		-- 2 tiles on coast, roughly facing camera
 	elseif (customPlacement == "PLACEMENT_CLIFFS_DOVER") then
 		local pNEPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_NORTHEAST);
 		local pWPlot  = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_WEST);
@@ -256,19 +256,19 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 		if (pWPlot ~= nil and pSWPlot ~= nil and pWPlot:IsWater() and pWPlot:IsLake() == false and pSWPlot:IsWater() and pWPlot:IsLake() == false) then
 			pSecondPlot = pSEPlot;
 
-		-- SW and SE are water, see if E works
+			-- SW and SE are water, see if E works
 		elseif (pSWPlot ~= nil and pSEPlot ~= nil and pSWPlot:IsWater() and pSWPlot:IsLake() == false and pSEPlot:IsWater() and pSEPlot:IsLake() == false) then
 			pSecondPlot = pEPlot;
 
-		-- SE and E are water, see if NE works
+			-- SE and E are water, see if NE works
 		elseif (pSWPlot ~= nil and pEPlot ~= nil  and pSEPlot:IsWater() and pSEPlot:IsLake() == false and pEPlot:IsWater() and pEPlot:IsLake() == false) then
 			pSecondPlot = pNEPlot;
-		
+
 		else
 			return false;
 		end
 
-		if (TerrainBuilder.CanHaveFeature(pSecondPlot, eFeatureType, true)) then
+		if (pSecondPlot ~= nil and TerrainBuilder.CanHaveFeature(pSecondPlot, eFeatureType, true)) then
 			table.insert(aPlots, pSecondPlot:GetIndex());
 			return true;
 		end
@@ -304,7 +304,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 			return true;
 		end
 
-	-- 2 tiles, one on coastal land and one in water, try to face camera if possible
+		-- 2 tiles, one on coastal land and one in water, try to face camera if possible
 	elseif (customPlacement == "PLACEMENT_GIANTS_CAUSEWAY") then
 
 		-- Assume first tile a land tile without hills, check around it in a preferred order for water
@@ -347,8 +347,8 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 			table.insert(aPlots, pNEPlot:GetIndex());
 			return true;
 		end
-		
-	-- 4 tiles (triangle plus a tail)
+
+		-- 4 tiles (triangle plus a tail)
 	elseif (customPlacement == "PLACEMENT_RORAIMA") then
 
 		-- This one does require three in a row, so let's find that first
@@ -372,7 +372,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 			end
 		end
 
-	-- 3 tiles in a straight line
+		-- 3 tiles in a straight line
 	elseif (customPlacement == "PLACEMENT_ZHANGYE_DANXIA") then
 
 		for i = 0, DirectionTypes.NUM_DIRECTION_TYPES - 1, 1 do
@@ -387,7 +387,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 			end
 		end
 
-	-- 3 tiles in triangle coast on front edge, land behind (with any rotation)
+		-- 3 tiles in triangle coast on front edge, land behind (with any rotation)
 	elseif (customPlacement == "PLACEMENT_PIOPIOTAHI") then
 
 		local pWPlot  = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_WEST);
@@ -396,7 +396,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 		local pEPlot  = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_EAST);
 		local pSEPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
 		local pSWPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHWEST);
-		
+
 		-- all 6 hexes around must be land
 
 		if (pNWPlot == nil or pNEPlot == nil or pWPlot== nil or pSWPlot== nil or pSEPlot== nil or pEPlot== nil or pNWPlot:IsWater() or pNEPlot:IsWater() or pWPlot:IsWater() or pSWPlot:IsWater() or pSEPlot:IsWater() or pEPlot:IsWater()) then
@@ -414,7 +414,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 				pWaterCheck1 = Map.GetAdjacentPlot(pSEPlot:GetX(), pSEPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
 				pWaterCheck2 = Map.GetAdjacentPlot(pSWPlot:GetX(), pSWPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
 				pWaterCheck3 = Map.GetAdjacentPlot(pSWPlot:GetX(), pSWPlot:GetY(), DirectionTypes.DIRECTION_SOUTHWEST);
-				if (pWaterCheck1:IsWater() == false or pWaterCheck2:IsWater() == false or pWaterCheck3:IsWater() == false) then
+				if (pWaterCheck1 == nil or pWaterCheck1:IsWater() == false or pWaterCheck2:IsWater() == false or pWaterCheck3:IsWater() == false) then
 					return false;
 				else
 					table.insert(aPlots, pSEPlot:GetIndex());
@@ -422,7 +422,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 					return true;
 				end
 			end
-			
+
 			if (bEValid  ~= nil and bSEValid ~= nil and bEValid  == true and bSEValid == true ) then
 				if (Map.GetAdjacentPlot(pEPlot:GetX(), pEPlot:GetY(), DirectionTypes.DIRECTION_EAST) == nil) then
 					return false;
@@ -444,7 +444,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 					return true;
 				end
 			end
-			
+
 			if (bSWValid  ~= nil and bWValid ~= nil and bSWValid  == true and bWValid == true ) then
 				if (Map.GetAdjacentPlot(pSWPlot:GetX(), pSWPlot:GetY(), DirectionTypes.DIRECTION_SOUTHWEST) == nil) then
 					return false;
@@ -474,7 +474,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 				elseif ( Map.GetAdjacentPlot(pNWPlot:GetX(), pNWPlot:GetY(), DirectionTypes.DIRECTION_NORTHWEST) == nil) then
 					return false;
 				end
-				
+
 				pWaterCheck1 = Map.GetAdjacentPlot(pWPlot:GetX(), pWPlot:GetY(), DirectionTypes.DIRECTION_WEST);
 				pWaterCheck2 = Map.GetAdjacentPlot(pNWPlot:GetX(), pNWPlot:GetY(), DirectionTypes.DIRECTION_WEST);
 				pWaterCheck3 = Map.GetAdjacentPlot(pNWPlot:GetX(), pNWPlot:GetY(), DirectionTypes.DIRECTION_NORTHWEST);
@@ -486,7 +486,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 					return true;
 				end
 			end
-			
+
 			if (bNEValid  ~= nil and bEValid ~= nil and bNEValid  == true and bEValid == true ) then
 				if (Map.GetAdjacentPlot(pNEPlot:GetX(), pNEPlot:GetY(), DirectionTypes.DIRECTION_NORTHEAST) == nil) then
 					return false;
@@ -495,7 +495,7 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 				elseif ( Map.GetAdjacentPlot(pEPlot:GetX(), pEPlot:GetY(), DirectionTypes.DIRECTION_EAST) == nil) then
 					return false;
 				end
-				
+
 				pWaterCheck1 = Map.GetAdjacentPlot(pNEPlot:GetX(), pNEPlot:GetY(), DirectionTypes.DIRECTION_NORTHEAST);
 				pWaterCheck2 = Map.GetAdjacentPlot(pEPlot:GetX(), pEPlot:GetY(), DirectionTypes.DIRECTION_NORTHEAST);
 				pWaterCheck3 = Map.GetAdjacentPlot(pEPlot:GetX(), pEPlot:GetY(), DirectionTypes.DIRECTION_EAST);
@@ -527,6 +527,21 @@ function CustomGetMultiTileFeaturePlotList(pPlot, eFeatureType, aPlots)
 					table.insert(aPlots, pNEPlot:GetIndex());
 					return true;
 				end
+			end
+		end
+
+		-- 3 tiles in a triangle that is always "pointing up"
+	elseif (customPlacement == "PLACEMENT_PAITITI") then
+
+		local pSEPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHEAST);
+		local pSWPlot = Map.GetAdjacentPlot(pPlot:GetX(), pPlot:GetY(), DirectionTypes.DIRECTION_SOUTHWEST);
+		if (pSEPlot ~= nil and pSWPlot ~= nil) then
+			local bSEValid:boolean = TerrainBuilder.CanHaveFeature(pSEPlot, eFeatureType, true);
+		local bSWValid:boolean = TerrainBuilder.CanHaveFeature(pSWPlot, eFeatureType, true);
+		if (bSEValid and bSWValid) then
+		table.insert(aPlots, pSEPlot:GetIndex());
+		table.insert(aPlots, pSWPlot:GetIndex());
+			return true;
 			end
 		end
 	end
@@ -565,15 +580,15 @@ function SetNaturalCliff(iPlot)
 				if(direction == DirectionTypes.DIRECTION_NORTHEAST) then
 					TerrainBuilder.SetNEOfCliff(adjacentPlot, true);
 				elseif(direction == DirectionTypes.DIRECTION_EAST) then
-					TerrainBuilder.SetWOfCliff(pPlot, true); 
+					TerrainBuilder.SetWOfCliff(pPlot, true);
 				elseif(direction == DirectionTypes.DIRECTION_SOUTHEAST) then
-					TerrainBuilder.SetNWOfCliff(pPlot, true); 
+					TerrainBuilder.SetNWOfCliff(pPlot, true);
 				elseif(direction == DirectionTypes.DIRECTION_SOUTHWEST) then
-					TerrainBuilder.SetNEOfCliff(pPlot, true); 
+					TerrainBuilder.SetNEOfCliff(pPlot, true);
 				elseif(direction == DirectionTypes.DIRECTION_WEST) then
-					TerrainBuilder.SetWOfCliff(adjacentPlot, true); 
+					TerrainBuilder.SetWOfCliff(adjacentPlot, true);
 				elseif(direction == DirectionTypes.DIRECTION_NORTHWEST) then
-					TerrainBuilder.SetNWOfCliff(adjacentPlot, true); 
+					TerrainBuilder.SetNWOfCliff(adjacentPlot, true);
 				end
 			end
 		end

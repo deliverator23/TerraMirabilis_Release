@@ -1,6 +1,6 @@
 /*
 	Mod Support
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -102,6 +102,13 @@ VALUES	('FEATURE_BARRINGER_CRATER',	'GiantEarth',		'TERRAIN_PLAINS',			135,	61	)
 		('FEATURE_LAKE_VICTORIA',		'CordiformEarth',	'TERRAIN_COAST',			42,		11	),
 		('FEATURE_LAKE_VICTORIA',		'CordiformEarth',	'TERRAIN_COAST',			43,		11	),
 		('FEATURE_LAKE_VICTORIA',		'CordiformEarth',	'TERRAIN_COAST',			42,		12	),
+
+		('FEATURE_LENCOIS_MARANHENSES',	'GiantEarth',		'TERRAIN_DESERT',			166,	34	),
+		('FEATURE_LENCOIS_MARANHENSES',	'GiantEarth',		'TERRAIN_DESERT',			166,	33	),
+		('FEATURE_LENCOIS_MARANHENSES',	'GreatestEarthMap',	'TERRAIN_DESERT',			29,		21	),
+		('FEATURE_LENCOIS_MARANHENSES',	'GreatestEarthMap',	'TERRAIN_DESERT',			30,		21	),
+		('FEATURE_LENCOIS_MARANHENSES',	'CordiformEarth',	'TERRAIN_DESERT',			17,		17	),
+		('FEATURE_LENCOIS_MARANHENSES',	'CordiformEarth',	'TERRAIN_DESERT',			18,		16	),
 
 		('FEATURE_MOTLATSE_CANYON',		'GiantEarth',		'TERRAIN_GRASS',			29,		16	),
 		('FEATURE_MOTLATSE_CANYON',		'GiantEarth',		'TERRAIN_GRASS',			29,		15	),

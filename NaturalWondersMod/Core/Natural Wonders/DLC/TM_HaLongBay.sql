@@ -1,6 +1,6 @@
 /*
 	Ha Long Bay
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,22 +27,25 @@ WHERE	FeatureType = 'FEATURE_HA_LONG_BAY';
 -- Modifiers
 -----------------------------------------------
 
-INSERT INTO Modifiers
-		(ModifierId,										ModifierType,						SubjectRequirementSetId	)
-SELECT	'MODIFIER_TM_FEATURE_HA_LONG_BAY_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_HA_LONG_BAY'
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId)
+SELECT	'MODIFIER_TM_FEATURE_HA_LONG_BAY_ATTACH_PLAYERS',
+		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',
+		'REQSET_TM_MAP_HAS_FEATURE_HA_LONG_BAY',	
+		'REQSET_TM_PLAYER_HAS_FEATURE_HA_LONG_BAY'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_HA_LONG_BAY');
 		
 INSERT INTO Modifiers
-		(ModifierId,										ModifierType,						SubjectRequirementSetId			)
-VALUES	('MODIFIER_TM_FEATURE_HA_LONG_BAY_HARBOR_HOUSING',	'MODTYPE_TM_DISTRICT_HOUSING',		'REQSET_TM_DISTRICT_IS_HARBOR'	);
+		(ModifierId,										ModifierType,								SubjectRequirementSetId	)
+VALUES	('MODIFIER_TM_FEATURE_HA_LONG_BAY_HARBOR_HOUSING',	'MODIFIER_PLAYER_DISTRICTS_ADJUST_HOUSING',	'DISTRICT_IS_HARBOR'	);
 
 -----------------------------------------------
 -- ModifierArguments
 -----------------------------------------------
 
-INSERT INTO ModifierArguments
-		(ModifierId,										Name,			Value	)
-SELECT	'MODIFIER_TM_FEATURE_HA_LONG_BAY_ATTACH_PLAYERS',	'ModifierId',	'MODIFIER_TM_FEATURE_HA_LONG_BAY_HARBOR_HOUSING'
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_HA_LONG_BAY_ATTACH_PLAYERS',
+		'ModifierId',
+		'MODIFIER_TM_FEATURE_HA_LONG_BAY_HARBOR_HOUSING'
 WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_HA_LONG_BAY');
 		
 INSERT INTO ModifierArguments

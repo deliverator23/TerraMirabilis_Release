@@ -1,6 +1,6 @@
 /*
 	Krakatoa
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,										ModifierType,						SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_KRAKATOA_ATTACH_PLAYERS',		'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_KRAKATOA'	),
-		('MODIFIER_TM_FEATURE_KRAKATOA_SCIENTIST_BOOST',	'MODTYPE_TM_GP_BOOST',				NULL									);
+		(ModifierId,										ModifierType,							OwnerRequirementSetId,					SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_KRAKATOA_ATTACH_PLAYERS',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',	'REQSET_TM_MAP_HAS_FEATURE_KRAKATOA',	'REQSET_TM_PLAYER_HAS_FEATURE_KRAKATOA'	),
+		('MODIFIER_TM_FEATURE_KRAKATOA_SCIENTIST_BOOST',	'MODTYPE_TM_GP_BOOST',					NULL,									NULL									);
 
 -----------------------------------------------
 -- ModifierArguments
@@ -59,3 +59,11 @@ VALUES	('RANDOM_EVENT_KRAKATOA_GENTLE',		'KIND_RANDOM_EVENT'	),
 INSERT INTO Features_XP2
 		(FeatureType,			Volcano	)
 VALUES	('FEATURE_KRAKATOA',	1		);
+
+-----------------------------------------------
+-- NamedVolcanoes
+-----------------------------------------------
+
+DELETE FROM NamedVolcanoes WHERE NamedVolcanoType = 'NAMED_VOLCANO_KRAKATOA';
+
+DELETE FROM Types WHERE Type = 'NAMED_VOLCANO_KRAKATOA';

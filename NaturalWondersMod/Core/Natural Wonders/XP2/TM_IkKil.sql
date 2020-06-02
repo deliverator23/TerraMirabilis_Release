@@ -1,6 +1,6 @@
 /*
 	Ik Kil
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -22,6 +22,7 @@ WHERE	FeatureType = 'FEATURE_IKKIL';
 	WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_IKKIL')
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
+	-- Original Effect
 	DELETE FROM GameModifiers
 	WHERE ModifierId = 'IKKIL_PRODUCTION_WONDER'
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
@@ -30,14 +31,19 @@ WHERE	FeatureType = 'FEATURE_IKKIL';
 	WHERE ModifierId = 'IKKIL_PRODUCTION_DISTRICT'
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
+	UPDATE	Features
+	SET		Description = 'LOC_TM_FEATURE_IKKIL_ORIGINAL_EFFECT_DESCRIPTION'
+	WHERE	FeatureType = 'FEATURE_IKKIL'
+	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 0);
+
 -----------------------------------------------
 -- Modifiers
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,										ModifierType,							SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_IK_KIL_ATTACH_PLAYERS',		'MODTYPE_TM_ATTACH_ALL_PLAYERS',		'REQSET_TM_PLAYER_HAS_FEATURE_IKKIL'	),
-		('MODIFIER_TM_FEATURE_IK_KIL_WONDER_PRODUCTION',	'MODTYPE_TM_PLAYER_WONDER_PRODUCTION',	NULL									);
+		(ModifierId,										ModifierType,										OwnerRequirementSetId,				SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_IK_KIL_ATTACH_PLAYERS',		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'REQSET_TM_MAP_HAS_FEATURE_IKKIL',	'REQSET_TM_PLAYER_HAS_FEATURE_IKKIL'	),
+		('MODIFIER_TM_FEATURE_IK_KIL_WONDER_PRODUCTION',	'MODIFIER_PLAYER_CITIES_ADJUST_WONDER_PRODUCTION',	NULL,								NULL									);
 
 -----------------------------------------------
 -- ModifierArguments

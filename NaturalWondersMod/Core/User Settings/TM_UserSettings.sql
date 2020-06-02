@@ -1,14 +1,12 @@
 /*
 	User Settings
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 INSERT INTO TM_UserSettings (Setting, Section, Value)
 VALUES
 
 -----------------------------------------------
--- SECTION A
-
 -- Natural Wonder Minimum Distance?
 -- Game Default: 8
 
@@ -18,8 +16,6 @@ VALUES
 	('WONDER_DISTANCE',		NULL,	7),
 
 -----------------------------------------------
--- SECTION B
-
 -- Amount of Natural Wonders In Game (by map size)
 -- Game Defaults below. We've doubled them on every map size.
 
@@ -44,8 +40,6 @@ VALUES
 	('WONDERS_COLOSSAL',	'NW_MAP_SIZE',	32), -- Default 16
 
 -----------------------------------------------
--- SECTION C
-
 -- Natural Wonders provide standard adjacency bonuses to all Specialty Districts?
 -- 1 = Yes, 0 = No
 -- Our Default: 1
@@ -56,8 +50,6 @@ VALUES
 	('NW_ADJACENCY',	NULL,	1),
 
 -----------------------------------------------
--- SECTION D
-
 -- Buildings in Specialty Districts increase the base yield of the district by +1 when adjacent to a Natural Wonder?
 -- 1 = Yes, 0 = No
 -- Our Default: 1
@@ -66,33 +58,17 @@ VALUES
 	('NW_ADJACENCY_BUILDING',	NULL,	1),
 
 -----------------------------------------------
--- SECTION E
-
 -- All wonders have ownership effects?
 
 -- 1 = Yes, 0 = No
 -- Our Default: 1
+
+-- NOTE: Natural Wonders that originally had effects (eg: Everest) will default to their original effects when this is disabled.
 -----------------------------------------------
 
 	('NW_EFFECTS',		NULL,	1),
 
 -----------------------------------------------
--- SECTION F
-
--- Naturalist purchase with Gold instead of Faith?
--- Game Default: 'YIELD_FAITH'
--- Our Default: 'YIELD_GOLD'
-
--- NOTE: The game will only allow you to purchase with Gold or Faith. Nothing else.
-
--- ADDENDUM: NOW OBSOLETE. Restructured so you can now purchase with both :)
------------------------------------------------
-
-	('NATURALIST_PURCHASE',	'YIELD_GOLD',	NULL),
-
------------------------------------------------
--- SECTION G
-
 -- National Parks provide Gold equal to their tourism?
 -- 1 = Yes, 0 = No
 
@@ -103,8 +79,6 @@ VALUES
 	('PARK_GOLD_TOURISM',	NULL,	1),
 
 -----------------------------------------------
--- SECTION H
-
 -- Number of Amenities National Parks provide to their City?
 
 -- Game Default: 2
@@ -113,8 +87,6 @@ VALUES
 	('PARK_AMENITIES',	NULL,	2),
 
 -----------------------------------------------
--- SECTION I
-
 -- Minimum Start Distances between Major/Minor Civilization and Natural Wonder
 
 -- NOTE:
@@ -126,16 +98,12 @@ VALUES
 	('START_DISTANCE_MINOR',	NULL,	5), -- Game Default 3 (tiles)
 
 -----------------------------------------------
--- SECTION J
-
 -- Experience earned for discovering Natural Wonder
 -----------------------------------------------
 
 	('NW_REVEAL_XP',	NULL,	15), -- Game Default 10
 
 -----------------------------------------------
--- SECTION K
-
 -- Natural Wonder adjacent fertility
 
 -- NOTE: "Fertility" is essentially a weight that determines how desirable a plot is to the AI. It is not the only weight that determines this, but it is one of them.
@@ -152,9 +120,7 @@ VALUES
 	('NW_FERTILITY',	NULL,	2), -- Game Default 1
 
 -----------------------------------------------
--- SECTION L (Rise & Fall Only)
-
--- Adjust EraScore earned for finding or settling Natural Wonders.
+-- Adjust EraScore earned for finding or settling Natural Wonders. (Rise & Fall Only)
 
 -- NOTE: The more wonders you have on the map, the more likely you'll see a Golden Age due to Era Score
 -----------------------------------------------
@@ -164,16 +130,13 @@ VALUES
 	('ERASCORE_DISCOVERED_FIRST',	NULL,	2), -- Game Default 3
 
 -----------------------------------------------
--- SECTION Z
-
 -- Enable Natural Wonders
--- Change the word Enabled to Disabled below
 
--- NOTE: Don't disable less wonders than you expect to appear in-game. (See Section B above)
+-- Change the word ENABLED to DISABLED below (case sensitive)
 -- NOTE: Enabling Natural Wonders added by DLC or XP here that you do not own will not enable them in game.
 -----------------------------------------------
 
-	-- Vanilla
+	-- BASE
 	('FEATURE_BARRIER_REEF',		'ENABLED',		NULL),
 	('FEATURE_CLIFFS_DOVER',		'ENABLED',		NULL),
 	('FEATURE_CRATER_LAKE',			'ENABLED',		NULL),
@@ -187,18 +150,23 @@ VALUES
 	('FEATURE_TSINGY',				'ENABLED',		NULL),
 	('FEATURE_YOSEMITE',			'ENABLED',		NULL),
 
-	-- Vikings DLC
+	-- DLC2 (Vikings DLC)
 	('FEATURE_EYJAFJALLAJOKULL',	'ENABLED',		NULL),
 	('FEATURE_GIANTS_CAUSEWAY',		'ENABLED',		NULL),
 	('FEATURE_LYSEFJORDEN',			'ENABLED',		NULL),
 
-	-- Australia DLC
+	-- DLC3 (Australia DLC)
 	('FEATURE_ULURU',				'ENABLED',		NULL),
 
-	-- Khmer and Indonesia DLC
+	-- DLC6 (Khmer and Indonesia DLC)
 	('FEATURE_HA_LONG_BAY',			'ENABLED',		NULL),
 
-	-- Rise and Fall
+	-- DLC7 (Gran Colombia and Maya DLC)
+	('FEATURE_BERMUDA_TRIANGLE',	'ENABLED',		NULL),
+	('FEATURE_FOUNTAIN_OF_YOUTH',	'ENABLED',		NULL),
+	('FEATURE_PAITITI',				'ENABLED',		NULL),
+
+	-- XP1 (Rise and Fall)
 	('FEATURE_DELICATE_ARCH',		'ENABLED',		NULL),
 	('FEATURE_EYE_OF_THE_SAHARA',	'ENABLED',		NULL),
 	('FEATURE_LAKE_RETBA',			'ENABLED',		NULL),
@@ -207,7 +175,7 @@ VALUES
 	('FEATURE_UBSUNUR_HOLLOW',		'ENABLED',		NULL),
 	('FEATURE_ZHANGYE_DANXIA',		'ENABLED',		NULL),
 
-	-- Gathering Storm
+	-- XP2 (Gathering Storm)
 	('FEATURE_CHOCOLATEHILLS',		'ENABLED',		NULL),
 	('FEATURE_DEVILSTOWER',			'ENABLED',		NULL), -- Mato Tipila
 	('FEATURE_GOBUSTAN',			'ENABLED',		NULL),
@@ -226,6 +194,7 @@ VALUES
 	('FEATURE_KAILASH',				'ENABLED',		NULL),
 	('FEATURE_KRAKATOA',			'ENABLED',		NULL),
 	('FEATURE_LAKE_VICTORIA',		'ENABLED',		NULL),
+	('FEATURE_LENCOIS_MARANHENSES',	'ENABLED',		NULL),
 	('FEATURE_MOSI_OA_TUNYA',		'ENABLED',		NULL),
 	('FEATURE_MOTLATSE_CANYON',		'ENABLED',		NULL),
 	('FEATURE_NAMIB',				'ENABLED',		NULL),

@@ -1,6 +1,6 @@
 /*
 	Lake Retba
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -28,16 +28,19 @@ WHERE	FeatureType = 'FEATURE_LAKE_RETBA';
 -- Modifiers
 -----------------------------------------------
 
-INSERT INTO Modifiers
-		(ModifierId,														ModifierType,						SubjectRequirementSetId	)
-SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_ATTACH_PLAYERS_'||ResourceType,		'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_LAKE_RETBA'
+INSERT INTO Modifiers (ModifierId, ModifierType, OwnerRequirementSetId, SubjectRequirementSetId)
+SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_ATTACH_PLAYERS_'||ResourceType,
+		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',
+		'REQSET_TM_MAP_HAS_FEATURE_LAKE_RETBA',
+		'REQSET_TM_PLAYER_HAS_FEATURE_LAKE_RETBA'
 FROM	Resources
 WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY'
 AND EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_LAKE_RETBA');
 		
-INSERT INTO Modifiers
-		(ModifierId,											ModifierType,						SubjectRequirementSetId	)
-SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||ResourceType,	'MODTYPE_TM_ADJUST_PLAYER_YIELD',	'REQSET_TM_PLAYER_HAS_'||ResourceType
+INSERT INTO Modifiers (ModifierId, ModifierType, SubjectRequirementSetId)
+SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||ResourceType,
+		'MODIFIER_PLAYER_ADJUST_YIELD_CHANGE',
+		'REQSET_TM_PLAYER_HAS_'||ResourceType
 FROM	Resources
 WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY';
 
@@ -45,22 +48,25 @@ WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY';
 -- ModifierArguments
 -----------------------------------------------
 
-INSERT INTO ModifierArguments
-		(ModifierId,													Name,			Value	)
-SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_ATTACH_PLAYERS_'||ResourceType,	'ModifierId',	'MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||ResourceType
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_ATTACH_PLAYERS_'||ResourceType,
+		'ModifierId',
+		'MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||ResourceType
 FROM	Resources
 WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY'
 AND EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_LAKE_RETBA');
 
-INSERT INTO ModifierArguments
-		(ModifierId,											Name,			Value	)
-SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||ResourceType,	'YieldType',	'YIELD_GOLD'
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||ResourceType,
+		'YieldType',
+		'YIELD_GOLD'
 FROM	Resources
 WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY';
 
-INSERT INTO ModifierArguments
-		(ModifierId,											Name,		Value	)
-SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||ResourceType,	'Amount',	2
+INSERT INTO ModifierArguments (ModifierId, Name, Value)
+SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||ResourceType,
+		'Amount',
+		2
 FROM	Resources
 WHERE	ResourceClassType = 'RESOURCECLASS_LUXURY';
 
@@ -78,13 +84,13 @@ BEGIN
 	AND EXISTS (SELECT * FROM TM_UserSettings WHERE Setting = 'NW_EFFECTS' AND Value = 1);
 
 	INSERT INTO Modifiers
-			(ModifierId,															ModifierType,						SubjectRequirementSetId	)
-	SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_ATTACH_PLAYERS_'||NEW.ResourceType,		'MODTYPE_TM_ATTACH_ALL_PLAYERS',	'REQSET_TM_PLAYER_HAS_FEATURE_LAKE_RETBA'
+			(ModifierId,															ModifierType,							SubjectRequirementSetId	)
+	SELECT	'MODIFIER_TM_FEATURE_LAKE_RETBA_ATTACH_PLAYERS_'||NEW.ResourceType,		'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',	'REQSET_TM_PLAYER_HAS_FEATURE_LAKE_RETBA'
 	WHERE EXISTS (SELECT * FROM Features WHERE FeatureType = 'FEATURE_LAKE_RETBA');
 
 	INSERT INTO Modifiers
-			(ModifierId,												ModifierType,						SubjectRequirementSetId						)
-	VALUES	('MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||NEW.ResourceType,	'MODTYPE_TM_ADJUST_PLAYER_YIELD',	'REQSET_TM_PLAYER_HAS_'||NEW.ResourceType	);
+			(ModifierId,												ModifierType,							SubjectRequirementSetId						)
+	VALUES	('MODIFIER_TM_FEATURE_LAKE_RETBA_GOLD_'||NEW.ResourceType,	'MODIFIER_PLAYER_ADJUST_YIELD_CHANGE',	'REQSET_TM_PLAYER_HAS_'||NEW.ResourceType	);
 
 	INSERT INTO ModifierArguments
 			(ModifierId,														Name,			Value	)

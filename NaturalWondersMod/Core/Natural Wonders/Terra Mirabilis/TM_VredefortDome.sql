@@ -1,6 +1,6 @@
 /*
 	Vredefort Dome
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -22,9 +22,9 @@
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,											ModifierType,							SubjectRequirementSetId							)
-VALUES	('MODIFIER_TM_FEATURE_VREDEFORT_DOME_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',		'REQSET_TM_PLAYER_HAS_FEATURE_VREDEFORT_DOME'	),
-		('MODIFIER_TM_FEATURE_VREDEFORT_DOME_FARM_FOOD',		'MODTYPE_TM_ADJUST_PLAYER_PLOT_YIELD',	'REQSET_TM_PLOT_HAS_FARM_AND_ADJ_FARM'			);
+		(ModifierId,											ModifierType,								OwnerRequirementSetId,						SubjectRequirementSetId							)
+VALUES	('MODIFIER_TM_FEATURE_VREDEFORT_DOME_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',		'REQSET_TM_MAP_HAS_FEATURE_VREDEFORT_DOME',	'REQSET_TM_PLAYER_HAS_FEATURE_VREDEFORT_DOME'	),
+		('MODIFIER_TM_FEATURE_VREDEFORT_DOME_FARM_FOOD',		'MODIFIER_PLAYER_ADJUST_PLOT_YIELD',		NULL,										'REQSET_TM_PLOT_HAS_FARM_AND_ADJ_FARM'			);
 
 -----------------------------------------------
 -- ModifierArguments

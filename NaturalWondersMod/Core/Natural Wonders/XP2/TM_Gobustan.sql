@@ -1,6 +1,6 @@
 /*
 	Gobustan
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
@@ -27,9 +27,9 @@ WHERE	FeatureType = 'FEATURE_GOBUSTAN';
 -----------------------------------------------
 
 INSERT INTO Modifiers
-		(ModifierId,									ModifierType,										SubjectRequirementSetId					)
-VALUES	('MODIFIER_TM_FEATURE_GOBUSTAN_ATTACH_PLAYERS',	'MODTYPE_TM_ATTACH_ALL_PLAYERS',					'REQSET_TM_PLAYER_HAS_FEATURE_GOBUSTAN'	),
-		('MODIFIER_TM_FEATURE_GOBUSTAN_ACCUMULATE_OIL',	'MODTYPE_TM_CITIES_ACCUMULATE_SPECIFIC_STRATEGIC',	NULL									);
+		(ModifierId,									ModifierType,										OwnerRequirementSetId,					SubjectRequirementSetId					)
+VALUES	('MODIFIER_TM_FEATURE_GOBUSTAN_ATTACH_PLAYERS',	'MODIFIER_ALL_PLAYERS_ATTACH_MODIFIER',				'REQSET_TM_MAP_HAS_FEATURE_GOBUSTAN',	'REQSET_TM_PLAYER_HAS_FEATURE_GOBUSTAN'	),
+		('MODIFIER_TM_FEATURE_GOBUSTAN_ACCUMULATE_OIL',	'MODTYPE_TM_CITIES_ACCUMULATE_SPECIFIC_STRATEGIC',	NULL,									NULL									);
 
 -----------------------------------------------
 -- ModifierArguments

@@ -1,6 +1,6 @@
 /*
 	Eyjafjallajokull XP2
-	Credits: ChimpanG, Deliverator
+	Authors: ChimpanG, Deliverator
 */
 
 -----------------------------------------------
