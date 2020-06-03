@@ -11,8 +11,15 @@ INSERT INTO GlobalParameters
 		(Name,								Value	)
 VALUES	('TERRA_MIRABILIS_VERSION_MAJOR',	2		),
 		('TERRA_MIRABILIS_VERSION_MINOR',	21		),
-		('TERRA_MIRABILIS_VERSION_PATCH',	2		);
+		('TERRA_MIRABILIS_VERSION_PATCH',	3		);
 /*
+
+-----------------------------------------------
+-- VERSION 2.21.3
+-----------------------------------------------
+
+	Changed
+	~ Added new requirement type that isn't available in the base game.
 
 -----------------------------------------------
 -- VERSION 2.21.2
