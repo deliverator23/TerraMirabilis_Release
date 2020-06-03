@@ -11,8 +11,18 @@ INSERT INTO GlobalParameters
 		(Name,								Value	)
 VALUES	('TERRA_MIRABILIS_VERSION_MAJOR',	2		),
 		('TERRA_MIRABILIS_VERSION_MINOR',	21		),
-		('TERRA_MIRABILIS_VERSION_PATCH',	1		);
+		('TERRA_MIRABILIS_VERSION_PATCH',	2		);
 /*
+
+-----------------------------------------------
+-- VERSION 2.21.2
+-----------------------------------------------
+
+	Changed
+	~ Fountain of Youth effect should now be visible
+	~ Fountain of Youth start position improved (now requires jungle)
+	~ Updated Lencois's validation so that it no longer (incorrectly) requires XP2
+	~ Fixed an issue where removing Bermuda Triangle in user settings didn't remove it
 
 -----------------------------------------------
 -- VERSION 2.21.1

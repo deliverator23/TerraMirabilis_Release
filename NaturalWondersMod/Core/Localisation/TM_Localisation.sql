@@ -154,8 +154,14 @@ INSERT OR REPLACE INTO LocalizedText (Language, Tag, Text) VALUES
 -----------------------------------------------
 
 	("en_US",	"LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION",			"One tile natural wonder. Provides fresh water. Yields +3 [ICON_SCIENCE] and +2 [ICON_FAITH] Faith."	),
-	("en_US",	"LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_EFFECT",				"Land combat units that enter this tile receive the ability 'Water of Life', which grants +10 [ICON_DAMAGED] Healing in any territory."	),
+	("en_US",	"LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_EFFECT",				"Land combat units from any civilization that owns this tile receive the 'Water of Life' ability, allowing it to heal when ending a turn adjacent to a source of fresh water."	),
 	("en_US",	"LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_EFFECT}"	),
+
+	("en_US",	"LOC_ABILITY_TM_FEATURE_FOUNTAIN_OF_YOUTH_NAME",		"Water of Life"	),
+	("en_US",	"LOC_ABILITY_TM_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION",	"Water of Life: Heals after every turn adjacent to fresh water."	),
+	
+	("en_US",	"LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_ORIGINAL_EFFECT",				"Land combat units that enter this tile receive the ability 'Water of Life', which grants +10 [ICON_DAMAGED] Healing in any territory."	),
+	("en_US",	"LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_ORIGINAL_EFFECT_DESCRIPTION",	"{LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_DESCRIPTION}[NEWLINE][NEWLINE]{LOC_TM_FEATURE_FOUNTAIN_OF_YOUTH_ORIGINAL_EFFECT}"	),
 
 -----------------------------------------------
 -- GALAPAGOS
