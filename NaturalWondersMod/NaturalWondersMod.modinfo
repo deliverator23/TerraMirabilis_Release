@@ -4,7 +4,7 @@
     <Name>Terra Mirabilis</Name>
     <Description>A mod that reworks Natural Wonders in Civilization VI, and adds new ones that include some old fan-favourites.</Description>
     <CompatibleVersions xmlns="http://schemas.microsoft.com/developer/msbuild/2003">2.0</CompatibleVersions>
-    <Created>1591211910</Created>
+    <Created>1598618345</Created>
     <Teaser>A mod that reworks Natural Wonders in Civilization VI, and adds new ones that include some old fan-favourites.</Teaser>
     <Authors>Deliverator, ChimpanG</Authors>
     <SpecialThanks>CIVITAS</SpecialThanks>
@@ -38,6 +38,33 @@
       <LeaderPlayable>Players:StandardPlayers::LEADER_SIMON_BOLIVAR,Players:StandardPlayers::LEADER_LADY_SIX_SKY,StandardPlayers::LEADER_SIMON_BOLIVAR,StandardPlayers::LEADER_LADY_SIX_SKY,Players:Expansion1_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY,Players:Expansion2_Players::LEADER_SIMON_BOLIVAR,Players:Expansion2_Players::LEADER_LADY_SIX_SKY</LeaderPlayable>
     </Criteria>
   </ActionCriteria>
+  <FrontEndActions>
+    <UpdateText id="TM_Config_Text">
+      <File>Core/Localisation/TM_Localisation.sql</File>
+    </UpdateText>
+    <UpdateIcons id="TM_Config_Icons">
+      <File>Core/Natural Wonders/TM_Icons.sql</File>
+    </UpdateIcons>
+    <UpdateDatabase id="TM_Config_Schema">
+      <Properties>
+        <LoadOrder>1</LoadOrder>
+      </Properties>
+      <File>Core/Framework/TM_Schema.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Config_Master">
+      <Properties>
+        <LoadOrder>2</LoadOrder>
+      </Properties>
+      <File>Core/Framework/TM_Master.sql</File>
+      <File>Core/User Settings/TM_UserSettings.sql</File>
+    </UpdateDatabase>
+    <UpdateDatabase id="TM_Config_Data">
+      <Properties>
+        <LoadOrder>3</LoadOrder>
+      </Properties>
+      <File>Core/Natural Wonders/TM_Features_Config.sql</File>
+    </UpdateDatabase>
+  </FrontEndActions>
   <InGameActions>
     <UpdateArt id="ArtDep">
       <Properties>
@@ -285,6 +312,7 @@
     <File>Core/Natural Wonders/TM_Common_XP1.sql</File>
     <File>Core/Natural Wonders/TM_Common_XP2.sql</File>
     <File>Core/Natural Wonders/TM_Features.sql</File>
+    <File>Core/Natural Wonders/TM_Features_Config.sql</File>
     <File>Core/Natural Wonders/TM_Features_XP1.sql</File>
     <File>Core/Natural Wonders/TM_Globals.sql</File>
     <File>Core/Natural Wonders/TM_Globals_XP1.sql</File>
