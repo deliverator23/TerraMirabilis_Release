@@ -51,8 +51,19 @@ end
 function NaturalWonderGenerator:__InitNWData()
 	local iCount = 0;
 	local iNonNW = 0;
+
+	local excludedWonders = {};
+	local excludeWondersConfig = GameConfiguration.GetValue("EXCLUDE_NATURAL_WONDERS");
+	if(excludeWondersConfig and #excludeWondersConfig > 0) then
+		print("The following Natural Wonders have been marked as 'excluded':");
+		for i,v in ipairs(excludeWondersConfig) do
+			print("* " .. v);
+			excludedWonders[v] = true;
+		end
+	end
+
 	for loop in GameInfo.Features() do
-		if(loop.NaturalWonder) then
+		if(loop.NaturalWonder and excludedWonders[loop.FeatureType] ~= true) then
 			self.eFeatureType[iCount] = loop.Index;
 			self.aaPossibleLocs[iCount] = {};
 			iCount = iCount + 1;
